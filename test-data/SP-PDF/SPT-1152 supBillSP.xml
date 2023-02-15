@@ -1,0 +1,362 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><?DMS-Component componentId="ec1d3043-2e28-43a2-8d46-fb10d6bd5e53" seriesId="4b4df66c-a296-4b2a-9f7a-0a902f75cab0" versionNumber="0"?>
+ <bill contains="originalVersion" name="sppubb">
+  
+  <meta xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><?DMS-Component componentId="ab785e58-a286-4f94-a7db-9ba6b80f012f" seriesId="fd369b45-49e8-4e35-9dd4-618c1b6065eb" versionNumber="1"?>
+   <identification source="#ldapp">
+    <FRBRWork>
+     <FRBRthis value="#varWork"></FRBRthis>
+     <FRBRuri value="#varWorkUri"></FRBRuri>
+     <FRBRalias name="ttflConfigHistory" value="#varCHOiid"></FRBRalias>
+     <FRBRdate date="9999-01-01" name="sppubb"></FRBRdate>
+     <FRBRauthor href="#varAuthor"></FRBRauthor>
+     <FRBRcountry value="GB-SCT"></FRBRcountry>
+     <FRBRsubtype value="#varDocSubType"></FRBRsubtype>
+     <FRBRnumber value="#varProjectId"></FRBRnumber>
+     <FRBRname value="#varBillTitle"></FRBRname>
+     <FRBRprescriptive value="true"></FRBRprescriptive>
+     <FRBRauthoritative value="false"></FRBRauthoritative>
+    </FRBRWork>
+    <FRBRExpression>
+     <FRBRthis value="#varExpression"></FRBRthis>
+     <FRBRuri value="#varExpressionUri"></FRBRuri>
+     <FRBRalias name="ttflVersionDescription" value="#varVDOiid"></FRBRalias>
+     <FRBRdate date="9999-01-01" name="draft"></FRBRdate>
+     <FRBRauthor href="#varAuthor"></FRBRauthor>
+     <FRBRversionNumber value=""></FRBRversionNumber>
+     <FRBRauthoritative value="false"></FRBRauthoritative>
+     
+     <FRBRmasterExpression showAs="" href=""></FRBRmasterExpression>
+     
+     <FRBRlanguage language="eng"></FRBRlanguage>
+    </FRBRExpression>
+    <FRBRManifestation>
+     <FRBRthis value="#varManifestation"></FRBRthis>
+     <FRBRuri value="#varManifestationUri"></FRBRuri>
+     <FRBRdate date="9999-01-01" name="akn_xml"></FRBRdate>
+     <FRBRauthor href="#varAuthor"></FRBRauthor>
+     <FRBRformat value="application/akn+xml"></FRBRformat>
+    </FRBRManifestation>
+   </identification>
+   
+   <references source="#author">
+    
+    <TLCConcept eId="varDocSubType" showAs="Government Bill" GUID="_e40847d2-a57d-42e4-884b-6aa6c47d7dd2" href="#varOntologies"></TLCConcept>
+    <TLCConcept eId="varBillTitle" showAs="SPT-1152" GUID="_daea5d1c-d5ec-4d32-baf4-07f66bb3b70f" href="#varOntologies"></TLCConcept>
+    
+    <TLCProcess eId="varStageVersion" showAs="Pre-Introduction" GUID="_1988b617-1fd7-4c20-aa17-6282a20b0733" href="#varOntologies"></TLCProcess>
+    <TLCProcess eId="varProjectId" showAs="SP001314" GUID="_5ede9cf2-56dd-4989-ad18-13e622d597f9" href="#varOntologies"></TLCProcess>
+    <TLCProcess eId="varWork" showAs="" GUID="_af9f2e0b-53ec-4154-bcff-94f75f9cc5d6" href="#varOntologies"></TLCProcess>
+    <TLCProcess eId="varWorkUri" showAs="" GUID="_55ef2065-77bb-48ed-8ac2-8f36a11b4a9d" href="#varOntologies"></TLCProcess>
+    <TLCProcess eId="varCHOiid" showAs="" GUID="_8a57a6e7-eb8a-4fea-a705-9749c8320663" href="#varOntologies"></TLCProcess>
+    <TLCProcess eId="varExpression" showAs="6d242a9d-1322-45aa-a0db-596199f891c2" GUID="_d2db9311-0808-4d4d-a1de-841c731cf2b2" href="#varOntologies"></TLCProcess>
+    <TLCProcess eId="varExpressionUri" showAs="dma:///45e6b900-8929-11d4-b772-0050da06bfb4/80742cea-0ebb-4cf6-9759-1e52358d9b5b/;guid=6d242a9d-1322-45aa-a0db-596199f891c2;class=Version%20Description" GUID="_cde86362-1875-4f09-ac60-116368ccbd84" href="#varOntologies"></TLCProcess>
+    <TLCProcess eId="varVDOiid" showAs="" GUID="_8f92310d-68d2-43dc-a7b9-712ab5db3d9f" href="#varOntologies"></TLCProcess>
+    <TLCProcess eId="varManifestation" showAs="" GUID="_06dccb9c-f0d5-4633-8e40-73aa8889a1f5" href="#varOntologies"></TLCProcess>
+    <TLCProcess eId="varManifestationUri" showAs="" GUID="_e79de40b-efb9-4b35-a884-1dd20e1c802e" href="#varOntologies"></TLCProcess>
+    <TLCConcept eId="varActYear" showAs="" GUID="_2803fd60-9fed-4c00-8b09-233f41d68e23" href="#varOntologies"></TLCConcept>
+    
+    <TLCConcept eId="varActTitle" showAs="" GUID="_a8a116cf-c70c-43dd-a70c-b195cb81101f" href="#varOntologies"></TLCConcept>
+    
+    <TLCConcept eId="varIntroDate" showAs="" GUID="_72265454-19d9-47c0-8fea-08ace979db5e" href="#varOntologies"></TLCConcept>
+    <TLCConcept eId="varBillNoComp" showAs="" GUID="_d0cef1c5-17ba-495e-a4d1-824def312660" href="#varOntologies"></TLCConcept>
+    <TLCConcept eId="varBillNo" showAs="SP Bill X" GUID="_5990d2a0-78c7-419d-8c13-b920ef21f51c" href="#varOntologies"></TLCConcept>
+    <TLCConcept eId="varSessionNo" showAs="" GUID="_472d7d87-f5d4-4405-a398-daaf942387f1" href="#varOntologies"></TLCConcept>
+    <TLCConcept eId="varBillYear" showAs="" GUID="_915baad8-1341-4d49-aa34-caf4b681bfc8" href="#varOntologies"></TLCConcept>
+    <TLCConcept eId="varSession" showAs="" GUID="_ab7cf0fe-4c85-4e2c-b76d-f42bbee31f65" href="#varOntologies"></TLCConcept>
+    
+    <TLCConcept eId="varPassedDate" showAs="" GUID="_aa65fe2c-07be-4302-ab12-7046c30b4148" href="#varOntologies"></TLCConcept>
+    <TLCConcept eId="varAssentDate" showAs="" GUID="_db42b5f9-96ef-405b-aef9-ef6e51bb1d59" href="#varOntologies"></TLCConcept>
+    <TLCConcept eId="varActNo" showAs="" GUID="_ee9abf72-1d13-4ffd-967e-96f96f1ca5ce" href="#varOntologies"></TLCConcept>
+    <TLCConcept eId="varISBN" showAs="" GUID="_46c24894-730d-4361-92ac-caf0466bd86e" href="#varOntologies"></TLCConcept>
+    
+    <TLCConcept eId="varDocType" showAs="SP Bill" GUID="_0573b983-a7a7-4b99-bcde-e15e68bc5e92" href="#varOntologies"></TLCConcept>
+    <TLCProcess eId="varSystem" showAs="LDAPP" GUID="_07840873-4580-4031-afd7-0f61fc88a620" href="#varOntologies"></TLCProcess>
+    <TLCOrganization eId="varAuthor" showAs="Scottish Parliament" GUID="_c2ea3ddd-e44e-4434-ad4c-686332c9728e" href="#varOntologies"></TLCOrganization>
+    <TLCLocation eId="varJurisdiction" showAs="Scotland" GUID="_05752c0b-a2ed-4070-9571-a7f9df48886f" href="#varOntologies"></TLCLocation>
+    <TLCConcept eId="varOntologies" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN" GUID="_d2343851-2cc7-4572-b77f-5db254ac08b1" href="https://www.legislation.gov.uk/ontologies/UK-AKN"></TLCConcept>
+   </references>
+  </meta>
+  <preface eId="preface" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" GUID="_918e43b6-c07a-4103-9e9e-c220e6251519" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><?DMS-Component componentId="eb400de3-3de4-4faf-b276-a191b2e80d8c" seriesId="28529abb-c423-4f48-b77d-d63bb897c625" versionNumber="1"?>
+   <tblock eId="preface__explNotesStmnt" GUID="_58c2f09d-5456-417f-9268-4c8dcc971023" class="explanatoryNotesStatement">
+    <heading eId="preface__explNotesStmnt__hdg" GUID="_7060bebf-8556-4567-80b2-0087800473fb">THE FOLLOWING ACCOMPANYING DOCUMENTS ARE ALSO PUBLISHED:</heading>
+    <p>Explanatory Notes (<ref href="#varBillNo" class="placeholder"></ref>-EN), a Financial Memorandum (<ref href="#varBillNo" class="placeholder"></ref>-FM), a Policy Memorandum (<ref href="#varBillNo" class="placeholder"></ref>-PM), a Delegated Powers Memorandum (<ref href="#varBillNo" class="placeholder"></ref>-DPM) and statements on legislative competence (<ref href="#varBillNo" class="placeholder"></ref>-LC).</p>
+   </tblock>
+   <block eId="preface__st" GUID="_89edd9c7-e7cf-482d-b6d9-fce43d568713" name="title"><docTitle eId="preface__st__dtitle" GUID="_e949e26c-005a-43fc-bff7-2bb60633110b"><ref href="#varBillTitle" class="placeholder"></ref></docTitle></block>
+   <block name="stageVersion">[<docStage eId="preface__docStage" GUID="_826fad20-9bcc-4ede-abfc-afcd7a3e0d70"><ref href="#varStageVersion" class="placeholder"></ref></docStage>]</block>
+   <longTitle eId="preface__longtitle" GUID="_51ab7c5a-f9a6-4d11-93ed-fcae6a8a475e">
+    <p>An Act of the Scottish Parliament to</p>
+   </longTitle>
+  </preface>
+  <body xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><?DMS-Component componentId="561ccbae-c37e-4325-a9fb-6110b61769ee" seriesId="1c58dd69-dda5-49cb-9e3e-bd99043b6ad4" versionNumber="1"?>
+   <section eId="sec_1" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" GUID="_40961555-bc59-4076-a91d-d18cdaece350" class="prov1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><?DMS-Component componentId="ea06430b-319e-4f1f-a936-be661b5f1452" seriesId="c7b1e089-55b0-4b57-afb8-386e9c468bba" versionNumber="1"?>
+    <num>1</num>
+    <heading eId="sec_1__hdg" GUID="_00515df5-c425-4a57-a5a9-ea0989bd1833">Section Heading ONE</heading>
+    <subsection eId="sec_1__subsec_1" GUID="_7773460d-fd1b-400a-a329-76b00d606a3d" class="prov2">
+     <num>(1)</num>
+     <content>
+      <p>Table</p>
+      <tblock eId="sec_1__subsec_1__tbl__oc_1" GUID="_231a5869-3626-4446-a302-5b3e74239638" class="table">
+       <num>Table 1</num>
+       <heading eId="sec_1__subsec_1__tbl__oc_1__hdg" GUID="_e0f288e5-5c9d-46ea-9398-3e92407ea6c6" class="left">Table One</heading>
+       <foreign>
+        <table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="topAndBottom tableleft width100" cols="2">
+         <thead class="left">
+          <tr akn:eId="sec_1__subsec_1__tbl__oc_1__hdg__row__oc_1" akn:GUID="_4766b325-61f1-48ac-a346-7e5b2e9a5065">
+           <td akn:eId="sec_1__subsec_1__tbl__oc_1__hdg__row__oc_1__col_1" akn:GUID="_0c857af5-539f-4a31-b8a3-ef1fbe67c430">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">ROW ONE</p>
+           </td>
+           <td akn:eId="sec_1__subsec_1__tbl__oc_1__hdg__row__oc_1__col_2" akn:GUID="_a900989b-bbec-44ed-bbab-e69b7738d48e">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">ROW TWO</p>
+           </td>
+          </tr>
+         </thead>
+         <tbody class="left">
+          <tr akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_1" akn:GUID="_71aa2224-cf22-46dd-a636-1671bcb8c798">
+           <td akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_1__col_1" akn:GUID="_734d695b-2772-4122-a48e-432134f1b483">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><sup>Lorem</sup> ipsum dolor sit amet, consectetur adipiscing elit. Quisque at neque eget erat maximus semper vel a nunc. Nam iaculis.</p>
+           </td>
+           <td akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_1__col_2" akn:GUID="_f37b62ae-fe86-44ac-bfa1-1ad7f6bd0388">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Lorem ipsum dolor sit amet, consectetur <sup>adipiscing</sup> elit. Quisque at neque eget erat maximus semper vel a nunc. Nam iaculis.</p>
+           </td>
+          </tr>
+          <tr akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_2" akn:GUID="_03e23d3f-dd4f-401e-a960-5df238394ba1">
+           <td akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_2__col_1" akn:GUID="_22401db8-159d-43ab-8de9-8e800a4a99c8">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Lorem <sup>ipsum</sup> dolor sit amet, consectetur adipiscing elit. Quisque at neque eget erat maximus semper vel a nunc. Nam iaculis.</p>
+           </td>
+           <td akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_2__col_2" akn:GUID="_6e96c44a-d726-443c-a3c4-7725ef610253">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Lorem ipsum dolor sit amet, <sup>consectetur</sup> adipiscing elit. Quisque at neque eget erat maximus semper vel a nunc. Nam iaculis.</p>
+           </td>
+          </tr>
+          <tr akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_3" akn:GUID="_f97d7634-f8fd-4298-ac4d-1da99f6df8b1">
+           <td akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_3__col_1" akn:GUID="_550c6749-cf72-4789-b221-77fea74a9bbb">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Lorem ipsum dolor <sup>sit</sup> amet, consectetur adipiscing elit. Quisque at neque eget erat maximus semper vel a nunc. Nam iaculis.</p>
+           </td>
+           <td akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_3__col_2" akn:GUID="_59bea13a-9c60-43c2-86bb-db79c636eb43">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Lorem ipsum dolor sit <sup>amet</sup>, consectetur adipiscing elit. Quisque at neque eget erat maximus semper vel a nunc. Nam iaculis.</p>
+           </td>
+          </tr>
+          <tr akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_4" akn:GUID="_3b54bc2d-fa4d-4999-8ee7-9eae5059aa08">
+           <td akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_4__col_1" akn:GUID="_b7987293-bc4c-45f0-927a-76b0bdc0bcc8">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Lorem ipsum dolor sit amet, <sup>consectetur</sup> adipiscing elit. Quisque at neque eget erat maximus semper vel a nunc. Nam iaculis.</p>
+           </td>
+           <td akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_4__col_2" akn:GUID="_a6a1da57-0c67-4cfe-8825-1f3f090e5a18">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Lorem ipsum <sup>dolor</sup> sit amet, consectetur adipiscing elit. Quisque at neque eget erat maximus semper vel a nunc. Nam iaculis.</p>
+           </td>
+          </tr>
+          <tr akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_5" akn:GUID="_e1877f00-90e4-4b79-a014-df6c190d2f7c">
+           <td akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_5__col_1" akn:GUID="_45812d7c-4b07-474d-9d9d-9ec3e1bfe8f3">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Lorem ipsum dolor sit amet, consectetur <sup>adipiscing</sup> elit. Quisque at neque eget erat maximus semper vel a nunc. Nam iaculis.</p>
+           </td>
+           <td akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_5__col_2" akn:GUID="_89f7c5ce-1fa2-465e-bcc3-96c840382cf8">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Lorem <sup>ipsum</sup> dolor sit amet, consectetur adipiscing elit. Quisque at neque eget erat maximus semper vel a nunc. Nam <sup>iaculis</sup>.</p>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </foreign>
+      </tblock>
+     </content>
+    </subsection>
+    <subsection eId="sec_1__subsec_2" GUID="_609558be-39f7-4f9a-b11b-3341eadb0608" class="prov2">
+     <num>(2)</num>
+     <content>
+      <p>Table 2</p>
+      <tblock eId="sec_1__subsec_2__tbl__oc_1" GUID="_34109904-ac01-4d1c-a77d-b322d23178ce" class="table">
+       <num>Table 2</num>
+       <heading eId="sec_1__subsec_2__tbl__oc_1__hdg" GUID="_9d8b65d3-d97b-49c5-a325-2ab5acf907b0" class="left">Table Two</heading>
+       <foreign>
+        <table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="topAndBottom tableleft width100" cols="2">
+         <thead class="left">
+          <tr akn:eId="sec_1__subsec_2__tbl__oc_1__hdg__row__oc_1" akn:GUID="_5c3a3c88-ba22-4ab0-b1a9-40df624a9f53">
+           <td akn:eId="sec_1__subsec_2__tbl__oc_1__hdg__row__oc_1__col_1" akn:GUID="_c80c8d82-cc64-4d8a-b406-823ec14ae8f4">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">ROW ONE</p>
+           </td>
+           <td akn:eId="sec_1__subsec_2__tbl__oc_1__hdg__row__oc_1__col_2" akn:GUID="_a41286bd-24ec-4c40-9548-ed7664ab974a">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">ROW TWO</p>
+           </td>
+          </tr>
+         </thead>
+         <tbody class="left">
+          <tr akn:eId="sec_1__subsec_2__tbl__oc_1__row__oc_1" akn:GUID="_eea88de8-70a3-49cc-96d9-965f0e419eba">
+           <td akn:eId="sec_1__subsec_2__tbl__oc_1__row__oc_1__col_1" akn:GUID="_b4fd0a25-2a33-40ea-8fa3-60610fc889ae">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><sup>Lorem</sup> ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac odio sit amet turpis laoreet pharetra. Nam aliquet enim ut <sup>mauris</sup> dictum vestibulum. Quisque elit libero, porttitor sed ornare dapibus, porta rutrum turpis. Mauris vel ligula quis <sup>tellus</sup> placerat mattis.</p>
+           </td>
+           <td akn:eId="sec_1__subsec_2__tbl__oc_1__row__oc_1__col_2" akn:GUID="_b4a0340e-a232-4802-b4e0-1c65c9e4ff6c">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <sup>Aenean</sup> ac odio sit amet turpis laoreet pharetra. Nam aliquet enim ut mauris dictum vestibulum. Quisque elit <sup>libero</sup>, porttitor sed ornare dapibus, porta rutrum turpis. Mauris vel ligula quis tellus placerat mattis.</p>
+           </td>
+          </tr>
+          <tr akn:eId="sec_1__subsec_2__tbl__oc_1__row__oc_2" akn:GUID="_f681e803-8797-482a-8268-a6fc88ebad75">
+           <td akn:eId="sec_1__subsec_2__tbl__oc_1__row__oc_2__col_1" akn:GUID="_2ba153c3-e2dc-47ee-a091-8cd5abd93fb0">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Lorem ipsum <sup>dolor</sup> sit amet, consectetur adipiscing elit. Aenean ac odio sit amet turpis laoreet pharetra. Nam aliquet enim ut mauris <sup>dictum</sup> vestibulum. Quisque elit libero, porttitor sed ornare dapibus, porta rutrum turpis. Mauris vel ligula quis tellus <sup>placerat</sup> mattis.</p>
+           </td>
+           <td akn:eId="sec_1__subsec_2__tbl__oc_1__row__oc_2__col_2" akn:GUID="_e306e81a-c4e3-4979-8303-40f6452e2ff3">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Lorem ipsum dolor sit amet, consectetur <sup>adipiscing</sup> elit. Aenean ac odio sit amet turpis laoreet pharetra. Nam aliquet enim ut mauris dictum vestibulum. <sup>Quisque</sup> elit libero, porttitor sed ornare dapibus, porta rutrum turpis. Mauris vel ligula quis tellus placerat <sup>mattis</sup>.</p>
+           </td>
+          </tr>
+          <tr akn:eId="sec_1__subsec_2__tbl__oc_1__row__oc_3" akn:GUID="_f32821c7-21f5-464c-be8c-4d8f2408fe0b">
+           <td akn:eId="sec_1__subsec_2__tbl__oc_1__row__oc_3__col_1" akn:GUID="_33b3d5ac-5d5b-40ff-9623-4f49e51c3cb0">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Lorem ipsum dolor sit <sup>amet</sup>, consectetur adipiscing elit. Aenean ac odio sit amet turpis laoreet pharetra. Nam aliquet enim ut mauris dictum <sup>vestibulum</sup>. Quisque elit libero, porttitor sed ornare dapibus, porta rutrum turpis. Mauris vel ligula quis tellus placerat <sup>mattis</sup>.</p>
+           </td>
+           <td akn:eId="sec_1__subsec_2__tbl__oc_1__row__oc_3__col_2" akn:GUID="_7b4b7cd6-46c0-4a47-8ca2-4820b4f62420">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Lorem ipsum dolor sit amet, <sup>consectetur</sup> adipiscing elit. Aenean ac odio sit amet turpis laoreet pharetra. Nam aliquet enim ut mauris dictum <sup>vestibulum</sup>. Quisque elit libero, porttitor sed ornare dapibus, porta rutrum turpis. Mauris vel ligula quis tellus <sup>placerat</sup> mattis.</p>
+           </td>
+          </tr>
+          <tr akn:eId="sec_1__subsec_2__tbl__oc_1__row__oc_4" akn:GUID="_b20f3ea9-ca51-4638-9ad7-780eb9c44d4e">
+           <td akn:eId="sec_1__subsec_2__tbl__oc_1__row__oc_4__col_1" akn:GUID="_f97096aa-d1ea-42e8-8583-6bb2d80139c4">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Lorem ipsum dolor sit amet, <sup>consectetur</sup> adipiscing elit. Aenean ac odio sit amet turpis laoreet pharetra. Nam aliquet enim ut mauris dictum vestibulum. <sup>Quisque</sup> elit libero, porttitor sed ornare dapibus, porta rutrum turpis. Mauris vel ligula quis tellus placerat mattis.</p>
+           </td>
+           <td akn:eId="sec_1__subsec_2__tbl__oc_1__row__oc_4__col_2" akn:GUID="_0fbed952-cc5c-432b-927d-c6c3550c8fd3">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Lorem ipsum dolor <sup>sit</sup> amet, consectetur adipiscing elit. Aenean ac odio sit amet turpis laoreet pharetra. Nam aliquet enim ut mauris <sup>dictum</sup> vestibulum. Quisque elit libero, porttitor sed ornare dapibus, porta rutrum turpis. Mauris vel ligula quis <sup>tellus</sup> placerat mattis.</p>
+           </td>
+          </tr>
+          <tr akn:eId="sec_1__subsec_2__tbl__oc_1__row__oc_5" akn:GUID="_d9741f7d-f5d8-43cb-816f-63e0864b7362">
+           <td akn:eId="sec_1__subsec_2__tbl__oc_1__row__oc_5__col_1" akn:GUID="_d7aa5cb5-c34c-421a-8225-0aa6c4771973">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Lorem ipsum dolor sit amet, consectetur <sup>adipiscing</sup> elit. Aenean ac odio sit amet turpis laoreet pharetra. Nam aliquet enim ut mauris dictum vestibulum. Quisque elit <sup>libero</sup>, porttitor sed ornare dapibus, porta rutrum turpis. Mauris vel ligula quis tellus placerat mattis.</p>
+           </td>
+           <td akn:eId="sec_1__subsec_2__tbl__oc_1__row__oc_5__col_2" akn:GUID="_2cfa8d4a-3f08-4aad-b87d-aec66c1fdc8c">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Lorem <sup>ipsum</sup> dolor sit amet, consectetur adipiscing elit. Aenean ac odio sit amet turpis laoreet pharetra. Nam aliquet enim <sup>ut</sup> mauris dictum vestibulum. Quisque elit libero, porttitor sed ornare dapibus, porta rutrum turpis. Mauris vel <sup>ligula</sup> quis tellus placerat mattis.</p>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </foreign>
+      </tblock>
+     </content>
+    </subsection>
+    <subsection eId="sec_1__subsec_3" GUID="_90463495-46c2-415f-b869-478ca9868b3b" class="prov2">
+     <num>(3)</num>
+     <content>
+      <p>Table 3</p>
+      <tblock eId="sec_1__subsec_3__tbl__oc_1" GUID="_529affc7-b053-42dc-bfef-7e45b3730e4b" class="table">
+       <num>Table 3</num>
+       <heading eId="sec_1__subsec_3__tbl__oc_1__hdg" GUID="_fd49d889-aeac-4605-a044-413b5c2a36d5" class="left">Heading of Table Three</heading>
+       <foreign>
+        <table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="topAndBottom tableleft width100" cols="2">
+         <thead class="left">
+          <tr akn:eId="sec_1__subsec_3__tbl__oc_1__hdg__row__oc_1" akn:GUID="_8046904c-b269-42e9-93ef-2bbdc380f855">
+           <td akn:eId="sec_1__subsec_3__tbl__oc_1__hdg__row__oc_1__col_1" akn:GUID="_4fe80335-ea45-43e0-9b0c-731abb983817">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Row ONE</p>
+           </td>
+           <td akn:eId="sec_1__subsec_3__tbl__oc_1__hdg__row__oc_1__col_2" akn:GUID="_1481f8ba-3ffb-4e2f-ab33-11606eedf40b">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Row TWO</p>
+           </td>
+          </tr>
+         </thead>
+         <tbody class="left">
+          <tr akn:eId="sec_1__subsec_3__tbl__oc_1__row__oc_1" akn:GUID="_1e679178-0ad1-4ede-aca3-34909d540d8d">
+           <td akn:eId="sec_1__subsec_3__tbl__oc_1__row__oc_1__col_1" akn:GUID="_7d85ab1c-6182-4567-8b89-f86728abd201">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><sup>Lorem</sup> ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie, quam nec fermentum dictum, enim nibh gravida <sup>orci</sup>, non sagittis risus augue sed ligula. Curabitur efficitur iaculis viverra. Vivamus non dolor vitae arcu interdum <sup>vestibulum</sup>. Quisque accumsan efficitur sodales. Morbi vitae ipsum diam. Duis pulvinar sed nunc at fermentum. Morbi <sup>in</sup> quam sit amet lacus tincidunt luctus. Nam ultricies vestibulum scelerisque. Pellentesque pretium massa justo, ac <sup>rutrum</sup> leo finibus eu. Suspendisse potenti. Praesent tincidunt vestibulum viverra. Fusce cursus ac erat sit amet luctus. <sup>Vivamus</sup> in malesuada ex. Ut tincidunt varius purus, a pharetra neque fringilla et. Donec pharetra malesuada purus, sit amet <sup>hendrerit</sup> diam auctor non. Etiam massa arcu, ultrices sed arcu et, sodales condimentum mauris. Proin commodo lacus nec urna auctor, in tristique nisi hendrerit. Nunc ut condimentum turpis. Pellentesque feugiat, libero at fermentum vulputate, urna eros lobortis mauris, vitae varius lectus tortor non mauris. Aliquam convallis ex sit amet tellus aliquet, <sup>eget</sup> consectetur lorem dignissim. In hac habitasse platea dictumst. Donec aliquet, eros ut vulputate tristique, enim sem <sup>bibendum</sup> felis, vel mollis orci dui nec nisl. Nullam rhoncus sem non imperdiet ornare. Vestibulum vel nunc sapien. <sup>Aenean</sup> a sem in libero lobortis fermentum. Quisque vel nulla quis odio imperdiet sollicitudin. Ut tincidunt arcu a dui consectetur, <sup>eget</sup> pharetra neque dictum.</p>
+           </td>
+           <td akn:eId="sec_1__subsec_3__tbl__oc_1__row__oc_1__col_2" akn:GUID="_0689379c-d1e4-4284-94b6-93142ad6e1f8">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Lorem ipsum dolor sit amet, <sup>consectetur</sup> adipiscing elit. Praesent molestie, quam nec fermentum dictum, enim nibh gravida orci, non sagittis risus augue sed <sup>ligula</sup>. Curabitur efficitur iaculis viverra. Vivamus non dolor vitae arcu interdum vestibulum. Quisque accumsan efficitur <sup>sodales</sup>. Morbi vitae ipsum diam. Duis pulvinar sed nunc at fermentum. Morbi in quam sit amet lacus tincidunt luctus. <sup>Nam</sup> ultricies vestibulum scelerisque. Pellentesque pretium massa justo, ac rutrum leo finibus eu. Suspendisse potenti. <sup>Praesent</sup> tincidunt vestibulum viverra. Fusce cursus ac erat sit amet luctus. Vivamus in malesuada ex. Ut tincidunt varius <sup>purus</sup>, a pharetra neque fringilla et. Donec pharetra malesuada purus, sit amet hendrerit diam auctor non. Etiam massa arcu, <sup>ultrices</sup> sed arcu et, sodales condimentum mauris. Proin commodo lacus nec urna auctor, in tristique nisi hendrerit. Nunc ut <sup>condimentum</sup> turpis. Pellentesque feugiat, libero at fermentum vulputate, urna eros lobortis mauris, vitae varius lectus tortor <sup>non</sup> mauris. Aliquam convallis ex sit amet tellus aliquet, eget consectetur lorem dignissim. In hac habitasse platea <sup>dictumst</sup>. Donec aliquet, eros ut vulputate tristique, enim sem bibendum felis, vel mollis orci dui nec nisl. Nullam rhoncus sem <sup>non</sup> imperdiet ornare. Vestibulum vel nunc sapien. Aenean a sem in libero lobortis fermentum. Quisque vel nulla quis <sup>odio</sup> imperdiet sollicitudin. Ut tincidunt arcu a dui consectetur, eget pharetra neque dictum.</p>
+           </td>
+          </tr>
+          <tr akn:eId="sec_1__subsec_3__tbl__oc_1__row__oc_2" akn:GUID="_cdceb459-dedc-4d4a-a03e-d34afe7361e5">
+           <td akn:eId="sec_1__subsec_3__tbl__oc_1__row__oc_2__col_1" akn:GUID="_a225aecd-137f-4942-9580-a11de232fcea">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Lorem ipsum dolor sit amet, consectetur adipiscing <sup>elit</sup>. Praesent molestie, quam nec fermentum dictum, enim nibh gravida orci, non sagittis risus augue sed ligula. Curabitur <sup>efficitur</sup> iaculis viverra. Vivamus non dolor vitae arcu interdum vestibulum. Quisque accumsan efficitur sodales. Morbi vitae ipsum diam. Duis pulvinar sed nunc at fermentum. Morbi in quam sit amet lacus tincidunt luctus. Nam <sup>ultricies</sup> vestibulum scelerisque. Pellentesque pretium massa justo, ac rutrum leo finibus eu. Suspendisse potenti. Praesent <sup>tincidunt</sup> vestibulum viverra. Fusce cursus ac erat sit amet luctus. Vivamus in malesuada ex. Ut tincidunt varius purus, a <sup>pharetra</sup> neque fringilla et. Donec pharetra malesuada purus, sit amet hendrerit diam auctor non. Etiam massa arcu, ultrices <sup>sed</sup> arcu et, sodales condimentum mauris. Proin commodo lacus nec urna auctor, in tristique nisi hendrerit. Nunc ut <sup>condimentum</sup> turpis. Pellentesque feugiat, libero at fermentum vulputate, urna eros lobortis mauris, vitae varius lectus tortor non mauris. Aliquam convallis ex sit amet tellus aliquet, eget consectetur lorem dignissim. In hac habitasse platea <sup>dictumst</sup>. Donec aliquet, eros ut vulputate tristique, enim sem bibendum felis, vel mollis orci dui nec nisl. Nullam rhoncus sem <sup>non</sup> imperdiet ornare. Vestibulum vel nunc sapien. Aenean a sem in libero lobortis fermentum. Quisque vel nulla quis odio <sup>imperdiet</sup> sollicitudin. Ut tincidunt arcu a dui consectetur, eget pharetra neque dictum.</p>
+           </td>
+           <td akn:eId="sec_1__subsec_3__tbl__oc_1__row__oc_2__col_2" akn:GUID="_6fedf328-ffd0-4cca-9962-a34726a870bc">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie, quam nec fermentum <sup>dictum</sup>, enim nibh gravida orci, non sagittis risus augue sed ligula. Curabitur efficitur iaculis viverra. Vivamus <sup>non</sup> dolor vitae arcu interdum vestibulum. Quisque accumsan efficitur sodales. Morbi vitae ipsum diam. <sup>Duis</sup> pulvinar sed nunc at fermentum. Morbi in quam sit amet lacus tincidunt luctus. Nam ultricies <sup>vestibulum</sup> scelerisque. Pellentesque pretium massa justo, ac rutrum leo finibus eu. Suspendisse potenti. Praesent <sup>tincidunt</sup> vestibulum viverra. Fusce cursus ac erat sit amet luctus. Vivamus in malesuada ex. Ut tincidunt <sup>varius</sup> purus, a pharetra neque fringilla et. Donec pharetra malesuada purus, sit amet hendrerit diam auctor <sup>non</sup>. Etiam massa arcu, ultrices sed arcu et, sodales condimentum mauris. Proin commodo lacus nec urna <sup>auctor</sup>, in tristique nisi hendrerit. Nunc ut condimentum turpis. Pellentesque feugiat, libero at fermentum <sup>vulputate</sup>, urna eros lobortis mauris, vitae varius lectus tortor non mauris. Aliquam convallis ex sit amet tellus <sup>aliquet</sup>, eget consectetur lorem dignissim. In hac habitasse platea dictumst. Donec aliquet, eros ut vulputate <sup>tristique</sup>, enim sem bibendum felis, vel mollis orci dui nec nisl. Nullam rhoncus sem non imperdiet ornare. <sup>Vestibulum</sup> vel nunc sapien. Aenean a sem in libero lobortis fermentum. Quisque vel nulla quis odio imperdiet <sup>sollicitudin</sup>. Ut tincidunt arcu a dui consectetur, eget pharetra neque dictum.</p>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </foreign>
+      </tblock>
+     </content>
+    </subsection>
+    <subsection eId="sec_1__subsec_4" GUID="_d19dd6db-b621-4056-b83b-bfcae0fba5d7" class="prov2">
+     <num>(4)</num>
+     <content>
+      <p>Table 4</p>
+      <tblock eId="sec_1__subsec_4__tbl__oc_1" GUID="_0938a3f7-c154-40b8-9796-72e471330f6e" class="table">
+       <num>Table 4</num>
+       <heading eId="sec_1__subsec_4__tbl__oc_1__hdg" GUID="_215d8d09-3196-4300-889b-1d22a9639118" class="left">Heading of Table Four</heading>
+       <foreign>
+        <table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="topAndBottom tableleft width100" cols="2">
+         <thead class="left">
+          <tr akn:eId="sec_1__subsec_4__tbl__oc_1__hdg__row__oc_1" akn:GUID="_8cf18301-9321-44f6-a604-3a4e8f39b97e">
+           <td akn:eId="sec_1__subsec_4__tbl__oc_1__hdg__row__oc_1__col_1" akn:GUID="_964324a4-0f9f-4bca-898c-ad0bf15e3c92">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Row ONE</p>
+           </td>
+           <td akn:eId="sec_1__subsec_4__tbl__oc_1__hdg__row__oc_1__col_2" akn:GUID="_440f132b-c7de-4711-8bdb-023265324f7c">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Row TWO</p>
+           </td>
+          </tr>
+         </thead>
+         <tbody class="left">
+          <tr akn:eId="sec_1__subsec_4__tbl__oc_1__row__oc_1" akn:GUID="_7dbcfde8-ebd9-4f13-bca7-6ca248e24a16">
+           <td akn:eId="sec_1__subsec_4__tbl__oc_1__row__oc_1__col_1" akn:GUID="_4ac4f6e8-cd63-4070-8e54-170c3ba1d878">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><sup>Lorem</sup> ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie, quam nec fermentum dictum, enim nibh gravida <sup>orci</sup>, non sagittis risus augue sed ligula. Curabitur efficitur iaculis viverra. Vivamus non dolor vitae arcu interdum <sup>vestibulum</sup>. Quisque accumsan efficitur sodales. Morbi vitae ipsum diam. Duis pulvinar sed nunc at fermentum. Morbi in <sup>quam</sup> sit amet lacus tincidunt luctus. Nam ultricies vestibulum scelerisque. Pellentesque pretium massa justo, ac rutrum <sup>leo</sup> finibus eu. Suspendisse potenti. Praesent tincidunt vestibulum viverra. Fusce cursus ac erat sit amet luctus. <sup>Vivamus</sup> in malesuada ex. Ut tincidunt varius purus, a pharetra neque fringilla et. Donec pharetra malesuada purus, sit amet <sup>hendrerit</sup> diam auctor non. Etiam massa arcu, ultrices sed arcu et, sodales condimentum mauris. Proin commodo lacus nec <sup>urna</sup> auctor, in tristique nisi hendrerit. Nunc ut condimentum turpis. Pellentesque feugiat, libero at fermentum vulputate, <sup>urna</sup> eros lobortis mauris, vitae varius lectus tortor non mauris. Aliquam convallis ex sit amet tellus aliquet, eget <sup>consectetur</sup> lorem dignissim. In hac habitasse platea dictumst. Donec aliquet, eros ut vulputate tristique, enim sem bibendum <sup>felis</sup>, vel mollis orci dui nec nisl. Nullam rhoncus sem non imperdiet ornare. Vestibulum vel nunc sapien. Aenean a sem <sup>in</sup> libero lobortis fermentum. Quisque vel nulla quis odio imperdiet sollicitudin. Ut tincidunt arcu a dui consectetur, eget <sup>pharetra</sup> neque dictum.</p>
+           </td>
+           <td akn:eId="sec_1__subsec_4__tbl__oc_1__row__oc_1__col_2" akn:GUID="_22a519d8-57b8-42ae-81c5-9b379aad2fb4">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie, quam nec fermentum dictum, enim <sup>nibh</sup> gravida orci, non sagittis risus augue sed ligula. Curabitur efficitur iaculis viverra. Vivamus non dolor vitae <sup>arcu</sup> interdum vestibulum. Quisque accumsan efficitur sodales. Morbi vitae ipsum diam. Duis pulvinar sed nunc at fermentum. Morbi in quam sit amet lacus tincidunt luctus. Nam ultricies vestibulum scelerisque. <sup>Pellentesque</sup> pretium massa justo, ac rutrum leo finibus eu. Suspendisse potenti. Praesent tincidunt vestibulum <sup>viverra</sup>. Fusce cursus ac erat sit amet luctus. Vivamus in malesuada ex. Ut tincidunt varius purus, a pharetra <sup>neque</sup> fringilla et. Donec pharetra malesuada purus, sit amet hendrerit diam auctor non. Etiam massa arcu, <sup>ultrices</sup> sed arcu et, sodales condimentum mauris. Proin commodo lacus nec urna auctor, in tristique nisi hendrerit. <sup>Nunc</sup> ut condimentum turpis. Pellentesque feugiat, libero at fermentum vulputate, urna eros lobortis mauris, <sup>vitae</sup> varius lectus tortor non mauris. Aliquam convallis ex sit amet tellus aliquet, eget consectetur lorem <sup>dignissim</sup>. In hac habitasse platea dictumst. Donec aliquet, eros ut vulputate tristique, enim sem bibendum felis, <sup>vel</sup> mollis orci dui nec nisl. Nullam rhoncus sem non imperdiet ornare. Vestibulum vel nunc sapien. Aenean a <sup>sem</sup> in libero lobortis fermentum. Quisque vel nulla quis odio imperdiet sollicitudin. Ut tincidunt arcu a dui <sup>consectetur</sup>, eget pharetra neque dictum.</p>
+           </td>
+          </tr>
+          <tr akn:eId="sec_1__subsec_4__tbl__oc_1__row__oc_2" akn:GUID="_d35d94e5-0906-4f45-811c-18bef1b93856">
+           <td akn:eId="sec_1__subsec_4__tbl__oc_1__row__oc_2__col_1" akn:GUID="_b6578608-7feb-42c9-9349-138fbff4e200">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <sup>Praesent</sup> molestie, quam nec fermentum dictum, enim nibh gravida orci, non sagittis risus augue sed ligula. Curabitur efficitur <sup>iaculis</sup> viverra. Vivamus non dolor vitae arcu interdum vestibulum. Quisque accumsan efficitur sodales. Morbi vitae <sup>ipsum</sup> diam. Duis pulvinar sed nunc at fermentum. Morbi in quam sit amet lacus tincidunt luctus. Nam ultricies <sup>vestibulum</sup> scelerisque. Pellentesque pretium massa justo, ac rutrum leo finibus eu. Suspendisse potenti. Praesent tincidunt <sup>vestibulum</sup> viverra. Fusce cursus ac erat sit amet luctus. Vivamus in malesuada ex. Ut tincidunt varius purus, a pharetra <sup>neque</sup> fringilla et. Donec pharetra malesuada purus, sit amet hendrerit diam auctor non. Etiam massa arcu, ultrices sed arcu <sup>et</sup>, sodales condimentum mauris. Proin commodo lacus nec urna auctor, in tristique nisi hendrerit. Nunc ut <sup>condimentum</sup> turpis. Pellentesque feugiat, libero at fermentum vulputate, urna eros lobortis mauris, vitae varius lectus tortor non <sup>mauris</sup>. Aliquam convallis ex sit amet tellus aliquet, eget consectetur lorem dignissim. In hac habitasse platea <sup>dictumst</sup>. Donec aliquet, eros ut vulputate tristique, enim sem bibendum felis, vel mollis orci dui nec nisl. Nullam rhoncus sem <sup>non</sup> imperdiet ornare. Vestibulum vel nunc sapien. Aenean a sem in libero lobortis fermentum. Quisque vel nulla quis <sup>odio</sup> imperdiet sollicitudin. Ut tincidunt arcu a dui consectetur, eget pharetra neque dictum.</p>
+           </td>
+           <td akn:eId="sec_1__subsec_4__tbl__oc_1__row__oc_2__col_2" akn:GUID="_878b7651-592e-44db-a175-f11bef78c9c7">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Lorem ipsum dolor sit amet, <sup>consectetur</sup> adipiscing elit. Praesent molestie, quam nec fermentum dictum, enim nibh gravida orci, non sagittis <sup>risus</sup> augue sed ligula. Curabitur efficitur iaculis viverra. Vivamus non dolor vitae arcu interdum vestibulum. <sup>Quisque</sup> accumsan efficitur sodales. Morbi vitae ipsum diam. Duis pulvinar sed nunc at fermentum. Morbi <sup>in</sup> quam sit amet lacus tincidunt luctus. Nam ultricies vestibulum scelerisque. Pellentesque pretium massa justo, <sup>ac</sup> rutrum leo finibus eu. Suspendisse potenti. Praesent tincidunt vestibulum viverra. Fusce cursus ac erat sit <sup>amet</sup> luctus. Vivamus in malesuada ex. Ut tincidunt varius purus, a pharetra neque fringilla et. Donec pharetra <sup>malesuada</sup> purus, sit amet hendrerit diam auctor non. Etiam massa arcu, ultrices sed arcu et, sodales condimentum mauris. <sup>Proin</sup> commodo lacus nec urna auctor, in tristique nisi hendrerit. Nunc ut condimentum turpis. Pellentesque feugiat, libero at <sup>fermentum</sup> vulputate, urna eros lobortis mauris, vitae varius lectus tortor non mauris. Aliquam convallis ex sit amet tellus <sup>aliquet</sup>, eget consectetur lorem dignissim. In hac habitasse platea dictumst. Donec aliquet, eros ut vulputate tristique, enim <sup>sem</sup> bibendum felis, vel mollis orci dui nec nisl. Nullam rhoncus sem non imperdiet ornare. Vestibulum vel nunc sapien. <sup>Aenean</sup> a sem in libero lobortis fermentum. Quisque vel nulla quis odio imperdiet sollicitudin. Ut tincidunt arcu a dui consectetur, <sup>eget</sup> pharetra neque dictum.</p>
+           </td>
+          </tr>
+          <tr akn:eId="sec_1__subsec_4__tbl__oc_1__row__oc_3" akn:GUID="_c226a4d5-6545-4e64-848c-40e8bafb49b1">
+           <td akn:eId="sec_1__subsec_4__tbl__oc_1__row__oc_3__col_1" akn:GUID="_d6757a46-8f08-4315-aa47-d05cdbc08bba">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie, quam nec fermentum dictum, enim <sup>nibh</sup> gravida orci, non sagittis risus augue sed ligula. Curabitur efficitur iaculis viverra. Vivamus non dolor vitae <sup>arcu</sup> interdum vestibulum. Quisque accumsan efficitur sodales. Morbi vitae ipsum diam. Duis pulvinar sed <sup>nunc</sup> at fermentum. Morbi in quam sit amet lacus tincidunt luctus. Nam ultricies vestibulum scelerisque. Pellentesque <sup>pretium</sup> massa justo, ac rutrum leo finibus eu. Suspendisse potenti. Praesent tincidunt vestibulum viverra. Fusce <sup>cursus</sup> ac erat sit amet luctus. Vivamus in malesuada ex. Ut tincidunt varius purus, a pharetra neque fringilla et. <sup>Donec</sup> pharetra malesuada purus, sit amet hendrerit diam auctor non. Etiam massa arcu, ultrices sed arcu et, <sup>sodales</sup> condimentum mauris. Proin commodo lacus nec urna auctor, in tristique nisi hendrerit. Nunc ut <sup>condimentum</sup> turpis. Pellentesque feugiat, libero at fermentum vulputate, urna eros lobortis mauris, vitae varius <sup>lectus</sup> tortor non mauris. Aliquam convallis ex sit amet tellus aliquet, eget consectetur lorem dignissim. In <sup>hac</sup> habitasse platea dictumst. Donec aliquet, eros ut vulputate tristique, enim sem bibendum felis, vel mollis orci <sup>dui</sup> nec nisl. Nullam rhoncus sem non imperdiet ornare. Vestibulum vel nunc sapien. Aenean a sem in libero <sup>lobortis</sup> fermentum. Quisque vel nulla quis odio imperdiet sollicitudin. Ut tincidunt arcu a dui consectetur, eget <sup>pharetra</sup> neque dictum.</p>
+           </td>
+           <td akn:eId="sec_1__subsec_4__tbl__oc_1__row__oc_3__col_2" akn:GUID="_94c7b856-dc97-4772-b26e-c303c422c246">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <sup>Praesent</sup> molestie, quam nec fermentum dictum, enim nibh gravida orci, non sagittis risus augue sed ligula. Curabitur efficitur <sup>iaculis</sup> viverra. Vivamus non dolor vitae arcu interdum vestibulum. Quisque accumsan efficitur sodales. Morbi vitae ipsum <sup>diam</sup>. Duis pulvinar sed nunc at fermentum. Morbi in quam sit amet lacus tincidunt luctus. Nam ultricies vestibulum <sup>scelerisque</sup>. Pellentesque pretium massa justo, ac rutrum leo finibus eu. Suspendisse potenti. Praesent tincidunt vestibulum <sup>viverra</sup>. Fusce cursus ac erat sit amet luctus. Vivamus in malesuada ex. Ut tincidunt varius purus, a pharetra neque fringilla <sup>et</sup>. Donec pharetra malesuada purus, sit amet hendrerit diam auctor non. Etiam massa arcu, ultrices sed arcu et, sodales <sup>condimentum</sup> mauris. Proin commodo lacus nec urna auctor, in tristique nisi hendrerit. Nunc ut condimentum turpis. <sup>Pellentesque</sup> feugiat, libero at fermentum vulputate, urna eros lobortis mauris, vitae varius lectus tortor non <sup>mauris</sup>. Aliquam convallis ex sit amet tellus aliquet, eget consectetur lorem dignissim. In hac habitasse <sup>platea</sup> dictumst. Donec aliquet, eros ut vulputate tristique, enim sem bibendum felis, vel mollis orci dui nec nisl. <sup>Nullam</sup> rhoncus sem non imperdiet ornare. Vestibulum vel nunc sapien. Aenean a sem in libero lobortis <sup>fermentum</sup>. Quisque vel nulla quis odio imperdiet sollicitudin. Ut tincidunt arcu a dui consectetur, eget pharetra <sup>neque</sup> dictum.</p>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </foreign>
+      </tblock>
+     </content>
+    </subsection>
+    <subsection eId="sec_1__subsec_5" GUID="_e68158af-bee6-4285-bf5b-407a26c10c57" class="prov2">
+     <num>(5)</num>
+     <content>
+      <p>Table 5</p>
+      <tblock eId="sec_1__subsec_5__tbl__oc_1" GUID="_56032c84-dd4e-4937-861d-1ea5c0a276e7" class="table">
+       <num>Table 5</num>
+       <heading eId="sec_1__subsec_5__tbl__oc_1__hdg" GUID="_1a78acf6-740c-49cc-9d85-7bccc3ba261e" class="left">Heading of Table Five</heading>
+       <foreign>
+        <table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="topAndBottom tableleft width100" cols="2">
+         <thead class="left">
+          <tr akn:eId="sec_1__subsec_5__tbl__oc_1__hdg__row__oc_1" akn:GUID="_584aea90-e7bf-4c49-bba1-19c687ab4513">
+           <td akn:eId="sec_1__subsec_5__tbl__oc_1__hdg__row__oc_1__col_1" akn:GUID="_29e58960-3d62-4f03-9396-fbc70ba03e66">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Row ONE</p>
+           </td>
+           <td akn:eId="sec_1__subsec_5__tbl__oc_1__hdg__row__oc_1__col_2" akn:GUID="_5a427b2a-699c-4687-b2a1-e056c7282cb5">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Row TWO</p>
+           </td>
+          </tr>
+         </thead>
+         <tbody class="left">
+          <tr akn:eId="sec_1__subsec_5__tbl__oc_1__row__oc_1" akn:GUID="_e0b3e8a8-8f5b-4870-8ecf-6da1eca0011f">
+           <td akn:eId="sec_1__subsec_5__tbl__oc_1__row__oc_1__col_1" akn:GUID="_eccbf40a-8729-4c03-b424-dd6f4599a789">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><sup>Lorem</sup> ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie, quam nec fermentum dictum, enim nibh gravida <sup>orci</sup>, non sagittis risus augue sed ligula. Curabitur efficitur iaculis viverra. Vivamus non dolor vitae arcu interdum <sup>vestibulum</sup>. Quisque accumsan efficitur sodales. Morbi vitae ipsum diam. Duis pulvinar sed nunc at fermentum. Morbi in <sup>quam</sup> sit amet lacus tincidunt luctus. Nam ultricies vestibulum scelerisque. Pellentesque pretium massa justo, ac rutrum leo <sup>finibus</sup> eu. Suspendisse potenti. Praesent tincidunt vestibulum viverra. Fusce cursus ac erat sit amet luctus. Vivamus in <sup>malesuada</sup> ex. Ut tincidunt varius purus, a pharetra neque fringilla et. Donec pharetra malesuada purus, sit amet hendrerit diam <sup>auctor</sup> non. Etiam massa arcu, ultrices sed arcu et, sodales condimentum mauris. Proin commodo lacus nec urna auctor, in <sup>tristique</sup> nisi hendrerit. Nunc ut condimentum turpis. Pellentesque feugiat, libero at fermentum vulputate, urna eros lobortis <sup>mauris</sup>, vitae varius lectus tortor non mauris. Aliquam convallis ex sit amet tellus aliquet, eget consectetur lorem <sup>dignissim</sup>. In hac habitasse platea dictumst. Donec aliquet, eros ut vulputate tristique, enim sem bibendum felis, vel mollis orci <sup>dui</sup> nec nisl. Nullam rhoncus sem non imperdiet ornare. Vestibulum vel nunc sapien. Aenean a sem in libero lobortis <sup>fermentum</sup>. Quisque vel nulla quis odio imperdiet sollicitudin. Ut tincidunt arcu a dui consectetur, eget pharetra neque dictum.<sup>Lorem</sup> ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie, quam nec fermentum dictum, enim nibh gravida <sup>orci</sup>, non sagittis risus augue sed ligula. Curabitur efficitur iaculis viverra. Vivamus non dolor vitae arcu interdum <sup>vestibulum</sup>. Quisque accumsan efficitur sodales. Morbi vitae ipsum diam. Duis pulvinar sed nunc at fermentum. Morbi in <sup>quam</sup> sit amet lacus tincidunt luctus. Nam ultricies vestibulum scelerisque. Pellentesque pretium massa justo, ac rutrum leo <sup>finibus</sup> eu. Suspendisse potenti. Praesent tincidunt vestibulum viverra. Fusce cursus ac erat sit amet luctus. <sup>Vivamus</sup> in malesuada ex. Ut tincidunt varius purus, a pharetra neque fringilla et. Donec pharetra malesuada purus, <sup>sit</sup> amet hendrerit diam auctor non. Etiam massa arcu, ultrices sed arcu et, sodales condimentum mauris. Proin <sup>commodo</sup> lacus nec urna auctor, in tristique nisi hendrerit. Nunc ut condimentum turpis. Pellentesque feugiat, <sup>libero</sup> at fermentum vulputate, urna eros lobortis mauris, vitae varius lectus tortor non mauris. Aliquam <sup>convallis</sup> ex sit amet tellus aliquet, eget consectetur lorem dignissim. In hac habitasse platea dictumst. Donec <sup>aliquet</sup>, eros ut vulputate tristique, enim sem bibendum felis, vel mollis orci dui nec nisl. Nullam rhoncus sem <sup>non</sup> imperdiet ornare. Vestibulum vel nunc sapien. Aenean a sem in libero lobortis fermentum. Quisque vel nulla <sup>quis</sup> odio imperdiet sollicitudin. Ut tincidunt arcu a dui consectetur, eget pharetra neque dictum.</p>
+           </td>
+           <td akn:eId="sec_1__subsec_5__tbl__oc_1__row__oc_1__col_2" akn:GUID="_f12f67a4-c66c-4df0-99c2-92667902662a">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><sup>Lorem</sup> ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie, quam nec fermentum dictum, enim nibh gravida <sup>orci</sup>, non sagittis risus augue sed ligula. Curabitur efficitur iaculis viverra. Vivamus non dolor vitae arcu interdum <sup>vestibulum</sup>. Quisque accumsan efficitur sodales. Morbi vitae ipsum diam. Duis pulvinar sed nunc at fermentum. Morbi in <sup>quam</sup> sit amet lacus tincidunt luctus. Nam ultricies vestibulum scelerisque. Pellentesque pretium massa justo, ac rutrum leo <sup>finibus</sup> eu. Suspendisse potenti. Praesent tincidunt vestibulum viverra. Fusce cursus ac erat sit amet luctus. Vivamus in <sup>malesuada</sup> ex. Ut tincidunt varius purus, a pharetra neque fringilla et. Donec pharetra malesuada purus, sit amet hendrerit diam <sup>auctor</sup> non. Etiam massa arcu, ultrices sed arcu et, sodales condimentum mauris. Proin commodo lacus nec urna auctor, in <sup>tristique</sup> nisi hendrerit. Nunc ut condimentum turpis. Pellentesque feugiat, libero at fermentum vulputate, urna eros lobortis <sup>mauris</sup>, vitae varius lectus tortor non mauris. Aliquam convallis ex sit amet tellus aliquet, eget consectetur lorem <sup>dignissim</sup>. In hac habitasse platea dictumst. Donec aliquet, eros ut vulputate tristique, enim sem bibendum felis, vel mollis orci <sup>dui</sup> nec nisl. Nullam rhoncus sem non imperdiet ornare. Vestibulum vel nunc sapien. Aenean a sem in libero lobortis <sup>fermentum</sup>. Quisque vel nulla quis odio imperdiet sollicitudin. Ut tincidunt arcu a dui consectetur, eget pharetra neque dictum.<sup>Lorem</sup> ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie, quam nec fermentum dictum, enim nibh gravida <sup>orci</sup>, non sagittis risus augue sed ligula. Curabitur efficitur iaculis viverra. Vivamus non dolor vitae arcu interdum <sup>vestibulum</sup>. Quisque accumsan efficitur sodales. Morbi vitae ipsum diam. Duis pulvinar sed nunc at fermentum. Morbi in <sup>quam</sup> sit amet lacus tincidunt luctus. Nam ultricies vestibulum scelerisque. Pellentesque pretium massa justo, ac rutrum leo <sup>finibus</sup> eu. Suspendisse potenti. Praesent tincidunt vestibulum viverra. Fusce cursus ac erat sit amet luctus. <sup>Vivamus</sup> in malesuada ex. Ut tincidunt varius purus, a pharetra neque fringilla et. Donec pharetra malesuada purus, <sup>sit</sup> amet hendrerit diam auctor non. Etiam massa arcu, ultrices sed arcu et, sodales condimentum mauris. Proin <sup>commodo</sup> lacus nec urna auctor, in tristique nisi hendrerit. Nunc ut condimentum turpis. Pellentesque feugiat, <sup>libero</sup> at fermentum vulputate, urna eros lobortis mauris, vitae varius lectus tortor non mauris. Aliquam <sup>convallis</sup> ex sit amet tellus aliquet, eget consectetur lorem dignissim. In hac habitasse platea dictumst. Donec <sup>aliquet</sup>, eros ut vulputate tristique, enim sem bibendum felis, vel mollis orci dui nec nisl. Nullam rhoncus sem <sup>non</sup> imperdiet ornare. Vestibulum vel nunc sapien. Aenean a sem in libero lobortis fermentum. Quisque vel nulla <sup>quis</sup> odio imperdiet sollicitudin. Ut tincidunt arcu a dui consectetur, eget pharetra neque dictum.</p>
+           </td>
+          </tr>
+          <tr akn:eId="sec_1__subsec_5__tbl__oc_1__row__oc_2" akn:GUID="_0f8fc6bf-e591-4ba6-938f-612c412aaae4">
+           <td akn:eId="sec_1__subsec_5__tbl__oc_1__row__oc_2__col_1" akn:GUID="_34ef923a-7a2e-448c-b9d6-6bcd309eee9c">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><sup>Lorem</sup> ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie, quam nec fermentum dictum, enim nibh gravida <sup>orci</sup>, non sagittis risus augue sed ligula. Curabitur efficitur iaculis viverra. Vivamus non dolor vitae arcu interdum <sup>vestibulum</sup>. Quisque accumsan efficitur sodales. Morbi vitae ipsum diam. Duis pulvinar sed nunc at fermentum. Morbi in <sup>quam</sup> sit amet lacus tincidunt luctus. Nam ultricies vestibulum scelerisque. Pellentesque pretium massa justo, ac rutrum leo <sup>finibus</sup> eu. Suspendisse potenti. Praesent tincidunt vestibulum viverra. Fusce cursus ac erat sit amet luctus. Vivamus in <sup>malesuada</sup> ex. Ut tincidunt varius purus, a pharetra neque fringilla et. Donec pharetra malesuada purus, sit amet hendrerit diam <sup>auctor</sup> non. Etiam massa arcu, ultrices sed arcu et, sodales condimentum mauris. Proin commodo lacus nec urna auctor, in <sup>tristique</sup> nisi hendrerit. Nunc ut condimentum turpis. Pellentesque feugiat, libero at fermentum vulputate, urna eros lobortis <sup>mauris</sup>, vitae varius lectus tortor non mauris. Aliquam convallis ex sit amet tellus aliquet, eget consectetur lorem <sup>dignissim</sup>. In hac habitasse platea dictumst. Donec aliquet, eros ut vulputate tristique, enim sem bibendum felis, vel mollis orci <sup>dui</sup> nec nisl. Nullam rhoncus sem non imperdiet ornare. Vestibulum vel nunc sapien. Aenean a sem in libero lobortis <sup>fermentum</sup>. Quisque vel nulla quis odio imperdiet sollicitudin. Ut tincidunt arcu a dui consectetur, eget pharetra neque dictum.<sup>Lorem</sup> ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie, quam nec fermentum dictum, enim nibh gravida <sup>orci</sup>, non sagittis risus augue sed ligula. Curabitur efficitur iaculis viverra. Vivamus non dolor vitae arcu interdum <sup>vestibulum</sup>. Quisque accumsan efficitur sodales. Morbi vitae ipsum diam. Duis pulvinar sed nunc at fermentum. Morbi in <sup>quam</sup> sit amet lacus tincidunt luctus. Nam ultricies vestibulum scelerisque. Pellentesque pretium massa justo, ac rutrum leo <sup>finibus</sup> eu. Suspendisse potenti. Praesent tincidunt vestibulum viverra. Fusce cursus ac erat sit amet luctus. <sup>Vivamus</sup> in malesuada ex. Ut tincidunt varius purus, a pharetra neque fringilla et. Donec pharetra malesuada purus, <sup>sit</sup> amet hendrerit diam auctor non. Etiam massa arcu, ultrices sed arcu et, sodales condimentum mauris. Proin <sup>commodo</sup> lacus nec urna auctor, in tristique nisi hendrerit. Nunc ut condimentum turpis. Pellentesque feugiat, <sup>libero</sup> at fermentum vulputate, urna eros lobortis mauris, vitae varius lectus tortor non mauris. Aliquam <sup>convallis</sup> ex sit amet tellus aliquet, eget consectetur lorem dignissim. In hac habitasse platea dictumst. Donec <sup>aliquet</sup>, eros ut vulputate tristique, enim sem bibendum felis, vel mollis orci dui nec nisl. Nullam rhoncus sem <sup>non</sup> imperdiet ornare. Vestibulum vel nunc sapien. Aenean a sem in libero lobortis fermentum. Quisque vel nulla <sup>quis</sup> odio imperdiet sollicitudin. Ut tincidunt arcu a dui consectetur, eget pharetra neque dictum.</p>
+           </td>
+           <td akn:eId="sec_1__subsec_5__tbl__oc_1__row__oc_2__col_2" akn:GUID="_4e274e41-bac6-46cc-8a3c-fff094e6adb9">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><sup>Lorem</sup> ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie, quam nec fermentum dictum, enim nibh gravida <sup>orci</sup>, non sagittis risus augue sed ligula. Curabitur efficitur iaculis viverra. Vivamus non dolor vitae arcu interdum <sup>vestibulum</sup>. Quisque accumsan efficitur sodales. Morbi vitae ipsum diam. Duis pulvinar sed nunc at fermentum. Morbi in <sup>quam</sup> sit amet lacus tincidunt luctus. Nam ultricies vestibulum scelerisque. Pellentesque pretium massa justo, ac rutrum leo <sup>finibus</sup> eu. Suspendisse potenti. Praesent tincidunt vestibulum viverra. Fusce cursus ac erat sit amet luctus. Vivamus in <sup>malesuada</sup> ex. Ut tincidunt varius purus, a pharetra neque fringilla et. Donec pharetra malesuada purus, sit amet hendrerit diam <sup>auctor</sup> non. Etiam massa arcu, ultrices sed arcu et, sodales condimentum mauris. Proin commodo lacus nec urna auctor, in <sup>tristique</sup> nisi hendrerit. Nunc ut condimentum turpis. Pellentesque feugiat, libero at fermentum vulputate, urna eros lobortis <sup>mauris</sup>, vitae varius lectus tortor non mauris. Aliquam convallis ex sit amet tellus aliquet, eget consectetur lorem <sup>dignissim</sup>. In hac habitasse platea dictumst. Donec aliquet, eros ut vulputate tristique, enim sem bibendum felis, vel mollis orci <sup>dui</sup> nec nisl. Nullam rhoncus sem non imperdiet ornare. Vestibulum vel nunc sapien. Aenean a sem in libero lobortis <sup>fermentum</sup>. Quisque vel nulla quis odio imperdiet sollicitudin. Ut tincidunt arcu a dui consectetur, eget pharetra neque dictum.<sup>Lorem</sup> ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie, quam nec fermentum dictum, enim nibh gravida <sup>orci</sup>, non sagittis risus augue sed ligula. Curabitur efficitur iaculis viverra. Vivamus non dolor vitae arcu interdum <sup>vestibulum</sup>. Quisque accumsan efficitur sodales. Morbi vitae ipsum diam. Duis pulvinar sed nunc at fermentum. Morbi in <sup>quam</sup> sit amet lacus tincidunt luctus. Nam ultricies vestibulum scelerisque. Pellentesque pretium massa justo, ac rutrum leo <sup>finibus</sup> eu. Suspendisse potenti. Praesent tincidunt vestibulum viverra. Fusce cursus ac erat sit amet luctus. <sup>Vivamus</sup> in malesuada ex. Ut tincidunt varius purus, a pharetra neque fringilla et. Donec pharetra malesuada purus, <sup>sit</sup> amet hendrerit diam auctor non. Etiam massa arcu, ultrices sed arcu et, sodales condimentum mauris. Proin <sup>commodo</sup> lacus nec urna auctor, in tristique nisi hendrerit. Nunc ut condimentum turpis. Pellentesque feugiat, <sup>libero</sup> at fermentum vulputate, urna eros lobortis mauris, vitae varius lectus tortor non mauris. Aliquam <sup>convallis</sup> ex sit amet tellus aliquet, eget consectetur lorem dignissim. In hac habitasse platea dictumst. Donec <sup>aliquet</sup>, eros ut vulputate tristique, enim sem bibendum felis, vel mollis orci dui nec nisl. Nullam rhoncus sem <sup>non</sup> imperdiet ornare. Vestibulum vel nunc sapien. Aenean a sem in libero lobortis fermentum. Quisque vel nulla <sup>quis</sup> odio imperdiet sollicitudin. Ut tincidunt arcu a dui consectetur, eget pharetra neque dictum.</p>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </foreign>
+      </tblock>
+     </content>
+    </subsection>
+   </section></body>
+ </bill>
+</akomaNtoso>

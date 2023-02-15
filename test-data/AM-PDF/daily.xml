@@ -1,0 +1,578 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd">
+    <amendmentList contains="originalVersion" name="hldaily">
+        <meta>
+            <identification source="#source">
+                <FRBRWork>
+                    <FRBRthis value="#varWork"/>
+                    <FRBRuri value="#varWorkUri"/>
+                    <FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+                    
+                    <FRBRdate date="9999-01-01" name="draft"/>
+                    <FRBRauthor href="#varAuthor"/>
+                    <FRBRcountry value="GB"/>
+                    
+                    
+                    <FRBRnumber value="#varListNo"/>
+                    <FRBRname value="HL Bill #varBillNo#varListNo"/>
+                    
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="#varExpression"/>
+                    <FRBRuri value="#varExpressionUri"/>
+                    <FRBRalias name="ttflVersionDescription" value="#varVDOiid"/>
+                    
+                    <FRBRdate date="9999-01-01" name="draft"/>
+                    <FRBRauthor href="#varAuthor"/>
+                    <FRBRversionNumber value=""/>
+                    <FRBRauthoritative value="false"/> 
+                    <FRBRmasterExpression href="" showAs=""/> 
+                    <FRBRlanguage language="eng"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="#varManifestation"/>
+                    <FRBRuri value="#varManifestationUri"/>
+                    <FRBRdate date="9999-01-01" name="akn_xml"/>
+                    <FRBRauthor href="#varAuthor"/>
+                    <FRBRformat value="application/akn+xml"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#author">
+                
+                
+                <TLCConcept eId="varBillTitle" href="#varOntologies" showAs="moiton to amend order"/>
+                <TLCConcept eId="varHouse" href="#varOntologies" showAs="House of Lords"/>
+                <TLCConcept eId="varDraftListDescription" href="#varOntologies" showAs="daily"/>
+                
+                <TLCProcess eId="varBillStageVersion" href="#varOntologies" showAs="Ping Pong #varBillNo"/>
+                
+                
+                <TLCProcess eId="varStageVersion" href="#varOntologies" showAs="Ping Pong"/>
+                
+                
+                <TLCProcess eId="varProjectId" href="#varOntologies" showAs="UK000001"/>
+                
+                
+                <TLCProcess eId="varWork" href="#varOntologies" showAs=""/>
+                <TLCProcess eId="varWorkUri" href="#varOntologies" showAs="#varWork"/>
+                
+                <TLCProcess eId="varCHOiid" href="#varOntologies" showAs=""/>
+                
+                <TLCProcess eId="varExpression" href="#varOntologies" showAs="0c5a563f-48e9-465c-856e-cdea989f342f"/>
+                <TLCProcess eId="varExpressionUri" href="#varOntologies" showAs="dma:///45e6b900-8929-11d4-b772-0050da06bfb4/80742cea-0ebb-4cf6-9759-1e52358d9b5b/;guid=0c5a563f-48e9-465c-856e-cdea989f342f;class=Amendment%20List%20Version%20Description"/>
+                
+                <TLCProcess eId="varVDOiid" href="#varOntologies" showAs=""/>
+                <TLCProcess eId="varManifestation" href="#varOntologies" showAs="#varExpression/akn"/>
+                <TLCProcess eId="varManifestationUri" href="#varOntologies" showAs="#varManifestation"/>
+                
+                <TLCConcept eId="varPublishDate" href="#varOntologies" showAs="2023-01-30"/>
+                
+                <TLCConcept eId="varDocType" href="#varOntologies" showAs="hldaily"/>
+                <TLCProcess eId="varSystem" href="#varOntologies" showAs="LawMaker"/>
+                
+                <TLCOrganization eId="varAuthor" href="#varOntologies" showAs="House of Lords"/>
+                <TLCLocation eId="varJurisdiction" href="#varOntologies" showAs="United Kingdom"/>
+                <TLCConcept eId="varOntologies" href="http://legislation.gov.uk/ontologies/legis" showAs="http://legislation.gov.uk/ontologies/legis"/>
+                
+                <TLCConcept eId="varListType" href="#varOntologies" showAs="D"/>
+                
+                <TLCConcept eId="varListNo" href="#varOntologies" showAs=""/>
+                
+                <TLCConcept eId="varVersionLabel" href="#varOntologies" showAs=""/>
+                
+                <TLCConcept eId="varBillNoComp" href="#varOntologies" showAs=""/>
+                <TLCConcept eId="varBillNo" href="#varOntologies" showAs=""/>
+                <TLCConcept eId="varSessionNo" href="#varOntologies" showAs=""/>
+                <TLCConcept eId="varBillYear" href="#varOntologies" showAs=""/>
+                <TLCConcept eId="varSession" href="#varOntologies" showAs=""/>
+                
+                
+                <TLCConcept eId="varBillName" href="#varOntologies" showAs="ukpubb"/>
+            </references>
+        </meta>
+        <preface GUID="_0af290a3-31e5-4189-8f03-d1c6e1600ab4" eId="preface">
+            
+            
+            <block name="billTitle"><affectedDocument href="https://lawmaker.legislation.gov.uk/pdr/UK000001/bill@ping_pong_#varbillno"><ref class="placeholder" href="#varBillTitle"/></affectedDocument></block>
+            
+            <blockContainer class="title">
+                <p>Motion to be moved</p>
+                <p>on consideration of</p>
+                
+                
+                
+            </blockContainer>
+        </preface>
+        <collectionBody><component class="amendment"><amendment name="hlppmotion">
+     
+     <meta>
+      <identification source="#ldapp">
+       <FRBRWork>
+        <FRBRthis value=""/>
+        <FRBRuri value=""/>
+        <FRBRalias name="chamberCiteURI" value=""/>
+        <FRBRalias name="ttflConfigHistory" value=""/>
+        <FRBRdate date="9999-01-01" name=""/>
+        <FRBRauthor href="House of Lords"/>
+        <FRBRcountry value="UK"/>
+        <FRBRnumber value=""/>
+       </FRBRWork>
+       <FRBRExpression>
+        <FRBRthis value=""/>
+        <FRBRuri value=""/>
+        <FRBRalias name="chamberCiteURI" value=""/>
+        <FRBRalias name="ttflVersionDescription" value=""/>
+        <FRBRdate date="9999-01-01" name=""/>
+        <FRBRauthor href="House of Lords"/>
+        <FRBRlanguage language="eng"/>
+       </FRBRExpression>
+       <FRBRManifestation>
+        <FRBRthis value=""/>
+        <FRBRuri value=""/>
+        <FRBRalias name="chamberCiteURI" value=""/>
+        <FRBRdate date="9999-01-01" name=""/>
+        <FRBRauthor href="House of Lords"/>
+        <FRBRformat value="application/akn+xml"/>
+       </FRBRManifestation>
+      </identification>
+      <workflow source="#ldapp">
+       <step GUID="_2667a64e-5a6a-4985-aa61-1bb766d8fc1f" by="#proponent" date="9999-01-01T00:00:00" eId="motion_HoL1__step" outcome="#draft"/>
+       <step GUID="_4dbba518-e320-4f5c-944e-c86100fab0e7" by="#proponent" date="2023-01-30T09:17:04.401Z" eId="motion_HoL1__step__oc_1" outcome="#submitted"/>
+       <step GUID="_680dfe71-7583-4c8a-a4fc-ab1c5fd5ba68" by="#proponent" date="2023-01-30T09:17:16.705Z" eId="motion_HoL1__step__oc_2" outcome="#tabled"/>
+       <step GUID="_e45c3ef3-6adc-476c-b63f-2765f96a7b66" by="#proponent" date="2023-01-30T09:17:27.204Z" eId="motion_HoL1__step__oc_3" outcome="#agreed"/>
+      </workflow>
+      <references source="#author">
+       <TLCPerson GUID="_c550c3e9-99dd-40d2-8351-773a5a80d227" eId="motion_HoL1#person-4167" href="#Baroness_Benjamin" showAs="Baroness Benjamin" ukl:class="varProposer"/>
+      </references>
+     </meta>
+     <preface GUID="_ef17361f-b5a8-4031-9d74-87ea80155517" eId="motion_HoL1__fnt">
+      <block name="title"><affectedDocument href="https://lawmaker.legislation.gov.uk/pdr/UK000001/bill@ping_pong_#varbillno"><ref class="placeholder" href="#varBillTitle"/></affectedDocument> — <docStage>Ping Pong</docStage></block>
+     </preface>
+     <amendmentBody GUID="_0a4d15aa-d8d6-4219-8c80-39ca3fea5d2f" eId="motion_HoL1" ukl:location="" ukl:targetPage="" ukl:targetProvision="amnd_1" ukl:type="">
+      <amendmentHeading GUID="_22f69168-380e-4212-bbac-c5c2ed9fd7cd" eId="motion_HoL1__hdg">
+       <tblock GUID="_dceedd7a-8338-4297-98b1-18196ade5d02" class="motionHeading" eId="motion_HoL1__hdg__messageHdg_1">
+        <num ukl:dnum="HoL1">1</num>
+        <block name="ppMotionContext">Commons Amendment 1</block>
+       </tblock>
+      </amendmentHeading>
+      <amendmentContent GUID="_91d0c151-4401-4d80-a6bd-0cd0187dfce3" eId="motion_HoL1__cont">
+       <blockContainer GUID="_1934f4cd-f6da-4902-9c56-52e298a8cb63" class="hlMotionBody" eId="motion_HoL1__cont__body">
+        <block name="instruction"><docIntroducer refersTo="motion_HoL1#person-4167">Baroness Benjamin</docIntroducer> to move, That this House do disagree with the Commons in their Amendment 1</block>
+        <tblock GUID="_6cfefafc-e617-4899-837d-cfab37faf63a" class="amendment" eId="motion_HoL1__cont__body__amnd">
+         <tblock class="amendmentBody">
+          <num/>
+          <block name="instruction">
+           <mod>After Clause <inline name="placeholder"/>, insert the following new Clause—<quotedStructure GUID="_fce05ee7-fcdf-40cf-9b45-7ca98db3e35b" eId="motion_HoL1__cont__body__amnd__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+             <section GUID="_ddaa11ed-9507-4d8f-b030-d86b03fad3f9" class="prov1" eId="motion_HoL1__cont__body__amnd__qstr__sec">
+              <num/>
+              <heading GUID="_4827790a-9391-4663-b463-bc73b303d1fe" eId="motion_HoL1__cont__body__amnd__qstr__sec__hdg"/>
+              <subsection GUID="_002348ba-f89c-4d59-b50b-064caec4460d" class="prov2" eId="motion_HoL1__cont__body__amnd__qstr__sec__subsec_1">
+               <num>(1)</num>
+               <content>
+                <p/>
+               </content>
+              </subsection>
+             </section>
+            </quotedStructure><inline name="AppendText"/>
+           </mod>
+          </block>
+         </tblock>
+        </tblock>
+       </blockContainer>
+      </amendmentContent>
+     </amendmentBody>
+    </amendment></component><component class="amendment"><amendment name="hlppmotion">
+     
+     <meta>
+      <identification source="#ldapp">
+       <FRBRWork>
+        <FRBRthis value=""/>
+        <FRBRuri value=""/>
+        <FRBRalias name="chamberCiteURI" value=""/>
+        <FRBRalias name="ttflConfigHistory" value=""/>
+        <FRBRdate date="9999-01-01" name=""/>
+        <FRBRauthor href="House of Lords"/>
+        <FRBRcountry value="UK"/>
+        <FRBRnumber value=""/>
+       </FRBRWork>
+       <FRBRExpression>
+        <FRBRthis value=""/>
+        <FRBRuri value=""/>
+        <FRBRalias name="chamberCiteURI" value=""/>
+        <FRBRalias name="ttflVersionDescription" value=""/>
+        <FRBRdate date="9999-01-01" name=""/>
+        <FRBRauthor href="House of Lords"/>
+        <FRBRlanguage language="eng"/>
+       </FRBRExpression>
+       <FRBRManifestation>
+        <FRBRthis value=""/>
+        <FRBRuri value=""/>
+        <FRBRalias name="chamberCiteURI" value=""/>
+        <FRBRdate date="9999-01-01" name=""/>
+        <FRBRauthor href="House of Lords"/>
+        <FRBRformat value="application/akn+xml"/>
+       </FRBRManifestation>
+      </identification>
+      <workflow source="#ldapp">
+       <step GUID="_f8eceeec-33ea-4976-a0a3-c32888c2cfae" by="#proponent" date="9999-01-01T00:00:00" eId="motion_HoL2__step" outcome="#draft"/>
+       <step GUID="_a33ae734-b246-4fbd-b100-9f75f2ece23c" by="#proponent" date="2023-01-30T09:17:04.426Z" eId="motion_HoL2__step__oc_1" outcome="#submitted"/>
+       <step GUID="_2a28ce9c-a3e2-4e46-8c56-d65f6d9a66ab" by="#proponent" date="2023-01-30T09:17:16.734Z" eId="motion_HoL2__step__oc_2" outcome="#tabled"/>
+      </workflow>
+      <references source="#author">
+       <TLCPerson GUID="_763689b2-e475-4a6f-aa4d-46ddfc28bc0d" eId="motion_HoL2#person-3474" href="#Baroness_Anelay_of_St_Johns" showAs="Baroness Anelay of St Johns" ukl:class="varProposer"/>
+      </references>
+     </meta>
+     <preface GUID="_e4f5720b-d798-4cbd-8ced-cf79c30af907" eId="motion_HoL2__fnt">
+      <block name="title"><affectedDocument href="https://lawmaker.legislation.gov.uk/pdr/UK000001/bill@ping_pong_#varbillno"><ref class="placeholder" href="#varBillTitle"/></affectedDocument> — <docStage>Ping Pong</docStage></block>
+     </preface>
+     <amendmentBody GUID="_b9516ff4-108d-4e14-908b-f5f65a26f648" eId="motion_HoL2" ukl:location="" ukl:targetPage="" ukl:targetProvision="amnd_2" ukl:type="">
+      <amendmentHeading GUID="_43648e10-6a21-46d4-acf9-b61931029cd2" eId="motion_HoL2__hdg">
+       <tblock GUID="_34f741e6-2b95-44a7-9a98-a1f89b9a4570" class="motionHeading" eId="motion_HoL2__hdg__messageHdg_2">
+        <num ukl:dnum="HoL2">2</num>
+        <block name="ppMotionContext">Commons Amendment 2</block>
+       </tblock>
+      </amendmentHeading>
+      <amendmentContent GUID="_e4b33d92-df11-450b-bbb8-719cc2eec968" eId="motion_HoL2__cont">
+       <blockContainer GUID="_94dd3534-b72a-408a-bcab-dbc9a87a889c" class="hlMotionBody" eId="motion_HoL2__cont__body">
+        <block name="instruction"><docIntroducer refersTo="motion_HoL2#person-3474">Baroness Anelay of St Johns</docIntroducer> to move, That this House do disagree with the Commons in their Amendment 2</block>
+        <tblock GUID="_f801d7ba-3144-4c3f-83b3-1b43985ef75b" class="amendment" eId="motion_HoL2__cont__body__amnd">
+         <tblock class="amendmentBody">
+                                        <block name="amendmentContext">first one</block>
+          <num>2A</num>
+          <block name="instruction">
+           <mod>After Clause <inline name="placeholder"/>, insert the following new Clause—<quotedStructure GUID="_8a17bd91-eb0e-481a-a4a4-4cb1ed24a2d7" eId="motion_HoL2__cont__body__amnd__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+             <section GUID="_4bd7f63a-5c36-4601-8250-dd8a95ecb3cc" class="prov1" eId="motion_HoL2__cont__body__amnd__qstr__sec">
+              <num/>
+              <heading GUID="_69932f46-c352-4fcf-bfb1-318c08ea1a57" eId="motion_HoL2__cont__body__amnd__qstr__sec__hdg"/>
+              <subsection GUID="_4795c8ce-19e7-473c-b649-b792d25190e8" class="prov2" eId="motion_HoL2__cont__body__amnd__qstr__sec__subsec_1">
+               <num>(1)</num>
+               <content>
+                <p/>
+               </content>
+              </subsection>
+             </section>
+            </quotedStructure><inline name="AppendText"/>
+           </mod>
+          </block>
+         </tblock>
+        </tblock>
+       </blockContainer>
+      </amendmentContent>
+     </amendmentBody>
+    </amendment></component><component class="amendment"><amendment name="hlppmotion">
+     
+     <meta>
+      <identification source="#ldapp">
+       <FRBRWork>
+        <FRBRthis value=""/>
+        <FRBRuri value=""/>
+        <FRBRalias name="chamberCiteURI" value=""/>
+        <FRBRalias name="ttflConfigHistory" value=""/>
+        <FRBRdate date="9999-01-01" name=""/>
+        <FRBRauthor href="House of Lords"/>
+        <FRBRcountry value="UK"/>
+        <FRBRnumber value=""/>
+       </FRBRWork>
+       <FRBRExpression>
+        <FRBRthis value=""/>
+        <FRBRuri value=""/>
+        <FRBRalias name="chamberCiteURI" value=""/>
+        <FRBRalias name="ttflVersionDescription" value=""/>
+        <FRBRdate date="9999-01-01" name=""/>
+        <FRBRauthor href="House of Lords"/>
+        <FRBRlanguage language="eng"/>
+       </FRBRExpression>
+       <FRBRManifestation>
+        <FRBRthis value=""/>
+        <FRBRuri value=""/>
+        <FRBRalias name="chamberCiteURI" value=""/>
+        <FRBRdate date="9999-01-01" name=""/>
+        <FRBRauthor href="House of Lords"/>
+        <FRBRformat value="application/akn+xml"/>
+       </FRBRManifestation>
+      </identification>
+      <workflow source="#ldapp">
+       <step GUID="_5fa31ed8-06e8-4400-ac94-b1484d7a5ed6" by="#proponent" date="9999-01-01T00:00:00" eId="motion_HoL3__step" outcome="#draft"/>
+       <step GUID="_56d0ed9e-7e5e-403b-bd7c-d1dff151cf32" by="#proponent" date="2023-01-30T09:17:04.450Z" eId="motion_HoL3__step__oc_1" outcome="#submitted"/>
+       <step GUID="_57089c4d-254a-41ff-8585-c7ab05b16b62" by="#proponent" date="2023-01-30T09:17:16.761Z" eId="motion_HoL3__step__oc_2" outcome="#tabled"/>
+      </workflow>
+      <references source="#author">
+       <TLCPerson GUID="_2783bdee-0a86-4d50-9cc3-ad3120b4b8b6" eId="motion_HoL3#person-4150" href="#Baroness_Armstrong_of_Hill_Top" showAs="Baroness Armstrong of Hill Top" ukl:class="varProposer"/>
+      </references>
+     </meta>
+     <preface GUID="_57c0e13c-3e99-4568-a868-b30b31074d55" eId="motion_HoL3__fnt">
+      <block name="title"><affectedDocument href="https://lawmaker.legislation.gov.uk/pdr/UK000001/bill@ping_pong_#varbillno"><ref class="placeholder" href="#varBillTitle"/></affectedDocument> — <docStage>Ping Pong</docStage></block>
+     </preface>
+     <amendmentBody GUID="_a0905a5d-ffc4-45d2-9598-73852d090dd1" eId="motion_HoL3" ukl:location="" ukl:targetPage="" ukl:targetProvision="amnd_3" ukl:type="">
+      <amendmentHeading GUID="_d93fcc4f-89d1-453e-b6f9-51bdaec58f0c" eId="motion_HoL3__hdg">
+       <tblock GUID="_84f7777c-a13e-4aff-b12f-6ac4c9c5ef50" class="motionHeading" eId="motion_HoL3__hdg__messageHdg_3">
+        <num ukl:dnum="HoL3">3</num>
+        <block name="ppMotionContext">Commons Amendment 3</block>
+       </tblock>
+      </amendmentHeading>
+      <amendmentContent GUID="_0bcc4702-cf33-4ee1-a124-71b9bd2c9333" eId="motion_HoL3__cont">
+       <blockContainer GUID="_b98d83b0-bf89-4bd8-aec3-f7c4069f4aa0" class="hlMotionBody" eId="motion_HoL3__cont__body">
+        <block name="instruction"><docIntroducer refersTo="motion_HoL3#person-4150">Baroness Armstrong of Hill Top</docIntroducer> to move, That this House do disagree with the Commons in their Amendment 3</block>
+        <tblock GUID="_4588c2ff-c979-43dd-ac0c-e9dff7a4306c" class="amendment" eId="motion_HoL3__cont__body__amnd">
+         <tblock class="amendmentBody">
+                                        <block name="amendmentContext">Second one</block>
+          <num>3A</num>
+          <block name="instruction">
+           <mod>After Clause <inline name="placeholder"/>, insert the following new Clause—<quotedStructure GUID="_87aa1771-50dd-43b2-88c7-7e8eed826872" eId="motion_HoL3__cont__body__amnd__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+             <section GUID="_9552c930-8ad5-47de-a55e-74be1380802d" class="prov1" eId="motion_HoL3__cont__body__amnd__qstr__sec">
+              <num/>
+              <heading GUID="_90f15859-64a4-445e-8230-9ca33a3eccde" eId="motion_HoL3__cont__body__amnd__qstr__sec__hdg"/>
+              <subsection GUID="_126d3965-062d-46fd-8116-365d45de552b" class="prov2" eId="motion_HoL3__cont__body__amnd__qstr__sec__subsec_1">
+               <num>(1)</num>
+               <content>
+                <p/>
+               </content>
+              </subsection>
+             </section>
+            </quotedStructure><inline name="AppendText"/>
+           </mod>
+          </block>
+         </tblock>
+        </tblock>
+       </blockContainer>
+      </amendmentContent>
+     </amendmentBody>
+    </amendment></component><component class="amendment"><amendment name="hlppmotion">
+     
+     <meta>
+      <identification source="#ldapp">
+       <FRBRWork>
+        <FRBRthis value=""/>
+        <FRBRuri value=""/>
+        <FRBRalias name="chamberCiteURI" value=""/>
+        <FRBRalias name="ttflConfigHistory" value=""/>
+        <FRBRdate date="9999-01-01" name=""/>
+        <FRBRauthor href="House of Lords"/>
+        <FRBRcountry value="UK"/>
+        <FRBRnumber value=""/>
+       </FRBRWork>
+       <FRBRExpression>
+        <FRBRthis value=""/>
+        <FRBRuri value=""/>
+        <FRBRalias name="chamberCiteURI" value=""/>
+        <FRBRalias name="ttflVersionDescription" value=""/>
+        <FRBRdate date="9999-01-01" name=""/>
+        <FRBRauthor href="House of Lords"/>
+        <FRBRlanguage language="eng"/>
+       </FRBRExpression>
+       <FRBRManifestation>
+        <FRBRthis value=""/>
+        <FRBRuri value=""/>
+        <FRBRalias name="chamberCiteURI" value=""/>
+        <FRBRdate date="9999-01-01" name=""/>
+        <FRBRauthor href="House of Lords"/>
+        <FRBRformat value="application/akn+xml"/>
+       </FRBRManifestation>
+      </identification>
+      <workflow source="#ldapp">
+       <step GUID="_68c64a81-20c2-4228-8512-89bac74c103c" by="#proponent" date="9999-01-01T00:00:00" eId="motion_HoL4__step" outcome="#draft"/>
+       <step GUID="_1e2f491e-4bef-4f0c-8c0b-5195471d7422" by="#proponent" date="2023-01-30T09:17:04.473Z" eId="motion_HoL4__step__oc_1" outcome="#submitted"/>
+       <step GUID="_a00c59a4-436b-4fa1-9bae-362aec1a6d08" by="#proponent" date="2023-01-30T09:17:16.786Z" eId="motion_HoL4__step__oc_2" outcome="#tabled"/>
+      </workflow>
+      <references source="#author">
+       <TLCPerson GUID="_20f11d62-c304-4aa9-ba39-31027b6af844" eId="motion_HoL4#person-3898" href="#Lord_Aberdare" showAs="Lord Aberdare" ukl:class="varProposer"/>
+      </references>
+     </meta>
+     <preface GUID="_7b48d156-d28e-4161-9498-30db94470015" eId="motion_HoL4__fnt">
+      <block name="title"><affectedDocument href="https://lawmaker.legislation.gov.uk/pdr/UK000001/bill@ping_pong_#varbillno"><ref class="placeholder" href="#varBillTitle"/></affectedDocument> — <docStage>Ping Pong</docStage></block>
+     </preface>
+     <amendmentBody GUID="_f51ed122-0542-4745-84ac-087cf6daf3b2" eId="motion_HoL4" ukl:location="" ukl:targetPage="" ukl:targetProvision="amnd_4" ukl:type="">
+      <amendmentHeading GUID="_6ec9d4e5-f98e-4844-9e7f-3e08784bb02e" eId="motion_HoL4__hdg">
+       <tblock GUID="_4ac3813e-361f-43ae-8338-88b426d9af06" class="motionHeading" eId="motion_HoL4__hdg__messageHdg_4">
+        <num ukl:dnum="HoL4">4</num>
+        <block name="ppMotionContext">Commons Amendment 4</block>
+       </tblock>
+      </amendmentHeading>
+      <amendmentContent GUID="_0ee20862-ef98-4d65-a0c8-544fcf5846b8" eId="motion_HoL4__cont">
+       <blockContainer GUID="_fa23bd6f-b67e-4c91-b264-c91a988baabe" class="hlMotionBody" eId="motion_HoL4__cont__body">
+        <block name="instruction"><docIntroducer refersTo="motion_HoL4#person-3898">Lord Aberdare</docIntroducer> to move, That this House do disagree with the Commons in their Amendment 4 but do propose the following amendment in lieu—</block>
+        <tblock GUID="_d2400844-a33e-4276-b9e2-2ae3350b8634" class="amendment" eId="motion_HoL4__cont__body__amnd">
+         <tblock class="amendmentBody">
+                                        <block name="amendmentContext">thrid one</block>
+          <num>4A</num>
+          <block name="instruction">
+           <mod>After Clause <inline name="placeholder"/>, insert the following new Clause—<quotedStructure GUID="_44e957b5-d7ef-42f2-b4b1-fe2ab1d14428" eId="motion_HoL4__cont__body__amnd__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+             <section GUID="_6ffcf184-24b5-40a2-b7e1-a1a265bac519" class="prov1" eId="motion_HoL4__cont__body__amnd__qstr__sec">
+              <num/>
+              <heading GUID="_8de76e72-611d-4b50-af09-6d0eee6f1435" eId="motion_HoL4__cont__body__amnd__qstr__sec__hdg"/>
+              <subsection GUID="_d9b34061-3698-4ba2-8525-b80310137a4a" class="prov2" eId="motion_HoL4__cont__body__amnd__qstr__sec__subsec_1">
+               <num>(1)</num>
+               <content>
+                <p/>
+               </content>
+              </subsection>
+             </section>
+            </quotedStructure><inline name="AppendText"/>
+           </mod>
+          </block>
+         </tblock>
+        </tblock>
+       </blockContainer>
+      </amendmentContent>
+     </amendmentBody>
+    </amendment></component><component class="amendment"><amendment name="hlppmotion">
+     
+     <meta>
+      <identification source="#ldapp">
+       <FRBRWork>
+        <FRBRthis value=""/>
+        <FRBRuri value=""/>
+        <FRBRalias name="chamberCiteURI" value=""/>
+        <FRBRalias name="ttflConfigHistory" value=""/>
+        <FRBRdate date="9999-01-01" name=""/>
+        <FRBRauthor href="House of Lords"/>
+        <FRBRcountry value="UK"/>
+        <FRBRnumber value=""/>
+       </FRBRWork>
+       <FRBRExpression>
+        <FRBRthis value=""/>
+        <FRBRuri value=""/>
+        <FRBRalias name="chamberCiteURI" value=""/>
+        <FRBRalias name="ttflVersionDescription" value=""/>
+        <FRBRdate date="9999-01-01" name=""/>
+        <FRBRauthor href="House of Lords"/>
+        <FRBRlanguage language="eng"/>
+       </FRBRExpression>
+       <FRBRManifestation>
+        <FRBRthis value=""/>
+        <FRBRuri value=""/>
+        <FRBRalias name="chamberCiteURI" value=""/>
+        <FRBRdate date="9999-01-01" name=""/>
+        <FRBRauthor href="House of Lords"/>
+        <FRBRformat value="application/akn+xml"/>
+       </FRBRManifestation>
+      </identification>
+      <workflow source="#ldapp">
+       <step GUID="_d0ed75fc-cf8f-4561-ba81-037bb387ea77" by="#proponent" date="9999-01-01T00:00:00" eId="motion_HoL5__step" outcome="#draft"/>
+       <step GUID="_0f9309fc-36c9-4886-ae6d-81e24b25d285" by="#proponent" date="2023-01-30T09:17:04.497Z" eId="motion_HoL5__step__oc_1" outcome="#submitted"/>
+       <step GUID="_16cf98a6-850c-4a04-be53-9f4b408d25f0" by="#proponent" date="2023-01-30T09:17:16.808Z" eId="motion_HoL5__step__oc_2" outcome="#tabled"/>
+      </workflow>
+      <references source="#author">
+       <TLCPerson GUID="_e667016a-06af-4212-bea8-12df5d019992" eId="motion_HoL5#person-568" href="#Lord_Anderson_of_Swansea" showAs="Lord Anderson of Swansea" ukl:class="varProposer"/>
+      </references>
+     </meta>
+     <preface GUID="_94186e36-4768-4c92-907c-9b211cfda3d0" eId="motion_HoL5__fnt">
+      <block name="title"><affectedDocument href="https://lawmaker.legislation.gov.uk/pdr/UK000001/bill@ping_pong_#varbillno"><ref class="placeholder" href="#varBillTitle"/></affectedDocument> — <docStage>Ping Pong</docStage></block>
+     </preface>
+     <amendmentBody GUID="_7c13ed19-7c4a-4e13-b90b-6c9ca4cbbb5a" eId="motion_HoL5" ukl:location="" ukl:targetPage="" ukl:targetProvision="amnd_5" ukl:type="">
+      <amendmentHeading GUID="_dea2eaea-2cda-4fa3-b743-af5d00d9464a" eId="motion_HoL5__hdg">
+       <tblock GUID="_45f67ba0-d405-4241-b53f-eae5be72e7bb" class="motionHeading" eId="motion_HoL5__hdg__messageHdg_5">
+        <num ukl:dnum="HoL5">5</num>
+        <block name="ppMotionContext">Commons Amendment 5</block>
+       </tblock>
+       <block name="amendContext">[As an amendment consequential on Commons Amendment 5]</block>
+       <block name="proposer">
+        <docIntroducer refersTo="motion_HoL5#person-568">Lord Anderson of Swansea</docIntroducer>
+       </block>
+      </amendmentHeading>
+      <amendmentContent GUID="_75475db4-7199-4e70-a99e-36ca4610843a" eId="motion_HoL5__cont">
+       <blockContainer GUID="_dc56287d-f430-40fc-a396-f1b04059677d" class="hlMotionBody" eId="motion_HoL5__cont__body">
+        <tblock GUID="_a814b759-3faf-41ef-be1f-473df53a80ec" class="amendment" eId="motion_HoL5__cont__body__amnd">
+         <tblock GUID="_ea1a37b0-6755-427a-aca7-ebb0d6571fdd" class="amendmentBody">
+                                        <block name="amendmentContext">foriuth one</block>
+          <num>6</num>
+          <block name="instruction">Line 1, after “ash” insert “mulamvmvgh jkghjkghjkg hjk ghjkg hjkghjk ghjk ghjk ghjk ghjk ghjk ghj kghj kgjhaa”</block>
+         </tblock>
+        </tblock>
+       </blockContainer>
+      </amendmentContent>
+     </amendmentBody>
+    </amendment></component><component class="amendment"><amendment name="hlppmotion">
+     
+     <meta>
+      <identification source="#ldapp">
+       <FRBRWork>
+        <FRBRthis value=""/>
+        <FRBRuri value=""/>
+        <FRBRalias name="chamberCiteURI" value=""/>
+        <FRBRalias name="ttflConfigHistory" value=""/>
+        <FRBRdate date="9999-01-01" name=""/>
+        <FRBRauthor href="House of Lords"/>
+        <FRBRcountry value="UK"/>
+        <FRBRnumber value=""/>
+       </FRBRWork>
+       <FRBRExpression>
+        <FRBRthis value=""/>
+        <FRBRuri value=""/>
+        <FRBRalias name="chamberCiteURI" value=""/>
+        <FRBRalias name="ttflVersionDescription" value=""/>
+        <FRBRdate date="9999-01-01" name=""/>
+        <FRBRauthor href="House of Lords"/>
+        <FRBRlanguage language="eng"/>
+       </FRBRExpression>
+       <FRBRManifestation>
+        <FRBRthis value=""/>
+        <FRBRuri value=""/>
+        <FRBRalias name="chamberCiteURI" value=""/>
+        <FRBRdate date="9999-01-01" name=""/>
+        <FRBRauthor href="House of Lords"/>
+        <FRBRformat value="application/akn+xml"/>
+       </FRBRManifestation>
+      </identification>
+      <workflow source="#ldapp">
+       <step GUID="_1a2fbe4f-ea67-4b13-9936-b915b0b8bce1" by="#proponent" date="9999-01-01T00:00:00" eId="motion_HoL6__step" outcome="#draft"/>
+       <step GUID="_cf94b46f-f424-4967-b3e3-da4fb05987ce" by="#proponent" date="2023-01-30T09:17:04.520Z" eId="motion_HoL6__step__oc_1" outcome="#submitted"/>
+       <step GUID="_0c91b327-64d0-4030-a161-149c07f603e1" by="#proponent" date="2023-01-30T09:17:16.830Z" eId="motion_HoL6__step__oc_2" outcome="#tabled"/>
+      </workflow>
+      <references source="#author">
+       <TLCPerson GUID="_1cf9860b-159a-47d6-aac0-7dd3251b5a2b" eId="motion_HoL6#person-3477" href="#Baroness_Amos" showAs="Baroness Amos" ukl:class="varProposer"/>
+      </references>
+     </meta>
+     <preface GUID="_0371d8da-b876-4432-9bea-32ce00926948" eId="motion_HoL6__fnt">
+      <block name="title"><affectedDocument href="https://lawmaker.legislation.gov.uk/pdr/UK000001/bill@ping_pong_#varbillno"><ref class="placeholder" href="#varBillTitle"/></affectedDocument> — <docStage>Ping Pong</docStage></block>
+     </preface>
+     <amendmentBody GUID="_c4b1fb8b-2b32-4f29-b07c-7e7d8152385e" eId="motion_HoL6" ukl:location="" ukl:targetPage="" ukl:targetProvision="amnd_7" ukl:type="">
+      <amendmentHeading GUID="_34fc96b6-91b7-445d-8c1a-c0cdedcd4555" eId="motion_HoL6__hdg">
+       <tblock GUID="_5cff919b-6ee1-4184-b9d8-7b05d400607c" class="motionHeading" eId="motion_HoL6__hdg__messageHdg_7">
+        <num ukl:dnum="HoL6"/>
+        <block name="ppMotionContext">Commons Amendment 7</block>
+       </tblock>
+      </amendmentHeading>
+      <amendmentContent GUID="_f9c2e587-debb-4e9b-b949-a1079d0723e5" eId="motion_HoL6__cont">
+       <blockContainer GUID="_506e89f7-6fce-4850-a40f-d81c3f695210" class="hlMotionBody" eId="motion_HoL6__cont__body">
+        <block name="instruction"><docIntroducer refersTo="motion_HoL6#person-3477">Baroness Amos</docIntroducer> to move, That this House do agree with the Commons in their Amendment 7</block>
+        <tblock GUID="_2b86519f-64fe-41be-9640-f077fdb4a28e" class="amendment" eId="motion_HoL6__cont__body__amnd">
+         <tblock class="amendmentBody">
+                                        <block name="amendmentContext">fifths one</block>
+          <num/>
+          <block name="instruction">
+           <mod>After Clause <inline name="placeholder"/>, insert the following new Clause—<quotedStructure GUID="_bcad12a0-06d0-4174-b069-8840a6ed72da" eId="motion_HoL6__cont__body__amnd__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+             <section GUID="_f75ffc99-482e-434a-92a6-05c9239f99f5" class="prov1" eId="motion_HoL6__cont__body__amnd__qstr__sec">
+              <num/>
+              <heading GUID="_878540a4-58f3-4b46-8f7b-3107aa11aef8" eId="motion_HoL6__cont__body__amnd__qstr__sec__hdg"/>
+              <subsection GUID="_a0a4d7ed-f4a6-4ecd-9a2d-75ac1f538e73" class="prov2" eId="motion_HoL6__cont__body__amnd__qstr__sec__subsec_1">
+               <num>(1)</num>
+               <content>
+                <p/>
+               </content>
+              </subsection>
+             </section>
+            </quotedStructure><inline name="AppendText"/>
+           </mod>
+          </block>
+         </tblock>
+        </tblock>
+       </blockContainer>
+      </amendmentContent>
+     </amendmentBody>
+    </amendment></component></collectionBody>
+        <conclusions eId="backCover">
+            
+            <block name="billTitle"><affectedDocument href=""><ref class="placeholder" href="#varBillTitle"/></affectedDocument></block>
+            <blockContainer class="title" eId="backCover_container1">
+                <p>Motion to be moved</p>
+                <p>on consideration of</p>
+                
+                
+            </blockContainer>
+            <block name="date"><docDate date="9999-12-31"><ref class="placeholder" href="#varPublishDate" ukl:dateFormat="d MMMM yyyy">30 January 2023</ref></docDate></block>
+            <tblock class="publishingStatement">
+                <p>Published by authority of the <ref class="placeholder" href="#varHouse"/></p>
+            </tblock>
+        </conclusions>
+    </amendmentList>
+</akomaNtoso>

@@ -1,0 +1,529 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd"><?DMS-Component componentId="fce99bf5-3589-4bcb-8b38-cfccffa4432c" seriesId="0c383429-adaa-4a07-99ec-c7936fbc7280" versionNumber="1"?>
+ <bill contains="originalVersion" name="ukpubb">
+  
+  <meta><?DMS-Component componentId="06693b32-cc4b-4a22-ae6d-49fd68b20c91" seriesId="d16bf356-4ac0-4a23-9069-4e9bb58a5ba7" versionNumber="1"?>
+   <identification source="#author">
+    <FRBRWork>
+     <FRBRthis value="#varWork"/>
+     <FRBRuri value="#varWorkUri"/>
+     <FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+     
+     <FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+     <FRBRdate date="9999-01-01" name="draft"/>
+     <FRBRauthor href="#varAuthor"/>
+     <FRBRcountry value="GB-UKM"/>
+     <FRBRsubtype value="#varDocSubType"/>
+     <FRBRnumber value="#varProjectId"/>
+     <FRBRname value="#varBillTitle"/>
+     <FRBRprescriptive value="true"/>
+     <FRBRauthoritative value="false"/>
+    </FRBRWork>
+    <FRBRExpression>
+     <FRBRthis value="#varExpression"/>
+     <FRBRuri value="#varExpressionUri"/>
+     <FRBRalias name="ttflVersionDescription" value="#varVDOiid"/>
+     <FRBRdate date="9999-01-01" name="draft"/>
+     <FRBRauthor href="#varAuthor"/>
+     <FRBRversionNumber value=""/>
+     <FRBRauthoritative value="false"/>
+     
+     <FRBRmasterExpression href="" showAs=""/>
+     
+     <FRBRlanguage language="eng"/>
+    </FRBRExpression>
+    <FRBRManifestation>
+     <FRBRthis value="#varManifestation"/>
+     <FRBRuri value="#varManifestationUri"/>
+     <FRBRdate date="9999-01-01" name="akn_xml"/>
+     <FRBRauthor href="#varAuthor"/>
+     <FRBRformat value="application/akn+xml"/>
+    </FRBRManifestation>
+   </identification>
+   
+   <references source="#author">
+    
+    <TLCConcept GUID="_c059e86d-3f83-4e67-8fe2-0fd8d8090f71" eId="varDocSubType" href="#varOntologies" showAs="Government Bill"/>
+    <TLCConcept GUID="_f5f54a09-f356-45b9-820f-7013aa2d6d09" eId="varBillTitle" href="#varOntologies" showAs="Long Number Test Bill"/>
+    
+    <TLCConcept GUID="_81b26270-145b-4919-933a-55646496b7fd" eId="varHouse" href="#varOntologies" showAs="House of Commons"/>
+    
+    <TLCProcess GUID="_45b1e178-d6b7-4d6f-a437-39b0746dd9b6" eId="varStageVersion" href="#varOntologies" showAs="Pre-Introduction"/>
+    <TLCProcess GUID="_45ae8bed-2ca9-451b-8e90-1177b3460214" eId="varProjectId" href="#varOntologies" showAs="UK002070"/>
+    <TLCProcess GUID="_4b056dab-356d-4eb4-a627-782c0f6cc0b0" eId="varWork" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_4cf106ad-49a0-434d-a6ef-7958c6a1405a" eId="varWorkUri" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_02738794-37b3-454f-9d70-b206f2c122f4" eId="varCHOiid" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_8a46fe01-057f-40c4-b95d-ff2b08c3bef7" eId="varExpression" href="#varOntologies" showAs="47c0c035-6508-4cbb-959f-0a8b4d5715d1"/>
+    <TLCProcess GUID="_3288a98c-9def-4850-b770-c93284de1474" eId="varExpressionUri" href="#varOntologies" showAs="dma:///45e6b900-8929-11d4-b772-0050da06bfb4/80742cea-0ebb-4cf6-9759-1e52358d9b5b/;guid=47c0c035-6508-4cbb-959f-0a8b4d5715d1;class=Version%20Description"/>
+    <TLCProcess GUID="_b6452887-e755-4047-8e7e-1f40f31aa03a" eId="varVDOiid" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_9d62552b-cba0-4d3b-9d0c-524fe450b583" eId="varManifestation" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_ac1f6131-7ffb-4623-86a1-f3b614ae81bb" eId="varManifestationUri" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_3675a642-4696-48ed-9fc4-73aaa3e51490" eId="varActYear" href="#varOntologies" showAs=""/>
+    
+    <TLCConcept GUID="_034f2014-2a59-4a60-b596-da7700cb2da9" eId="varActTitle" href="#varOntologies" showAs=""/>
+    
+    <TLCConcept GUID="_b750bf40-70c7-4c55-9ace-8ff0723d0b5a" eId="varIntroDate" href="#varOntologies" showAs=""/>
+    
+    <TLCConcept GUID="_21c0251f-fc4b-42cf-a127-9731f9dd4452" eId="varPublicationDate" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_cb0dbac6-15f0-4a59-8850-915892e6fa8f" eId="varBillNoComp" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_d8f8d3aa-b7b0-4def-8aa9-35ee124cae72" eId="varBillNo" href="#varOntologies" showAs=""/>
+    
+    <TLCConcept GUID="_2139d587-8c23-42e9-b74c-f6466ccbbf19" eId="varSessionNo" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_6fe46f64-f5e6-4058-ac37-ab90506add82" eId="varBillYear" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_a34480f1-79a9-48b9-816e-ca46ec0045da" eId="varSession" href="#varOntologies" showAs=""/>
+    
+    <TLCConcept GUID="_95c4fb02-728a-4e50-84fb-05088e6f68a5" eId="varBroughtFromDate" href="#varOntologies" showAs=""/>
+    
+    <TLCConcept GUID="_45ef529d-a3c8-4bfb-8375-49b5bc98b9e8" eId="varPassedDate" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_064de470-bf98-4b32-b68d-01828b0cc201" eId="varAssentDate" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_9ffc308e-354d-441c-9dc0-3c723c8a2c83" eId="varActNoComp" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_52efd691-9cc9-4dbe-86bd-3cebc9064e74" eId="varActNo" href="#varOntologies" showAs=""/>
+    
+    
+    <TLCConcept GUID="_26e21768-cd2d-4ace-a4b5-f80918a5176a" eId="varDocType" href="#varOntologies" showAs="UK Bill"/>
+    <TLCConcept GUID="_3e03107f-b6f3-47db-8656-f119186049f0" eId="varSystem" href="#varOntologies" showAs="LDAPP"/>
+    <TLCConcept GUID="_ba9df61e-064e-4551-9f11-ededb6ab58d8" eId="varAuthor" href="#varOntologies" showAs="UK Parliament"/>
+    <TLCConcept GUID="_89fe3aef-2522-4966-9ccc-a902a01bdabd" eId="varJurisdiction" href="#varOntologies" showAs="United Kingdom"/>
+    <TLCConcept GUID="_90920b25-76f5-4b69-8af2-40393d3e0bb8" eId="varOntologies" href="https://www.legislation.gov.uk/ontologies/UK-AKN" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN"/>
+
+    
+    <TLCConcept GUID="_16ab0198-fe3f-4aae-ae2e-1fec45f103e6" eId="varSovereign" href="#varOntologies" showAs="Charles III"/>
+   </references>
+  </meta>
+  
+  <preface GUID="_bf97484e-b377-442d-bd09-98886787dbb0" eId="preface"><?DMS-Component componentId="d579c9e0-1155-4a04-a712-7e5f5ee8020a" seriesId="994c2cfd-249a-4d51-b925-d9fc54d962d6" versionNumber="0"?>
+   
+   
+   <block name="stageVersion">[<docStage><ref class="placeholder" href="#varStageVersion"/></docStage>]</block>
+   <longTitle GUID="_8ca00fb2-ee8f-4f0d-9ad5-2052897a0651" eId="preface__longtitle">
+    <p class="A">A</p>
+    <p class="Bill">bill</p>
+    <p class="To">to</p>
+    <p>Make provision to test long number handling in PDFs</p>
+   </longTitle>
+  </preface>
+  <preamble GUID="_5aec21de-e9f0-475f-a160-282c5fb3c451" eId="preamble"><?DMS-Component componentId="df7d2d7a-72ab-4284-815b-daeafe96c2b1" seriesId="74291d06-0fa2-43c6-8058-d935af3ca9de" versionNumber="1"?>
+   
+   <formula name="enactingText">
+    <p><inline name="dropCap">B</inline><inline name="smallCaps">e it enacted</inline> by the King’s most Excellent Majesty, by and with the advice and consent of the Lords Spiritual and Temporal, and Commons, in this present Parliament assembled, and by the authority of the same, as follows:—</p>
+   </formula>
+  </preamble>
+  <body><?DMS-Component componentId="bb3324d7-f207-4983-9aef-103e618e53dc" seriesId="6cb37673-42a4-4a41-8a2f-19d4f3b959d3" versionNumber="0"?>
+   <section GUID="_6d409076-ebd3-489c-ae63-4724bf8a34d4" class="prov1" eId="sec_1"><?DMS-Component componentId="76fdac09-12e2-42de-9eb4-0fea6c1b0a6f" seriesId="3e606268-080c-4549-9d25-61dce051144b" versionNumber="1"?>
+    <num><?L 1-1?>1</num>
+    <heading GUID="_894379ae-b27a-4354-9890-c8690d682b51" eId="sec_1__hdg">This is a section with subsections</heading>
+    <subsection GUID="_18d2279f-38e1-4139-b03f-fd40a45b2cdc" class="prov2" eId="sec_1__subsec_1">
+     <num><?L 1-2?>(1)</num>
+     <content>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus nibh <?L 1-3?>quis diam lacinia molestie. Suspendisse ut enim eget odio laoreet dignissim <?L 1-4?>fringilla in ex. Aliquam erat volutpat. Fusce varius egestas velit mollis porta. <?L 1-5?>Curabitur non feugiat diam. Fusce aliquam, ipsum quis ultricies condimentum, <?L 1-6?>est urna tempor arcu, eu ultricies est nisl efficitur elit.</p>
+     </content>
+    </subsection>
+    <subsection GUID="_e451ecde-5285-444f-9a18-382e16724260" class="prov2" eId="sec_1__subsec_27">
+     <num><?L 1-7?>(27)</num>
+     <content>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus nibh <?L 1-8?>quis diam lacinia molestie. Suspendisse ut enim eget odio laoreet dignissim <?L 1-9?>fringilla in ex. Aliquam erat volutpat. Fusce varius egestas velit mollis porta. <?L 1-10?>Curabitur non feugiat diam. Fusce aliquam, ipsum quis ultricies condimentum, <?L 1-11?>est urna tempor arcu, eu ultricies est nisl efficitur elit.</p>
+     </content>
+    </subsection>
+    <subsection GUID="_afb43228-5ffb-43f3-9632-6b49b0e63626" class="prov2" eId="sec_1__subsec_35A">
+     <num><?L 1-12?>(35A)</num>
+     <content>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus nibh <?L 1-13?>quis diam lacinia molestie. Suspendisse ut enim eget odio laoreet dignissim <?L 1-14?>fringilla in ex. Aliquam erat volutpat. Fusce varius egestas velit mollis porta. <?L 1-15?>Curabitur non feugiat diam. Fusce aliquam, ipsum quis ultricies condimentum, <?L 1-16?>est urna tempor arcu, eu ultricies est nisl efficitur elit.</p>
+     </content>
+    </subsection>
+    <subsection GUID="_e059b5dc-9559-4ac5-8c76-d877727724d3" class="prov2" eId="sec_1__subsec_4ZZA">
+     <num><?L 1-17?>(4ZZA)</num>
+     <content>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus nibh <?L 1-18?>quis diam lacinia molestie. Suspendisse ut enim eget odio laoreet dignissim <?L 1-19?>fringilla in ex. Aliquam erat volutpat. Fusce varius egestas velit mollis porta. <?L 1-20?>Curabitur non feugiat diam. Fusce aliquam, ipsum quis ultricies condimentum, <?L 1-21?>est urna tempor arcu, eu ultricies est nisl efficitur elit.</p>
+     </content>
+    </subsection>
+    <subsection GUID="_7e7af8a9-3731-4e02-9ea6-9adda73b97bb" class="prov2" eId="sec_1__subsec_53AAB">
+     <num><?L 1-22?>(53AAB)</num>
+     <content>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus nibh <?L 1-23?>quis diam lacinia molestie. Suspendisse ut enim eget odio laoreet dignissim <?L 1-24?>fringilla in ex. Aliquam erat volutpat. Fusce varius egestas velit mollis porta. <?L 1-25?>Curabitur non feugiat diam. Fusce aliquam, ipsum quis ultricies condimentum, <?L 1-26?>est urna tempor arcu, eu ultricies est nisl efficitur elit.</p>
+     </content>
+    </subsection>
+    <subsection GUID="_9181eeef-3cb6-4762-bb93-1ecfa36c1fe4" class="prov2" eId="sec_1__subsec_Z6AABA">
+     <num><?L 1-27?>(Z6AABA)</num>
+     <content>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus nibh <?L 1-28?>quis diam lacinia molestie. Suspendisse ut enim eget odio laoreet dignissim <?L 2-1?>fringilla in ex. Aliquam erat volutpat. Fusce varius egestas velit mollis porta. <?L 2-2?>Curabitur non feugiat diam. Fusce aliquam, ipsum quis ultricies condimentum, <?L 2-3?>est urna tempor arcu, eu ultricies est nisl efficitur elit.</p>
+     </content>
+    </subsection>
+    <subsection GUID="_c5ccd872-932b-4915-8cb6-36e615de060e" class="prov2" eId="sec_1__subsec_75AFZAB">
+     <num><?L 2-4?>(75AFZAB)</num>
+     <content>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus nibh <?L 2-5?>quis diam lacinia molestie. Suspendisse ut enim eget odio laoreet dignissim <?L 2-6?>fringilla in ex. Aliquam erat volutpat. Fusce varius egestas velit mollis porta. <?L 2-7?>Curabitur non feugiat diam. Fusce aliquam, ipsum quis ultricies condimentum, <?L 2-8?>est urna tempor arcu, eu ultricies est nisl efficitur elit.</p>
+     </content>
+    </subsection>
+    <subsection GUID="_5d9ebc58-018f-4d59-ad65-388bbe135bf5" class="prov2" eId="sec_1__subsec_8ZAGAAZA">
+     <num><?L 2-9?>(8ZAGAAZA)</num>
+     <content>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus <?L 2-10?>nibh quis diam lacinia molestie. Suspendisse ut enim eget odio laoreet <?L 2-11?>dignissim fringilla in ex. Aliquam erat volutpat. Fusce varius egestas velit <?L 2-12?>mollis porta. Curabitur non feugiat diam. Fusce aliquam, ipsum quis ultricies <?L 2-13?>condimentum, est urna tempor arcu, eu ultricies est nisl efficitur elit.</p>
+     </content>
+    </subsection>
+   </section>
+   <section GUID="_980c7d77-629a-413d-9343-2ec33c586fa7" class="prov1" eId="sec_22"><?DMS-Component componentId="0ceec67e-7ce6-4ee1-863f-bd374c32f80d" seriesId="5566bc95-0f43-45bd-83a5-7285bdbb6d29" versionNumber="0"?>
+    
+    <num><?L 2-14?>22</num>
+    <heading GUID="_56b37bc8-fb41-4e20-ae2c-5dbf2358c15e" eId="sec_22__hdg">This is a section with paragraphs</heading>
+    <intro GUID="_b295ee3f-e549-4d69-86bb-86b872efc534" eId="sec_22__intro">
+     <p><?L 2-15?>This is a section—</p>
+    </intro>
+    <level GUID="_1cf28fc0-aff9-4df4-a557-9420a3b620f2" class="para1" eId="sec_22__para_a">
+     <num><?L 2-16?>(a)</num>
+     <content>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <?L 2-17?>dapibus nibh quis diam lacinia molestie. Suspendisse ut enim eget <?L 2-18?>odio laoreet dignissim fringilla in ex. Aliquam erat volutpat.</p>
+     </content>
+    </level>
+    <level GUID="_f0449bee-6da7-44f8-ba4f-d82bc389e92d" class="para1" eId="sec_22__para_ba">
+     <num><?L 2-19?>(ba)</num>
+     <content>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <?L 2-20?>dapibus nibh quis diam lacinia molestie. Suspendisse ut enim eget <?L 2-21?>odio laoreet dignissim fringilla in ex. Aliquam erat volutpat.</p>
+     </content>
+    </level>
+    <level GUID="_288dc6c0-d710-4c9b-b686-99c805ec0600" class="para1" eId="sec_22__para_caa">
+     <num><?L 2-22?>(caa)</num>
+     <content>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <?L 2-23?>dapibus nibh quis diam lacinia molestie. Suspendisse ut enim eget <?L 2-24?>odio laoreet dignissim fringilla in ex. Aliquam erat volutpat.</p>
+     </content>
+    </level>
+    <level GUID="_d670b7e5-44a6-428b-bf3e-8cc49105597e" class="para1" eId="sec_22__para_zdab">
+     <num><?L 2-25?>(zdab)</num>
+     <content>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <?L 2-26?>dapibus nibh quis diam lacinia molestie. Suspendisse ut enim eget <?L 2-27?>odio laoreet dignissim fringilla in ex. Aliquam erat volutpat.</p>
+     </content>
+    </level>
+    <level GUID="_a3304576-d308-4787-b760-16d89c54bb67" class="para1" eId="sec_22__para_eazba">
+     <num><?L 2-28?>(eazba)</num>
+     <content>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <?L 2-29?>dapibus nibh quis diam lacinia molestie. Suspendisse ut enim eget <?L 2-30?>odio laoreet dignissim fringilla in ex. Aliquam erat volutpat.</p>
+     </content>
+    </level>
+    <level GUID="_fd614061-dcb7-4d94-915d-a142508b2b44" class="para1" eId="sec_22__para_zzfabc">
+     <num><?L 2-31?>(zzfabc)</num>
+     <content>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <?L 2-32?>dapibus nibh quis diam lacinia molestie. Suspendisse ut enim eget <?L 2-33?>odio laoreet dignissim fringilla in ex. Aliquam erat volutpat.</p>
+     </content>
+    </level>
+    <level GUID="_4ad2e453-2252-4fd2-bdea-0919cc444ada" class="para1" eId="sec_22__para_gazaazd">
+     <num><?L 2-34?>(gazaazd)</num>
+     <content>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <?L 2-35?>dapibus nibh quis diam lacinia molestie. Suspendisse ut enim eget <?L 2-36?>odio laoreet dignissim fringilla in ex. Aliquam erat volutpat.</p>
+     </content>
+    </level>
+    <level GUID="_8bf50757-2ed5-4e18-b757-2d0ef397d385" class="para1" eId="sec_22__para_haaaazaa">
+     <num><?L 2-37?>(haaaazaa)</num>
+     <content>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <?L 2-38?>dapibus nibh quis diam lacinia molestie. Suspendisse ut enim eget <?L 2-39?>odio laoreet dignissim fringilla in ex. Aliquam erat volutpat.</p>
+     </content>
+    </level>
+    <level GUID="_e1dd488e-b059-4c35-ac52-a71b20f5ccbf" class="para1" eId="sec_22__para_haaaazaba">
+     <num><?L 2-40?>(haaaazaba)</num>
+     <content>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <?L 2-41?>dapibus nibh quis diam lacinia molestie. Suspendisse ut enim eget <?L 2-42?>odio laoreet dignissim fringilla in ex. Aliquam erat volutpat.</p>
+     </content>
+    </level>
+    <level GUID="_a27c9106-202b-4146-9243-f5554a6ced68" class="para1" eId="sec_22__para_haaaazacba">
+     <num><?L 2-43?>(haaaazacba)</num>
+     <content>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <?L 2-44?>dapibus nibh quis diam lacinia molestie. Suspendisse ut enim eget <?L 2-45?>odio laoreet dignissim fringilla in ex. Aliquam erat volutpat.</p>
+     </content>
+    </level>
+    <level GUID="_51fbba14-cb78-467e-a96a-40add6293c23" class="para1" eId="sec_22__para_haaaazacbbf">
+     <num><?L 3-1?>(haaaazacbbf)</num>
+     <content>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <?L 3-2?>dapibus nibh quis diam lacinia molestie. Suspendisse ut enim eget <?L 3-3?>odio laoreet dignissim fringilla in ex. Aliquam erat volutpat.</p>
+     </content>
+    </level>
+    <level GUID="_6c59f0de-b732-443a-b622-78219f13389b" class="para1" eId="sec_22__para_haaaazacbbga">
+     <num><?L 3-4?>(haaaazacbbga)</num>
+     <content>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <?L 3-5?>dapibus nibh quis diam lacinia molestie. Suspendisse ut enim eget <?L 3-6?>odio laoreet dignissim fringilla in ex. Aliquam erat volutpat.</p>
+     </content>
+    </level>
+   </section>
+   <section GUID="_e9b879b5-ae2e-46f4-8fea-d6170a6dc3e9" class="prov1" eId="sec_33A"><?DMS-Component componentId="816016ad-3382-4490-a7c7-c25d3d6668ec" seriesId="c34bf576-7525-4a63-bc4b-67548cc0305c" versionNumber="0"?>
+    
+    <num><?L 3-7?>33A</num>
+    <heading GUID="_64dbcc97-850f-4010-b0d3-2841158a0d34" eId="sec_33A__hdg">This is a section with paragraphs</heading>
+    <intro GUID="_880be8f1-171e-461f-aba5-5e342147aa74" eId="sec_33A__intro">
+     <p><?L 3-8?>This is a section—</p>
+    </intro>
+    <level GUID="_6b462452-ead9-4fc2-b2f6-cfba6e00a6f5" class="para1" eId="sec_33A__para_a">
+     <num><?L 3-9?>(a)</num>
+     <intro GUID="_62c9ad25-28b5-4f28-92c5-7b79a184739d" eId="sec_33A__para_a__intro">
+      <p>this is a paragraph</p>
+     </intro>
+     <level GUID="_aa92205c-79d8-4cf9-a7f8-6e588f530171" class="para2" eId="sec_33A__para_a__subpara_i">
+      <num><?L 3-10?>(i)</num>
+      <content>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <?L 3-11?>dapibus nibh quis diam lacinia molestie. Suspendisse ut enim <?L 3-12?>eget odio laoreet dignissim fringilla in ex. Aliquam erat <?L 3-13?>volutpat. Fusce varius egestas velit mollis porta. Curabitur non <?L 3-14?>feugiat diam. Fusce aliquam, ipsum quis ultricies condimentum, <?L 3-15?>est urna tempor arcu, eu ultricies est nisl efficitur elit.</p>
+      </content>
+     </level>
+     <level GUID="_59d4fd58-58f1-4090-820b-4b1e41ddf405" class="para2" eId="sec_33A__para_a__subpara_ii">
+      <num><?L 3-16?>(ii)</num>
+      <content>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <?L 3-17?>dapibus nibh quis diam lacinia molestie. Suspendisse ut enim <?L 3-18?>eget odio laoreet dignissim fringilla in ex. Aliquam erat <?L 3-19?>volutpat. Fusce varius egestas velit mollis porta. Curabitur non <?L 3-20?>feugiat diam. Fusce aliquam, ipsum quis ultricies condimentum, <?L 3-21?>est urna tempor arcu, eu ultricies est nisl efficitur elit.</p>
+      </content>
+     </level>
+     <level GUID="_c2b08a9f-a3c1-4781-bb3f-5fd0ca1ae54c" class="para2" eId="sec_33A__para_a__subpara_iia">
+      <num><?L 3-22?>(iia)</num>
+      <content>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <?L 3-23?>dapibus nibh quis diam lacinia molestie. Suspendisse ut enim <?L 3-24?>eget odio laoreet dignissim fringilla in ex. Aliquam erat <?L 3-25?>volutpat. Fusce varius egestas velit mollis porta. Curabitur non <?L 3-26?>feugiat diam. Fusce aliquam, ipsum quis ultricies condimentum, <?L 3-27?>est urna tempor arcu, eu ultricies est nisl efficitur elit.</p>
+      </content>
+     </level>
+     <level GUID="_75b2bc7a-bd0a-4b23-85f1-9c5023f19c5f" class="para2" eId="sec_33A__para_a__subpara_ivaa">
+      <num><?L 3-28?>(ivaa)</num>
+      <content>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <?L 3-29?>dapibus nibh quis diam lacinia molestie. Suspendisse ut enim <?L 3-30?>eget odio laoreet dignissim fringilla in ex. Aliquam erat <?L 3-31?>volutpat. Fusce varius egestas velit mollis porta. Curabitur non <?L 3-32?>feugiat diam. Fusce aliquam, ipsum quis ultricies condimentum, <?L 3-33?>est urna tempor arcu, eu ultricies est nisl efficitur elit.</p>
+      </content>
+     </level>
+     <level GUID="_11ff125b-dc1a-4df3-9a58-c8c71034dca7" class="para2" eId="sec_33A__para_a__subpara_viiza">
+      <num><?L 3-34?>(viiza)</num>
+      <content>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <?L 3-35?>dapibus nibh quis diam lacinia molestie. Suspendisse ut enim <?L 3-36?>eget odio laoreet dignissim fringilla in ex. Aliquam erat <?L 3-37?>volutpat. Fusce varius egestas velit mollis porta. Curabitur non <?L 3-38?>feugiat diam. Fusce aliquam, ipsum quis ultricies condimentum, <?L 3-39?>est urna tempor arcu, eu ultricies est nisl efficitur elit.</p>
+      </content>
+     </level>
+     <level GUID="_3cb03ed9-93b4-400b-801d-de25dbd60a1a" class="para2" eId="sec_33A__para_a__subpara_viabaa">
+      <num><?L 3-40?>(viabaa)</num>
+      <content>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <?L 3-41?>dapibus nibh quis diam lacinia molestie. Suspendisse ut enim <?L 3-42?>eget odio laoreet dignissim fringilla in ex. Aliquam erat <?L 3-43?>volutpat. Fusce varius egestas velit mollis porta. Curabitur non <?L 3-44?>feugiat diam. Fusce aliquam, ipsum quis ultricies condimentum, <?L 3-45?>est urna tempor arcu, eu ultricies est nisl efficitur elit.</p>
+      </content>
+     </level>
+     <level GUID="_5a98e722-354d-4dc3-b858-d2b92bccc32d" class="para2" eId="sec_33A__para_a__subpara_viiaaaa">
+      <num><?L 3-46?>(viiaaaa)</num>
+      <content>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <?L 3-47?>dapibus nibh quis diam lacinia molestie. Suspendisse ut enim <?L 4-1?>eget odio laoreet dignissim fringilla in ex. Aliquam erat <?L 4-2?>volutpat. Fusce varius egestas velit mollis porta. Curabitur non <?L 4-3?>feugiat diam. Fusce aliquam, ipsum quis ultricies condimentum, <?L 4-4?>est urna tempor arcu, eu ultricies est nisl efficitur elit.</p>
+      </content>
+     </level>
+     <level GUID="_f46fe4b6-026e-451c-9d14-9d0adf94fc7d" class="para2" eId="sec_33A__para_a__subpara_viiizaaaa">
+      <num><?L 4-5?>(viiizaaaa)</num>
+      <content>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <?L 4-6?>dapibus nibh quis diam lacinia molestie. Suspendisse ut enim <?L 4-7?>eget odio laoreet dignissim fringilla in ex. Aliquam erat <?L 4-8?>volutpat. Fusce varius egestas velit mollis porta. Curabitur non <?L 4-9?>feugiat diam. Fusce aliquam, ipsum quis ultricies condimentum, <?L 4-10?>est urna tempor arcu, eu ultricies est nisl efficitur elit.</p>
+      </content>
+     </level>
+    </level>
+   </section>
+   <section GUID="_1a178d03-cdf1-4a8e-8770-025d95eef9dc" class="prov1" eId="sec_4ZAA"><?DMS-Component componentId="f5dcec77-6073-4ccc-b6ff-fd650fed8545" seriesId="e05be364-7ad3-4590-b6ff-a89dddf1a824" versionNumber="0"?>
+    
+    <num><?L 4-11?>4ZAA</num>
+    <heading GUID="_2c8f54f7-ad07-46c8-9ee5-03b6ea8360f0" eId="sec_4ZAA__hdg">This is a section</heading>
+    <content>
+     <p><?L 4-12?>No text.</p>
+    </content>
+   </section>
+   <section GUID="_0d890224-3b7d-4565-a608-aa354669120e" class="prov1" eId="sec_ZA5AA"><?DMS-Component componentId="4207e0d1-96f5-4c1c-92bc-fa03a091d2e3" seriesId="976e0955-e8bc-4f5d-88ab-1717632518ce" versionNumber="0"?>
+    
+    <num><?L 4-13?>ZA5AA</num>
+    <heading GUID="_6d0c8cd5-fb04-4954-9792-9d24b42f17b1" eId="sec_ZA5AA__hdg">This is a section</heading>
+    <content>
+     <p><?L 4-14?>No text.</p>
+    </content>
+   </section>
+   <section GUID="_21f62747-4ac2-427d-bf2b-a1eb3c270075" class="prov1" eId="sec_6AACAB"><?DMS-Component componentId="310b4038-d0fb-4c50-8fd3-2c143c38fb23" seriesId="d50dec13-99cf-4b91-bc99-c4517af9d4ee" versionNumber="0"?>
+    
+    <num><?L 4-15?>6AACAB</num>
+    <heading GUID="_814e3d64-f5f9-4a6f-9bdb-d984e6dbfbb6" eId="sec_6AACAB__hdg">This is a section</heading>
+    <content>
+     <p><?L 4-16?>No text.</p>
+    </content>
+   </section>
+   <section GUID="_34b3ba0a-536e-4060-ba6e-1f6030471ed7" class="prov1" eId="sec_75ABBAA"><?DMS-Component componentId="633d8c25-defd-4290-9ac3-b3f91fbb41c7" seriesId="e0422f39-5d9e-4efe-9349-c4407693cf79" versionNumber="0"?>
+    
+    <num><?L 4-17?>75ABBAA</num>
+    <heading GUID="_e79421e8-a14d-4bb2-8674-123ffccf3352" eId="sec_75ABBAA__hdg">This is a section</heading>
+    <content>
+     <p><?L 4-18?>No text.</p>
+    </content>
+   </section>
+   <section GUID="_086cfbf6-32d3-4f64-af52-d82674f7d33e" class="prov1" eId="sec_ZAA8BABA"><?DMS-Component componentId="18c288ae-b602-49a2-88e9-5625f93f3ad3" seriesId="9cfeb433-1b83-4b52-a7c6-ff87b09bb30f" versionNumber="0"?>
+    
+    <num><?L 4-19?>ZAA8BABA</num>
+    <heading GUID="_18cb4969-f222-4903-8f74-d77081cb66f5" eId="sec_ZAA8BABA__hdg">This is a section</heading>
+    <content>
+     <p><?L 4-20?>No text.</p>
+    </content>
+   </section>
+   <hcontainer GUID="_9fd308de-83c7-48d2-8171-0483f7b51bbc" class="schs" eId="scheds" name="schedules"><?DMS-Component componentId="07f29b9f-2388-4a22-a3e2-3c5c14ec4031" seriesId="c95ebb7f-92ff-4a43-b760-cb9bb3678bcc" versionNumber="1"?>
+    <heading GUID="_91e3426b-f14c-4b50-8d93-b8fb20d490eb" eId="scheds__hdg"><?L 5-1?>Schedules</heading>
+    <hcontainer GUID="_a9e81375-3ab0-4a61-8e3d-dd91647e2b5d" class="sch" eId="sched_1" name="schedule"><?DMS-Component componentId="1cec67a7-0b6a-4f58-be6d-97c928204220" seriesId="ef0ac50e-3aff-405c-acae-7a5b65bb3d5c" versionNumber="1"?>
+     <num><?L 5-2?>Schedule 1<authorialNote GUID="_ed21fd51-0b6c-4371-b025-65c9169a5b1d" class="referenceNote" eId="sched_1__aNote">
+       <p>section 4ZAA</p>
+      </authorialNote></num>
+     <heading GUID="_18b1dda2-bc11-4ac8-ba66-a4fc22716849" eId="sched_1__hdg"><?L 5-3?>This is a schedule</heading>
+     <paragraph GUID="_3f162247-d502-45b7-a00a-c28e57a0e51c" class="schProv1" eId="sched_1__para_1">
+      <num><?L 5-4?>1</num>
+      <content>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus <?L 5-5?>nibh quis diam lacinia molestie. Suspendisse ut enim eget odio laoreet <?L 5-6?>dignissim fringilla in ex. Aliquam erat volutpat. Fusce varius egestas velit <?L 5-7?>mollis porta. Curabitur non feugiat diam. Fusce aliquam, ipsum quis ultricies <?L 5-8?>condimentum, est urna tempor arcu, eu ultricies est nisl efficitur elit.</p>
+      </content>
+     </paragraph>
+     <paragraph GUID="_8a3e6a01-9e01-4680-9f81-443fb11c67c6" class="schProv1" eId="sched_1__para_2A">
+      <num><?L 5-9?>2A</num>
+      <content>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus <?L 5-10?>nibh quis diam lacinia molestie. Suspendisse ut enim eget odio laoreet <?L 5-11?>dignissim fringilla in ex. Aliquam erat volutpat. Fusce varius egestas velit <?L 5-12?>mollis porta. Curabitur non feugiat diam. Fusce aliquam, ipsum quis ultricies <?L 5-13?>condimentum, est urna tempor arcu, eu ultricies est nisl efficitur elit.</p>
+      </content>
+     </paragraph>
+     <paragraph GUID="_3f8c1584-d194-4ab7-a199-534b872e1b83" class="schProv1" eId="sched_1__para_3ZA">
+      <num><?L 5-14?>3ZA</num>
+      <content>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus <?L 5-15?>nibh quis diam lacinia molestie. Suspendisse ut enim eget odio laoreet <?L 5-16?>dignissim fringilla in ex. Aliquam erat volutpat. Fusce varius egestas velit <?L 5-17?>mollis porta. Curabitur non feugiat diam. Fusce aliquam, ipsum quis ultricies <?L 5-18?>condimentum, est urna tempor arcu, eu ultricies est nisl efficitur elit.</p>
+      </content>
+     </paragraph>
+     <paragraph GUID="_fbd64166-96ee-4d25-90c4-f5b1489e8be5" class="schProv1" eId="sched_1__para_Z4AA">
+      <num><?L 5-19?>Z4AA</num>
+      <content>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus <?L 5-20?>nibh quis diam lacinia molestie. Suspendisse ut enim eget odio laoreet <?L 5-21?>dignissim fringilla in ex. Aliquam erat volutpat. Fusce varius egestas velit <?L 5-22?>mollis porta. Curabitur non feugiat diam. Fusce aliquam, ipsum quis ultricies <?L 5-23?>condimentum, est urna tempor arcu, eu ultricies est nisl efficitur elit.</p>
+      </content>
+     </paragraph>
+     <paragraph GUID="_607ac55d-af63-4e37-9ff6-d4cdfa5953f8" class="schProv1" eId="sched_1__para_5ABAA">
+      <num><?L 5-24?>5ABAA</num>
+      <content>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus <?L 5-25?>nibh quis diam lacinia molestie. Suspendisse ut enim eget odio laoreet <?L 5-26?>dignissim fringilla in ex. Aliquam erat volutpat. Fusce varius egestas velit <?L 5-27?>mollis porta. Curabitur non feugiat diam. Fusce aliquam, ipsum quis ultricies <?L 5-28?>condimentum, est urna tempor arcu, eu ultricies est nisl efficitur elit.</p>
+      </content>
+     </paragraph>
+     <paragraph GUID="_6dfdfa30-0c23-4a22-9c27-8e44a53f8886" class="schProv1" eId="sched_1__para_ZB6AAA">
+      <num><?L 5-29?>ZB6AAA</num>
+      <content>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus <?L 5-30?>nibh quis diam lacinia molestie. Suspendisse ut enim eget odio laoreet <?L 5-31?>dignissim fringilla in ex. Aliquam erat volutpat. Fusce varius egestas velit <?L 5-32?>mollis porta. Curabitur non feugiat diam. Fusce aliquam, ipsum quis ultricies <?L 5-33?>condimentum, est urna tempor arcu, eu ultricies est nisl efficitur elit.</p>
+      </content>
+     </paragraph>
+     <paragraph GUID="_6ca8e415-d5f7-4e6a-af68-e3660d8e53fc" class="schProv1" eId="sched_1__para_7ABBADD">
+      <num><?L 5-34?>7ABBADD</num>
+      <content>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <?L 5-35?>dapibus nibh quis diam lacinia molestie. Suspendisse ut enim eget odio <?L 5-36?>laoreet dignissim fringilla in ex. Aliquam erat volutpat. Fusce varius egestas <?L 5-37?>velit mollis porta. Curabitur non feugiat diam. Fusce aliquam, ipsum quis <?L 5-38?>ultricies condimentum, est urna tempor arcu, eu ultricies est nisl efficitur <?L 5-39?>elit.</p>
+      </content>
+     </paragraph>
+     <paragraph GUID="_913201c9-b31f-4688-8ff8-86940f2e7969" class="schProv1" eId="sched_1__para_8ZZAABAF">
+      <num><?L 5-40?>8ZZAABAF</num>
+      <content>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <?L 5-41?>dapibus nibh quis diam lacinia molestie. Suspendisse ut enim eget odio <?L 5-42?>laoreet dignissim fringilla in ex. Aliquam erat volutpat. Fusce varius egestas <?L 6-1?>velit mollis porta. Curabitur non feugiat diam. Fusce aliquam, ipsum quis <?L 6-2?>ultricies condimentum, est urna tempor arcu, eu ultricies est nisl efficitur <?L 6-3?>elit.</p>
+      </content>
+     </paragraph>
+    </hcontainer>
+    <hcontainer GUID="_27dfffc4-57ca-4b6d-a3ef-1ca2d4de24b7" class="sch" eId="sched_2" name="schedule"><?DMS-Component componentId="d37f452f-9a15-4f67-a689-6feb7b25e75d" seriesId="a26166cd-5bce-44f9-b878-73a593cd840c" versionNumber="1"?>
+     <num><?L 6-4?>Schedule 2<authorialNote GUID="_87eeb9b5-5fd6-4bc1-b60c-80b1a3e0e59e" class="referenceNote" eId="sched_2__aNote">
+       <p>section 1</p>
+      </authorialNote></num>
+     <heading GUID="_91d82e8d-d0b6-421e-8e80-3fe0897c0832" eId="sched_2__hdg"><?L 6-5?>This is another schedule</heading>
+     <paragraph GUID="_0a20d80f-515e-4626-875e-8ba12f31f4d8" class="schProv1" eId="sched_2__para_1">
+      <num><?L 6-6?>1</num>
+      <subparagraph GUID="_e49314fa-a502-4efd-acd3-00382166736e" class="schProv2" eId="sched_2__para_1__subpara_1">
+       <num>(1)</num>
+       <content>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus <?L 6-7?>nibh quis diam lacinia molestie. Suspendisse ut enim eget odio laoreet <?L 6-8?>dignissim fringilla in ex. Aliquam erat volutpat. Fusce varius egestas velit <?L 6-9?>mollis porta. Curabitur non feugiat diam. Fusce aliquam, ipsum quis ultricies <?L 6-10?>condimentum, est urna tempor arcu, eu ultricies est nisl efficitur elit.</p>
+       </content>
+      </subparagraph>
+      <subparagraph GUID="_9a702758-bb7d-424c-b32d-24044be8e164" class="schProv2" eId="sched_2__para_1__subpara_2">
+       <num><?L 6-11?>(2)</num>
+       <content>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus <?L 6-12?>nibh quis diam lacinia molestie. Suspendisse ut enim eget odio laoreet <?L 6-13?>dignissim fringilla in ex. Aliquam erat volutpat. Fusce varius egestas velit <?L 6-14?>mollis porta. Curabitur non feugiat diam. Fusce aliquam, ipsum quis ultricies <?L 6-15?>condimentum, est urna tempor arcu, eu ultricies est nisl efficitur elit.</p>
+       </content>
+      </subparagraph>
+     </paragraph>
+     <paragraph GUID="_23eea3f9-c456-4b58-bf62-b0aa59528098" class="schProv1" eId="sched_2__para_26">
+      <num><?L 6-16?>26</num>
+      <subparagraph GUID="_d6769211-a63e-4180-aefb-8ae902d93b92" class="schProv2" eId="sched_2__para_26__subpara_1">
+       <num>(1)</num>
+       <content>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus <?L 6-17?>nibh quis diam lacinia molestie. Suspendisse ut enim eget odio laoreet <?L 6-18?>dignissim fringilla in ex. Aliquam erat volutpat. Fusce varius egestas velit <?L 6-19?>mollis porta. Curabitur non feugiat diam. Fusce aliquam, ipsum quis ultricies <?L 6-20?>condimentum, est urna tempor arcu, eu ultricies est nisl efficitur elit.</p>
+       </content>
+      </subparagraph>
+      <subparagraph GUID="_9b37b320-1010-480f-bf5b-085531194b5b" class="schProv2" eId="sched_2__para_26__subpara_2">
+       <num><?L 6-21?>(2)</num>
+       <content>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus <?L 6-22?>nibh quis diam lacinia molestie. Suspendisse ut enim eget odio laoreet <?L 6-23?>dignissim fringilla in ex. Aliquam erat volutpat. Fusce varius egestas velit <?L 6-24?>mollis porta. Curabitur non feugiat diam. Fusce aliquam, ipsum quis ultricies <?L 6-25?>condimentum, est urna tempor arcu, eu ultricies est nisl efficitur elit.</p>
+       </content>
+      </subparagraph>
+     </paragraph>
+     <paragraph GUID="_0d8a3c96-b941-4b42-a578-51d4de0af67c" class="schProv1" eId="sched_2__para_3ZA">
+      <num><?L 6-26?>3ZA</num>
+      <subparagraph GUID="_319e0592-562b-4eeb-afd4-352186069687" class="schProv2" eId="sched_2__para_3ZA__subpara_1">
+       <num>(1)</num>
+       <content>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <?L 6-27?>dapibus nibh quis diam lacinia molestie. Suspendisse ut enim eget odio <?L 6-28?>laoreet dignissim fringilla in ex. Aliquam erat volutpat. Fusce varius egestas <?L 6-29?>velit mollis porta. Curabitur non feugiat diam. Fusce aliquam, ipsum quis <?L 6-30?>ultricies condimentum, est urna tempor arcu, eu ultricies est nisl efficitur <?L 6-31?>elit.</p>
+       </content>
+      </subparagraph>
+      <subparagraph GUID="_af5ffccd-71da-451a-9d4b-d1fed0072dcb" class="schProv2" eId="sched_2__para_3ZA__subpara_2">
+       <num><?L 6-32?>(2)</num>
+       <content>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus <?L 6-33?>nibh quis diam lacinia molestie. Suspendisse ut enim eget odio laoreet <?L 6-34?>dignissim fringilla in ex. Aliquam erat volutpat. Fusce varius egestas velit <?L 6-35?>mollis porta. Curabitur non feugiat diam. Fusce aliquam, ipsum quis ultricies <?L 6-36?>condimentum, est urna tempor arcu, eu ultricies est nisl efficitur elit.</p>
+       </content>
+      </subparagraph>
+     </paragraph>
+     <paragraph GUID="_720cece8-cd9b-4b52-b764-dafafccb1f13" class="schProv1" eId="sched_2__para_4AAB">
+      <num><?L 6-37?>4AAB</num>
+      <subparagraph GUID="_ff4332f1-20b6-43b0-89ed-5b5cddb02441" class="schProv2" eId="sched_2__para_4AAB__subpara_1">
+       <num>(1)</num>
+       <content>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <?L 6-38?>dapibus nibh quis diam lacinia molestie. Suspendisse ut enim eget odio <?L 6-39?>laoreet dignissim fringilla in ex. Aliquam erat volutpat. Fusce varius egestas <?L 6-40?>velit mollis porta. Curabitur non feugiat diam. Fusce aliquam, ipsum quis <?L 6-41?>ultricies condimentum, est urna tempor arcu, eu ultricies est nisl efficitur <?L 6-42?>elit.</p>
+       </content>
+      </subparagraph>
+      <subparagraph GUID="_1c684006-872c-4e8b-ba4f-50dcb98d1e5d" class="schProv2" eId="sched_2__para_4AAB__subpara_2">
+       <num><?L 7-1?>(2)</num>
+       <content>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus <?L 7-2?>nibh quis diam lacinia molestie. Suspendisse ut enim eget odio laoreet <?L 7-3?>dignissim fringilla in ex. Aliquam erat volutpat. Fusce varius egestas velit <?L 7-4?>mollis porta. Curabitur non feugiat diam. Fusce aliquam, ipsum quis ultricies <?L 7-5?>condimentum, est urna tempor arcu, eu ultricies est nisl efficitur elit.</p>
+       </content>
+      </subparagraph>
+     </paragraph>
+     <paragraph GUID="_4f320456-e629-4eec-bd14-18b270c444b9" class="schProv1" eId="sched_2__para_Z5AAF">
+      <num><?L 7-6?>Z5AAF</num>
+      <subparagraph GUID="_ad7d157a-6dba-46ad-88da-39bf658ad55a" class="schProv2" eId="sched_2__para_Z5AAF__subpara_1">
+       <num>(1)</num>
+       <content>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <?L 7-7?>dapibus nibh quis diam lacinia molestie. Suspendisse ut enim eget odio <?L 7-8?>laoreet dignissim fringilla in ex. Aliquam erat volutpat. Fusce varius egestas <?L 7-9?>velit mollis porta. Curabitur non feugiat diam. Fusce aliquam, ipsum quis <?L 7-10?>ultricies condimentum, est urna tempor arcu, eu ultricies est nisl efficitur <?L 7-11?>elit.</p>
+       </content>
+      </subparagraph>
+      <subparagraph GUID="_538b1e05-7884-4de7-be3c-1bb4b5fa87de" class="schProv2" eId="sched_2__para_Z5AAF__subpara_2">
+       <num><?L 7-12?>(2)</num>
+       <content>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus <?L 7-13?>nibh quis diam lacinia molestie. Suspendisse ut enim eget odio laoreet <?L 7-14?>dignissim fringilla in ex. Aliquam erat volutpat. Fusce varius egestas velit <?L 7-15?>mollis porta. Curabitur non feugiat diam. Fusce aliquam, ipsum quis ultricies <?L 7-16?>condimentum, est urna tempor arcu, eu ultricies est nisl efficitur elit.</p>
+       </content>
+      </subparagraph>
+     </paragraph>
+     <paragraph GUID="_cc354bb6-d679-4d1b-b343-faf8a5173d86" class="schProv1" eId="sched_2__para_ZA6ABA">
+      <num><?L 7-17?>ZA6ABA</num>
+      <subparagraph GUID="_c3bb3a73-252f-4bfc-84aa-5447eb2584c6" class="schProv2" eId="sched_2__para_ZA6ABA__subpara_1">
+       <num>(1)</num>
+       <content>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <?L 7-18?>dapibus nibh quis diam lacinia molestie. Suspendisse ut enim eget odio <?L 7-19?>laoreet dignissim fringilla in ex. Aliquam erat volutpat. Fusce varius egestas <?L 7-20?>velit mollis porta. Curabitur non feugiat diam. Fusce aliquam, ipsum quis <?L 7-21?>ultricies condimentum, est urna tempor arcu, eu ultricies est nisl efficitur <?L 7-22?>elit.</p>
+       </content>
+      </subparagraph>
+      <subparagraph GUID="_6f853b4a-04fa-4b49-ae71-4a43f0c5ae63" class="schProv2" eId="sched_2__para_ZA6ABA__subpara_2">
+       <num><?L 7-23?>(2)</num>
+       <content>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus <?L 7-24?>nibh quis diam lacinia molestie. Suspendisse ut enim eget odio laoreet <?L 7-25?>dignissim fringilla in ex. Aliquam erat volutpat. Fusce varius egestas velit <?L 7-26?>mollis porta. Curabitur non feugiat diam. Fusce aliquam, ipsum quis ultricies <?L 7-27?>condimentum, est urna tempor arcu, eu ultricies est nisl efficitur elit.</p>
+       </content>
+      </subparagraph>
+     </paragraph>
+     <paragraph GUID="_4723ded1-33c5-41dc-b101-8b8274fb824c" class="schProv1" eId="sched_2__para_73ABBAF">
+      <num><?L 7-28?>73ABBAF</num>
+      <subparagraph GUID="_a88f30e6-de51-4276-a5a5-8adbf2089d50" class="schProv2" eId="sched_2__para_73ABBAF__subpara_1">
+       <num>(1)</num>
+       <content>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <?L 7-29?>dapibus nibh quis diam lacinia molestie. Suspendisse ut enim eget odio <?L 7-30?>laoreet dignissim fringilla in ex. Aliquam erat volutpat. Fusce varius egestas <?L 7-31?>velit mollis porta. Curabitur non feugiat diam. Fusce aliquam, ipsum quis <?L 7-32?>ultricies condimentum, est urna tempor arcu, eu ultricies est nisl efficitur <?L 7-33?>elit.</p>
+       </content>
+      </subparagraph>
+      <subparagraph GUID="_55b9d74b-5577-4ce9-abe1-72b3a755e615" class="schProv2" eId="sched_2__para_73ABBAF__subpara_2">
+       <num><?L 7-34?>(2)</num>
+       <content>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus <?L 7-35?>nibh quis diam lacinia molestie. Suspendisse ut enim eget odio laoreet <?L 7-36?>dignissim fringilla in ex. Aliquam erat volutpat. Fusce varius egestas velit <?L 7-37?>mollis porta. Curabitur non feugiat diam. Fusce aliquam, ipsum quis ultricies <?L 7-38?>condimentum, est urna tempor arcu, eu ultricies est nisl efficitur elit.</p>
+       </content>
+      </subparagraph>
+     </paragraph>
+     <paragraph GUID="_6d5c0c6b-5bc7-4721-b11b-cf59c57584a4" class="schProv1" eId="sched_2__para_8ABZABAF">
+      <num><?L 7-39?>8ABZABAF</num>
+      <subparagraph GUID="_64e1fee5-c1a1-4a5d-9fd4-504cb8636916" class="schProv2" eId="sched_2__para_8ABZABAF__subpara_1">
+       <num>(1)</num>
+       <content>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <?L 7-40?>dapibus nibh quis diam lacinia molestie. Suspendisse ut enim eget odio <?L 7-41?>laoreet dignissim fringilla in ex. Aliquam erat volutpat. Fusce varius egestas <?L 7-42?>velit mollis porta. Curabitur non feugiat diam. Fusce aliquam, ipsum quis <?L 7-43?>ultricies condimentum, est urna tempor arcu, eu ultricies est nisl efficitur <?L 7-44?>elit.</p>
+       </content>
+      </subparagraph>
+      <subparagraph GUID="_3c076a2c-62e4-4b0b-b438-1b3a082a8027" class="schProv2" eId="sched_2__para_8ABZABAF__subpara_2">
+       <num><?L 8-1?>(2)</num>
+       <content>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus <?L 8-2?>nibh quis diam lacinia molestie. Suspendisse ut enim eget odio laoreet <?L 8-3?>dignissim fringilla in ex. Aliquam erat volutpat. Fusce varius egestas velit <?L 8-4?>mollis porta. Curabitur non feugiat diam. Fusce aliquam, ipsum quis ultricies <?L 8-5?>condimentum, est urna tempor arcu, eu ultricies est nisl efficitur elit.</p>
+       </content>
+      </subparagraph>
+     </paragraph>
+    </hcontainer>
+   </hcontainer></body>
+ </bill>
+</akomaNtoso>
