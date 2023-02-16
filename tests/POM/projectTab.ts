@@ -1,5 +1,8 @@
 // projectTab.ts
-import { expect, Locator, Page } from '@playwright/test';
+// (Includes some xpath expressions copied across from Katalon tests. Might be a better way to do them in playwright.)
+
+import { Locator, Page } from '@playwright/test';
+import { GeneratePDF, GeneratePdfOptions } from './generatePDFmodal';
 import path from "node:path";
 
 export type ActionOptions = {
@@ -8,20 +11,6 @@ export type ActionOptions = {
 	snapshot?: Snapshot;
 	significantVersionIndex?: number;
 }
-export type GeneratePdfOptions = {
-	snapshot?: Snapshot;
-    TrackedChanges?: "showTrackedChanges" | "showChangesApplied";
-    sidelining?: boolean;
-	lineNumbering?: boolean;
-	insertFooters?: boolean;
-	insertFooterNote?: string;
-    showJrefsInMargin?: boolean;
-	showJrefsWithinCrossReferences?: boolean;
-	showAmendmentDnumbers?: boolean;
-	showOriginInformaiton?: boolean;
-	showReviewComments?: boolean;
-	recordSnapshotVersion?: string;
-};
 
 export type DownloadZipOptions = {
 	resolveDates?: boolean;
@@ -45,12 +34,7 @@ export class ProjectTab {
   readonly tab:Locator;
   readonly createNewButton:Locator;
   readonly uploadDocumentButton:Locator;
-  readonly firstWorkingVersion:Locator;
-  readonly generatePdfLineNumbering:Locator;
-  readonly generatePdfSideLining:Locator;
-  readonly generatePdfShowChangesApplied: Locator;
-
-  
+  readonly firstWorkingVersion:Locator;  
 
   constructor(page: Page) {
 	//general locators
@@ -58,13 +42,6 @@ export class ProjectTab {
     this.home = page.getByRole('link', { name: 'Go to Dashboard Home' });
     this.tab = page.getByRole('link', { name: 'Project' });
     this.firstWorkingVersion = page.getByRole('button', { name: 'Open document in editor' }).first();
-
-	//Generate PDF modal locators
-	//this.generatePdfLineNumbering = page.getByText('Line numbering');
-	this.generatePdfLineNumbering = page.locator('div.checkbox').filter({hasText:'Line numbering'});
-	this.generatePdfSideLining = page.getByText('Side-lining');
-	this.generatePdfShowChangesApplied = page.getByText('Show changes applied');
-   
   }
 
   folderXpath (folder: string) {
@@ -171,6 +148,7 @@ export class ProjectTab {
 		editorPage = await popupPromise;
 
 		//capture and click away the Auto-renumbering toastie
+		//(This still doesn't always capture the toastie)
 		if (await editorPage.locator('div[role="log"]:has-text("Auto-Renumbering:") i').first().isVisible()){
 			await editorPage.locator('div[role="log"]:has-text("Auto-Renumbering:") i').first().click();
 		}
@@ -188,8 +166,12 @@ export class ProjectTab {
   async openFirstWorkingVersion() {
     const popupPromise = this.page.waitForEvent('popup');
     await this.firstWorkingVersion.click();
-    const page2 = await popupPromise;
-    return page2;
+    const editorPage = await popupPromise;
+	//capture and click away the Auto-renumbering toastie
+	if (await editorPage.locator('div[role="log"]:has-text("Auto-Renumbering:") i').first().isVisible()){
+		await editorPage.locator('div[role="log"]:has-text("Auto-Renumbering:") i').first().click();
+	}
+    return editorPage;
   }
   
   async uploadDocument (folder: string, title: string, filePath: string, fileName: string) {
@@ -215,31 +197,8 @@ export class ProjectTab {
 	//open modal
 	await this.action(versionToPdf, "Generate PDF");
 
-	//adding in a hard wait to see if we can avoid getting stuck here sometimes
-	await new Promise(resolve => setTimeout(resolve, 1000));
-
-	//set options
-	if (opts?.lineNumbering) {
-		await this.generatePdfLineNumbering.click();
-	}
-	if (opts?.sidelining) {
-		await this.generatePdfSideLining.click();
-	}
-
-	if (opts?.TrackedChanges == "showChangesApplied") {
-		await this.generatePdfShowChangesApplied.click();
-	}
-	
-	//adding in a hard wait to see if we can ensure that settings are picked up
-	await new Promise(resolve => setTimeout(resolve, 500));
-
-	//generate PDF
-	const popupPromise = this.page.waitForEvent('popup');
-	await this.page.getByRole('button', { name: 'Generate' }).click();
-	const popup = await popupPromise;
-
-	//return tab containing PDF (not that it is much use for anything)
-	return popup;
+	const pdf=new GeneratePDF(this.page);
+    return pdf.modal(opts);
   }
 
   async downloadZip (versionToDownload: Version, savePath: string, saveFilename: string, opts?: DownloadZipOptions) {

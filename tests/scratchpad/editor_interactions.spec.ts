@@ -1,19 +1,23 @@
-import { test, expect } from './lawmaker';
-import { ProjectTab } from './POM/projectTab';
-import { Editor } from './POM/Editor';
-import { Dashboard } from './POM/dashboard';
+import { test, expect } from '../lawmaker';
+import { ProjectTab } from '../POM/projectTab';
+import { Editor } from '../POM/Editor';
+import { Dashboard } from '../POM/dashboard';
 
 test('test', async ({ pcoPage }) => {
 
   const dash = new Dashboard(pcoPage.page);
   await dash.openProject('Copy provisions Test (Scotland) Bill');
   const project = new ProjectTab(pcoPage.page);
-  await project.newVersion("Pre-Introduction","test doc");
+  await project.newVersion("test","test doc");
   const editor = new Editor(await project.openVersion({folder:'test', title:"test doc"}));
   await editor.textEditor.getByText('body').click();
   await editor.insertElement("part");
+  await new Promise(resolve => setTimeout(resolve, 500));
   await editor.insertElement("chapter");
+  await new Promise(resolve => setTimeout(resolve, 500));
   await editor.insertElement("section");
+  await new Promise(resolve => setTimeout(resolve, 500));
+  await editor.generatePDF();
 
 /*
   const [page3] = await Promise.all([
