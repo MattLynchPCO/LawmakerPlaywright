@@ -190,7 +190,7 @@ export class ProjectTab {
       mimeType:'text/xml',
       buffer: fileContents
     });
-    await this.page.getByRole('button', { name: 'Upload' }).click();
+    await this.page.getByRole('button', { name: 'Upload', exact: true }).click();
   }
 
   async generatePDF (versionToPdf: Version, opts?: GeneratePdfOptions){

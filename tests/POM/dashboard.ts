@@ -85,7 +85,7 @@ export class Dashboard {
     await this.page.locator('div.card')
           .filter({ hasText: title })
           .getByRole('button', {name:'Delete Project'}).click();
-    await this.page.getByRole('button', { name: 'Delete' }).click();
+    await this.page.getByRole('button', { name: 'Delete', exact: true }).click();
 
 
     //TODO - use api call to delete any project
