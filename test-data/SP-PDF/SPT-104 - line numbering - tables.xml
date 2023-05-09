@@ -1,0 +1,2352 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd"><?DMS-Component componentId="e52ac5da-60b9-4f71-8d43-dca4c829e330" seriesId="d703db19-9c97-4586-862d-81c0bd9962da" versionNumber="1"?>
+ <bill contains="originalVersion" name="sppubb">
+  <meta>
+   <identification source="#ldapp">
+    <FRBRWork>
+     <FRBRthis value="#varWork"/>
+     <FRBRuri value="#varWorkUri"/>
+     <FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+     <FRBRdate date="9999-01-01" name="sppubb"/>
+     <FRBRauthor href="#varAuthor"/>
+     <FRBRcountry value="GB-SCT"/>
+     <FRBRsubtype value="#varDocSubType"/>
+     <FRBRnumber value="#varProjectId"/>
+     <FRBRname value="#varBillTitle"/>
+     <FRBRprescriptive value="true"/>
+     <FRBRauthoritative value="false"/>
+    </FRBRWork>
+    <FRBRExpression>
+     <FRBRthis value="#varExpression"/>
+     <FRBRuri value="#varExpressionUri"/>
+     <FRBRalias name="ttflVersionDescription" value="#varVDOiid"/>
+     <FRBRdate date="9999-01-01" name="stage2"/>
+     <FRBRauthor href="#varAuthor"/>
+     <FRBRauthoritative value="false"/>
+     <FRBRmasterExpression href="" showAs=""/>
+     <FRBRlanguage language="eng"/>
+    </FRBRExpression>
+    <FRBRManifestation>
+     <FRBRthis value="#varManifestation"/>
+     <FRBRuri value="#varManifestationUri"/>
+     <FRBRdate date="9999-01-01" name="akn_xml"/>
+     <FRBRauthor href="#varAuthor"/>
+     <FRBRformat value="application/akn+xml"/>
+    </FRBRManifestation>
+   </identification>
+   <references source="#author">
+    <TLCConcept GUID="_bc3eaeb4-7aff-46e4-96b6-82aba3c8cf42" eId="varDocSubType" href="#varOntologies" showAs="Government Bill"/>
+    <TLCConcept GUID="_54549fd9-03f4-47c7-9e05-d4325404fb4d" eId="varBillTitle" href="#varOntologies" showAs="UEFA European Championship (Scotland) Bill "/>
+    <TLCProcess GUID="_0507e8b1-f041-4698-9ce3-4b92990e0992" eId="varStageVersion" href="#varOntologies" showAs="As amended at Stage 2"/>
+    <TLCProcess GUID="_236f3c88-8ae8-4d5f-a900-f3e5a26c54d0" eId="varProjectId" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_5f9e576e-0573-4627-9c52-6c0e742fa437" eId="varWork" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_9de22b81-36d5-4b99-8582-56a9949d6f16" eId="varWorkURI" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_f7888b34-273f-4001-b1a9-5b25e47d0217" eId="varCHOiid" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_5d0ffb6a-c5cd-488a-90bd-afbef564a164" eId="varExpression" href="#varOntologies" showAs="7af2243f-3c1c-472b-b4ad-2cc03376c6f9"/>
+    <TLCProcess GUID="_7de4eed1-d4b3-47a3-8f61-a4fc7e54a19a" eId="varExpressionUri" href="#varOntologies" showAs="dma:///45e6b900-8929-11d4-b772-0050da06bfb4/80742cea-0ebb-4cf6-9759-1e52358d9b5b/;guid=7af2243f-3c1c-472b-b4ad-2cc03376c6f9;class=Version%20Description"/>
+    <TLCProcess GUID="_50949deb-2c65-4d52-8ead-f5c2ec6c61c2" eId="varVDOiid" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_231245b7-64a6-47d9-9147-90833430ae4b" eId="varManifestation" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_f90df7a8-ef1b-4db4-b867-7440a4262ef2" eId="varManifestationExpressionUri" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_94a4d421-1a4c-4be6-9227-68617073b2ff" eId="varActYear" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_a1060819-8101-419f-8bb9-588a474dbc2e" eId="varActTitle" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_ffe3fd08-d20c-4729-9beb-cf321898ac32" eId="varIntroDate" href="#varOntologies" showAs="2019-09-24"/>
+    <TLCConcept GUID="_4953ffb6-2916-4df1-8185-d956c298350e" eId="varBillNoComp" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_fe2f7de4-c7f8-46c2-b011-fc5fceece3ad" eId="varBillNo" href="#varOntologies" showAs="SP Bill 54A"/>
+    <TLCConcept GUID="_cbbe427a-27ff-4553-9f4a-fe99a2692369" eId="varSessionNo" href="#varOntologies" showAs="5"/>
+    <TLCConcept GUID="_4ac0d943-5613-4a16-8829-c6870ff38b99" eId="varBillYear" href="#varOntologies" showAs="2019"/>
+    <TLCConcept GUID="_3bdb1eb0-c84f-4961-a1f4-80258da5713a" eId="varSession" href="#varOntologies" showAs="Session 5 (2019)"/>
+    <TLCConcept GUID="_f117b881-ee4d-4435-b77c-1990d92d12e1" eId="varPassedDate" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_238b663f-edc5-4843-905d-501ed1fc4cac" eId="varAssentDate" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_ac7ea2bc-303a-42f2-aa77-b5e4be94096c" eId="varActNo" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_6e49307f-d521-448e-b802-2063971840c3" eId="varISBN" href="#varOntologies" showAs=""/>
+    <TLCPerson GUID="_40e5ce5c-2ec2-4e6d-a5a0-02c10bcf8daf" eId="varIntroducingMember" href="#varOntologies" showAs="Fiona Hyslop"/>
+    <TLCPerson GUID="_c5e6f68d-edcb-497c-b407-3c13aa666483" eId="varSupportingMembers" href="#varOntologies" showAs="Ben Macpherson"/>
+    <TLCConcept GUID="_d0eb6dda-1c40-4594-b2c3-692802ec11e6" eId="varDocType" href="#varOntologies" showAs="SP Bill"/>
+    <TLCProcess GUID="_f22cfba2-e80c-42da-afce-ad64bdb537e3" eId="varSystem" href="#varOntologies" showAs="LDAPP"/>
+    <TLCOrganization GUID="_9368d6ec-c680-4e40-99c3-7d1555fd3bf4" eId="varAuthor" href="#varOntologies" showAs="Scottish Parliament"/>
+    <TLCLocation GUID="_65d8553f-f5ba-451a-afac-dc7aa306baac" eId="varJurisdiction" href="#varOntologies" showAs="Scotland"/>
+    <TLCConcept GUID="_7029d15d-172a-4772-8074-879d4571e80e" eId="varOntologies" href="https://www.legislation.gov.uk/ontologies/UK-AKN" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN"/>
+   </references>
+   <proprietary xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:ukl="http://www.legislation.gov.uk/namespaces/legislation" xmlns:ukm="http://www.legislation.gov.uk/namespaces/metadata" source="#source">
+    <dc:title>
+     <ref class="placeholder" href="#varBillTitle"/>
+    </dc:title>
+    <dc:identifier>
+     <ref class="placeholder" href="#varISBN"/>
+    </dc:identifier>
+    <dc:language>en</dc:language>
+    <dc:creator>
+     <ref class="placeholder" href="#varAuthor"/>
+    </dc:creator>
+    <dc:date>
+     <ref class="placeholder" href="#varIntroDate"/>
+    </dc:date>
+   </proprietary>
+  </meta>
+  <coverPage GUID="_167f408b-471d-45fc-be2e-1e2784d4b586" eId="cp">
+   <block GUID="_a9d2256e-09a0-4785-baaf-890712e861ba" eId="cp__st" name="title"><docTitle GUID="_5185ad71-f13d-4dc2-9bb0-827925540644" eId="cp__st__dtitle"><ref class="placeholder" href="#varBillTitle"/></docTitle></block>
+   <block GUID="_31f4ae97-beb8-4d49-a9d7-1f964486c20f" eId="cp__stage" name="stageVersion">[<docStage GUID="_1870462d-3ed7-4d95-b22b-14940d513602" eId="cp_stage_dstage"><ref class="placeholder" href="#varStageVersion"/></docStage>]</block>
+   <block GUID="_6b700910-d400-4e1c-8379-9b88a796949d" eId="cp__hdg" name="ToCHeading">CONTENTS</block>
+   <block name="ToCType">Section</block>
+   <toc GUID="_c21b003b-b89d-4a67-ad13-823672189082" class="body" eId="cp__toc">
+    <tocItem class="group4ToC" href="#xhdg_1" level="4"><inline name="tocHeading">Introductory</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_1" level="5"><inline name="tocNum">1</inline><inline name="tocHeading">Meaning of key terms</inline></tocItem>
+    <tocItem class="group4ToC" href="#xhdg_2" level="4"><inline name="tocHeading">Ticket
+      touting</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_2" level="5"><inline name="tocNum">2</inline><inline name="tocHeading">Ban on ticket touting</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_2A" level="5"><inline name="tocNum">2A</inline><inline name="tocHeading"><?oxy_insert_start author="stuart.todd.sp" timestamp="20191121T135257+0000"?>Exception for
+      charity auctions<?oxy_insert_end?></inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_3" level="5"><inline name="tocNum">3</inline><inline name="tocHeading">Exception for certain advertisers etc.</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_4" level="5"><inline name="tocNum">4</inline><inline name="tocHeading">Provision of electronic facilities</inline></tocItem>
+    <tocItem class="group4ToC" href="#xhdg_5" level="4"><inline name="tocHeading">Street trading
+      etc.</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_5" level="5"><inline name="tocNum">5</inline><inline name="tocHeading">Ban on outdoor trading within event zone</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_6" level="5"><inline name="tocNum">6</inline><inline name="tocHeading">Trading activities, places and prohibited times</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_7" level="5"><inline name="tocNum">7</inline><inline name="tocHeading">Trading permitted in prescribed circumstances</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_8" level="5"><inline name="tocNum">8</inline><inline name="tocHeading">Existing trading licences</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_9" level="5"><inline name="tocNum">9</inline><inline name="tocHeading">Alternative arrangements where existing trading banned during
+      Championship</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_10" level="5"><inline name="tocNum">10</inline><inline name="tocHeading">Guidance and information about trading</inline></tocItem>
+    <tocItem class="group4ToC" href="#xhdg_11" level="4"><inline name="tocHeading">Advertising</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_11" level="5"><inline name="tocNum">11</inline><inline name="tocHeading">Ban on advertising within event zones</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_12" level="5"><inline name="tocNum">12</inline><inline name="tocHeading">Advertising activities, places and prohibited times</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_13" level="5"><inline name="tocNum">13</inline><inline name="tocHeading">Advertising permitted in prescribed circumstances</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_14" level="5"><inline name="tocNum">14</inline><inline name="tocHeading">Existing advertising licences</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_15" level="5"><inline name="tocNum">15</inline><inline name="tocHeading">Guidance and information about advertising</inline></tocItem>
+    <tocItem class="group4ToC" href="#xhdg_16" level="4"><inline name="tocHeading">Enforcement</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_16" level="5"><inline name="tocNum">16</inline><inline name="tocHeading">Enforcement officers</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_17" level="5"><inline name="tocNum">17</inline><inline name="tocHeading">General enforcement powers</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_18" level="5"><inline name="tocNum">18</inline><inline name="tocHeading">Restrictions on general enforcement powers</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_19" level="5"><inline name="tocNum">19</inline><inline name="tocHeading">Power to enter and search</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_20" level="5"><inline name="tocNum">20</inline><inline name="tocHeading">Use of reasonable force</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_21" level="5"><inline name="tocNum">21</inline><inline name="tocHeading">Further restrictions on entering houses</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_22" level="5"><inline name="tocNum">22</inline><inline name="tocHeading">Power to obtain information</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_23" level="5"><inline name="tocNum">23</inline><inline name="tocHeading">Requirement to produce authority</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_24" level="5"><inline name="tocNum">24</inline><inline name="tocHeading">Test purchases</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_25" level="5"><inline name="tocNum">25</inline><inline name="tocHeading">Compensation and recovery of costs</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_26" level="5"><inline name="tocNum">26</inline><inline name="tocHeading">Obstructing an enforcement officer</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_27" level="5"><inline name="tocNum">27</inline><inline name="tocHeading">Police powers</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_28" level="5"><inline name="tocNum">28</inline><inline name="tocHeading">Action under <rref from="#sec_17" ukl:fromGuid="_82779a9c-1526-48c3-90df-bb41f679416c" ukl:upToGuid="_0f0b782b-a285-4890-89f3-a528099af4c0" upTo="#sec_24"><ref class="valid" href="#sec_17" ukl:targetGuid="_82779a9c-1526-48c3-90df-bb41f679416c">sections
+        17</ref> to <ref class="valid" href="#sec_24" ukl:targetGuid="_0f0b782b-a285-4890-89f3-a528099af4c0">24</ref></rref>: procedure</inline></tocItem>
+    <tocItem class="group4ToC" href="#xhdg_29" level="4"><inline name="tocHeading">Offences</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_29" level="5"><inline name="tocNum">29</inline><inline name="tocHeading">Penalties</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_30" level="5"><inline name="tocNum">30</inline><inline name="tocHeading">Individual culpability where offending by an organisation</inline></tocItem>
+    <tocItem class="group4ToC" href="#xhdg_31" level="4"><inline name="tocHeading">Final
+      provisions</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_31" level="5"><inline name="tocNum">31</inline><inline name="tocHeading">Regulation-making powers</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_32" level="5"><inline name="tocNum">32</inline><inline name="tocHeading">Regulation-making powers: consultation and relevant
+     considerations</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_33" level="5"><inline name="tocNum">33</inline><inline name="tocHeading">Interpretation</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_34" level="5"><inline name="tocNum">34</inline><inline name="tocHeading">Commencement</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_35" level="5"><inline name="tocNum">35</inline><inline name="tocHeading">Repeal</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_36" level="5"><inline name="tocNum">36</inline><inline name="tocHeading">Short title</inline></tocItem>
+   </toc>
+  </coverPage>
+  <preface GUID="_59a748f1-fdbe-492c-b83c-2a7c853be3b3" eId="preface">
+   <tblock GUID="_c2e4bcd7-405c-43ed-ad3e-fad943f859c4" class="explanatoryNotesStatement" eId="preface__explNotesStmnt">
+    <p>Amendments to the Bill since the previous version are indicated by sidelining in the right
+     margin. Wherever possible, provisions that were in the Bill as introduced retain the original
+     numbering.</p>
+   </tblock>
+   <block GUID="_b28a5512-a7cc-48b3-ab30-e0a6d365a5f6" eId="preface__st" name="title"><docTitle GUID="_1ca7157b-df38-4f2e-9f73-a0c2f1827758" eId="preface__st__dtitle"><ref class="placeholder" href="#varBillTitle"/></docTitle></block>
+   <block name="stageVersion">[<docStage GUID="_b7f330ae-9fa6-4371-94d5-3fee22234157" eId="preface__docStage"><ref class="placeholder" href="#varStageVersion"/></docStage>]</block>
+   <longTitle GUID="_d903e265-4af4-4e63-a9b0-a23cf0a17bfc" eId="preface__longtitle">
+    <p>An Act of the Scottish Parliament to make provision in relation to the Union of European
+     Football Associations Championship that is to be held, in part, in Glasgow in 2020.</p>
+   </longTitle>
+  </preface>
+  <body>
+   <hcontainer GUID="_a7bbbbe5-02e7-45ba-9f43-10de10b4d2c7" class="group4" eId="xhdg_1" name="crossheading"><?DMS-Component componentId="b7dc8f65-ed05-4ea9-8d3d-12a92cdd7dde" seriesId="9a6d8e22-da15-4bd7-9c01-8cfb843c935a" versionNumber="1"?>
+    
+    <heading GUID="_79f93383-cc4f-4c32-baca-66a4993ff89e" eId="xhdg_1__hdg">Introductory</heading>
+    <section GUID="_1a9c6313-702e-4801-9dd1-a82a6ebbcdd1" class="prov1" eId="sec_1"><?DMS-Component componentId="71741ca1-6396-4d39-98e9-cc6d6d726c20" seriesId="10d7db7b-ec2a-4b99-b51d-a170bf161f50" versionNumber="1"?>
+     
+     <num>1</num>
+     <heading GUID="_2d790a03-ebca-4a1c-80cf-8c3baeb2503c" eId="sec_1__hdg">Meaning of key
+      terms</heading>
+     <subsection GUID="_75c9627e-6ff5-42a9-8155-f8c2e7dc5246" class="prov2" eId="sec_1__subsec_1">
+      <num>(1)</num>
+      <intro GUID="_dda21f1d-b5e9-4b77-b2c8-58461a8fa5c7" eId="sec_1__subsec_1__intro">
+       <p>In this Act—</p>
+      </intro>
+      <hcontainer GUID="_d64be45f-239b-4925-b7af-c7b2b98e5841" class="definition" eId="sec_1__subsec_1__def_Championship_" name="definition">
+       <content>
+        <p>the <def GUID="_315a6dc3-1df6-4794-84c0-d566507ead0d" eId="sec_1__subsec_1__def_Championship">“Championship”</def> means the Union of
+         European Football Associations (UEFA) European Championship that is to be held, in part, in
+         Glasgow in 2020, </p>
+       </content>
+      </hcontainer>
+      <hcontainer GUID="_805c30b6-1c18-4698-a57d-9413ecfdb2cf" class="definition" eId="sec_1__subsec_1__def_the“ChampionshipPeriod_" name="definition">
+       <content>
+        <p><def GUID="_68c8a4d0-a674-4e07-98b1-8b7f9988033b" eId="sec_1__subsec_1__def_the“ChampionshipPeriod">the “Championship Period”</def> means the
+         period beginning on 1 June and ending on 12 July 2020,</p>
+       </content>
+      </hcontainer>
+      <hcontainer GUID="_975e38ca-1e70-4523-88b3-450f64c9e32a" class="definition" eId="sec_1__subsec_1__def_a“ChampionshipTicket_" name="definition">
+       <content>
+        <p><def GUID="_90c8b98d-2705-439b-8d58-3bd36d374406" eId="sec_1__subsec_1__def_a“ChampionshipTicket">a “Championship Ticket”</def> means any
+         ticket, card, electronic device or other thing which entitles an individual to attend an
+         event which is held as part of the Championship (whether or not held in Scotland),</p>
+       </content>
+      </hcontainer>
+      <hcontainer GUID="_3cda5657-55b2-4e8f-9e22-1c3888104a82" class="definition" eId="sec_1__subsec_1__def_eventzone_" name="definition">
+       <intro GUID="_be16dbc7-06d5-473d-a829-1d64554fdba6" eId="sec_1__subsec_1__def_eventzone___intro">
+        <p>an <def GUID="_d8daf5af-6b36-4373-a786-6331248dde7e" eId="sec_1__subsec_1__def_eventzone">“event zone”</def> means any one of—</p>
+       </intro>
+       <paragraph GUID="_b55992f6-7b91-4681-96dd-f2b34629237e" class="para1" eId="sec_1__subsec_1__para_a">
+        <num>(a)</num>
+        <content>
+         <p>the Hampden Park zone,</p>
+        </content>
+       </paragraph>
+       <paragraph GUID="_344e4758-79c3-4ab7-99d9-a54512f8851c" class="para1" eId="sec_1__subsec_1__para_b">
+        <num>(b)</num>
+        <content>
+         <p>the George Square zone,</p>
+        </content>
+       </paragraph>
+       <paragraph GUID="_24b36402-6ee0-4a6e-8093-c2152ac7593c" class="para1" eId="sec_1__subsec_1__para_c">
+        <num>(c)</num>
+        <content>
+         <p>the Merchant City Zone,</p>
+        </content>
+       </paragraph>
+       <wrapUp GUID="_b9d84b37-bec2-46e7-9e68-7b33dfe4dacd" eId="sec_1__subsec_1__def_eventzone___wrapup">
+        <p>as defined in regulations made by the Scottish Ministers.</p>
+       </wrapUp>
+      </hcontainer>
+     </subsection>
+     <subsection GUID="_2587d31d-ba7b-44f5-8f04-f54cbce7f4b8" class="prov2" eId="sec_1__subsec_2">
+      <num>(2)</num>
+      <content>
+       <p>Other terms and expressions used in this Act are set out in <ref class="valid" href="#sec_33" ukl:targetGuid="_93d1d046-616d-4820-a069-4721eb197508">section
+         33</ref>.</p>
+      </content>
+     </subsection>
+    </section>
+   </hcontainer>
+   <hcontainer GUID="_a7360eb9-a489-4fbf-9426-bdb6a1251bea" class="group4" eId="xhdg_2" name="crossheading"><?DMS-Component componentId="d02c051c-0103-4c6c-8bca-b5917aae82b6" seriesId="e8a9fd37-f0ff-40dd-807f-30406e24147f" versionNumber="1"?>
+    
+    <heading GUID="_520e1925-38b7-4609-a901-f905a5955a87" eId="xhdg_2__hdg">Ticket touting</heading>
+    <section GUID="_38ba8881-82bd-4976-b997-f944a4b08ead" class="prov1" eId="sec_2"><?DMS-Component componentId="84940c28-6a12-4679-a1d1-831cbaac4349" seriesId="acc98a37-204c-4172-859c-0eeac4023088" versionNumber="0"?>
+     
+     <num>2</num>
+     <heading GUID="_c8a3bdd1-e1db-4b8c-aab0-9e15c22b2300" eId="sec_2__hdg">Ban on ticket
+      touting</heading>
+     <subsection GUID="_fc025482-5392-4b49-abde-09e0c844778b" class="prov2" eId="sec_2__subsec_1">
+      <num>(1)</num>
+      <content>
+       <p>It is an offence to tout a Championship ticket (“the touting offence”).</p>
+      </content>
+     </subsection>
+     <subsection GUID="_3b43ba8d-b456-4f63-bbd8-51f946c11732" class="prov2" eId="sec_2__subsec_2">
+      <num>(2)</num>
+      <intro GUID="_81c0ea9b-b135-40f3-8914-debeaed8913f" eId="sec_2__subsec_2__intro">
+       <p>A person touts a Championship ticket if the person does any act falling within <ref class="valid" href="#sec_2__subsec_3" ukl:targetGuid="_7281f88c-ab78-4a46-9f36-c806df96e607">subsection (3)</ref>—</p>
+      </intro>
+      <paragraph GUID="_e2dc4c79-138e-4f29-84f3-47ec34892f5e" class="para1" eId="sec_2__subsec_2__para_a">
+       <num>(a)</num>
+       <content>
+        <p>in relation to the sale, or proposed sale, of a Championship ticket for an amount
+         exceeding the ticket’s face value, or </p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_d0429805-0d3e-4423-ad25-ec6c4a3c0689" class="para1" eId="sec_2__subsec_2__para_b">
+       <num>(b)</num>
+       <content>
+        <p>with a view to making a profit.</p>
+       </content>
+      </paragraph>
+     </subsection>
+     <subsection GUID="_7281f88c-ab78-4a46-9f36-c806df96e607" class="prov2" eId="sec_2__subsec_3">
+      <num>(3)</num>
+      <intro GUID="_160adb10-3c8f-4dc5-85ac-54fb45a3c67e" eId="sec_2__subsec_3__intro">
+       <p>Acts which fall within this subsection are—</p>
+      </intro>
+      <paragraph GUID="_ca157851-b683-4dbc-89f1-a2001dc1ba36" class="para1" eId="sec_2__subsec_3__para_a">
+       <num>(a)</num>
+       <content>
+        <p>selling a Championship ticket,</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_ba9a1f2f-ad40-4a3b-9347-cc4ac934320b" class="para1" eId="sec_2__subsec_3__para_b">
+       <num>(b)</num>
+       <content>
+        <p>offering to sell a Championship ticket,</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_5a4c9671-40ff-4fd4-87bc-f8a1193a8c8e" class="para1" eId="sec_2__subsec_3__para_c">
+       <num>(c)</num>
+       <content>
+        <p>exposing a Championship ticket for sale,</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_baf3d828-bd54-4901-b935-cf1e1c68ae83" class="para1" eId="sec_2__subsec_3__para_d">
+       <num>(d)</num>
+       <content>
+        <p>advertising that a Championship ticket is available for purchase,</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_c669cb0f-c654-447c-b6dd-b2955eb2374a" class="para1" eId="sec_2__subsec_3__para_e">
+       <num>(e)</num>
+       <content>
+        <p>making a Championship ticket available for sale by another person, and</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_102575cd-293e-41ab-8f80-dd2d7e165a9b" class="para1" eId="sec_2__subsec_3__para_f">
+       <num>(f)</num>
+       <content>
+        <p>giving away (or offering to give away) a Championship ticket on condition that the person
+         given the ticket pays a booking fee or other charge or acquires some other goods or
+         services.</p>
+       </content>
+      </paragraph>
+     </subsection>
+     <subsection GUID="_7ef80d33-d06b-4571-a826-e80c7ef10c0e" class="prov2" eId="sec_2__subsec_4">
+      <num>(4)</num>
+      <?oxy_attributes eId="&lt;change type=&quot;inserted&quot; author=&quot;stuart.todd.sp&quot; timestamp=&quot;20191121T134717+0000&quot; /&gt;" GUID="&lt;change type=&quot;inserted&quot; author=&quot;stuart.todd.sp&quot; timestamp=&quot;20191121T134717+0000&quot; /&gt;"?>
+      <intro GUID="_484e6e1b-2a54-4237-ba77-e9cbb798d26e" eId="sec_2__subsec_4__intro">
+       <p>The touting offence does not apply in relation to
+        <?oxy_insert_start author="stuart.todd.sp" timestamp="20191121T134504+0000"?>any act by UEFA
+        in relation to the sale, or proposed sale, of a Championship ticket
+        which—<?oxy_insert_end?></p>
+      </intro>
+      <?oxy_insert_start author="stuart.todd.sp" timestamp="20191121T134717+0000"?>
+      <paragraph GUID="_99fa2e17-805b-4317-b851-aa11b6473474" class="para1" eId="sec_2__subsec_4__para_a">
+       <num>(a)</num>
+       <content>
+        <p>falls within subsection (3), and</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_b61d7c4e-562b-4e4b-b6b2-f756c2e59737" class="para1" eId="sec_2__subsec_4__para_b">
+       <num>(b)</num>
+       <content>
+        <p>is not done for an amount exceeding the ticket’s face value.</p>
+       </content>
+      </paragraph>
+      <?oxy_insert_end?>
+     </subsection>
+     <subsection GUID="_ba792ac9-4de4-4c47-8226-d14a87a225b1" class="prov2" eId="sec_2__subsec_5">
+      <num>(5)</num>
+      <content>
+       <p>This <ref class="valid" href="#sec_2" ukl:targetGuid="_38ba8881-82bd-4976-b997-f944a4b08ead">section</ref> applies to acts done in or outwith Scotland.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_3a48ce26-9d46-4ac9-bfab-164b0f5a56cf" class="prov2" eId="sec_2__subsec_6">
+      <num>(6)</num>
+      <intro GUID="_bb2a5b91-27a0-4d41-98dd-28de45df087d" eId="sec_2__subsec_6__intro">
+       <p>The amount payable for a Championship ticket is to be treated as including—</p>
+      </intro>
+      <paragraph GUID="_2c919365-4f63-4b7c-a181-0ecdf5a547fb" class="para1" eId="sec_2__subsec_6__para_a">
+       <num>(a)</num>
+       <content>
+        <p>the amount of any booking fee or other charge imposed as a condition of sale,</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_64cd78ba-0a83-4bae-b224-b0f44ce18673" class="para1" eId="sec_2__subsec_6__para_b">
+       <num>(b)</num>
+       <content>
+        <p>the amount payable for any other goods or services which are to be acquired as a
+         condition of sale, and</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_c81eee25-d95c-4c6a-afea-b1f07b40b764" class="para1" eId="sec_2__subsec_6__para_c">
+       <num>(c)</num>
+       <content>
+        <p>the market value of any goods or services received in exchange for the ticket.</p>
+       </content>
+      </paragraph>
+     </subsection>
+     <subsection GUID="_13a01a7d-2b5c-4240-a390-6ee4b4a42f00" class="prov2" eId="sec_2__subsec_7">
+      <num>(7)</num>
+      <content>
+       <p>The reference in <ref class="valid" href="#sec_2__subsec_2" ukl:targetGuid="_3b43ba8d-b456-4f63-bbd8-51f946c11732">subsection (2)</ref><ref class="valid" href="#sec_2__subsec_2__para_b" ukl:targetGuid="_d0429805-0d3e-4423-ad25-ec6c4a3c0689">(b)</ref> to making a profit is, where the act is done by a person other than
+        the person disposing of the ticket, to be read as a reference to assisting the person
+        disposing of the ticket to make or attempt to make a profit.</p>
+      </content>
+     </subsection>
+    </section>
+    <section GUID="_858e6535-d123-4290-b338-3318efd77442" class="prov1" eId="sec_2A"><?DMS-Component componentId="9d9c1473-2c5a-4f34-be00-e9c94cc93baa" seriesId="a413fc13-80c3-4e3b-9376-8122bb4020fa" versionNumber="0"?>
+     <num>2A</num>
+     <heading GUID="_cf88f5bf-f912-4d03-81a8-0770edede315" eId="sec_2A__hdg">Exception for charity
+      auction<?oxy_insert_start author="stuart.todd.sp" timestamp="20191127T152718+0000"?>s<?oxy_insert_end?>
+     </heading>
+     <subsection GUID="_8d78dafb-c193-4c8a-9c87-d0767878812a" class="prov2" eId="sec_2A__subsec_1">
+      <num>(1)</num>
+      <?oxy_attributes eId="&lt;change type=&quot;inserted&quot; author=&quot;stuart.todd.sp&quot; timestamp=&quot;20191121T135339+0000&quot; /&gt;" GUID="&lt;change type=&quot;inserted&quot; author=&quot;stuart.todd.sp&quot; timestamp=&quot;20191121T135339+0000&quot; /&gt;"?>
+      <intro GUID="_ca8fbe24-8d37-4299-b056-e9454de92ea9" eId="sec_2A__subsec_1__intro">
+       <p><?oxy_insert_start author="stuart.todd.sp" timestamp="20191121T135329+0000"?>The touting
+        offence does not apply in relation to the sale of a Championship ticket in an  auction
+        conducted—<?oxy_insert_end?></p>
+      </intro>
+      <?oxy_insert_start author="stuart.todd.sp" timestamp="20191121T135339+0000"?>
+      <paragraph GUID="_4fdd6fe8-3f4a-4730-847c-b85723cd1e15" class="para1" eId="sec_2A__subsec_1__para_a">
+       <num>(a)</num>
+       <content>
+        <p>by a charity, or</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_47c3e435-74ed-4804-90bb-77a56e6142e2" class="para1" eId="sec_2A__subsec_1__para_b">
+       <num>(b)</num>
+       <content>
+        <p>by a person other than a charity, provided that the proceeds of the ticket’s sale are
+         given to a charity.</p>
+       </content>
+      </paragraph>
+      <?oxy_insert_end?>
+     </subsection>
+     <?oxy_insert_start author="stuart.todd.sp" timestamp="20191121T135441+0000"?>
+     <subsection GUID="_9cab10bb-ccb1-45cb-b6d3-11786f878287" class="prov2" eId="sec_2A__subsec_2">
+      <num>(2)</num>
+      <intro GUID="_61ba3494-b216-47fa-83fb-6e79b1a27fdd" eId="sec_2A__subsec_2__intro">
+       <p>In subsection (1), “charity” means—</p>
+      </intro>
+      <paragraph GUID="_465d39c6-52f4-4e1f-bf6f-847f04bf05e6" class="para1" eId="sec_2A__subsec_2__para_a">
+       <num>(a)</num>
+       <content>
+        <p>a body which is registered in the Scottish Charity Register, or</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_0b66c0d7-a566-4db2-9f74-f7343fbb9c44" class="para1" eId="sec_2A__subsec_2__para_b">
+       <num>(b)</num>
+       <intro GUID="_5477b2f6-b874-4311-99af-a0565be76c0c" eId="sec_2A__subsec_2__para_b__intro">
+        <p>a body which—</p>
+       </intro>
+       <subparagraph GUID="_34507544-c726-424f-932d-582e375bbdda" class="para2" eId="sec_2A__subsec_2__para_b__subpara_i">
+        <num>(i)</num>
+        <content>
+         <p>is established under the law of England and Wales, of Northern Ireland, or of a member
+          state of the European Union,</p>
+        </content>
+       </subparagraph>
+       <subparagraph GUID="_190943d5-4c0e-459a-9461-625497dfd5ea" class="para2" eId="sec_2A__subsec_2__para_b__subpara_ii">
+        <num>(ii)</num>
+        <content>
+         <p>is managed or controlled wholly or mainly outwith Scotland, and</p>
+        </content>
+       </subparagraph>
+       <subparagraph GUID="_cb885abb-d20b-4f71-9741-3b2f7b94664d" class="para2" eId="sec_2A__subsec_2__para_b__subpara_iii">
+        <num>(iii)</num>
+        <content>
+         <p>meets at least one of the conditions set out in subsection (3).</p>
+        </content>
+       </subparagraph>
+      </paragraph>
+     </subsection>
+     <subsection GUID="_e55124e0-e78f-434e-a6ad-47c6c8bdb38e" class="prov2" eId="sec_2A__subsec_3">
+      <num>(3)</num>
+      <intro GUID="_b2c0402d-262d-4fdd-927a-e609f86b444b" eId="sec_2A__subsec_3__intro">
+       <p>The conditions are—</p>
+      </intro>
+      <paragraph GUID="_79b51cc0-e085-43d4-818c-995fe2ef1259" class="para1" eId="sec_2A__subsec_3__para_a">
+       <num>(a)</num>
+       <content>
+        <p>the body is registered in a register corresponding to the Scottish Charity Register,</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_ed5b0080-5b61-4a00-b0ad-36c2624afddf" class="para1" eId="sec_2A__subsec_3__para_b">
+       <num>(b)</num>
+       <content>
+        <p>the body’s purposes consist only of one or more of the charitable purposes set out in
+         section 7(2) of the Charities and Trustee Investments (Scotland) Act 2005.</p>
+       </content>
+      </paragraph>
+     </subsection>
+     <?oxy_insert_end?>
+    </section>
+    <section GUID="_3028442b-cac5-47d2-831a-4568e69f8f33" class="prov1" eId="sec_3"><?DMS-Component componentId="84f7d0a3-6dff-4e33-9b93-d82dab7f3324" seriesId="4544bc78-bcc9-45e1-8909-f3a88ff2e9ee" versionNumber="0"?>
+     
+     <num>3</num>
+     <heading GUID="_11388ad0-5b5a-4010-b9f0-f8ec7504620c" eId="sec_3__hdg">Exception for certain
+      advertisers etc.</heading>
+     <intro GUID="_3784e31d-e3f2-4a6a-ae68-f11b171aae0f" eId="sec_3__intro">
+      <p>A person (“A”) who advertises that a Championship ticket is available for purchase from, or
+       makes a ticket available for sale by, another person (“B”) does not commit a touting offence
+       if—</p>
+     </intro>
+     <paragraph GUID="_f87924e0-1aab-46a1-be79-fcd1a621e61d" class="para1" eId="sec_3__para_a">
+      <num>(a)</num>
+      <intro GUID="_5bd91a8d-0f87-421f-a3ad-ff8d766c2897" eId="sec_3__para_a__intro">
+       <p>the proposed ticket sale would constitute a touting offence only because B intends to—</p>
+      </intro>
+      <subparagraph GUID="_734b49a3-72e9-44f4-90c4-64f5b1ec75df" class="para2" eId="sec_3__para_a__subpara_i">
+       <num>(i)</num>
+       <content>
+        <p>sell the ticket for an amount exceeding the ticket’s face value, or</p>
+       </content>
+      </subparagraph>
+      <subparagraph GUID="_d5e0b82f-adaa-4a2a-96f4-fe5a524e31ad" class="para2" eId="sec_3__para_a__subpara_ii">
+       <num>(ii)</num>
+       <content>
+        <p>make a profit as a result of the sale, and</p>
+       </content>
+      </subparagraph>
+     </paragraph>
+     <paragraph GUID="_e1862055-1b8b-4bda-8895-d82d5c35600e" class="para1" eId="sec_3__para_b">
+      <num>(b)</num>
+      <content>
+       <p>A does not, and could not reasonably be expected to, know B’s intention.</p>
+      </content>
+     </paragraph>
+    </section>
+    <section GUID="_c33a3300-6151-4fc9-9fc7-e1c5543c260e" class="prov1" eId="sec_4"><?DMS-Component componentId="a3a0a5c5-5f8e-44e3-93c9-2c2b31ff50d5" seriesId="a6d5b5fb-efb5-4c65-97d2-386deb135237" versionNumber="1"?>
+     
+     <num>4</num>
+     <heading GUID="_4aec830d-fd6a-4db7-bfab-7d534d9bba8b" eId="sec_4__hdg">Provision of electronic
+      facilities</heading>
+     <content>
+      <p>The Scottish Ministers may by regulations specify circumstances in which making facilities
+       available in connection with electronic communications or the storage of data is, or is not,
+       to be capable of constituting a touting offence.</p>
+     </content>
+    </section>
+   </hcontainer>
+   <hcontainer GUID="_02a213b5-ce6d-4f94-a89d-006be9f274ac" class="group4" eId="xhdg_5" name="crossheading"><?DMS-Component componentId="1e38a2af-661e-441a-8101-8cf9ede1dbce" seriesId="58287995-c208-477b-a044-4de4a3219bb9" versionNumber="1"?>
+    
+    <heading GUID="_90fdcf93-7151-4c7c-b089-ab2aa2d42c01" eId="xhdg_5__hdg">Street trading
+     etc.</heading>
+    <section GUID="_40575db1-3f8a-4837-bbc1-f04696804c24" class="prov1" eId="sec_5"><?DMS-Component componentId="cc6b05a1-1ea9-4727-8530-62bac096ffee" seriesId="d2d62c76-3269-4087-832c-1047d6399138" versionNumber="1"?>
+     
+     <num>5</num>
+     <heading GUID="_58e8be77-6921-40aa-b975-a9bcc2d98eb5" eId="sec_5__hdg">Ban on outdoor trading
+      within event zone</heading>
+     <subsection GUID="_3e808cc4-9466-4de1-9d65-a2c095315312" class="prov2" eId="sec_5__subsec_1">
+      <num>(1)</num>
+      <content>
+       <p>It is an offence to trade within an event zone at a prohibited time (“the trading
+        offence”).</p>
+      </content>
+     </subsection>
+     <subsection GUID="_13c517ad-574b-4573-8a36-dd6699b66760" class="prov2" eId="sec_5__subsec_2">
+      <num>(2)</num>
+      <content>
+       <p>The trading offence does not apply to trading in a building.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_0078e67e-7238-4113-960a-58e32291645f" class="prov2" eId="sec_5__subsec_3">
+      <num>(3)</num>
+      <intro GUID="_dc17c574-d7cd-4cdd-8444-fd79e4c627a6" eId="sec_5__subsec_3__intro">
+       <p>The Scottish Ministers may by regulations (“the trading regulations”)—</p>
+      </intro>
+      <paragraph GUID="_085d4afa-7d21-4c8f-841e-a273a8504808" class="para1" eId="sec_5__subsec_3__para_a">
+       <num>(a)</num>
+       <content>
+        <p>exempt types of trading from the trading offence,</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_174ff7d9-a68e-4620-bb85-ab26b82ca282" class="para1" eId="sec_5__subsec_3__para_b">
+       <num>(b)</num>
+       <content>
+        <p>make such further provision as they consider appropriate in relation to trading within
+         event zones.</p>
+       </content>
+      </paragraph>
+     </subsection>
+     <subsection GUID="_7f41a635-9da3-40c1-bfe0-3040c7fee1d4" class="prov2" eId="sec_5__subsec_4">
+      <num>(4)</num>
+      <content>
+       <p>The trading offence does not apply to trading by UEFA (so long as that trading is done in
+        accordance with any conditions imposed by the trading regulations).</p>
+      </content>
+     </subsection>
+    </section>
+    <section GUID="_b2beebb3-b66a-45cf-8fdd-871ee204bfde" class="prov1" eId="sec_6"><?DMS-Component componentId="8a9ded9a-4f0d-4e08-87b3-d6ecfc3f7079" seriesId="45e232e2-10cd-4275-82ca-13247070dc64" versionNumber="0"?>
+     
+     <num>6</num>
+     <heading GUID="_5387449b-449c-411d-a7f9-38234eb9885b" eId="sec_6__hdg">Trading activities,
+      places and prohibited times</heading>
+     <subsection GUID="_ed21d1f6-9c0a-4455-a13a-3c73ea38b449" class="prov2" eId="sec_6__subsec_1">
+      <num>(1)</num>
+      <content>
+       <p>An activity is to be treated as trading if it is the sale or offer for sale, in an open
+        public place, of an article or service.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_255cb7e0-3a8f-4dde-8cfc-1a8ba16df660" class="prov2" eId="sec_6__subsec_2">
+      <num>(2)</num>
+      <intro GUID="_34c28564-0959-41dd-8b63-af660b489196" eId="sec_6__subsec_2__intro">
+       <p>For example, any of the following acts done in an open public place are to be treated as
+        trading (except as exempted or permitted in the trading regulations by virtue of <ref class="valid" href="#sec_5" ukl:targetGuid="_40575db1-3f8a-4837-bbc1-f04696804c24">section
+         5</ref><ref class="valid" href="#sec_5__subsec_3" ukl:targetGuid="_0078e67e-7238-4113-960a-58e32291645f">(3)</ref> or <ref class="valid" href="#sec_7" ukl:targetGuid="_6ce20550-990f-456d-9782-a575cf506721">7</ref><ref class="valid" href="#sec_7__subsec_1" ukl:targetGuid="_3c9eb4a1-bcd0-468c-b73b-29c9df56e38b">(1)</ref>)—</p>
+      </intro>
+      <paragraph GUID="_25774a46-bea9-4aa4-83ad-89bcd40a7da0" class="para1" eId="sec_6__subsec_2__para_a">
+       <num>(a)</num>
+       <content>
+        <p>selling an article,</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_1e85241b-0e9f-4bac-9e2c-2fcca15a5095" class="para1" eId="sec_6__subsec_2__para_b">
+       <num>(b)</num>
+       <content>
+        <p>supplying a service,</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_2b4f9441-d898-4a7b-ae62-4cab2574bde7" class="para1" eId="sec_6__subsec_2__para_c">
+       <num>(c)</num>
+       <content>
+        <p>making an appeal to members of the public to give money or other property (or both) for
+         charitable or other purposes (whether authorised or not under any enactment),</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_acc9f8f1-eb74-402f-a52b-79c193e9d141" class="para1" eId="sec_6__subsec_2__para_d">
+       <num>(d)</num>
+       <content>
+        <p>providing public entertainment for gain or reward.</p>
+       </content>
+      </paragraph>
+     </subsection>
+     <subsection GUID="_94ce9bdd-6c08-4b74-ba34-7065653ac96b" class="prov2" eId="sec_6__subsec_3">
+      <num>(3)</num>
+      <intro GUID="_24e82180-acd3-4fe3-b090-6040356482f9" eId="sec_6__subsec_3__intro">
+       <p>The trading regulations may prescribe, or provide criteria for determining—</p>
+      </intro>
+      <paragraph GUID="_b9b3ad23-0816-483e-bf10-80068d2bdf64" class="para1" eId="sec_6__subsec_3__para_a">
+       <num>(a)</num>
+       <content>
+        <p>activities which are (or are not) to be treated as trading for the purpose of the trading
+         offence,</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_e615127c-5972-42bc-a10e-89c28cf4e38b" class="para1" eId="sec_6__subsec_3__para_b">
+       <num>(b)</num>
+       <content>
+        <p>places or areas within an event zone where the trading offence will not apply,</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_7e743772-6868-4501-b203-87d4d79b4c07" class="para1" eId="sec_6__subsec_3__para_c">
+       <num>(c)</num>
+       <content>
+        <p>alternative arrangements for existing street traders during the times when the trading
+         offence applies, and</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_80f5db49-169d-4629-b9e3-7a8212ad075e" class="para1" eId="sec_6__subsec_3__para_d">
+       <num>(d)</num>
+       <content>
+        <p>times which are prohibited times for the purpose of the trading offence.</p>
+       </content>
+      </paragraph>
+     </subsection>
+     <subsection GUID="_72f4b839-172e-4476-a3fd-c4aa11797c18" class="prov2" eId="sec_6__subsec_4">
+      <num>(4)</num>
+      <content>
+       <p>The prohibited times may only be during the Championship period.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_906ea31d-3aaa-4164-90c4-d043fe4721af" class="prov2" eId="sec_6__subsec_5">
+      <num>(5)</num>
+      <intro GUID="_60ce12f0-07f9-4b39-bf9c-c38e88e12727" eId="sec_6__subsec_5__intro">
+       <p>In <?oxy_insert_start author="stuart.todd.sp" timestamp="20191121T141413+0000"?>this
+        Act<?oxy_insert_end?>, an “existing street trader” is any person—</p>
+      </intro>
+      <paragraph GUID="_65f11931-f54d-425a-9dcc-489877f5e573" class="para1" eId="sec_6__subsec_5__para_a">
+       <num>(a)</num>
+       <content>
+        <p>to whom Glasgow City Council
+         <?oxy_insert_start author="stuart.todd.sp" timestamp="20191121T141631+0000"?>or, as the
+         case may be, the Police Service of Scotland has granted a trading<?oxy_insert_end?>
+         licence, authorising the person to trade at a place in Glasgow City Council's area prior to
+         the date on which this Act receives Royal Assent, and which remains in force on that date,
+         and</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_d1a75b68-68b2-43e5-a114-536d232fbb06" class="para1" eId="sec_6__subsec_5__para_b">
+       <num>(b)</num>
+       <content>
+        <p>who would, but for this Act, be entitled to trade
+         <?oxy_insert_start author="stuart.todd.sp" timestamp="20191121T145555+0000"?>within an
+         event zone<?oxy_insert_end?> during the times when the trading offence applies.</p>
+       </content>
+      </paragraph>
+     </subsection>
+    </section>
+    <section GUID="_6ce20550-990f-456d-9782-a575cf506721" class="prov1" eId="sec_7"><?DMS-Component componentId="f27fee9c-604b-420d-9856-0ae293077ae8" seriesId="08d48e17-25e6-4563-861c-1c59ddbe5c56" versionNumber="1"?>
+     
+     <num>7</num>
+     <heading GUID="_c6698025-bfc9-4e36-a896-68ce6a1b9756" eId="sec_7__hdg">Trading permitted in
+      prescribed circumstances</heading>
+     <subsection GUID="_3c9eb4a1-bcd0-468c-b73b-29c9df56e38b" class="prov2" eId="sec_7__subsec_1">
+      <num>(1)</num>
+      <content>
+       <p>The trading regulations may prescribe, or provide criteria for determining, circumstances
+        in which trading which would otherwise constitute a trading offence is permitted.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_510b3868-651f-471c-9dfa-3fe4a31f1f6d" class="prov2" eId="sec_7__subsec_2">
+      <num>(2)</num>
+      <intro GUID="_f7f3967f-fa4b-47b2-914f-28d1e58c4b14" eId="sec_7__subsec_2__intro">
+       <p>Trading may, for example, be permitted by reference to—</p>
+      </intro>
+      <paragraph GUID="_b00d129e-65b7-4c57-a343-c092c100d982" class="para1" eId="sec_7__subsec_2__para_a">
+       <num>(a)</num>
+       <content>
+        <p>the person who is trading,</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_eddfb421-b39c-44ab-9fee-b9faa1ca3bc5" class="para1" eId="sec_7__subsec_2__para_b">
+       <num>(b)</num>
+       <content>
+        <p>the nature of the trading,</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_4dd8214a-8adf-4061-aadf-d1cdee8cb960" class="para1" eId="sec_7__subsec_2__para_c">
+       <num>(c)</num>
+       <content>
+        <p>the purpose of the trading, or</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_3117b347-d7cb-4669-bbb8-1b3eb1ed0bbd" class="para1" eId="sec_7__subsec_2__para_d">
+       <num>(d)</num>
+       <content>
+        <p>the application of any profits.</p>
+       </content>
+      </paragraph>
+     </subsection>
+    </section>
+    <section GUID="_590c341a-f466-4f61-8ec1-8083bd42cc9a" class="prov1" eId="sec_8"><?DMS-Component componentId="51599e0d-7998-421e-9cb7-72d63f25e400" seriesId="e5ae8bf6-f1c7-45aa-868e-743b77297973" versionNumber="1"?>
+     
+     <num>8</num>
+     <heading GUID="_abf7bfa6-2655-4a70-95f1-c8013417a519" eId="sec_8__hdg">Existing trading
+      licences</heading>
+     <content>
+      <p>It is not a defence for a person charged with the trading offence that the person has a
+       trading licence, whether granted before or after this section comes into force.</p>
+     </content>
+    </section>
+    <section GUID="_f8868d6f-d636-47ae-b2d0-ce6a54b2dd97" class="prov1" eId="sec_9"><?DMS-Component componentId="e04160ee-67b8-4fea-a036-76ff33969f0b" seriesId="e7f97c90-be6b-4efc-a61b-884d100ed32a" versionNumber="1"?>
+     
+     <num>9</num>
+     <heading GUID="_ea4c0088-643b-4173-bbb8-eb372e771f06" eId="sec_9__hdg">Alternative arrangements
+      where existing trading banned during Championship</heading>
+     <content>
+      <p>Glasgow City Council must offer alternative trading arrangements to existing street traders
+       during the times when the trading offence applies.</p>
+     </content>
+    </section>
+    <section GUID="_c26e5514-36f2-4729-a9cd-7bdf3418c449" class="prov1" eId="sec_10"><?DMS-Component componentId="594ab386-67ba-4634-9d49-65fecc07210e" seriesId="22df797e-cc8e-4584-a2d7-c6722232c304" versionNumber="1"?>
+     
+     <num>10</num>
+     <heading GUID="_8f7493ed-af6f-4dbd-a432-4fa100e675f9" eId="sec_10__hdg">Guidance and
+      information about trading</heading>
+     <subsection GUID="_2e4228c1-4512-4868-af44-2ec4c12d95ee" class="prov2" eId="sec_10__subsec_1">
+      <num>(1)</num>
+      <content>
+       <p>Glasgow City Council must issue guidance about trading within event zones.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_6c4cb2f0-506e-415b-b9c3-9ea68f0c6c13" class="prov2" eId="sec_10__subsec_2">
+      <num>(2)</num>
+      <content>
+       <p>The trading regulations may require such persons as are specified in the trading
+        regulations to inform other persons about the effect or likely effect of <ref class="valid" href="#sec_5" ukl:targetGuid="_40575db1-3f8a-4837-bbc1-f04696804c24">section
+         5</ref> and the trading regulations.</p>
+      </content>
+     </subsection>
+    </section>
+   </hcontainer>
+   <hcontainer GUID="_b11979d0-c217-4909-a1d0-183a25767325" class="group4" eId="xhdg_11" name="crossheading"><?DMS-Component componentId="98d39b33-c00b-4a85-83eb-f4a47b40ccc1" seriesId="4e283bac-c082-4043-a8cc-dc8de06e24d5" versionNumber="1"?>
+    
+    <heading GUID="_9acec786-8334-4672-b0e4-5b19e066eae2" eId="xhdg_11__hdg">Advertising</heading>
+    <section GUID="_6e053865-319f-4e4a-bdca-94f9802f5385" class="prov1" eId="sec_11"><?DMS-Component componentId="768a5db0-9046-4698-9db9-25bf06b77718" seriesId="9f13a954-3e3d-4272-938e-4eb7b560a695" versionNumber="1"?>
+     
+     <num>11</num>
+     <heading GUID="_4624d5c6-c3f5-49d1-96aa-e83d3d9b86c0" eId="sec_11__hdg">Ban on advertising
+      within event zones</heading>
+     <subsection GUID="_395dfad2-a764-4d44-9978-0356c0b9f41d" class="prov2" eId="sec_11__subsec_1">
+      <num>(1)</num>
+      <content>
+       <p>It is an offence to advertise within an event zone at a prohibited time (“the advertising
+        offence”).</p>
+      </content>
+     </subsection>
+     <subsection GUID="_cba77579-620f-4ba9-a370-5881ab628715" class="prov2" eId="sec_11__subsec_2">
+      <num>(2)</num>
+      <intro GUID="_36d441c6-f64a-4fc2-8280-f0dea4b3c6e9" eId="sec_11__subsec_2__intro">
+       <p>The Scottish Ministers must by regulations (“the advertising regulations”)—</p>
+      </intro>
+      <paragraph GUID="_a8c76f65-6c10-4bfa-a026-d00c55fde364" class="para1" eId="sec_11__subsec_2__para_a">
+       <num>(a)</num>
+       <content>
+        <p>exempt types of advertising from the advertising offence,</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_f1096684-63db-411e-ac78-34d798adf07f" class="para1" eId="sec_11__subsec_2__para_b">
+       <num>(b)</num>
+       <content>
+        <p>make such further provision as they consider appropriate in relation to advertising
+         within event zones.</p>
+       </content>
+      </paragraph>
+     </subsection>
+     <subsection GUID="_5e0201f1-d558-4a66-9a4a-51b18e438523" class="prov2" eId="sec_11__subsec_3">
+      <num>(3)</num>
+      <intro GUID="_02ed80ae-0da7-425c-bce7-42295fd4effa" eId="sec_11__subsec_3__intro">
+       <p>The types of advertising to be exempted may, for example, include—</p>
+      </intro>
+      <paragraph GUID="_9c063dd6-2302-41f2-9ac0-2060d7f57c3c" class="para1" eId="sec_11__subsec_3__para_a">
+       <num>(a)</num>
+       <content>
+        <p>the demonstration of support for or opposition to the views or actions of any person,
+        </p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_36cfc792-70a0-4ccf-8b99-245ae4e4e6a4" class="para1" eId="sec_11__subsec_3__para_b">
+       <num>(b)</num>
+       <content>
+        <p>the publicising of political or religious beliefs, causes or campaigns,</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_080607e5-4155-45b9-bf9e-8dbda3b9af7c" class="para1" eId="sec_11__subsec_3__para_c">
+       <num>(c)</num>
+       <content>
+        <p>the commemoration of events, </p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_40b129f2-79a7-4dd0-8e92-e5d027b3b953" class="para1" eId="sec_11__subsec_3__para_d">
+       <num>(d)</num>
+       <content>
+        <p>the display of an advertisement on an individual’s body, clothing or personal property,
+         and</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_24016018-d6f2-4272-bcd3-c6f4938495b3" class="para1" eId="sec_11__subsec_3__para_e">
+       <num>(e)</num>
+       <intro GUID="_3b0e96cf-58d0-41d1-96b8-b50bf71b170e" eId="sec_11__subsec_3__para_e__intro">
+        <p>the display of an advertisement—</p>
+       </intro>
+       <subparagraph GUID="_7308ce2b-ac17-4800-b56e-6ec09c3c11b6" class="para2" eId="sec_11__subsec_3__para_e__subpara_i">
+        <num>(i)</num>
+        <content>
+         <p>to which the Town and Country Planning (Control of Advertisements) (Scotland)
+          Regulations 1984 (S.I. 1984/467) do not apply, by virtue of regulation 3(1) and (3) of
+          those Regulations, or</p>
+        </content>
+       </subparagraph>
+       <subparagraph GUID="_03f6ab05-87d9-4589-8805-be984632e0d1" class="para2" eId="sec_11__subsec_3__para_e__subpara_ii">
+        <num>(ii)</num>
+        <content>
+         <p>for which consent is granted by regulation 10(1) of those Regulations (so long as the
+          advertisement complies with the conditions set out in schedules 1 and 4 of those
+          Regulations).</p>
+        </content>
+       </subparagraph>
+      </paragraph>
+     </subsection>
+     <subsection GUID="_250a86a8-f824-4828-9624-c0f1fc921f3b" class="prov2" eId="sec_11__subsec_4">
+      <num>(4)</num>
+      <content>
+       <p>But nothing in the advertising regulations is to permit any person to knowingly
+        participate in ambush marketing. </p>
+      </content>
+     </subsection>
+     <subsection GUID="_8d1d3821-1fc4-4a5a-9f43-891ec7220c86" class="prov2" eId="sec_11__subsec_5">
+      <num>(5)</num>
+      <intro GUID="_1852de2f-b4cb-441d-bd61-47015a78e981" eId="sec_11__subsec_5__intro">
+       <p>In <ref class="valid" href="#sec_11__subsec_4" ukl:targetGuid="_250a86a8-f824-4828-9624-c0f1fc921f3b">subsection (4)</ref>, “ambush marketing” means an act or series of acts
+        intended specifically to advertise within an event zone at a prohibited time—</p>
+      </intro>
+      <paragraph GUID="_1a568871-9ebe-4e47-ac97-91549856a345" class="para1" eId="sec_11__subsec_5__para_a">
+       <num>(a)</num>
+       <content>
+        <p>a good or service, or</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_5abfcea8-2dd0-4ebf-a8fd-df76e4662f04" class="para1" eId="sec_11__subsec_5__para_b">
+       <num>(b)</num>
+       <content>
+        <p>a person who provides a good or service.</p>
+       </content>
+      </paragraph>
+     </subsection>
+     <subsection GUID="_f1d59655-399c-4da2-9c81-e2c852c3d3c7" class="prov2" eId="sec_11__subsec_6">
+      <num>(6)</num>
+      <content>
+       <p>The advertising offence does not apply to advertising by UEFA (so long as that advertising
+        is done in accordance with any conditions imposed by the advertising regulations).</p>
+      </content>
+     </subsection>
+    </section>
+    <section GUID="_cf729507-ee5b-4408-9b91-87a86d10a1f1" class="prov1" eId="sec_12"><?DMS-Component componentId="b1ca8766-2f59-49f7-ab46-48fa9d63c7f8" seriesId="66bd188f-8f19-4f25-9178-0eba0ca6b495" versionNumber="1"?>
+     
+     <num>12</num>
+     <heading GUID="_8d05938f-9a8c-4017-80a2-29bbe2ac3714" eId="sec_12__hdg">Advertising activities,
+      places and prohibited times</heading>
+     <subsection GUID="_5b0664ba-837c-4ce1-9c02-048e4c190052" class="prov2" eId="sec_12__subsec_1">
+      <num>(1)</num>
+      <content>
+       <p>An activity is to be treated as advertising if it is a communication to the public (or to
+        a section of the public) for the purpose of promoting an item, service, business or other
+        concern.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_5bf53cc6-8f6c-44d1-a159-e5409aef644b" class="prov2" eId="sec_12__subsec_2">
+      <num>(2)</num>
+      <intro GUID="_8209fa45-e0a8-444f-8b0d-e7809c5c82c5" eId="sec_12__subsec_2__intro">
+       <p>For example, any of the following acts done for that purpose are to be treated as
+        advertising (except as exempted or permitted in the advertising regulations by virtue of
+         <ref class="valid" href="#sec_11" ukl:targetGuid="_6e053865-319f-4e4a-bdca-94f9802f5385">section 11</ref><ref class="valid" href="#sec_11__subsec_2" ukl:targetGuid="_cba77579-620f-4ba9-a370-5881ab628715">(2)</ref> or <ref class="valid" href="#sec_13" ukl:targetGuid="_672c3834-8b30-4350-9f86-e4f605940769">13</ref><ref class="valid" href="#sec_13__subsec_1" ukl:targetGuid="_27f23d6f-a246-4545-95ed-f4a8b771a516">(1)</ref>)—</p>
+      </intro>
+      <paragraph GUID="_d01b7ee1-c460-4efa-832f-3744c42ae780" class="para1" eId="sec_12__subsec_2__para_a">
+       <num>(a)</num>
+       <content>
+        <p>advertising of a non-commercial nature, </p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_4f299f1b-797b-4b94-8810-99b3e1b28bda" class="para1" eId="sec_12__subsec_2__para_b">
+       <num>(b)</num>
+       <content>
+        <p>announcements or notices,</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_ab2b292a-43f7-42a6-8be0-32771c9939b0" class="para1" eId="sec_12__subsec_2__para_c">
+       <num>(c)</num>
+       <content>
+        <p>the giving away of any goods or services,</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_b0f8809d-24c4-4bd4-af0e-9649d7c74ee5" class="para1" eId="sec_12__subsec_2__para_d">
+       <num>(d)</num>
+       <content>
+        <p>the distribution or provision of documents or articles, </p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_498d7739-48f3-4e21-bf14-97257c17d511" class="para1" eId="sec_12__subsec_2__para_e">
+       <num>(e)</num>
+       <content>
+        <p>the display or projection of words, images, lights or sounds, </p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_c690770a-e384-4ed0-b774-6033b1ee1585" class="para1" eId="sec_12__subsec_2__para_f">
+       <num>(f)</num>
+       <content>
+        <p>things done with or in relation to material which has or may have purposes or uses other
+         than as an advertisement.</p>
+       </content>
+      </paragraph>
+     </subsection>
+     <subsection GUID="_83174f3e-2307-4890-8f1a-242958326bec" class="prov2" eId="sec_12__subsec_3">
+      <num>(3)</num>
+      <intro GUID="_00eb7e19-3e28-4996-a8ef-9089c9682379" eId="sec_12__subsec_3__intro">
+       <p>The advertising regulations may prescribe, or provide criteria for determining—</p>
+      </intro>
+      <paragraph GUID="_a6544d21-c48d-41f3-b96c-bea26f7fdd7c" class="para1" eId="sec_12__subsec_3__para_a">
+       <num>(a)</num>
+       <content>
+        <p>activities which are (or are not) to be treated as advertising for the purposes of the
+         advertising offence,</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_3b02beda-ff43-4648-a42f-73aa89c36dc9" class="para1" eId="sec_12__subsec_3__para_b">
+       <num>(b)</num>
+       <content>
+        <p>places or areas within an event zone where the advertising offence will not apply,</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_04f916cd-60a0-479a-9b92-efcb337c18ad" class="para1" eId="sec_12__subsec_3__para_c">
+       <num>(c)</num>
+       <content>
+        <p>times which are prohibited times for these purposes. </p>
+       </content>
+      </paragraph>
+     </subsection>
+     <subsection GUID="_a1aedebd-05ca-43d0-9b3f-75a6462d34be" class="prov2" eId="sec_12__subsec_4">
+      <num>(4)</num>
+      <content>
+       <p>The prohibited times may only be during the Championship period.</p>
+      </content>
+     </subsection>
+    </section>
+    <section GUID="_672c3834-8b30-4350-9f86-e4f605940769" class="prov1" eId="sec_13"><?DMS-Component componentId="ba777dc4-9bf2-4278-a340-fade6b289806" seriesId="ba8932b2-4f6b-423a-bc73-5d4427fe4981" versionNumber="1"?>
+     
+     <num>13</num>
+     <heading GUID="_7a818752-318f-41d6-ae71-fa236e34110b" eId="sec_13__hdg">Advertising permitted
+      in prescribed circumstances</heading>
+     <subsection GUID="_27f23d6f-a246-4545-95ed-f4a8b771a516" class="prov2" eId="sec_13__subsec_1">
+      <num>(1)</num>
+      <content>
+       <p>The advertising regulations may prescribe, or provide criteria for determining,
+        circumstances in which advertising which would otherwise constitute an advertising offence
+        is permitted without authorisation. </p>
+      </content>
+     </subsection>
+     <subsection GUID="_7b8fac62-b61c-44b8-ade4-2eb2f2dc3f81" class="prov2" eId="sec_13__subsec_2">
+      <num>(2)</num>
+      <intro GUID="_0d4ef774-9f77-4068-a4aa-3280de46d403" eId="sec_13__subsec_2__intro">
+       <p>Advertising without authorisation may, for example, be permitted by reference to—</p>
+      </intro>
+      <paragraph GUID="_c33a5b15-70e5-49b7-9b4a-5ae3d3047f81" class="para1" eId="sec_13__subsec_2__para_a">
+       <num>(a)</num>
+       <content>
+        <p>the person who is advertising,</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_2822da00-8f5d-41c1-ac2f-b30b27146720" class="para1" eId="sec_13__subsec_2__para_b">
+       <num>(b)</num>
+       <content>
+        <p>the nature of the advertising, </p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_b08b1913-3c71-43bd-8b36-2c6a43aff347" class="para1" eId="sec_13__subsec_2__para_c">
+       <num>(c)</num>
+       <content>
+        <p>the purpose of the advertising, or</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_a9761088-f4b6-4e56-99a8-c0d66010f97a" class="para1" eId="sec_13__subsec_2__para_d">
+       <num>(d)</num>
+       <content>
+        <p>the circumstances of its display. </p>
+       </content>
+      </paragraph>
+     </subsection>
+    </section>
+    <section GUID="_da0dab82-8aee-478d-91c9-4c024e512ffa" class="prov1" eId="sec_14"><?DMS-Component componentId="b199f302-388f-4191-8645-096a3b3d367d" seriesId="23883aaa-75b4-48a0-8a4c-ac6cc2f1c353" versionNumber="1"?>
+     
+     <num>14</num>
+     <heading GUID="_1fb837d8-ba7a-4964-bf04-106acadfbb2b" eId="sec_14__hdg">Existing advertising
+      licences</heading>
+     <content>
+      <p>It is not a defence for a person charged with the advertising offence that the person has
+       an advertising licence whether granted before or after this section comes into force. </p>
+     </content>
+    </section>
+    <section GUID="_fee11efc-992a-44bd-a2f6-e4e0b4d9f9bf" class="prov1" eId="sec_15"><?DMS-Component componentId="eedd73ad-e395-43a4-b0a3-b889af524d78" seriesId="c4079572-0aa7-4bed-9673-2d9de90a767b" versionNumber="1"?>
+     
+     <num>15</num>
+     <heading GUID="_f0a03803-fc3b-4693-98a6-2c065d908243" eId="sec_15__hdg">Guidance and
+      information about advertising</heading>
+     <subsection GUID="_bfa74547-61e3-420f-805d-2ca17b5e7c52" class="prov2" eId="sec_15__subsec_1">
+      <num>(1)</num>
+      <content>
+       <p>Glasgow City Council must issue guidance about advertising within event zones.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_540c4ac4-3a64-4329-a8b8-5b0e22bf8557" class="prov2" eId="sec_15__subsec_2">
+      <num>(2)</num>
+      <content>
+       <p>The advertising regulations may require such persons as are specified in the advertising
+        regulations to inform other persons about the effect or likely effect of <ref class="valid" href="#sec_11" ukl:targetGuid="_6e053865-319f-4e4a-bdca-94f9802f5385">section
+         11</ref> and the advertising regulations.</p>
+      </content>
+     </subsection>
+    </section>
+   </hcontainer>
+   <hcontainer GUID="_c933e4be-4ec4-4c48-a062-6da6842d1827" class="group4" eId="xhdg_16" name="crossheading"><?DMS-Component componentId="2f2767a1-3776-42eb-9220-2626bd02bda8" seriesId="28224caa-46ec-4137-abfe-6f8aaa27022e" versionNumber="1"?>
+    
+    <heading GUID="_0e64d000-487e-4083-8bd0-858690635b83" eId="xhdg_16__hdg">Enforcement</heading>
+    <section GUID="_a06217ba-84b4-4dc7-acad-8e631cd43934" class="prov1" eId="sec_16"><?DMS-Component componentId="1b61f26c-42c4-451e-b50f-04da34efcd63" seriesId="fb08f5f6-ed75-4657-ba9f-90052406242a" versionNumber="0"?>
+     
+     <num>16</num>
+     <heading GUID="_44000dd7-a6c9-4053-8c21-a555282383ac" eId="sec_16__hdg">Enforcement
+      officers</heading>
+     <subsection GUID="_fb53cf95-7c07-47f6-af48-e2ae9e3dc697" class="prov2" eId="sec_16__subsec_1">
+      <num>(1)</num>
+      <content>
+       <p>An “enforcement officer” is an individual designated as such by Glasgow City Council.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_6b161144-a50c-440b-9fa1-1efd22d9c40c" class="prov2" eId="sec_16__subsec_2">
+      <num>(2)</num>
+      <intro GUID="_1c2f7bc3-5298-4da0-92f7-2d0db31183e8" eId="sec_16__subsec_2__intro">
+       <p>Glasgow City Council may designate an individual as an enforcement officer only if the
+        individual—</p>
+      </intro>
+      <paragraph GUID="_5f182b06-96f9-42af-923f-64f5d8a61bfa" class="para1" eId="sec_16__subsec_2__para_a">
+       <num>(a)</num>
+       <content>
+        <p>is an inspector of weights and measures (appointed under section 72(1) of the Weights and
+         Measures Act 1985), </p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_9b06fa63-f555-4851-87a3-5629e659cfb2" class="para1" eId="sec_16__subsec_2__para_b"><num>(b)</num><?oxy_insert_start author="stuart.todd.sp" timestamp="20191121T150204+0000"?>is
+       authorised by a local authority to enforce the provisions of section 92 of the Trade Marks
+       Act 1994, or <?oxy_insert_end?><content>
+        <p/>
+       </content></paragraph>
+      <?oxy_insert_start author="stuart.todd.sp" timestamp="20191121T150218+0000"?>
+      <paragraph GUID="_ff34d01b-4752-4b5f-8341-c7622ecca105" class="para1" eId="sec_16__subsec_2__para_c">
+       <num>(c)</num>
+       <content>
+        <p>is employed by Glasgow City Council or by another local authority and is, in the
+         Council’s view, sufficiently experienced in exercising functions of the kind conferred on
+         enforcement officers by this Act.</p>
+       </content>
+      </paragraph>
+      <?oxy_insert_end?>
+     </subsection>
+    </section>
+    <section GUID="_82779a9c-1526-48c3-90df-bb41f679416c" class="prov1" eId="sec_17"><?DMS-Component componentId="4f770c94-d2f5-447a-8aea-6a38f42f079e" seriesId="ed362cd6-7a5a-4481-8065-f2f774919b9e" versionNumber="0"?>
+     
+     <num>17</num>
+     <heading GUID="_22eb106b-1fc5-4fc6-bac6-970d62b30e8f" eId="sec_17__hdg">General enforcement
+      powers</heading>
+     <subsection GUID="_ff745a4b-6c85-4637-aa33-8d4eccbb6528" class="prov2" eId="sec_17__subsec_1">
+      <num>(1)</num>
+      <intro GUID="_887bb549-848d-4b69-b627-40d029e9ea08" eId="sec_17__subsec_1__intro">
+       <p>An enforcement officer may take such reasonable steps as the officer considers
+        <?oxy_insert_start author="stuart.todd.sp" timestamp="20191121T151658+0000"?>necessary<?oxy_insert_end?>—</p>
+      </intro>
+      <paragraph GUID="_e8c881c9-340f-4d56-a36f-d63ff2449c3d" class="para1" eId="sec_17__subsec_1__para_a">
+       <num>(a)</num>
+       <content>
+        <p>for the purpose of preventing or ending the commission of an offence under this Act (a
+         “Championship offence”), or</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_002207ad-7b3f-4261-a03c-7b97ea631a2a" class="para1" eId="sec_17__subsec_1__para_b">
+       <num>(b)</num>
+       <content>
+        <p>in connection with proceedings, or anticipated proceedings, in respect of a Championship
+         offence.</p>
+       </content>
+      </paragraph>
+     </subsection>
+     <subsection GUID="_4362d4ed-6c95-4eea-be29-19a18df6a2aa" class="prov2" eId="sec_17__subsec_2">
+      <num>(2)</num>
+      <content>
+       <p>Such steps may include seizing, concealing or destroying anything which the officer
+        reasonably believes to be an infringing article (but see <ref class="valid" href="#sec_18" ukl:targetGuid="_3c8ebd22-4e42-4d51-b674-8b07bdf0df3c">section
+         18</ref>).</p>
+      </content>
+     </subsection>
+     <subsection GUID="_80925b4f-494b-4850-b045-51bee5273b00" class="prov2" eId="sec_17__subsec_3">
+      <num>(3)</num>
+      <intro GUID="_f9ec0675-d3fc-4b59-97fd-4897d6876a13" eId="sec_17__subsec_3__intro">
+       <p>An “infringing article” is— </p>
+      </intro>
+      <paragraph GUID="_df2c5d1a-8e1a-4667-a790-8c4885e24e86" class="para1" eId="sec_17__subsec_3__para_a">
+       <num>(a)</num>
+       <content>
+        <p>an article used in connection with the commission of a Championship offence, or</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_4d052542-a3b3-466c-84e3-ba8f44b5aa41" class="para1" eId="sec_17__subsec_3__para_b">
+       <num>(b)</num>
+       <content>
+        <p>a receptacle used as a container for such an article. </p>
+       </content>
+      </paragraph>
+     </subsection>
+     <subsection GUID="_b9be8836-3979-443e-8233-dd68e1beb3c8" class="prov2" eId="sec_17__subsec_4">
+      <num>(4)</num>
+      <content>
+       <p>An enforcement officer may be assisted by any other person as may be
+        <?oxy_insert_start author="stuart.todd.sp" timestamp="20191121T151859+0000"?>necessary<?oxy_insert_end?>
+        for the purposes of taking action under this
+        section<?oxy_insert_start author="stuart.todd.sp" timestamp="20191121T152053+0000"?> (and
+        such a person is to act under the officer’s direction at all times)<?oxy_insert_end?>.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_cbc5507f-160b-498e-bdab-3ce14ad9debd" class="prov2" eId="sec_17__subsec_5">
+      <num>(5)</num>
+      <content>
+       <p><?oxy_insert_start author="stuart.todd.sp" timestamp="20191128T103508+0000"?>However, an
+        enforcement officer must notify the Police Service of Scotland before requesting assistance
+        from any other person.<?oxy_insert_end?></p>
+      </content>
+     </subsection>
+     <subsection GUID="_2c4b9fd9-a7cf-4265-be31-6229891e74c8" class="prov2" eId="sec_17__subsec_6">
+      <num>(6)</num>
+      <content>
+       <p><?oxy_insert_start author="stuart.todd.sp" timestamp="20191121T152310+0000"?>This section
+        is subject to the restrictions imposed on an enforcement officer by sections 18, 20, 21 and
+        23.<?oxy_insert_end?></p>
+      </content>
+     </subsection>
+    </section>
+    <section GUID="_3c8ebd22-4e42-4d51-b674-8b07bdf0df3c" class="prov1" eId="sec_18"><?DMS-Component componentId="2156c5d1-54a2-4e3f-a3ee-b8f0e663172f" seriesId="bd880c59-871f-48b9-8f7b-aa6e38f2ad79" versionNumber="1"?>
+     
+     <num>18</num>
+     <heading GUID="_4b8a7968-115d-4240-a907-6c2466d0b524" eId="sec_18__hdg">Restrictions on general
+      enforcement powers</heading>
+     <subsection GUID="_4e9b6a2d-a8ce-4b0b-8d97-d467f4819869" class="prov2" eId="sec_18__subsec_1">
+      <num>(1)</num>
+      <intro GUID="_136a0d79-9b8d-4c9b-8598-7f215ac4165f" eId="sec_18__subsec_1__intro">
+       <p>An infringing article may be seized by an enforcement officer only if the officer
+        considers it appropriate to do so for the purpose of—</p>
+      </intro>
+      <paragraph GUID="_079aaa45-dfb0-48f0-b1ca-48fdbd769cf0" class="para1" eId="sec_18__subsec_1__para_a">
+       <num>(a)</num>
+       <content>
+        <p>ending the commission of a Championship offence, </p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_dc0194f7-9c81-49bf-a512-be9aae718101" class="para1" eId="sec_18__subsec_1__para_b">
+       <num>(b)</num>
+       <content>
+        <p>preventing the future commission of such an offence,</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_9a52fad8-44ba-4436-acf0-c1f67b5020bd" class="para1" eId="sec_18__subsec_1__para_c">
+       <num>(c)</num>
+       <content>
+        <p>enabling the article to be used in proceedings for such an offence, or </p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_5f96c6d0-50a5-486e-a291-3d53e5f861e6" class="para1" eId="sec_18__subsec_1__para_d">
+       <num>(d)</num>
+       <content>
+        <p>enabling the article to be forfeited in accordance with Part 2 of the Proceeds of Crime
+         (Scotland) Act 1995.</p>
+       </content>
+      </paragraph>
+     </subsection>
+     <subsection GUID="_f4c8db3a-05c9-47d5-89ae-5b336f693488" class="prov2" eId="sec_18__subsec_2">
+      <num>(2)</num>
+      <content GUID="_cdd9d692-817f-4541-afb3-68701b3bfc6d">
+       <p>A seized article must be returned when retention of it is no longer justified for the
+        purposes mentioned in <ref class="valid" href="#sec_18__subsec_1" ukl:targetGuid="_4e9b6a2d-a8ce-4b0b-8d97-d467f4819869">subsection (1)</ref>.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_2e846573-2610-4fa0-bb49-39b9e64d82b3" class="prov2" eId="sec_18__subsec_3">
+      <num>(3)</num>
+      <content>
+       <p><ref class="valid" href="#sec_18__subsec_2" ukl:targetGuid="_f4c8db3a-05c9-47d5-89ae-5b336f693488">Subsection (2)</ref> does not apply to perishable articles which no longer
+        have any commercial value. </p>
+      </content>
+     </subsection>
+     <subsection GUID="_ed8fa9df-3b74-4305-98f4-565c3e833a1c" class="prov2" eId="sec_18__subsec_4">
+      <num>(4)</num>
+      <intro GUID="_d50434bc-01fc-457d-aa8e-81b1b791dc83" eId="sec_18__subsec_4__intro">
+       <p>An infringing article may be concealed by an enforcement officer only if the officer
+        considers it appropriate for the purpose of—</p>
+      </intro>
+      <paragraph GUID="_16cf1ab7-03c3-4bd6-b707-08acc8c511a7" class="para1" eId="sec_18__subsec_4__para_a">
+       <num>(a)</num>
+       <content>
+        <p>ending the commission of an advertising offence, or </p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_7e6f1e89-a83e-4708-a28d-85d742d8772d" class="para1" eId="sec_18__subsec_4__para_b">
+       <num>(b)</num>
+       <content>
+        <p>preventing the future commission of such an offence. </p>
+       </content>
+      </paragraph>
+     </subsection>
+     <subsection GUID="_eb55c54a-92d0-46b3-b12e-b358b3303c32" class="prov2" eId="sec_18__subsec_5">
+      <num>(5)</num>
+      <content GUID="_0d71daac-1f28-4905-a69b-a17c556c2514">
+       <p>A concealed article must be revealed when concealing it is no longer justified for the
+        purposes mentioned in <ref class="valid" href="#sec_18__subsec_4" ukl:targetGuid="_ed8fa9df-3b74-4305-98f4-565c3e833a1c">subsection (4)</ref>.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_a3dc20ae-b284-46bd-9387-139201210521" class="prov2" eId="sec_18__subsec_6">
+      <num>(6)</num>
+      <content>
+       <p>An infringing article may be destroyed only if the enforcement officer considers it
+        appropriate to do so for the purposes mentioned in <ref class="valid" href="#sec_18__subsec_4" ukl:targetGuid="_ed8fa9df-3b74-4305-98f4-565c3e833a1c">subsection (4)</ref> and does not consider seizing or concealing the article
+        to be a reasonable alternative course of action in the circumstances.</p>
+      </content>
+     </subsection>
+    </section>
+    <section GUID="_d67137f3-0596-4aa5-990e-e08c97220797" class="prov1" eId="sec_19"><?DMS-Component componentId="af2cc63c-603d-4943-8af2-dcf1ca013812" seriesId="e600d890-c83d-4fa3-a2e0-4887e81bf693" versionNumber="0"?>
+     
+     <num>19</num>
+     <heading GUID="_13fb2465-4b8d-4eca-abf9-aecb51f361d9" eId="sec_19__hdg">Power to enter and
+      search</heading>
+     <subsection GUID="_00bdb92a-e90f-405b-a82a-918324700803" class="prov2" eId="sec_19__subsec_1">
+      <num>(1)</num>
+      <intro GUID="_3d06f51c-b9fa-4dc0-ac05-1cc2f9e0c7bd" eId="sec_19__subsec_1__intro">
+       <p><?oxy_insert_start author="stuart.todd.sp" timestamp="20191121T153003+0000"?>Where
+        permission is given by the occupier (or another person with the authority to do
+        so),<?oxy_insert_end?> an enforcement officer may, without warrant, enter any place and may
+        search any place (and any vehicle, vessel, container or other thing at that place)—</p>
+      </intro>
+      <paragraph GUID="_4ba1691e-3682-4840-beb4-4f6a41100d3c" class="para1" eId="sec_19__subsec_1__para_a">
+       <num>(a)</num>
+       <content>
+        <p>where the officer reasonably believes a Championship offence has been or is being
+         committed, or</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_95b9b74d-38e2-4e05-bd46-e8e1d73ea05f" class="para1" eId="sec_19__subsec_1__para_b">
+       <num>(b)</num>
+       <content>
+        <p>which the officer reasonably believes has been or is being used in connection with a
+         Championship offence.</p>
+       </content>
+      </paragraph>
+     </subsection>
+     <subsection GUID="_e124a98f-1072-4f6f-a412-97d4f17faa13" class="prov2" eId="sec_19__subsec_1A">
+      <num>(1A)</num>
+      <?oxy_attributes eId="&lt;change type=&quot;inserted&quot; author=&quot;stuart.todd.sp&quot; timestamp=&quot;20191121T153504+0000&quot; /&gt;" GUID="&lt;change type=&quot;inserted&quot; author=&quot;stuart.todd.sp&quot; timestamp=&quot;20191121T153504+0000&quot; /&gt;"?>
+      <intro GUID="_a2ff1251-b2f4-41e9-81a3-aaadf62afd40" eId="sec_19__subsec_1A__intro">
+       <p><?oxy_insert_start author="stuart.todd.sp" timestamp="20191121T153428+0000"?>Subsection
+        (1) does not authorise an enforcement officer to—<?oxy_insert_end?></p>
+      </intro>
+      <?oxy_insert_start author="stuart.todd.sp" timestamp="20191121T153504+0000"?>
+      <paragraph GUID="_619a5ed4-5f24-45b8-9ba2-a8cc18acb688" class="para1" eId="sec_19__subsec_1A__para_a">
+       <num>(a)</num>
+       <content>
+        <p>search an individual, or </p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_5ee6f9ed-7ee8-4b55-bc95-a05c30e5b966" class="para1" eId="sec_19__subsec_1A__para_b">
+       <num>(b)</num>
+       <content>
+        <p>access data stored electronically.</p>
+       </content>
+      </paragraph>
+      <?oxy_insert_end?>
+     </subsection>
+     <subsection GUID="_94c1ddc8-3468-42f4-89c6-32d41acdb71a" class="prov2" eId="sec_19__subsec_2">
+      <num>(2)</num>
+      <content>
+       <p>An enforcement officer may take to a place entered by virtue of this section any other
+        person, or any equipment, as may be
+        <?oxy_insert_start author="stuart.todd.sp" timestamp="20191125T165900+0000"?>necessary<?oxy_insert_end?>
+        for the purposes of assisting the officer
+        <?oxy_insert_start author="stuart.todd.sp" timestamp="20191125T170044+0000"?>(and such a
+        person is to act under the officer’s direction at all times)<?oxy_insert_end?>.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_f9d8c968-d946-488c-8251-b0d64dc7a3fa" class="prov2" eId="sec_19__subsec_2A">
+      <num>(2A)</num>
+      <content>
+       <p><?oxy_insert_start author="stuart.todd.sp" timestamp="20191128T103811+0000"?>However, an
+        enforcement officer must notify the Police Service of Scotland before requesting assistance
+        from any other person.<?oxy_insert_end?></p>
+      </content>
+     </subsection>
+     <subsection GUID="_1e1503c5-109a-4845-bce5-88716a83cc4d" class="prov2" eId="sec_19__subsec_3">
+      <num>(3)</num>
+      <content>
+       <p>An enforcement officer who enters a place in pursuance of this section must take
+        reasonable steps to leave the place at least as effectively secured against unauthorised
+        entry as the officer found it.</p>
+      </content>
+     </subsection>
+     <?oxy_insert_start author="stuart.todd.sp" timestamp="20191125T170228+0000"?>
+     <subsection GUID="_1d206ed5-19bc-47d8-a06d-4a0c4d7bedf1" class="prov2" eId="sec_19__subsec_4">
+      <num>(4)</num>
+      <content>
+       <p>This section is subject to the restrictions imposed on an enforcement officer by sections
+        20, 21 and 23.</p>
+      </content>
+     </subsection>
+     <?oxy_insert_end?>
+    </section>
+    <section GUID="_9a4562ee-cdb7-43c3-8c99-0b2eb47d3f78" class="prov1" eId="sec_20"><?DMS-Component componentId="950c7663-efd4-4312-82da-1d9f4aa3f19e" seriesId="c8f3119e-70e1-4d99-9b15-b22f294cc912" versionNumber="0"?>
+     
+     <num>20</num>
+     <heading GUID="_aeea8ef5-9b67-41f3-ae68-cbc5891a5e60" eId="sec_20__hdg">Use of reasonable
+      force</heading>
+     <?oxy_insert_start author="stuart.todd.sp" timestamp="20191125T170549+0000"?>
+     <subsection GUID="_9ac41e77-54f7-4452-b5ef-635d6354f94a" class="prov2" eId="sec_20__subsec_A1">
+      <num>(A1)</num>
+      <content>
+       <p>This section applies where no permission has been given by an occupier of premises (or
+        another person with the authority to do so) for an enforcement officer to take action under
+        section 17 or 19.</p>
+      </content>
+     </subsection>
+     <?oxy_insert_end?>
+     <subsection GUID="_e9cc2179-d3f0-4204-81dc-b59c65c52a54" class="prov2" eId="sec_20__subsec_1">
+      <num>(1)</num>
+      <intro GUID="_f66134aa-6eac-43dc-9db1-0f45f5d96df7" eId="sec_20__subsec_1__intro">
+       <p><?oxy_insert_start author="stuart.todd.sp" timestamp="20191125T171044+0000"?>A constable
+        may use reasonable force, or authorise the use of reasonable force by an enforcement officer
+        or by any person assisting the officer, when action is being taken<?oxy_insert_end?> under
+         <ref class="valid" href="#sec_17" ukl:targetGuid="_82779a9c-1526-48c3-90df-bb41f679416c">section 17</ref> or <ref class="valid" href="#sec_19" ukl:targetGuid="_d67137f3-0596-4aa5-990e-e08c97220797">19</ref>—</p>
+      </intro>
+      <paragraph GUID="_fead13e7-0a34-4641-a3e7-4e0884e0f480" class="para1" eId="sec_20__subsec_1__para_a">
+       <num>(a)</num>
+       <content>
+        <p>if the sheriff grants a warrant for the use of reasonable force and the
+         <?oxy_insert_start author="stuart.todd.sp" timestamp="20191125T171254+0000"?>constable
+         accompanies the enforcement officer<?oxy_insert_end?>, or </p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_3b6c3918-21a4-431f-ab61-e1a5bfb7e59a" class="para1" eId="sec_20__subsec_1__para_b">
+       <num>(b)</num>
+       <content>
+        <p>where no application for a warrant has been made, only if the
+         <?oxy_insert_start author="stuart.todd.sp" timestamp="20191125T171514+0000"?>constable
+         accompanies the officer and<?oxy_insert_end?> reasonably believes that there is a real and
+         substantial risk that delay in seeking a warrant would defeat or prejudice the purpose of
+         taking action.</p>
+       </content>
+      </paragraph>
+     </subsection>
+     <subsection GUID="_6ac516ff-588f-4ed7-88ed-b75e639e86f2" class="prov2" eId="sec_20__subsec_2">
+      <num>(2)</num>
+      <intro GUID="_506a5555-6392-47c0-b2ec-e5c2dbc5e807" eId="sec_20__subsec_2__intro">
+       <p>Despite <ref class="valid" href="#sec_20__subsec_1" ukl:targetGuid="_e9cc2179-d3f0-4204-81dc-b59c65c52a54">subsection (1)</ref>, an enforcement officer must
+        not—</p>
+      </intro>
+      <paragraph GUID="_026352d6-5012-4446-a60b-43a4584db932" class="para1" eId="sec_20__subsec_2__para_a">
+       <num>(a)</num>
+       <content>
+        <p>use force against an individual, or</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_12be1de5-98aa-4951-989d-c5eff6cc58b0" class="para1" eId="sec_20__subsec_2__para_b">
+       <num>(b)</num>
+       <content>
+        <p>authorise another person to use force against an individual.</p>
+       </content>
+      </paragraph>
+     </subsection>
+     <subsection GUID="_5f15b0be-75ff-4de0-9a24-9e646b7a0370" class="prov2" eId="sec_20__subsec_3">
+      <num>(3)</num>
+      <content>
+       <p>The sheriff may grant a warrant under this <ref class="valid" href="#sec_20" ukl:targetGuid="_9a4562ee-cdb7-43c3-8c99-0b2eb47d3f78">section</ref> on the application of an enforcement officer only if satisfied that the use
+        of reasonable force is necessary for the purpose of taking action under <ref class="valid" href="#sec_17" ukl:targetGuid="_82779a9c-1526-48c3-90df-bb41f679416c">section
+         17</ref> or <ref class="valid" href="#sec_19" ukl:targetGuid="_d67137f3-0596-4aa5-990e-e08c97220797">19</ref>.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_b76b16de-f773-4947-a474-321b74fbe93d" class="prov2" eId="sec_20__subsec_4">
+      <num>(4)</num>
+      <intro GUID="_a0e27339-1fef-4567-a86c-ad5688155c24" eId="sec_20__subsec_4__intro">
+       <p>A warrant granted under this section expires—</p>
+      </intro>
+      <paragraph GUID="_f6491ac2-4c7a-4aeb-bd7c-4f6bf3ee4946" class="para1" eId="sec_20__subsec_4__para_a">
+       <num>(a)</num>
+       <content>
+        <p>when it is no longer required for the purposes for which it is granted, or</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_7a9b7760-c552-4f7b-91b1-85a2c4aa18c7" class="para1" eId="sec_20__subsec_4__para_b">
+       <num>(b)</num>
+       <content>
+        <p>if earlier, on the expiry of such period as may be specified in it.</p>
+       </content>
+      </paragraph>
+     </subsection>
+    </section>
+    <section GUID="_0b850d00-e203-4a30-9918-3d37c2bb31b7" class="prov1" eId="sec_21"><?DMS-Component componentId="ffb28ffe-cd06-4091-b0ee-1fa510ba9b75" seriesId="c908720b-ab47-4c5d-a6f1-53befad01a45" versionNumber="0"?>
+     
+     <num>21</num>
+     <heading GUID="_b3fcffd6-4197-46fe-ae2d-877f55c31180" eId="sec_21__hdg">Further restrictions on
+      entering houses</heading>
+     <subsection GUID="_5118305e-e7be-4caf-aa20-e4009f6a992e" class="prov2" eId="sec_21__subsec_1">
+      <num>(1)</num>
+      <intro GUID="_7e849437-7971-4550-858f-132899832968" eId="sec_21__subsec_1__intro">
+       <p>An enforcement officer may take action under <ref class="valid" href="#sec_17" ukl:targetGuid="_82779a9c-1526-48c3-90df-bb41f679416c">section
+         17</ref> or <ref class="valid" href="#sec_19" ukl:targetGuid="_d67137f3-0596-4aa5-990e-e08c97220797">19</ref> in relation to a house or a place that can be entered only through a
+        house only if—</p>
+      </intro>
+      <paragraph GUID="_ce27e028-ca9d-4901-8271-08485249c426" class="para1" eId="sec_21__subsec_1__para_a">
+       <num>(a)</num>
+       <content>
+        <p>an individual who habitually resides in the house permits the enforcement officer to do
+         so, or</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_a776af95-9080-4528-bfd7-e80751d5db18" class="para1" eId="sec_21__subsec_1__para_b">
+       <num>(b)</num>
+       <content>
+        <p>the sheriff grants a warrant for such an action.</p>
+       </content>
+      </paragraph>
+     </subsection>
+     <subsection GUID="_13531e01-f112-4ae0-ab10-29f8dddec665" class="prov2" eId="sec_21__subsec_2">
+      <num>(2)</num>
+      <intro GUID="_c94b4e9f-b729-4bd9-a51e-59b9bb1e1e0a" eId="sec_21__subsec_2__intro">
+       <p>Where <ref class="valid" href="#sec_21__subsec_1" ukl:targetGuid="_5118305e-e7be-4caf-aa20-e4009f6a992e">subsection (1)</ref><ref class="valid" href="#sec_21__subsec_1__para_a" ukl:targetGuid="_ce27e028-ca9d-4901-8271-08485249c426">(a)</ref> applies, an enforcement officer may enter a house only—</p>
+      </intro>
+      <paragraph GUID="_f3e20f2d-d8cd-4149-9290-52ca9afc56c7" class="para1" eId="sec_21__subsec_2__para_a">
+       <num>(a)</num>
+       <content>
+        <p>at reasonable times, and </p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_cd819737-202e-41d7-b9ca-f80d127ff0b2" class="para1" eId="sec_21__subsec_2__para_b">
+       <num>(b)</num>
+       <content>
+        <p>if accompanied by a constable.</p>
+       </content>
+      </paragraph>
+     </subsection>
+     <subsection GUID="_4156de76-86d2-4d7a-993d-96c5a01bbec4" class="prov2" eId="sec_21__subsec_3">
+      <num>(3)</num>
+      <intro GUID="_6be81893-22d1-433a-84a6-6f517b37afac" eId="sec_21__subsec_3__intro">
+       <p>The sheriff may grant a warrant under this section on the application of an enforcement
+        officer only if satisfied—</p>
+      </intro>
+      <paragraph GUID="_4353ede6-22e4-4138-ba00-f4f4bf576fee" class="para1" eId="sec_21__subsec_3__para_a">
+       <num>(a)</num>
+       <content>
+        <p>that the officer has reasonable grounds for taking action under <ref class="valid" href="#sec_17" ukl:targetGuid="_82779a9c-1526-48c3-90df-bb41f679416c">section 17</ref> or <ref class="valid" href="#sec_19" ukl:targetGuid="_d67137f3-0596-4aa5-990e-e08c97220797">19</ref> in relation to the house
+         <?oxy_insert_start author="stuart.todd.sp" timestamp="20191125T171907+0000"?>or<?oxy_insert_end?>
+         the place that can be entered only through the house, and</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_8072b138-5c71-4328-b013-bb42509029e0" class="para1" eId="sec_21__subsec_3__para_b">
+       <num>(b)</num>
+       <content>
+        <p>that any of the conditions in <ref class="valid" href="#sec_21__subsec_4" ukl:targetGuid="_0b44ff2f-f7ad-4a82-b756-525569af8653">subsection (4)</ref> is met. </p>
+       </content>
+      </paragraph>
+     </subsection>
+     <subsection GUID="_0b44ff2f-f7ad-4a82-b756-525569af8653" class="prov2" eId="sec_21__subsec_4">
+      <num>(4)</num>
+      <intro GUID="_cdcda1cd-954d-44a1-9f6e-e174c684e59d" eId="sec_21__subsec_4__intro">
+       <p>Those conditions are—</p>
+      </intro>
+      <paragraph GUID="_60aefad9-0dcf-42f0-95b0-106071e52d16" class="para1" eId="sec_21__subsec_4__para_a">
+       <num>(a)</num>
+       <content>
+        <p>that the officer has been refused entry to the house or place or has been prevented from
+         taking any other action under <ref class="valid" href="#sec_17" ukl:targetGuid="_82779a9c-1526-48c3-90df-bb41f679416c">section 17</ref> or <ref class="valid" href="#sec_19" ukl:targetGuid="_d67137f3-0596-4aa5-990e-e08c97220797">19</ref> in relation to the house or place,</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_a2fcf358-8b1c-431c-9750-7f25c2da3f4b" class="para1" eId="sec_21__subsec_4__para_b">
+       <num>(b)</num>
+       <content>
+        <p>that such a refusal or prevention is reasonably expected (after the officer has taken
+         reasonable steps to notify the residents of the house of the intended action),</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_3e39f1b7-e27d-4ace-9267-490b6091af67" class="para1" eId="sec_21__subsec_4__para_c">
+       <num>(c)</num>
+       <intro GUID="_206f149f-1dad-4c72-bf85-f270122298cd" eId="sec_21__subsec_4__para_c__intro">
+        <p>that—</p>
+       </intro>
+       <subparagraph GUID="_f6e9795d-e354-435b-b6d9-f11a94fa7a19" class="para2" eId="sec_21__subsec_4__para_c__subpara_i">
+        <num>(i)</num>
+        <content>
+         <p>the house is unoccupied (permanently or temporarily), and </p>
+        </content>
+       </subparagraph>
+       <subparagraph GUID="_18c2f7d2-a6ac-4ecb-aa4c-4bd1245cd1f1" class="para2" eId="sec_21__subsec_4__para_c__subpara_ii">
+        <num>(ii)</num>
+        <content>
+         <p>the officer has taken reasonable steps to notify any residents of the house of the
+          intended action, </p>
+        </content>
+       </subparagraph>
+      </paragraph>
+      <paragraph GUID="_62495a9a-a716-4e40-b3a0-c06e7693d218" class="para1" eId="sec_21__subsec_4__para_d">
+       <num>(d)</num>
+       <content>
+        <p>that the case is one of urgency, or </p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_8e2e1918-4c12-4dc6-9978-67695026ce29" class="para1" eId="sec_21__subsec_4__para_e">
+       <num>(e)</num>
+       <content>
+        <p>that notifying the residents of the house of the officer’s intention to take action would
+         defeat the object of the proposed action.</p>
+       </content>
+      </paragraph>
+     </subsection>
+     <subsection GUID="_7f4bd919-d3ef-4c2a-b6c7-314c76cb3263" class="prov2" eId="sec_21__subsec_5">
+      <num>(5)</num>
+      <intro GUID="_94a4a500-3e5a-42d7-8434-146f72adf1f5" eId="sec_21__subsec_5__intro">
+       <p>A warrant granted under this section expires—</p>
+      </intro>
+      <paragraph GUID="_d9992f50-811d-4c85-aae8-36bbb4b07aa6" class="para1" eId="sec_21__subsec_5__para_a">
+       <num>(a)</num>
+       <content>
+        <p>when it is no longer required for the purpose for which it was granted, or</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_0ac69d96-acaa-429d-b535-14f46d109df1" class="para1" eId="sec_21__subsec_5__para_b">
+       <num>(b)</num>
+       <content>
+        <p>if earlier, on the expiry of such period as may be specified in it.</p>
+       </content>
+      </paragraph>
+     </subsection>
+    </section>
+    <section GUID="_96954901-c40a-4b8e-a121-11a0d5e7d2d6" class="prov1" eId="sec_22"><?DMS-Component componentId="4f547750-7d12-4504-af54-b6df4f696866" seriesId="e9c3e1bc-914c-4bf9-8f24-e9d9a925064e" versionNumber="1"?>
+     
+     <num>22</num>
+     <heading GUID="_ca637db2-349a-444b-88c1-162fd91b99a9" eId="sec_22__hdg">Power to obtain
+      information</heading>
+     <subsection GUID="_1c2205f1-a5f4-4dfc-a260-ecea5b22a769" class="prov2" eId="sec_22__subsec_1">
+      <num>(1)</num>
+      <intro GUID="_8a4d8546-28cc-441c-bd42-d66bdc0df337" eId="sec_22__subsec_1__intro">
+       <p>An enforcement officer may require any person to provide such information as the officer
+        considers appropriate in connection with—</p>
+      </intro>
+      <paragraph GUID="_f3f1200c-dbd3-4e5b-91e9-6ea4e7a412ea" class="para1" eId="sec_22__subsec_1__para_a">
+       <num>(a)</num>
+       <content>
+        <p>a Championship offence, or</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_3304c2b6-f578-4f3a-b02a-1814f231432f" class="para1" eId="sec_22__subsec_1__para_b">
+       <num>(b)</num>
+       <content>
+        <p>conduct which the officer reasonably suspects constitutes a Championship offence.</p>
+       </content>
+      </paragraph>
+     </subsection>
+     <subsection GUID="_8978102b-38d2-44f3-8ed3-ed2a4e2dcf0b" class="prov2" eId="sec_22__subsec_2">
+      <num>(2)</num>
+      <content>
+       <p>A person is not obliged to provide information under this section if the person would be
+        entitled to refuse to provide the information in, or for the purposes of, court
+        proceedings.</p>
+      </content>
+     </subsection>
+     <?oxy_insert_start author="stuart.todd.sp" timestamp="20191125T172113+0000"?>
+     <subsection GUID="_0464c5ae-048f-4a53-ac32-97ae521616f1" class="prov2" eId="sec_22__subsec_3">
+      <num>(3)</num>
+      <content>
+       <p>This section is subject to the requirement imposed on an enforcement officer by section
+        23.</p>
+      </content>
+     </subsection>
+     <?oxy_insert_end?>
+    </section>
+    <section GUID="_0bf1f6f9-b992-492b-97b6-ffd42ab2bb18" class="prov1" eId="sec_23"><?DMS-Component componentId="55823bac-4351-4882-ba5c-d2a2f81e8493" seriesId="c8827dae-aafd-4709-8544-d42f41bd3495" versionNumber="1"?>
+     
+     <num>23</num>
+     <heading GUID="_0b1f1f1e-0848-41b0-9d46-8327e6fb54b1" eId="sec_23__hdg">Requirement to produce
+      authority</heading>
+     <content>
+      <p>An enforcement officer must, while doing anything under <ref class="valid" href="#sec_17" ukl:targetGuid="_82779a9c-1526-48c3-90df-bb41f679416c">section
+        17</ref>, <ref class="valid" href="#sec_19" ukl:targetGuid="_d67137f3-0596-4aa5-990e-e08c97220797">19</ref>, or <ref class="valid" href="#sec_22" ukl:targetGuid="_96954901-c40a-4b8e-a121-11a0d5e7d2d6">22</ref>, produce evidence of the officer’s
+       <?oxy_insert_start author="stuart.todd.sp" timestamp="20191125T172419+0000"?>identity
+       and<?oxy_insert_end?> authority to take action if requested to do so.</p>
+     </content>
+    </section>
+    <section GUID="_0f0b782b-a285-4890-89f3-a528099af4c0" class="prov1" eId="sec_24"><?DMS-Component componentId="07d0f804-4d38-4860-a86a-995a9c46d6a3" seriesId="e4d7d99a-3a06-4439-be03-465b7a0d29a8" versionNumber="1"?>
+     
+     <num>24</num>
+     <heading GUID="_fe20fd93-bae5-4d2c-b66c-5dc9690043ad" eId="sec_24__hdg">Test
+      purchases</heading>
+     <subsection GUID="_dfbc74ff-949a-4574-be63-e82c47a2019a" class="prov2" eId="sec_24__subsec_1">
+      <num>(1)</num>
+      <intro GUID="_363d3359-fd8f-417e-a040-b95f2e53ce27" eId="sec_24__subsec_1__intro">
+       <p>An enforcement officer may, for the purpose of discovering whether any provision made by
+        virtue of this Act is being complied with—</p>
+      </intro>
+      <paragraph GUID="_a982bd69-b99e-4c15-a229-c82578036f9f" class="para1" eId="sec_24__subsec_1__para_a">
+       <num>(a)</num>
+       <content>
+        <p>purchase, or authorise another person to purchase, any goods, or</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_e2dd287a-d372-4de7-bbcc-2c49a8754d27" class="para1" eId="sec_24__subsec_1__para_b">
+       <num>(b)</num>
+       <content>
+        <p>secure, or authorise another person to secure, the provision of any services.</p>
+       </content>
+      </paragraph>
+     </subsection>
+     <subsection GUID="_7cafe4cd-0ca3-42d6-b8db-89067ae01dbd" class="prov2" eId="sec_24__subsec_2">
+      <num>(2)</num>
+      <content>
+       <p>Nothing done in pursuance of this section constitutes a Championship offence.</p>
+      </content>
+     </subsection>
+    </section>
+    <section GUID="_60bf95a5-b8b8-4216-81b1-293f23cb1884" class="prov1" eId="sec_25"><?DMS-Component componentId="06a0762d-8fa2-4f12-ad29-6a59b3706efd" seriesId="74e8b82d-219e-4ffc-bbb0-625934a83e53" versionNumber="1"?>
+     
+     <num>25</num>
+     <heading GUID="_664369a3-a38a-4bdf-a922-7b1cc31bfa85" eId="sec_25__hdg">Compensation and
+      recovery of costs</heading>
+     <subsection GUID="_675acf43-9340-4370-bd6e-b4e38c6485c5" class="prov2" eId="sec_25__subsec_1">
+      <num>(1)</num>
+      <intro GUID="_3ff4d6c4-5576-4e46-97e3-6c3f33be6b59" eId="sec_25__subsec_1__intro">
+       <p>A person whose property is damaged by anything done under <ref class="valid" href="#sec_17" ukl:targetGuid="_82779a9c-1526-48c3-90df-bb41f679416c">section
+         17</ref> or <ref class="valid" href="#sec_19" ukl:targetGuid="_d67137f3-0596-4aa5-990e-e08c97220797">19</ref> may obtain compensation from—</p>
+      </intro>
+      <paragraph GUID="_48aed6fa-e9e2-48b1-9d8e-0187eb151e9c" class="para1" eId="sec_25__subsec_1__para_a">
+       <num>(a)</num>
+       <content>
+        <p>if the damage is caused by an enforcement officer or by a constable accompanying an
+         enforcement officer, Glasgow City Council, or</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_b41e3d9f-6c7a-4a1f-afbb-c7de864c9c95" class="para1" eId="sec_25__subsec_1__para_b">
+       <num>(b)</num>
+       <content>
+        <p>if the damage is caused by a constable who is not accompanying an enforcement officer,
+         the Scottish Police Authority.</p>
+       </content>
+      </paragraph>
+     </subsection>
+     <subsection GUID="_5b91851c-b97f-4dfc-93ae-60f734793a08" class="prov2" eId="sec_25__subsec_2">
+      <num>(2)</num>
+      <content>
+       <p><ref class="valid" href="#sec_25__subsec_1" ukl:targetGuid="_675acf43-9340-4370-bd6e-b4e38c6485c5">Subsection (1)</ref> does not apply if the thing done relates to a
+        Championship offence committed by the person.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_5406756b-bd6e-475c-95b4-42d12d6d9153" class="prov2" eId="sec_25__subsec_3">
+      <num>(3)</num>
+      <intro GUID="_a8d0936f-a1f7-40b9-a43a-150750589ac7" eId="sec_25__subsec_3__intro">
+       <p>The Scottish Ministers may by regulations make provision—</p>
+      </intro>
+      <paragraph GUID="_4058fd74-0f62-4978-99a8-6654bdb6af5d" class="para1" eId="sec_25__subsec_3__para_a">
+       <num>(a)</num>
+       <content>
+        <p>about claiming compensation,</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_6316ce74-e39f-498c-8487-8183b27ac58a" class="para1" eId="sec_25__subsec_3__para_b">
+       <num>(b)</num>
+       <content>
+        <p>about determining the compensation due, and </p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_28ec2add-eca0-4480-9daf-5eba5ef930af" class="para1" eId="sec_25__subsec_3__para_c">
+       <num>(c)</num>
+       <content>
+        <p>conferring jurisdiction for determining disputed compensation on a court, tribunal other
+         body.</p>
+       </content>
+      </paragraph>
+     </subsection>
+     <subsection GUID="_be015745-4d91-460d-b094-5a8ee1d317a0" class="prov2" eId="sec_25__subsec_4">
+      <num>(4)</num>
+      <content>
+       <p>The costs of doing anything which an enforcement officer is authorised or entitled to do
+        by virtue of this Act are recoverable by Glasgow City Council from the person who committed
+        the Championship offence to which the action relates.</p>
+      </content>
+     </subsection>
+    </section>
+    <section GUID="_62dd5519-40f6-4633-8f8c-954b057fe832" class="prov1" eId="sec_26"><?DMS-Component componentId="3364c87f-35fc-4b73-beb6-e40ea8489e4c" seriesId="efafb2df-70b2-44eb-a914-47eac8460cfc" versionNumber="1"?>
+     
+     <num>26</num>
+     <heading GUID="_cc4e461f-f516-4a69-945d-eff067003e2a" eId="sec_26__hdg">Obstructing an
+      enforcement officer</heading>
+     <intro GUID="_a8f1311f-dddb-4bf5-aa95-8532dd7677dc" eId="sec_26__intro">
+      <p>It is an offence (“the obstruction offence”)—</p>
+     </intro>
+     <paragraph GUID="_6bc73189-8884-43bf-8928-c07cb4580c9d" class="para1" eId="sec_26__para_a">
+      <num>(a)</num>
+      <content>
+       <p>intentionally to prevent or obstruct an enforcement officer from doing anything which the
+        officer is authorised or entitled to do by virtue of this Act, or </p>
+      </content>
+     </paragraph>
+     <paragraph GUID="_e24f4c93-f024-4eba-a200-fe1e56b70857" class="para1" eId="sec_26__para_b">
+      <num>(b)</num>
+      <content>
+       <p>without reasonable cause to fail to comply with a requirement made by an enforcement
+        officer, or a constable, under <ref class="valid" href="#sec_22" ukl:targetGuid="_96954901-c40a-4b8e-a121-11a0d5e7d2d6">section 22</ref>.</p>
+      </content>
+     </paragraph>
+    </section>
+    <section GUID="_75e0d51b-061a-4784-9ba6-5fc08e465588" class="prov1" eId="sec_27"><?DMS-Component componentId="17c0b5e7-57ce-4be0-ab9d-114846dcc54a" seriesId="1fdf2461-0658-4e46-84b1-c756a2194c9e" versionNumber="1"?>
+     
+     <num>27</num>
+     <heading GUID="_06973412-4c9b-409b-a89d-37087ebc65dc" eId="sec_27__hdg">Police powers</heading>
+     <subsection GUID="_d9ab919d-fd01-435b-ab9b-907ef3f6d224" class="prov2" eId="sec_27__subsec_1">
+      <num>(1)</num>
+      <content>
+       <p>A constable may do anything an enforcement officer may do under <rref from="#sec_17" ukl:fromGuid="_82779a9c-1526-48c3-90df-bb41f679416c" ukl:upToGuid="_0f0b782b-a285-4890-89f3-a528099af4c0" upTo="#sec_24"><ref class="valid" href="#sec_17" ukl:targetGuid="_82779a9c-1526-48c3-90df-bb41f679416c">sections 17</ref> to <ref class="valid" href="#sec_24" ukl:targetGuid="_0f0b782b-a285-4890-89f3-a528099af4c0">24</ref></rref>.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_18935cb4-0778-4dbf-96f4-e8708c4083f1" class="prov2" eId="sec_27__subsec_2">
+      <num>(2)</num>
+      <content>
+       <p>But the restrictions imposed on an enforcement officer by <ref class="valid" href="#sec_18" ukl:targetGuid="_3c8ebd22-4e42-4d51-b674-8b07bdf0df3c">sections 18</ref>, <ref class="valid" href="#sec_20" ukl:targetGuid="_9a4562ee-cdb7-43c3-8c99-0b2eb47d3f78">20</ref>, <ref class="valid" href="#sec_21" ukl:targetGuid="_0b850d00-e203-4a30-9918-3d37c2bb31b7">21</ref> and <ref class="valid" href="#sec_23" ukl:targetGuid="_0bf1f6f9-b992-492b-97b6-ffd42ab2bb18">23</ref> apply to a constable only to the extent that they do not conflict
+        with a constable’s powers under any other enactment or rule of law.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_4c98b3c9-6803-413f-8d21-619edfd0da80" class="prov2" eId="sec_27__subsec_3">
+      <num>(3)</num>
+      <content>
+       <p>Where the restrictions imposed by <ref class="valid" href="#sec_20" ukl:targetGuid="_9a4562ee-cdb7-43c3-8c99-0b2eb47d3f78">sections 20</ref> and <ref class="valid" href="#sec_21" ukl:targetGuid="_0b850d00-e203-4a30-9918-3d37c2bb31b7">21</ref> apply, the constable does not have to be accompanied
+        by another constable.</p>
+      </content>
+     </subsection>
+    </section>
+    <section GUID="_0c68b72e-6c11-4ba9-81ad-5d052a1288f3" class="prov1" eId="sec_28"><?DMS-Component componentId="ae876f64-c28f-4bf1-a164-07e28456efa4" seriesId="5dde9a69-236f-4bd0-9db1-d98b0425d0c1" versionNumber="1"?>
+     
+     <num>28</num>
+     <heading GUID="_8a500332-bd10-4e9c-9cdf-df00d479fdf2" eId="sec_28__hdg">Action under <rref from="#sec_17" ukl:fromGuid="_82779a9c-1526-48c3-90df-bb41f679416c" ukl:upToGuid="_0f0b782b-a285-4890-89f3-a528099af4c0" upTo="#sec_24"><ref class="valid" href="#sec_17" ukl:targetGuid="_82779a9c-1526-48c3-90df-bb41f679416c">sections
+        17</ref> to <ref class="valid" href="#sec_24" ukl:targetGuid="_0f0b782b-a285-4890-89f3-a528099af4c0">24</ref></rref>: procedure</heading>
+     <content>
+      <p>The Scottish Ministers may by regulations specify further procedure which an enforcement
+       officer or, as the case may be, a constable must follow when doing anything under <rref from="#sec_17" ukl:fromGuid="_82779a9c-1526-48c3-90df-bb41f679416c" ukl:upToGuid="_0f0b782b-a285-4890-89f3-a528099af4c0" upTo="#sec_24"><ref class="valid" href="#sec_17" ukl:targetGuid="_82779a9c-1526-48c3-90df-bb41f679416c">sections 17</ref> to <ref class="valid" href="#sec_24" ukl:targetGuid="_0f0b782b-a285-4890-89f3-a528099af4c0">24</ref></rref>.</p>
+     </content>
+    </section>
+   </hcontainer>
+   <hcontainer GUID="_4f3e9238-29d5-411e-9893-d5f663d14cde" class="group4" eId="xhdg_29" name="crossheading"><?DMS-Component componentId="48fdc535-04cd-466c-88d6-f83aa8525bad" seriesId="6df07f02-b933-4621-9e5e-5814a2ecd753" versionNumber="1"?>
+    
+    <heading GUID="_6ed282ce-1736-4fbc-8c8b-0fc6534151d0" eId="xhdg_29__hdg">Offences</heading>
+    <section GUID="_6ba8d9ee-8c74-485e-85f9-0f4e5d63e605" class="prov1" eId="sec_29"><?DMS-Component componentId="8c4dc121-4ea7-47eb-9530-d96f1a2a3f47" seriesId="36feffa9-ff81-4ab2-8496-3ea05fea261e" versionNumber="1"?>
+     
+     <num>29</num>
+     <heading GUID="_f461128b-2239-417a-be52-bb5c01817da7" eId="sec_29__hdg">Penalties</heading>
+     <subsection GUID="_afbb9b3c-20da-4b5c-8929-66a965addb78" class="prov2" eId="sec_29__subsec_1">
+      <num>(1)</num>
+      <content>
+       <p>A person convicted of a ticket touting offence or an obstruction offence is liable on
+        summary conviction to a fine not exceeding level 5 on the standard scale.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_8fb913cf-fb7f-4d87-b23b-735731c463a2" class="prov2" eId="sec_29__subsec_2">
+      <num>(2)</num>
+      <intro GUID="_6b62a1e3-a6fc-4105-af0a-b67873c9ba69" eId="sec_29__subsec_2__intro">
+       <p>A person convicted of a trading offence or an advertising offence is liable—</p>
+      </intro>
+      <paragraph GUID="_80ed0b4a-1e18-4ab6-b468-6eb07a5d3b2a" class="para1" eId="sec_29__subsec_2__para_a">
+       <num>(a)</num>
+       <content>
+        <p>on summary conviction, to a fine not exceeding £20,000,</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_db8e2616-1f82-4b9f-9f31-1b0958f2087c" class="para1" eId="sec_29__subsec_2__para_b">
+       <num>(b)</num>
+       <content>
+        <p>on conviction on indictment, to a fine.</p>
+       </content>
+      </paragraph>
+     </subsection>
+    </section>
+    <section GUID="_8892868d-a73e-45ad-9a94-8a9fa0da85b0" class="prov1" eId="sec_30"><?DMS-Component componentId="eb2ceed0-c2c8-4ae9-a043-e308a2b612ce" seriesId="b89b0ed2-0110-4350-9544-91d1d52aa9e6" versionNumber="1"?>
+     
+     <num>30</num>
+     <heading GUID="_5bb6b6e5-eeea-494d-890b-e6d5857c6732" eId="sec_30__hdg">Individual culpability
+      where offending by an organisation</heading>
+     <subsection GUID="_193afbff-cc38-4b41-b124-1a8e1d02113f" class="prov2" eId="sec_30__subsec_1">
+      <num>(1)</num>
+      <intro GUID="_b6241fea-54cc-42e7-b6b8-05fa6fbe9e3a" eId="sec_30__subsec_1__intro">
+       <p>This <ref class="valid" href="#sec_30" ukl:targetGuid="_8892868d-a73e-45ad-9a94-8a9fa0da85b0">section</ref> applies where—</p>
+      </intro>
+      <paragraph GUID="_0012553e-253d-4f5b-b2bd-ae0e240604c2" class="para1" eId="sec_30__subsec_1__para_a">
+       <num>(a)</num>
+       <content>
+        <p>an offence under this Act is committed by a relevant organisation, and</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_b1d426ab-cd80-47ff-9f9c-a38d6b80f377" class="para1" eId="sec_30__subsec_1__para_b">
+       <num>(b)</num>
+       <intro GUID="_98053795-cb03-4f41-ac35-f46a04ffbf38" eId="sec_30__subsec_1__para_b__intro">
+        <p>the commission of the offence—</p>
+       </intro>
+       <subparagraph GUID="_80a301af-1e34-4f57-ae7f-cf4cdf01a071" class="para2" eId="sec_30__subsec_1__para_b__subpara_i">
+        <num>(i)</num>
+        <content>
+         <p>involves consent or connivance on the part of a responsible individual, or</p>
+        </content>
+       </subparagraph>
+       <subparagraph GUID="_190cc391-1df4-4332-a4de-8fda8a6e2b5b" class="para2" eId="sec_30__subsec_1__para_b__subpara_ii">
+        <num>(ii)</num>
+        <content>
+         <p>is attributable to neglect on the part of a responsible individual.</p>
+        </content>
+       </subparagraph>
+      </paragraph>
+     </subsection>
+     <subsection GUID="_5d410860-3cbd-4342-a546-eeec62b72ce6" class="prov2" eId="sec_30__subsec_2">
+      <num>(2)</num>
+      <content>
+       <p>The responsible individual (as well as the relevant organisation) commits the offence.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_51879e5a-4c30-4756-8115-56d607f61c9a" class="prov2" eId="sec_30__subsec_3">
+      <num>(3)</num>
+      <intro GUID="_5015bf8b-1f6a-43d6-b8bd-dc2868a15bba" eId="sec_30__subsec_3__intro">
+       <p>For the purposes of this <ref class="valid" href="#sec_30" ukl:targetGuid="_8892868d-a73e-45ad-9a94-8a9fa0da85b0">section</ref>—</p>
+      </intro>
+      <paragraph GUID="_05405b5c-8860-48f6-ae68-038b19e3494f" class="para1" eId="sec_30__subsec_3__para_a">
+       <num>(a)</num>
+       <content>
+        <p>“relevant organisation” means an organisation listed in the first column of the table in
+          <ref class="valid" href="#sec_29A__subsec_4" ukl:targetGuid="_b87b6a02-e57d-43fe-b204-f3144aaa3e5c">subsection (4)</ref>, </p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_15fbebd2-de43-47a8-bac3-fb076335ccb1" class="para1" eId="sec_30__subsec_3__para_b">
+       <num>(b)</num>
+       <intro GUID="_68ef785b-c2d6-4593-a8bf-5a5447255bfc" eId="sec_30__subsec_3__para_b__intro">
+        <p>“responsible individual” means, in relation to a relevant organisation—</p>
+       </intro>
+       <subparagraph GUID="_bd7246cf-5bee-483a-8426-20da4e7dba6c" class="para2" eId="sec_30__subsec_3__para_b__subpara_i">
+        <num>(i)</num>
+        <content>
+         <p>an individual falling within the corresponding entry in the second column of the table
+          in <ref class="valid" href="#sec_29A__subsec_4" ukl:targetGuid="_b87b6a02-e57d-43fe-b204-f3144aaa3e5c">subsection (4)</ref>, or </p>
+        </content>
+       </subparagraph>
+       <subparagraph GUID="_e7efa195-e9ed-4128-a3ae-d0f603e40b65" class="para2" eId="sec_30__subsec_3__para_b__subpara_ii">
+        <num>(ii)</num>
+        <content>
+         <p>an individual purporting to act in the capacity of an individual falling within the
+          corresponding entry.</p>
+        </content>
+       </subparagraph>
+      </paragraph>
+     </subsection>
+     <subsection GUID="_b87b6a02-e57d-43fe-b204-f3144aaa3e5c" class="prov2" eId="sec_30__subsec_4">
+      <num>(4)</num>
+      <content>
+       <p>The table is as follows:</p>
+       <tblock GUID="_faea4233-66a6-483c-af8b-122706b34257" class="table" eId="tbl">
+        <foreign>
+         <table xmlns="http://www.w3.org/1999/xhtml" class="simpleTable" cols="2">
+          <thead GUID="_48aab2f6-73f6-4a39-8530-ace6c8e22df6" eId="hdg">
+           <tr GUID="_5244885e-34f8-477b-a692-e96f0eae2458" eId="hdg__row">
+            <td eId="hdg__row__col__oc_1"><b xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><i>Relevant
+              organisation</i></b></td>
+            <td eId="hdg__row__col__oc_2"><b xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><i>Individual</i></b></td>
+           </tr>
+          </thead>
+          <tbody>
+           <tr GUID="_78f11769-95cc-45b8-93b4-ca5d28ae2f4c" eId="tbl__row__oc_1">
+            <td GUID="_57ec5acb-b166-4843-84a7-34fd50aa7c10" eId="tbl__row__oc_1__col_1">company as
+             mentioned in section 1 of the Companies Act 2006</td>
+            <td GUID="_9ba973be-9cb6-442a-b7be-dc6f60ae7fdc" eId="tbl__row__oc_1__col_2">director,
+             manager, secretary or other similar officer</td>
+           </tr>
+           <tr GUID="_58bc5085-e088-4c01-bc83-5fd82b0d7d7a" eId="tbl__row__oc_2">
+            <td GUID="_b3ef1ebb-9068-45ba-bc5d-d0bf57cc42a6" eId="tbl__row__oc_2__col_1"/>
+            <td GUID="_ab9a71c4-9e56-44fe-866b-6f7402c1a11e" eId="tbl__row__oc_2__col_2">member,
+             where the company’s affairs are managed by its members</td>
+           </tr>
+           <tr GUID="_5a268583-7784-4955-8038-93836d2bda45" eId="tbl__row__oc_3">
+            <td GUID="_7b9869d8-64e5-447f-be98-c0f39fe906e7" eId="tbl__row__oc_3__col_1">limited
+             liability partnership</td>
+            <td GUID="_296c7aa7-ed69-451c-ab6d-fcc1958c7dec" eId="tbl__row__oc_3__col_2">member</td>
+           </tr>
+           <tr GUID="_13c892ae-a6b0-4b77-b360-228e148cd644" eId="tbl__row__oc_4">
+            <td GUID="_e7c2ae7d-c6d0-490e-abf2-66e480e3454f" eId="tbl__row__oc_4__col_1">other
+             partnership</td>
+            <td GUID="_a633fdf9-3810-4a35-afff-d249be95dc69" eId="tbl__row__oc_4__col_2">partner</td>
+           </tr>
+           <tr GUID="_d7d89790-fbc2-4105-9a6d-7458306fd736" eId="tbl__row__oc_5">
+            <td GUID="_0aa23f08-99dd-4bb4-9b4f-59094e349cdd" eId="tbl__row__oc_5__col_1">any other
+             body or association</td>
+            <td GUID="_3f50245f-8878-47ec-8323-dc5f9e25680d" eId="tbl__row__oc_5__col_2">individual
+             who is concerned in the management or control of its affairs.</td>
+           </tr>
+          </tbody>
+         </table>
+        </foreign>
+       </tblock>
+      </content>
+     </subsection>
+    </section>
+   </hcontainer>
+   <hcontainer GUID="_efb02337-0475-4b0d-9888-a6666384ff94" class="group4" eId="xhdg_31" name="crossheading"><?DMS-Component componentId="d41bf37e-9bc7-45e4-9692-77d4f814135f" seriesId="add98bce-dd7b-4e7d-9970-c33774175fb7" versionNumber="1"?>
+    
+    <heading GUID="_d56e53fb-755d-4f85-b756-5e3eecd5ef9f" eId="xhdg_31__hdg">Final
+     provisions</heading>
+    <section GUID="_0a6361f8-15a0-4aec-9a1e-946e2caa29f4" class="prov1" eId="sec_31"><?DMS-Component componentId="fde26d06-711f-4057-a7d9-0671d9da6966" seriesId="23936bde-4d48-4eef-9543-9bcde8c40161" versionNumber="0"?>
+     
+     <num>31</num>
+     <heading GUID="_0190dcf5-0fba-4f25-b461-83dc59dd3096" eId="sec_31__hdg">Regulation-making
+      powers</heading>
+     <subsection GUID="_cad4df5f-51b5-4d5d-ad32-8dafb524332f" class="prov2" eId="sec_31__subsec_1">
+      <num>(1)</num>
+      <intro GUID="_a5221526-9ef3-417c-998d-44eedb47d04d" eId="sec_31__subsec_1__intro">
+       <p>Any power of the Scottish Ministers to make regulations conferred by this Act includes
+        power to make—</p>
+      </intro>
+      <paragraph GUID="_2c2a3959-1f0e-4874-a2d2-9bfe4cbc0f59" class="para1" eId="sec_31__subsec_1__para_a">
+       <num>(a)</num>
+       <content>
+        <p>incidental, supplementary, consequential, transitional, transitory or saving
+         provision,</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_b1d619ee-6122-4457-acde-7cc3e764b586" class="para1" eId="sec_31__subsec_1__para_b">
+       <num>(b)</num>
+       <content>
+        <p>different provision for different purposes.</p>
+       </content>
+      </paragraph>
+     </subsection>
+     <subsection GUID="_27958b6d-4eac-4864-9aaa-a3a0eb683b12" class="prov2" eId="sec_31__subsec_2">
+      <num>(2)</num>
+      <content>
+       <p>Regulations under <ref class="valid" href="#sec_4" ukl:targetGuid="_c33a3300-6151-4fc9-9fc7-e1c5543c260e">sections 4</ref>,
+        <?oxy_insert_start author="stuart.todd.sp" timestamp="20191125T172836+0000"?>5(3) and
+        11(2)<?oxy_insert_end?> are subject to the affirmative procedure.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_e9c5268e-0dee-490f-8cb6-4f02bdcf08fa" class="prov2" eId="sec_31__subsec_3">
+      <num>(3)</num>
+      <content>
+       <p>Regulations under <ref class="valid" href="#sec_1" ukl:targetGuid="_1a9c6313-702e-4801-9dd1-a82a6ebbcdd1">sections
+         <?oxy_insert_start author="stuart.todd.sp" timestamp="20191125T173018+0000"?>1(1)<?oxy_insert_end?></ref>,
+         <ref class="valid" href="#sec_16" ukl:targetGuid="_a06217ba-84b4-4dc7-acad-8e631cd43934"/>
+        <ref class="valid" href="#sec_25" ukl:targetGuid="_60bf95a5-b8b8-4216-81b1-293f23cb1884">25</ref><ref class="valid" href="#sec_25__subsec_3" ukl:targetGuid="_5406756b-bd6e-475c-95b4-42d12d6d9153">(3)</ref> and <ref class="valid" href="#sec_28" ukl:targetGuid="_0c68b72e-6c11-4ba9-81ad-5d052a1288f3">28</ref> are subject to the negative procedure.</p>
+      </content>
+     </subsection>
+    </section>
+    <section GUID="_99d94768-2fd6-4f14-ac44-f38fb0c537c1" class="prov1" eId="sec_32"><?DMS-Component componentId="e6493002-33e7-4310-b2dc-7e593db02da4" seriesId="e4a241d5-3172-4668-9137-d8e42f92abf5" versionNumber="0"?>
+     
+     <num>32</num>
+     <heading GUID="_827194c0-8485-41d3-b205-b3f3aef7666d" eId="sec_32__hdg">Regulation-making
+      powers: consultation and relevant considerations</heading>
+     <subsection GUID="_b4438830-f35c-44f3-a356-fbfd3cff6c0e" class="prov2" eId="sec_32__subsec_1">
+      <num>(1)</num>
+      <intro GUID="_6f54a523-b7d4-41d9-910b-18de07a7cbe4" eId="sec_32__subsec_1__intro">
+       <p>Before making the first trading regulations or the first advertising regulations, the
+        Scottish Ministers must consult—</p>
+      </intro>
+      <paragraph GUID="_8122260e-96e3-42e9-a4b3-d25bded396f6" class="para1" eId="sec_32__subsec_1__para_a">
+       <num>(a)</num>
+       <content>
+        <p>the Local Organising Committee, and</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_86370b62-cc36-407f-acda-7fe1071c8a22" class="para1" eId="sec_32__subsec_1__para_b">
+       <num>(b)</num>
+       <content>
+        <p>any other persons whom the Scottish Ministers consider appropriate.</p>
+       </content>
+      </paragraph>
+     </subsection>
+     <subsection GUID="_8540891a-1455-4a46-ba13-1b146a6ce2a3" class="prov2" eId="sec_32__subsec_2">
+      <num>(2)</num>
+      <intro GUID="_7648cbc7-6e3b-405b-aafc-2a57ac252b63" eId="sec_32__subsec_2__intro">
+       <p>When making the trading regulations or the advertising regulations, the Scottish Ministers
+        must have regard to—</p>
+      </intro>
+      <paragraph GUID="_3c465e19-2677-49ca-b290-874c90eb7255" class="para1" eId="sec_32__subsec_2__para_a">
+       <num>(a)</num>
+       <content>
+        <p>any request or guidance from UEFA, and</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_73c8088b-66d1-407f-a240-45a13214ed3f" class="para1" eId="sec_32__subsec_2__para_b">
+       <num>(b)</num>
+       <content>
+        <p>where relevant, the impact of the regulations on the effective operation of the
+         Championship. </p>
+       </content>
+      </paragraph>
+     </subsection>
+     <subsection GUID="_3b10902a-dd9e-402a-99cc-855b0a0d7e2c" class="prov2" eId="sec_32__subsec_3">
+      <num>(3)</num>
+      <intro GUID="_9c73f5ae-c20d-4655-9276-24ec654e91b6" eId="sec_32__subsec_3__intro">
+       <p>It is immaterial that anything done by way of consultation under <ref class="valid" href="#sec_5__subsec_1" ukl:targetGuid="_fa5779d7-b6b6-4149-984e-476bee0003e0">subsection (1)</ref> was done—</p>
+      </intro>
+      <paragraph GUID="_94a75692-4c36-4d4d-b1c7-0f40b781bdb3" class="para1" eId="sec_32__subsec_3__para_a">
+       <num>(a)</num>
+       <content>
+        <p>before the Bill for this Act was passed, or</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_398b1b10-a857-4747-8cc1-7e01727cadbc" class="para1" eId="sec_32__subsec_3__para_b">
+       <num>(b)</num>
+       <content>
+        <p>after that but before this <ref class="valid" href="#sec_5" ukl:targetGuid="_3bb7a94c-1172-4b66-9501-8ecd85bbe9a7">section</ref> comes into force. </p>
+       </content>
+      </paragraph>
+     </subsection>
+     <subsection GUID="_64fbaf39-f9bc-46a6-af2e-c3fdeebb45e4" class="prov2" eId="sec_32__subsec_4">
+      <num>(4)</num>
+      <intro GUID="_fc479e40-f223-4dba-9230-7bbd1f101712" eId="sec_32__subsec_4__intro">
+       <p>In subsection (1)(a), the “Local Organising Committee” means the committee comprised of
+        representatives from—</p>
+      </intro>
+      <paragraph GUID="_13529813-6e8b-4c1f-8df3-3cc32fbac972" class="para1" eId="sec_32__subsec_4__para_a">
+       <num>(a)</num>
+       <content>
+        <p>Glasgow City Council, </p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_9eb646ac-6c5b-46a6-9d0e-41bf30ceb8b9" class="para1" eId="sec_32__subsec_4__para_b">
+       <num>(b)</num>
+       <content>
+        <p>Hampden Park Limited (company number SC200222),</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_d4d21f02-1fb0-4bd5-906c-207ddd3c901a" class="para1" eId="sec_32__subsec_4__para_c">
+       <num>(c)</num>
+       <content>
+        <p>Police Scotland,</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_f1171984-f156-47df-840c-5831d006645f" class="para1" eId="sec_32__subsec_4__para_d">
+       <num>(d)</num>
+       <content>
+        <p>the Scottish Football Association (company number SC005453),</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_c35d0b64-94cb-4065-9bec-8c236a596b61" class="para1" eId="sec_32__subsec_4__para_e">
+       <num>(e)</num>
+       <content>
+        <p>the Scottish Ministers,</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_412d82de-afbe-4be0-85eb-e47efa742522" class="para1" eId="sec_32__subsec_4__para_f">
+       <num>(f)</num>
+       <content>
+        <p>Visit Scotland, and</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_a6920463-caf4-42f1-b0c9-863c6ba6164b" class="para1" eId="sec_32__subsec_4__para_g">
+       <num>(g)</num>
+       <content>
+        <p>where
+         <?oxy_insert_start author="stuart.todd.sp" timestamp="20191125T173233+0000"?>an<?oxy_insert_end?>
+         organisation, company or body is no longer able to participate in the committee, such
+         replacement organisation, company or body as the remaining members of the committee
+         consider appropriate.</p>
+       </content>
+      </paragraph>
+     </subsection>
+    </section>
+    <section GUID="_93d1d046-616d-4820-a069-4721eb197508" class="prov1" eId="sec_33"><?DMS-Component componentId="35abd26b-e858-4095-af94-6ac8f02349ac" seriesId="a6486794-f7e8-4f29-8ffc-5ddce60dc797" versionNumber="1"?>
+     
+     <num>33</num>
+     <heading GUID="_15753990-1505-4561-a032-0cd6278dc0ae" eId="sec_33__hdg">Interpretation</heading>
+     <intro GUID="_0cdb77d2-4709-49ea-a472-9d6325073cb2" eId="sec_33__intro">
+      <p>In this Act—</p>
+     </intro>
+     <hcontainer GUID="_94b033fa-0d7b-4a19-86f7-5a4e952791c8" class="definition" eId="sec_33__def_advertise_" name="definition">
+      <content>
+       <p><def GUID="_7b6c38c0-3cff-4b8c-835e-b90bedb9ac14" eId="sec_33__def_advertise">“advertise”</def> and “advertising” are to be construed in accordance with <ref class="valid" href="#sec_12" ukl:targetGuid="_cf729507-ee5b-4408-9b91-87a86d10a1f1">section
+         12</ref>, </p>
+      </content>
+     </hcontainer>
+     <hcontainer GUID="_4bb29bfb-54ff-45a9-bb13-e8515dda7f93" class="definition" eId="sec_33__def_advertisinglicence_" name="definition">
+      <content>
+       <p><def GUID="_4044f7ce-401e-47d9-9e99-3addda050c2f" eId="sec_33__def_advertisinglicence">“advertising licence”</def> includes any kind of consent, certificate, permission or other
+        authorisation (by whatever name) which relates to advertising,</p>
+      </content>
+     </hcontainer>
+     <hcontainer GUID="_f2ca2286-68aa-406f-b55b-cd704f754479" class="definition" eId="sec_33__def_advertisingoffence_" name="definition">
+      <content>
+       <p><def GUID="_1a9c92df-55e9-439b-a4df-7dd4b2470727" eId="sec_33__def_advertisingoffence">“advertising offence”</def> has the meaning given by <ref class="valid" href="#sec_11" ukl:targetGuid="_6e053865-319f-4e4a-bdca-94f9802f5385">section
+         11</ref><ref class="valid" href="#sec_11__subsec_1" ukl:targetGuid="_395dfad2-a764-4d44-9978-0356c0b9f41d">(1)</ref>,</p>
+      </content>
+     </hcontainer>
+     <hcontainer GUID="_9b59600d-1439-406b-a525-ccf6edd1f304" class="definition" eId="sec_33__def_advertisingregulations_" name="definition">
+      <content>
+       <p><def GUID="_933deace-1ea3-4997-9f56-a1562bf60e03" eId="sec_33__def_advertisingregulations">“advertising regulations”</def> has the meaning given by <ref class="valid" href="#sec_11" ukl:targetGuid="_6e053865-319f-4e4a-bdca-94f9802f5385">section
+         11</ref><ref class="valid" href="#sec_11__subsec_2" ukl:targetGuid="_cba77579-620f-4ba9-a370-5881ab628715">(2)</ref>,</p>
+      </content>
+     </hcontainer>
+     <hcontainer GUID="_4b0dca6c-f7ca-4832-b079-f0021530aa6e" class="definition" eId="sec_33__def_building_" name="definition">
+      <intro GUID="_7d02d961-4cbf-439e-9af0-56dce28845e1" eId="sec_33__def_building___intro">
+       <p><def GUID="_26cb49d6-5c9b-4d1e-99de-e42ac1cee42a" eId="sec_33__def_building">“building”</def> does not include—</p>
+      </intro>
+      <paragraph GUID="_74f7f31f-aa55-4375-8b08-aa570f112628" class="para1" eId="sec_33__para_a__oc_1">
+       <num>(a)</num>
+       <content>
+        <p>a caravan, marquee, stall, tent or other temporary or moveable structure, </p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_14ea4705-6d4b-4c82-97ac-34919ac16609" class="para1" eId="sec_33__para_b__oc_1">
+       <num>(b)</num>
+       <content>
+        <p>a building (or part of a building) which is designed or used generally as a car park,</p>
+       </content>
+      </paragraph>
+     </hcontainer>
+     <hcontainer GUID="_47b9f0df-cf0c-4bd3-8822-de87120a605c" class="definition" eId="sec_33__def_Championship_" name="definition">
+      <content>
+       <p><def GUID="_5affad10-883b-4b1c-97e0-923c34df4955" eId="sec_33__def_Championship">“Championship”</def> has the meaning given by <ref class="valid" href="#sec_1" ukl:targetGuid="_1a9c6313-702e-4801-9dd1-a82a6ebbcdd1">section
+         1</ref><ref class="valid" href="#sec_1__subsec_1" ukl:targetGuid="_75c9627e-6ff5-42a9-8155-f8c2e7dc5246">(1)</ref>,</p>
+      </content>
+     </hcontainer>
+     <hcontainer GUID="_740a8214-5a8e-46a3-9687-11c23556889e" class="definition" eId="sec_33__def_Championshipoffence_" name="definition">
+      <content>
+       <p><def GUID="_3834ef7e-0c8f-48f9-877b-245c9d262fda" eId="sec_33__def_Championshipoffence">“Championship offence”</def> has the meaning given by <ref class="valid" href="#sec_17" ukl:targetGuid="_82779a9c-1526-48c3-90df-bb41f679416c">section
+         17</ref><ref class="valid" href="#sec_17__subsec_1" ukl:targetGuid="_ff745a4b-6c85-4637-aa33-8d4eccbb6528">(1)</ref>,</p>
+      </content>
+     </hcontainer>
+     <hcontainer GUID="_4b2687a3-64e2-4075-b0d1-7f7e4532f7a3" class="definition" eId="sec_33__def_Championshipperiod_" name="definition">
+      <content>
+       <p><def GUID="_012d33ed-224e-423a-a00a-1891078b78d1" eId="sec_33__def_Championshipperiod">“Championship period”</def> has the meaning given by <ref class="valid" href="#sec_1" ukl:targetGuid="_1a9c6313-702e-4801-9dd1-a82a6ebbcdd1">section
+         1</ref><ref class="valid" href="#sec_1__subsec_1" ukl:targetGuid="_75c9627e-6ff5-42a9-8155-f8c2e7dc5246">(1)</ref>,</p>
+      </content>
+     </hcontainer>
+     <hcontainer GUID="_761bad74-cb85-4e07-a814-e119fe005157" class="definition" eId="sec_33__def_Championshipticket_" name="definition">
+      <content>
+       <p><def GUID="_621204b8-d9c6-4dce-bccf-28f355a73f99" eId="sec_33__def_Championshipticket">“Championship ticket”</def> has the meaning given by <ref class="valid" href="#sec_1" ukl:targetGuid="_1a9c6313-702e-4801-9dd1-a82a6ebbcdd1">section
+         1</ref><ref class="valid" href="#sec_1__subsec_1" ukl:targetGuid="_75c9627e-6ff5-42a9-8155-f8c2e7dc5246">(1)</ref>,</p>
+      </content>
+     </hcontainer>
+     <hcontainer GUID="_b5236b71-5bd3-4097-ace5-8c6ac84dabed" class="definition" eId="sec_33__def_enforcementofficer_" name="definition">
+      <content>
+       <p><def GUID="_0a4eb08b-e206-43a5-849b-3040d4bec817" eId="sec_33__def_enforcementofficer">“enforcement officer”</def> has the meaning given by <ref class="valid" href="#sec_16" ukl:targetGuid="_a06217ba-84b4-4dc7-acad-8e631cd43934">section
+         16</ref><ref class="valid" href="#sec_16__subsec_1" ukl:targetGuid="_fb53cf95-7c07-47f6-af48-e2ae9e3dc697">(1)</ref>,</p>
+      </content>
+     </hcontainer>
+     <hcontainer GUID="_f165e083-6484-452c-bcf4-e61c4cb5b589" class="definition" eId="sec_33__def_eventzone_" name="definition">
+      <content>
+       <p><def GUID="_544554d6-3bef-40b9-92f0-49e8c4e106a6" eId="sec_33__def_eventzone">“event zone”
+        </def>has the meaning given by <ref class="valid" href="#sec_1" ukl:targetGuid="_1a9c6313-702e-4801-9dd1-a82a6ebbcdd1">section 1</ref><ref class="valid" href="#sec_1__subsec_1" ukl:targetGuid="_75c9627e-6ff5-42a9-8155-f8c2e7dc5246">(1)</ref>,</p>
+      </content>
+     </hcontainer>
+     <hcontainer GUID="_b373a41d-1acd-4698-9f3e-2e057457b026" class="definition" eId="sec_33__def_existingstreettrader_" name="definition">
+      <content>
+       <p><def GUID="_5a5fec7e-5cb6-49cf-920b-08846825814d" eId="sec_33__def_existingstreettrader">“existing street trader”</def> has the meaning given by <ref class="valid" href="#sec_6" ukl:targetGuid="_b2beebb3-b66a-45cf-8fdd-871ee204bfde">section
+         6</ref><ref class="valid" href="#sec_6__subsec_5" ukl:targetGuid="_906ea31d-3aaa-4164-90c4-d043fe4721af">(5)</ref>,</p>
+      </content>
+     </hcontainer>
+     <hcontainer GUID="_121a2c9e-fa4a-48c0-aa77-3cc673210670" class="definition" eId="sec_33__def_house_" name="definition">
+      <intro GUID="_1ef568d5-123f-46db-889d-03dee32ee2bb" eId="sec_33__def_house___intro">
+       <p><def GUID="_ab82c714-1562-4f08-b7a2-d6d9b4d93363" eId="sec_33__def_house">“house”</def>—</p>
+      </intro>
+      <paragraph GUID="_1ea2a513-3f87-4ee0-bd6e-fa7be6991e96" class="para1" eId="sec_33__para_a__oc_2">
+       <num>(a)</num>
+       <content>
+        <p>means any building (or part of a building), flat, mobile home, houseboat, caravan or
+         other place which is occupied only as a separate dwelling, but</p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_c84b1806-7b0d-4c5b-bede-0dd92cdefae5" class="para1" eId="sec_33__para_b__oc_2">
+       <num>(b)</num>
+       <content>
+        <p>does not include any yard, garden, garage, outbuilding or other similar area or
+         structure,</p>
+       </content>
+      </paragraph>
+     </hcontainer>
+     <hcontainer GUID="_1499b70c-cfd9-43cf-aff0-9e7de0637548" class="definition" eId="sec_33__def_infringingarticle_" name="definition">
+      <content>
+       <p><def GUID="_1993bc17-4937-4208-9e15-d7d24823f243" eId="sec_33__def_infringingarticle">“infringing article”</def> has the meaning given by <ref class="valid" href="#sec_17" ukl:targetGuid="_82779a9c-1526-48c3-90df-bb41f679416c">section
+         17</ref><ref class="valid" href="#sec_17__subsec_3" ukl:targetGuid="_80925b4f-494b-4850-b045-51bee5273b00">(3)</ref>,</p>
+      </content>
+     </hcontainer>
+     <hcontainer GUID="_67024df7-c574-4fb0-a2f2-304736dad263" class="definition" eId="sec_33__def_LocalOrganisingCommittee_" name="definition">
+      <content>
+       <p><def GUID="_bd319951-6bd2-4355-9f4a-313dcad58cd5" eId="sec_33__def_LocalOrganisingCommittee">“Local Organising Committee”</def> has the
+        meaning given by <ref class="valid" href="#sec_32" ukl:targetGuid="_99d94768-2fd6-4f14-ac44-f38fb0c537c1">section 32</ref><ref class="valid" href="#sec_32__subsec_4" ukl:targetGuid="_64fbaf39-f9bc-46a6-af2e-c3fdeebb45e4">(4)</ref>,</p>
+      </content>
+     </hcontainer>
+     <hcontainer GUID="_b7a2a082-a25c-4c6a-851e-a2c70f601648" class="definition" eId="sec_33__def_obstructionoffence_" name="definition">
+      <content>
+       <p><def GUID="_f116358e-b278-4f68-9e4c-4deac0f3a586" eId="sec_33__def_obstructionoffence">“obstruction offence”</def> has the meaning given by <ref class="invalid" href="#sec_26" ukl:targetGuid="">section 26</ref>,</p>
+      </content>
+     </hcontainer>
+     <hcontainer GUID="_90eddc56-266c-42c3-a333-8641ef94bdde" class="definition" eId="sec_33__def_prohibitedtime_" name="definition">
+      <content>
+       <p><def GUID="_39b9a8c6-cdc4-4d36-9c1a-6b170be8026b" eId="sec_33__def_prohibitedtime">“prohibited time”</def> is to be construed by reference to <ref class="valid" href="#sec_6" ukl:targetGuid="_b2beebb3-b66a-45cf-8fdd-871ee204bfde">section
+         6</ref><ref class="valid" href="#sec_6__subsec_3" ukl:targetGuid="_94ce9bdd-6c08-4b74-ba34-7065653ac96b">(3)</ref><ref class="valid" href="#sec_6__subsec_3__para_c" ukl:targetGuid="_7e743772-6868-4501-b203-87d4d79b4c07">(c)</ref> or, as the case may be, <ref class="valid" href="#sec_12" ukl:targetGuid="_cf729507-ee5b-4408-9b91-87a86d10a1f1">section
+         12</ref><ref class="valid" href="#sec_12__subsec_3" ukl:targetGuid="_83174f3e-2307-4890-8f1a-242958326bec">(3)</ref><ref class="valid" href="#sec_12__subsec_3__para_c" ukl:targetGuid="_04f916cd-60a0-479a-9b92-efcb337c18ad">(c)</ref>,</p>
+      </content>
+     </hcontainer>
+     <hcontainer GUID="_1d1538ff-641d-44a6-ae42-904f3b025700" class="definition" eId="sec_33__def_toutingoffence_" name="definition">
+      <content>
+       <p><def GUID="_94ae84aa-2ad2-45bd-ad7f-635542d8035d" eId="sec_33__def_toutingoffence">“touting offence”</def> has the meaning given by <ref class="valid" href="#sec_2" ukl:targetGuid="_38ba8881-82bd-4976-b997-f944a4b08ead">section
+         2</ref><ref class="valid" href="#sec_2__subsec_1" ukl:targetGuid="_fc025482-5392-4b49-abde-09e0c844778b">(1)</ref>,</p>
+      </content>
+     </hcontainer>
+     <hcontainer GUID="_1715c027-e43d-4667-9128-dfc7e024b4df" class="definition" eId="sec_33__def_trade_" name="definition">
+      <content>
+       <p><def GUID="_d06f8068-4425-4394-bb7c-ff2ea7970a56" eId="sec_33__def_trade">“trade”</def>
+        and “trading” are to be construed in accordance with <ref class="valid" href="#sec_6" ukl:targetGuid="_b2beebb3-b66a-45cf-8fdd-871ee204bfde">section
+         6</ref>,</p>
+      </content>
+     </hcontainer>
+     <?oxy_attributes eId="&lt;change type=&quot;modified&quot; oldValue=&quot;sec_33__def_tradinglicence_&quot; author=&quot;stuart.todd.sp&quot; timestamp=&quot;20191125T173435+0000&quot; /&gt;"?>
+     <hcontainer GUID="_8c24b470-8ec8-4761-8c1f-66a5646bb27c" class="definition" eId="sec_33__def_tradinglicence_" name="definition">
+      <?oxy_attributes eId="&lt;change type=&quot;modified&quot; oldValue=&quot;sec_33__def_tradinglicence___intro&quot; author=&quot;stuart.todd.sp&quot; timestamp=&quot;20191125T173435+0000&quot; /&gt;"?>
+      <intro GUID="_17ef4ab1-c10b-4cd2-9510-60720fabab6b" eId="sec_33__def_tradinglicence__intro">
+       <p><?oxy_attributes eId="&lt;change type=&quot;modified&quot; oldValue=&quot;sec_33__def_tradinglicence&quot; author=&quot;stuart.todd.sp&quot; timestamp=&quot;20191125T173435+0000&quot; /&gt;"?><def GUID="_a488aa79-ad60-425d-9e23-f168a9b1f520" eId="sec_33__def_tradinglicence">“trading
+         licence”</def> means—</p>
+      </intro>
+      <?oxy_attributes eId="&lt;change type=&quot;modified&quot; oldValue=&quot;sec_33__para_a&quot; author=&quot;stuart.todd.sp&quot; timestamp=&quot;20191125T173435+0000&quot; /&gt;"?>
+      <paragraph GUID="_7fc7fd3a-b862-430a-b838-dc4e0b50ce44" class="para1" eId="sec_33__def_tradinglicence__para_a">
+       <num>(a)</num>
+       <content>
+        <p>a street trader’s licence granted by Glasgow City Council under section 39 of the Civic
+         Government (Scotland) Act 1982, or</p>
+       </content>
+      </paragraph>
+      <?oxy_insert_start author="stuart.todd.sp" timestamp="20191125T173435+0000"?>
+      <paragraph GUID="_efec962e-0993-4c0b-a4d7-c51ce2bc2655" class="para1" eId="sec_33__def_tradinglicence__para_aa">
+       <num>(aa)</num>
+       <content>
+        <p>a market operator’s licence granted by Glasgow City Council under section 40 of the Civic
+         Government (Scotland) Act 1982, or</p>
+       </content>
+      </paragraph>
+      <?oxy_insert_end?>
+      <?oxy_attributes eId="&lt;change type=&quot;modified&quot; oldValue=&quot;sec_33__para_b&quot; author=&quot;stuart.todd.sp&quot; timestamp=&quot;20191125T173435+0000&quot; /&gt;"?>
+      <paragraph GUID="_be22490d-fbaf-4497-9e34-521e94fef995" class="para1" eId="sec_33__def_tradinglicence__para_b">
+       <num>(b)</num>
+       <content>
+        <p>a certificate granted by Police Scotland under the Pedlars Act 1871,</p>
+       </content>
+      </paragraph>
+     </hcontainer>
+     <hcontainer GUID="_ac0872d2-b6ee-440c-a7ba-4355654d5175" class="definition" eId="sec_33__def_tradingoffence_" name="definition">
+      <content>
+       <p><def GUID="_591fee87-02ad-4037-a23e-4cf56e9f476a" eId="sec_33__def_tradingoffence">“trading offence”</def> has the meaning given by <ref class="valid" href="#sec_5" ukl:targetGuid="_40575db1-3f8a-4837-bbc1-f04696804c24">section
+         5</ref><ref class="valid" href="#sec_5__subsec_1" ukl:targetGuid="_3e808cc4-9466-4de1-9d65-a2c095315312">(1)</ref>,</p>
+      </content>
+     </hcontainer>
+     <hcontainer GUID="_95a696b3-149a-444a-b5c5-6e24d5c3806f" class="definition" eId="sec_33__def_tradingregulations_" name="definition">
+      <content>
+       <p><def GUID="_64b977a9-002d-41ae-b3b5-1bfd709fa83a" eId="sec_33__def_tradingregulations">“trading regulations”</def> has the meaning given by <ref class="valid" href="#sec_5" ukl:targetGuid="_40575db1-3f8a-4837-bbc1-f04696804c24">section
+         5</ref><ref class="valid" href="#sec_5__subsec_3" ukl:targetGuid="_0078e67e-7238-4113-960a-58e32291645f">(3)</ref>.</p>
+      </content>
+     </hcontainer>
+    </section>
+    <section GUID="_2950c302-68c2-4d06-8270-de384e572096" class="prov1" eId="sec_34"><?DMS-Component componentId="dee9c310-a10c-4b2a-8d40-6b30959b871c" seriesId="74f4e800-57ed-4663-82e8-b5e1c248a196" versionNumber="1"?>
+     
+     <num>34</num>
+     <heading GUID="_ab9dd3e9-317d-4a89-aec3-de2fcbcd71f4" eId="sec_34__hdg">Commencement</heading>
+     <subsection GUID="_a34b59a8-ebb0-4067-8a7d-d24af0efbe49" class="prov2" eId="sec_34__subsec_1">
+      <num>(1)</num>
+      <content>
+       <p>This <ref class="valid" href="#sec_34" ukl:targetGuid="_2950c302-68c2-4d06-8270-de384e572096">section</ref>, <rref from="#sec_31" ukl:fromGuid="_0a6361f8-15a0-4aec-9a1e-946e2caa29f4" ukl:upToGuid="_93d1d046-616d-4820-a069-4721eb197508" upTo="#sec_33"><ref class="valid" href="#sec_31" ukl:targetGuid="_0a6361f8-15a0-4aec-9a1e-946e2caa29f4">sections 31</ref> to <ref class="valid" href="#sec_33" ukl:targetGuid="_93d1d046-616d-4820-a069-4721eb197508">33</ref></rref>, <ref class="valid" href="#sec_35" ukl:targetGuid="_8f03d816-7f4e-4e90-9b11-88ba07306264">35</ref> and <ref class="valid" href="#sec_36" ukl:targetGuid="_5abd4c0f-aa57-4077-ad8a-858a4cd2d436">36</ref> come into force on the day after Royal Assent.</p>
+      </content>
+     </subsection>
+     <?oxy_insert_start author="stuart.todd.sp" timestamp="20191125T173535+0000"?>
+     <subsection GUID="_9d3a52cf-9f69-4860-ba77-385439dd5992" class="prov2" eId="sec_34__subsec_1A">
+      <num>(1A)</num>
+      <content>
+       <p>Sections 2, 3 and 4 come into force on the day the Scottish Ministers appoint by
+        regulations.</p>
+      </content>
+     </subsection>
+     <?oxy_insert_end?>
+     <subsection GUID="_cd4e9ff0-1bd8-48d6-99a8-e49f3c5daeaf" class="prov2" eId="sec_34__subsec_2">
+      <num>(2)</num>
+      <content>
+       <p>The other provisions of this Act come into force on the expiry of the period of 2 months
+        beginning with the day after Royal Assent.</p>
+      </content>
+     </subsection>
+    </section>
+    <section GUID="_8f03d816-7f4e-4e90-9b11-88ba07306264" class="prov1" eId="sec_35"><?DMS-Component componentId="3df48fbc-44d8-4240-b975-807b74b5a2aa" seriesId="350c4809-2716-4f9e-8ff9-e68d89b40765" versionNumber="1"?>
+     
+     <num>35</num>
+     <heading GUID="_bb9a30e6-d529-450d-9c48-d16a08807783" eId="sec_35__hdg">Repeal</heading>
+     <content>
+      <p>This Act ceases to have effect on 31 December 2020.</p>
+     </content>
+    </section>
+    <section GUID="_5abd4c0f-aa57-4077-ad8a-858a4cd2d436" class="prov1" eId="sec_36"><?DMS-Component componentId="d1bbd520-4f28-45ce-9b68-b096ee1d574b" seriesId="d0c62b6d-81ba-43d2-82b3-149faa42c3e2" versionNumber="1"?>
+     
+     <num>36</num>
+     <heading GUID="_752f9a54-97a9-415f-af70-8802bd6add6e" eId="sec_36__hdg">Short title</heading>
+     <content>
+      <p>The short title of this Act is the UEFA European Championship (Scotland) Act 2020.</p>
+     </content>
+    </section>
+   </hcontainer>
+  </body>
+  <conclusions GUID="_2ad088d0-746b-4bd0-89dd-737b29667084" eId="backCover">
+   <block GUID="_379ed4e1-7db4-4b6d-97f1-f344d23e90cb" eId="backCover__st" name="title"><docTitle GUID="_ecac1abf-0b5d-49bc-a3e9-2222c6320b23" eId="backCover__st__dtitle"><ref class="placeholder" href="#varBillTitle"/></docTitle></block>
+   <block name="stageVersion">[<docStage GUID="_d6e5bece-12e0-403b-bb06-ee5505c612ef" eId="backCover__docStage"><ref class="placeholder" href="#varStageVersion"/></docStage>]</block>
+   <longTitle GUID="_eed7e18d-3185-474c-b216-c23055a3bbd5" eId="backCover__longtitle"/>
+   <block GUID="_2b0fb6dd-a6c3-4142-809a-75df2b4072c2" eId="backCover__mbr" name="introducingMember">
+    <inline name="prompt">Introduced by:</inline>
+    <docIntroducer GUID="_630bb272-5d1e-4691-8378-6aeedf53d9a5" eId="backCover__mbr__docIntroducer"><ref class="placeholder" href="#varIntroducingMember"/></docIntroducer>
+   </block>
+   <block GUID="_17db9c2a-8478-445a-80d6-c05a17be451d" eId="backCover__mbrs" name="supportingMembers">
+    <inline name="prompt">Supported by:</inline>
+    <docProponent GUID="_3bc11b9c-de0e-4c3a-864a-4cb4e9c06bdd" eId="backCover__mbrs__docProponent"><ref class="placeholder" href="#varSupportingMembers"/></docProponent>
+   </block>
+   <block GUID="_d1da521c-98ee-4396-b4b6-c882bd09cb30" eId="backCover__introDate" name="introductionDate">
+    <inline name="prompt">On:</inline>
+    <docDate GUID="_a2b9bb1b-8b03-44e4-bb53-e1dcff696b32" date="9999-01-01" eId="backCover__introDate__docDate"><ref class="placeholder" href="#varIntroDate"/></docDate>
+   </block>
+   <block name="subtype">
+    <inline name="prompt">Bill type:</inline>
+    <docType GUID="_d0bf9a42-d760-45b8-966f-972db746e603" eId="backCover__docType"><ref class="placeholder" href="#varDocSubType"/></docType>
+   </block>
+   <tblock GUID="_17972885-93b2-4bdb-a12e-ef5099a08366" class="copyrightStatement" eId="backCover__cpyStmnt">
+    <p>© Parliamentary copyright. Scottish Parliamentary Corporate Body</p>
+    <p>Information on the Scottish Parliament's copyright policy can be found on the website - </p>
+    <p><a href="https://www.parliament.scot/">www.parliament.scot</a></p>
+   </tblock>
+   <tblock GUID="_538c4306-5b7c-4eb5-ab61-48b7619918bf" class="publishingStatement" eId="backCover__pubStmnt">
+    <p>Produced and published in Scotland by the Scottish Parliamentary Corporate Body.</p>
+    <p>All documents are available on the Scottish Parliament website at:</p>
+    <p><a href="https://www.parliament.scot/documents">www.parliament.scot/documents</a></p>
+   </tblock>
+  </conclusions>
+ </bill>
+</akomaNtoso>

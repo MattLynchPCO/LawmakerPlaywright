@@ -1,0 +1,423 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd"> 
+ <bill contains="originalVersion" name="ukpubb">
+  <meta>   
+   <identification source="#author">
+    <FRBRWork>
+     <FRBRthis value="#varWork"/>
+     <FRBRuri value="#varWorkUri"/>
+     <FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+     <FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+     <FRBRalias name="alternateUri" value="https://lawmaker.legislation.gov.uk/pdr/ukpubb/HC/58_3/171/bill"/><FRBRdate date="9999-01-01" name="draft"/>
+     <FRBRdate date="2023-01-10T13:18:16Z" name="published"/><FRBRauthor href="#varAuthor"/>
+     <FRBRcountry value="GB-UKM"/>
+     <FRBRsubtype value="#varDocSubType"/>
+     <FRBRnumber value="#varProjectId"/>
+     <FRBRname value="#varBillTitle"/>
+     <FRBRprescriptive value="true"/>
+     <FRBRauthoritative value="false"/>
+    </FRBRWork>
+    <FRBRExpression>
+     <FRBRthis value="#varExpression"/>
+     <FRBRuri value="#varExpressionUri"/>
+     <FRBRalias name="ttflVersionDescription" value="#varVDOiid"/>
+     <FRBRalias name="alternateUri" value="https://lawmaker.legislation.gov.uk/pdr/ukpubb/HC/58_3/171/bill"/><FRBRdate date="9999-01-01" name="draft"/>
+     <FRBRdate date="2023-01-10T13:18:16Z" name="published"/><FRBRauthor href="#varAuthor"/>
+     <FRBRversionNumber value="copy-hl"/>
+     <FRBRauthoritative value="false"/>
+     <FRBRmasterExpression href="" showAs=""/>
+     <FRBRlanguage language="eng"/>
+    </FRBRExpression>
+    <FRBRManifestation>
+     <FRBRthis value="#varManifestation"/>
+     <FRBRuri value="#varManifestationUri"/>
+     <FRBRdate date="9999-01-01" name="akn_xml"/>
+     <FRBRdate date="2023-01-10T13:18:16Z" name="published"/><FRBRauthor href="#varAuthor"/>
+     <FRBRformat value="application/akn+xml"/>
+    </FRBRManifestation>
+   </identification>
+   <references source="#author">
+    <TLCConcept GUID="_e7c3b8e5-8188-46f8-aae9-9b01aa53c7e6" eId="varDocSubType" href="#varOntologies" showAs="Finance Bill"/>
+    <TLCConcept GUID="_db402924-542b-4a89-862c-b8611d05b8cd" eId="varBillTitle" href="#varOntologies" showAs="Stamp Duty Land Tax (Temporary Relief) Bill"/>
+    <TLCConcept GUID="_5d7b401d-3a18-4156-9b7f-40fdd3a0bb61" eId="varHouse" href="#varOntologies" showAs="House of Commons"/>
+    <TLCProcess GUID="_067807b1-73c6-4eb0-9796-7f6cc25d1c8f" eId="varStageVersion" href="#varOntologies" showAs="Lords copy"/>
+    <TLCProcess GUID="_2d272376-60ac-476b-9dae-da94eccc539d" eId="varProjectId" href="#varOntologies" showAs="UK001228"/>
+    <TLCProcess GUID="_ee4a9c9f-2193-4092-b71d-3173695095f6" eId="varWork" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/UK000490/bill"/>
+    <TLCProcess GUID="_f749a728-12d8-4591-b8e7-82e3dc0d184f" eId="varWorkUri" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/UK000490/bill"/>
+    <TLCProcess GUID="_63f8c6ce-5d0c-4c1b-b188-985083a39aeb" eId="varCHOiid" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_418886c6-ec68-4065-81b2-cbf2552b36d7" eId="varExpression" href="#varOntologies" showAs="a9d1e86e-366b-42b6-9de6-829cc80a96f5"/>
+    <TLCProcess GUID="_1caa056a-2013-4552-8e05-dd231d23f609" eId="varExpressionUri" href="#varOntologies" showAs="dma:///45e6b900-8929-11d4-b772-0050da06bfb4/80742cea-0ebb-4cf6-9759-1e52358d9b5b/;guid=a9d1e86e-366b-42b6-9de6-829cc80a96f5;class=Version%20Description"/>
+    <TLCProcess GUID="_2a426940-4713-4993-8fbf-86e2d7004a1a" eId="varVDOiid" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_2e85bed3-8e1c-4fea-bab5-ff948cf8685c" eId="varManifestation" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/UK000490/bill@copy-hl/xml"/>
+    <TLCProcess GUID="_e216e1f8-21bd-46aa-8f4a-78f16be1ab49" eId="varManifestationUri" href="#varOntologies" showAs="https://lawmaker.legislation.gov.uk/pdr/UK000490/bill@copy-hl/xml"/>
+    <TLCConcept GUID="_a8acf1a1-d57c-4bee-bb5e-c2958bf2be4d" eId="varActYear" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_a8b82239-5de4-431c-b80f-3cda6fe9a77b" eId="varActTitle" href="#varOntologies" showAs="Stamp Duty Land Tax (Temporary Relief) Bill #varActYear"/>
+    <TLCConcept GUID="_7eb2ebd9-f7bf-4309-add8-635bb3e48767" eId="varIntroDate" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_ab9482a5-73cb-462e-9c77-e7ee2270cb01" eId="varPublicationDate" href="#varOntologies" showAs="2023-01-10"/>
+    <TLCConcept GUID="_eb3a769c-14f5-4ae0-aa83-79b3e973414b" eId="varBillNoComp" href="#varOntologies" showAs="171"/>
+    <TLCConcept GUID="_48ab24e9-460b-4cc1-8d9f-18c3da0bfed8" eId="varBillNo" href="#varOntologies" showAs="Bill 171"/>
+    <TLCConcept GUID="_b13a6d0b-7fe2-4673-9cd7-c579e9da2ab0" eId="varSessionNo" href="#varOntologies" showAs="58/3"/>
+    <TLCConcept GUID="_90b2ee91-f7a5-451c-89d2-adb5f866c468" eId="varBillYear" href="#varOntologies" showAs="2023"/>
+    <TLCConcept GUID="_6b4de1e0-336f-455a-b765-9a4236c14458" eId="varSession" href="#varOntologies" showAs="58/3"/>
+    <TLCConcept GUID="_6209cc49-599a-47dd-832b-55bc8e473269" eId="varBroughtFromDate" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_1383920c-21c2-4106-8e25-10f22786fde7" eId="varPassedDate" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_394036ae-8071-4138-a892-d44626c0bbcd" eId="varAssentDate" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_8de9876e-41d3-4302-bb87-579527098b9a" eId="varActNoComp" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_b35f3d1e-ea3b-4ddc-ad37-6f43fada511b" eId="varActNo" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_f60dcdab-e403-44d1-97fc-44fcc0034f9f" eId="varDocType" href="#varOntologies" showAs="UK Bill"/>
+    <TLCConcept GUID="_336ec078-6d11-4960-813e-7706c9488290" eId="varSystem" href="#varOntologies" showAs="LDAPP"/>
+    <TLCConcept GUID="_2a279101-4f24-4c63-bf80-f21cdab01a1d" eId="varAuthor" href="#varOntologies" showAs="UK Parliament"/>
+    <TLCConcept GUID="_8ceebffa-56dc-470c-9307-8c4e66736f83" eId="varJurisdiction" href="#varOntologies" showAs="United Kingdom"/>
+    <TLCConcept GUID="_3cddef1c-7f73-4da4-9188-238051179bd6" eId="varOntologies" href="https://www.legislation.gov.uk/ontologies/UK-AKN" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN"/>
+    <TLCConcept GUID="_a60b6900-5036-4fbb-b6db-9e69c4f5382c" eId="varSovereign" href="#varOntologies" showAs="Elizabeth II"/>
+    <TLCPerson GUID="ed4efcc5-94da-44c8-ac62-903fd4393fb3" eId="person-4483" href="#The_Prime_Minister" showAs="The Prime Minister" ukl:class="varIntroducingMember"/>
+    <TLCPerson GUID="5d483996-41a4-4ccd-b138-a0671280ca3d" eId="person-4410" href="#Julian_Knight" showAs="Julian Knight" ukl:class="varSupportingMembers"/>
+    <TLCPerson GUID="0a07c0fa-490f-41c3-bf67-3c27f72e0661" eId="person-4134" href="#Kwasi_Kwarteng" showAs="Kwasi Kwarteng" ukl:class="varSupportingMembers"/>
+   </references>
+  </meta>
+  <coverPage GUID="_9fa0c3f9-bb9f-4fa4-bb42-223dce0e12a8" eId="cp">   
+   <block GUID="_bb0b10d7-a7e0-4f27-98df-5f4be8c3444b" eId="cp__st" name="title"><docTitle GUID="_0d9b7304-9f1b-4fd7-b78b-bde9d435da95" eId="cp__st__dtitle"><ref class="placeholder" href="#varBillTitle"/></docTitle></block>
+   <blockContainer GUID="_d2c9ff87-10d6-4173-8d91-e69ef8ebd804" class="note" eId="cp__note">
+    <p/>
+   </blockContainer>
+   <tblock class="statement">
+    <heading>EXPLANATORY NOTES</heading>
+    <p>Explanatory notes to the Bill, prepared by HM Revenue &amp; Customs, are published separately as <ref class="placeholder" href="#varBillNo"/>—EN.</p>
+   </tblock>
+   <tblock class="statement">
+    <heading>EUROPEAN CONVENTION ON HUMAN RIGHTS</heading>
+    <p><ref class="placeholder" href="#person-1572"/> has made the following statement under section 19(1)(a) of the Human Rights Act 1998:</p>
+    <p>In my view the provisions of the <ref class="placeholder" href="#varBillTitle"/> are compatible with the Convention rights.</p>
+   </tblock>
+   <block GUID="_8660a748-5da0-410e-91f0-d3c1d69cead2" eId="cp__st2" name="title"><docTitle GUID="_6a382c18-e21c-4b38-829d-92b6659a9242" eId="cp__st__dtitle2"><ref class="placeholder" href="#varBillTitle"/></docTitle></block>
+   <block GUID="_bfbdc3b7-a291-4070-82bf-4001c8e57a14" eId="cp__stage" name="stageVersion">[<docStage><ref class="placeholder" href="#varStageVersion"/></docStage>]</block>
+   <block GUID="_752cdb2a-4f5f-410f-b1bc-00f31d2d2708" eId="cp__hdg" name="ToCHeading">CONTENTS</block>
+   <toc GUID="_102935e0-44ce-431e-b283-9b60af87c524" class="body" eId="cp__toc">
+    <tocItem class="prov1ToC" href="#sec_1" level="5"><inline name="tocNum">1</inline><inline name="tocHeading">Reduction of SDLT on acquisition of residential property</inline></tocItem>
+    <tocItem class="prov1ToC" href="#sec_2" level="5"><inline name="tocNum">2</inline><inline name="tocHeading">Short title</inline></tocItem>
+   </toc>
+  </coverPage>
+  <preface GUID="_0c18dea8-d8d7-42d2-9c03-d8412820f04e" eId="preface">   
+   <block name="stageVersion">[<docStage><ref class="placeholder" href="#varStageVersion"/></docStage>]</block>
+   <longTitle GUID="_7640c872-5ce1-4bd4-8311-2c111ff29a9d" eId="preface__longtitle">
+    <p class="A">A</p>
+    <p class="Bill">bill</p>
+    <p class="To">to</p>
+    <p>Reduce, for a temporary period, the amount of stamp duty land tax chargeable on the acquisition of residential property.</p>
+   </longTitle>
+  </preface>
+  <preamble GUID="_fcd8e916-56fa-4b4d-a016-dd2f9fcd5334" eId="preamble">   
+   <formula GUID="_6395f76f-3e5d-4040-b0b9-7897c4a16a25" eId="preamble__enactingWords" name="enactingText">
+    <p><inline name="dropCap">B</inline><inline name="smallCaps">e it enacted</inline> by the King’s most Excellent Majesty, by and with the advice and consent of the Lords Spiritual and Temporal, and Commons, in this present Parliament assembled, and by the authority of the same, as follows:—</p>
+   </formula>
+  </preamble>
+  <body>   
+   <section GUID="_a4b28b8f-fb18-4b58-83df-498e9f13c40a" class="prov1" eId="sec_1">    
+    <num><?L 1-1?>1</num>
+    <heading GUID="_1843737b-bebe-49a9-9e8c-51e1e66cdebc" eId="sec_1__hdg">Reduction of SDLT on acquisition of residential property</heading>
+    <subsection GUID="_08fc71b2-cc9a-4082-8e01-779cb30c0dfe" class="prov2" eId="sec_1__subsec_1">
+     <num ukl:autonumber="yes"><?L 1-2?>(1)</num>
+     <intro GUID="_2170b21d-f920-4ba8-a613-a702d7a9cc3c" eId="sec_1__subsec_1__intro">
+      <p>This section makes modifications of Part 4 of the Finance Act 2003 in relation <?L 1-3?>to any land transaction the effective date of which falls in the period (“the <?L 1-4?>temporary relief period”)—</p>
+     </intro>
+     <level GUID="_77d9504a-6ac1-418b-975f-91afd97898b5" class="para1" eId="sec_1__subsec_1__para_a">
+      <num><?L 1-5?>(a)</num>
+      <content>
+       <p>beginning with 23 September 2022, and</p>
+      </content>
+     </level>
+     <level GUID="_328d9847-150e-47f6-8343-3472ce80909a" class="para1" eId="sec_1__subsec_1__para_b">
+      <num><?L 1-6?>(b)</num>
+      <content>
+       <p>ending with 31 March 2025.</p>
+      </content>
+     </level>
+    </subsection>
+    <subsection GUID="_3c132d96-756d-406f-923e-669c95a881e8" class="prov2" eId="sec_1__subsec_2">
+     <num><?L 1-7?>(2)</num>
+     <content>
+      <p>
+       <mod>Section 55(1B) (amount of stamp duty land tax chargeable: general) has effect <?L 1-8?>as if for Table A there were substituted—<quotedStructure GUID="_135fe0e5-fba5-45df-8e80-5bd542ac551a" eId="sec_1__subsec_2__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+         <content>
+          <tblock GUID="_3333943f-38cc-43a1-8ef2-25c06431f581" class="table" eId="sec_1__subsec_2__qstr__tbl__oc_1">
+           <heading GUID="_25429aeb-44d5-4554-8187-3da32a4c844d" class="left" eId="sec_1__subsec_2__qstr__tbl__oc_1__hdg"><?L 1-9?>TABLE A: RESIDENTIAL</heading>
+           <foreign>
+            <table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="bottomAndMiddleVertical tablecentre width70" cols="2">
+             <thead class="italic centre">
+              <tr akn:GUID="_1a7a9468-09fc-4dba-9bd1-f3633fe596e9" akn:eId="sec_1__subsec_2__qstr__tbl__oc_1__hdg__row__oc_1">
+               <td akn:GUID="_fdb00a39-3175-4334-97e3-2a6e6d9ce075" akn:eId="sec_1__subsec_2__qstr__tbl__oc_1__hdg__row__oc_1__col_1">
+                <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><?L 1-10?>Part of relevant consideration</p>
+               </td>
+               <td akn:GUID="_812928ca-5322-4c22-bf3e-7d2e043a9509" akn:eId="sec_1__subsec_2__qstr__tbl__oc_1__hdg__row__oc_1__col_2">
+                <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><?L 1-10?>Percentage</p>
+               </td>
+              </tr>
+             </thead>
+             <tbody class="left">
+              <tr akn:GUID="_5fc9c738-0c69-486f-8945-e01b26d10ae6" akn:eId="sec_1__subsec_2__qstr__tbl__oc_1__row__oc_1">
+               <td akn:GUID="_967bea47-2e5d-4bc0-b951-effcd606cb72" akn:eId="sec_1__subsec_2__qstr__tbl__oc_1__row__oc_1__col_1">
+                <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><?L 1-11?>So much as does not exceed £250,000</p>
+               </td>
+               <td akn:GUID="_dab60e2d-fafc-49cc-b5d1-4f7939df74f7" akn:eId="sec_1__subsec_2__qstr__tbl__oc_1__row__oc_1__col_2">
+                <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><?L 1-11?>0%</p>
+               </td>
+              </tr>
+              <tr akn:GUID="_a2f97e73-4eb9-49c2-ab22-c4616f6408cc" akn:eId="sec_1__subsec_2__qstr__tbl__oc_1__row__oc_2">
+               <td akn:GUID="_70d89237-ec94-4137-b6d0-ce60543f050f" akn:eId="sec_1__subsec_2__qstr__tbl__oc_1__row__oc_2__col_1">
+                <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><?L 1-12?>So much as exceeds £250,000 but does <?L 1-13?>not exceed £925,000</p>
+               </td>
+               <td akn:GUID="_7979967a-0c50-42c8-afe6-1e574b949d75" akn:eId="sec_1__subsec_2__qstr__tbl__oc_1__row__oc_2__col_2">
+                <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><?L 1-12?>5%</p>
+               </td>
+              </tr>
+              <tr akn:GUID="_a00b51e4-3c43-42ef-ac27-c645ddf830a2" akn:eId="sec_1__subsec_2__qstr__tbl__oc_1__row__oc_3">
+               <td akn:GUID="_72ccf8ee-34ac-41e9-9be6-75fd352e55b6" akn:eId="sec_1__subsec_2__qstr__tbl__oc_1__row__oc_3__col_1">
+                <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><?L 1-14?>So much as exceeds £925,000 but does <?L 1-15?>not exceed £1,500,000</p>
+               </td>
+               <td akn:GUID="_b76906a8-acb3-4965-b7fb-d8b5802cd539" akn:eId="sec_1__subsec_2__qstr__tbl__oc_1__row__oc_3__col_2">
+                <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><?L 1-14?>10%</p>
+               </td>
+              </tr>
+              <tr akn:GUID="_5cf2c32a-a1d2-45b4-9bc4-e637c2e79f81" akn:eId="sec_1__subsec_2__qstr__tbl__oc_1__row__oc_4">
+               <td akn:GUID="_2646a268-d42b-4ca5-bff8-59fb69636b85" akn:eId="sec_1__subsec_2__qstr__tbl__oc_1__row__oc_4__col_1">
+                <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><?L 1-16?>The remainder (if any)</p>
+               </td>
+               <td akn:GUID="_e2f548c6-42e1-466f-bdaf-89bee631fc62" akn:eId="sec_1__subsec_2__qstr__tbl__oc_1__row__oc_4__col_2">
+                <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><?L 1-16?>12%</p>
+               </td>
+              </tr>
+             </tbody>
+            </table>
+           </foreign>
+          </tblock>
+         </content>
+        </quotedStructure><inline name="AppendText">.</inline></mod>
+      </p>
+     </content>
+    </subsection>
+    <subsection GUID="_50b93fdc-3b86-4d77-a3b1-853bf87d5711" class="prov2" eId="sec_1__subsec_3">
+     <num><?L 1-17?>(3)</num>
+     <content>
+      <p>
+       <mod>Schedule 4ZA (higher rates of stamp duty land tax for additional dwellings <?L 1-18?>etc) has effect as if for the Table A in section 55(1B) mentioned in paragraph <?L 1-19?>1(2) there were substituted—<quotedStructure GUID="_f62c901f-cfc9-4299-ac8d-0e2c7d79fc9a" eId="sec_1__subsec_3__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+         <content>
+          <tblock GUID="_85dc0a3e-abe9-4ae2-97bc-f59b24b355f4" class="table" eId="sec_1__subsec_3__qstr__tbl__oc_1">
+           <heading GUID="_f1c26881-e299-4567-8134-0ff7982dbff4" class="left" eId="sec_1__subsec_3__qstr__tbl__oc_1__hdg"><?L 1-20?>TABLE A: RESIDENTIAL</heading>
+           <foreign>
+            <table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="bottomAndMiddleVertical tablecentre noPersist width70" cols="2">
+             <thead class="italic centre">
+              <tr akn:GUID="_ae64072e-3497-4229-886f-bd73de420b10" akn:eId="sec_1__subsec_3__qstr__tbl__oc_1__hdg__row__oc_1">
+               <td akn:GUID="_6aad6acf-40db-44df-8a9c-540b53f06a9b" akn:eId="sec_1__subsec_3__qstr__tbl__oc_1__hdg__row__oc_1__col_1">
+                <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Part of relevant consideration</p>
+               </td>
+               <td akn:GUID="_d5e318ad-f940-4d78-97b2-15a7650e2467" akn:eId="sec_1__subsec_3__qstr__tbl__oc_1__hdg__row__oc_1__col_2">
+                <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Percentage</p>
+               </td>
+              </tr>
+             </thead>
+             <tbody class="left">
+              <tr akn:GUID="_79cec50f-4737-4211-b4d4-3d7a3edc4408" akn:eId="sec_1__subsec_3__qstr__tbl__oc_1__row__oc_1">
+               <td akn:GUID="_afa3697a-c9d7-48a8-895b-a25dcb4f623c" akn:eId="sec_1__subsec_3__qstr__tbl__oc_1__row__oc_1__col_1">
+                <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">So much as does not exceed £250,000</p>
+               </td>
+               <td akn:GUID="_da35c8c5-c1b1-48ed-8ca4-35f3cd684050" akn:eId="sec_1__subsec_3__qstr__tbl__oc_1__row__oc_1__col_2">
+                <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">3%</p>
+               </td>
+              </tr>
+              <tr akn:GUID="_8f469f04-7140-422c-8601-faa7be7dae7f" akn:eId="sec_1__subsec_3__qstr__tbl__oc_1__row__oc_2">
+               <td akn:GUID="_b32dc183-490c-47bf-a150-79dea63b87c3" akn:eId="sec_1__subsec_3__qstr__tbl__oc_1__row__oc_2__col_1">
+                <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">So much as exceeds £250,000 but does not exceed £925,000</p>
+               </td>
+               <td akn:GUID="_abda7d82-76e9-416e-81a8-45c08e7c33d3" akn:eId="sec_1__subsec_3__qstr__tbl__oc_1__row__oc_2__col_2">
+                <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">8%</p>
+               </td>
+              </tr>
+              <tr akn:GUID="_d7926a23-fd0a-4885-90f8-c789a286df6f" akn:eId="sec_1__subsec_3__qstr__tbl__oc_1__row__oc_3">
+               <td akn:GUID="_7c5fab31-a363-43b4-bfe4-38cff9d515bf" akn:eId="sec_1__subsec_3__qstr__tbl__oc_1__row__oc_3__col_1">
+                <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">So much as exceeds £925,000 but does not exceed £1,500,000</p>
+               </td>
+               <td akn:GUID="_aeb42bb5-0e5c-4108-a358-ba7a5eebf387" akn:eId="sec_1__subsec_3__qstr__tbl__oc_1__row__oc_3__col_2">
+                <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">13%</p>
+               </td>
+              </tr>
+              <tr akn:GUID="_1c07da7f-1b0c-434f-94dc-650b59f5caca" akn:eId="sec_1__subsec_3__qstr__tbl__oc_1__row__oc_4">
+               <td akn:GUID="_acc97e6f-282e-4ce6-b66e-01e0f845d0b5" akn:eId="sec_1__subsec_3__qstr__tbl__oc_1__row__oc_4__col_1">
+                <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The remainder (if any)</p>
+               </td>
+               <td akn:GUID="_a0c90e31-f76e-4777-b022-f8f24a2f1cb4" akn:eId="sec_1__subsec_3__qstr__tbl__oc_1__row__oc_4__col_2">
+                <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">15%</p>
+               </td>
+              </tr>
+             </tbody>
+            </table>
+           </foreign>
+          </tblock>
+         </content>
+        </quotedStructure><inline name="AppendText">.</inline></mod>
+      </p>
+     </content>
+    </subsection>
+    <subsection GUID="_1a6c4c26-2579-4eb0-a366-59e74df362db" class="prov2" eId="sec_1__subsec_4">
+     <num><?L 2-1?>(4)</num>
+     <content>
+      <p>
+       <mod>Paragraph 2(3) of Schedule 5 (amount of SDLT chargeable in respect of rent) <?L 2-2?>has effect as if for Table A there were substituted—<quotedStructure GUID="_ca75837c-d4dc-4380-91ba-035e2444de32" eId="sec_1__subsec_4__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+         <content>
+          <tblock GUID="_4fc93ab1-ae0d-483d-bd89-35489a9c247e" class="table" eId="sec_1__subsec_4__qstr__tbl__oc_1">
+           <heading GUID="_995ac914-2ad6-41c5-84e5-0d2fc8f76789" class="left" eId="sec_1__subsec_4__qstr__tbl__oc_1__hdg"><?L 2-3?>TABLE A: RESIDENTIAL</heading>
+           <foreign>
+            <table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="bottomAndMiddleVertical tablecentre width70" cols="2">
+             <thead class="italic centre">
+              <tr akn:GUID="_41e57c0b-4201-4350-8f6d-cfa6b68262fd" akn:eId="sec_1__subsec_4__qstr__tbl__oc_1__hdg__row__oc_1">
+               <td akn:GUID="_d52b6e85-3e00-4d6c-b853-bac3d13fcc92" akn:eId="sec_1__subsec_4__qstr__tbl__oc_1__hdg__row__oc_1__col_1">
+                <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><?L 2-4?>Rate bands</p>
+               </td>
+               <td akn:GUID="_fb3f56bf-a453-4891-8205-601601d8a175" akn:eId="sec_1__subsec_4__qstr__tbl__oc_1__hdg__row__oc_1__col_2">
+                <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><?L 2-4?>Percentage</p>
+               </td>
+              </tr>
+             </thead>
+             <tbody class="left">
+              <tr akn:GUID="_7d98b67f-9339-402c-a447-462bbff23e97" akn:eId="sec_1__subsec_4__qstr__tbl__oc_1__row__oc_1">
+               <td akn:GUID="_06ca09dd-c14e-46ed-b41b-90bc5e67f9b9" akn:eId="sec_1__subsec_4__qstr__tbl__oc_1__row__oc_1__col_1">
+                <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><?L 2-5?>£0 to £250,000</p>
+               </td>
+               <td akn:GUID="_3967922b-099a-4661-9efc-8d1455996141" akn:eId="sec_1__subsec_4__qstr__tbl__oc_1__row__oc_1__col_2">
+                <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><?L 2-5?>0%</p>
+               </td>
+              </tr>
+              <tr akn:GUID="_24d6d930-b289-4d74-9b61-0a83070981e1" akn:eId="sec_1__subsec_4__qstr__tbl__oc_1__row__oc_2">
+               <td akn:GUID="_cde05acd-67dc-4bca-919d-b07b1ae66ab3" akn:eId="sec_1__subsec_4__qstr__tbl__oc_1__row__oc_2__col_1">
+                <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><?L 2-6?>Over £250,000</p>
+               </td>
+               <td akn:GUID="_3898b57d-ecf2-435b-aa91-adc615378c5d" akn:eId="sec_1__subsec_4__qstr__tbl__oc_1__row__oc_2__col_2">
+                <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><?L 2-6?>1%</p>
+               </td>
+              </tr>
+             </tbody>
+            </table>
+           </foreign>
+          </tblock>
+         </content>
+        </quotedStructure><inline name="AppendText">.</inline></mod>
+      </p>
+     </content>
+    </subsection>
+    <subsection GUID="_e6392bad-199d-43e2-849e-8ef8287c8f60" class="prov2" eId="sec_1__subsec_5">
+     <num><?L 2-7?>(5)</num>
+     <intro GUID="_ee85c1ad-11f9-469f-afc3-b07b18a83a3c" eId="sec_1__subsec_5__intro">
+      <p>Schedule 6ZA (relief for first-time buyers) has effect as if—</p>
+     </intro>
+     <level GUID="_9412ac01-63f2-4b99-9fba-44a7fe515561" class="para1" eId="sec_1__subsec_5__para_a">
+      <num><?L 2-8?>(a)</num>
+      <content>
+       <p>in paragraph 1(3), for “£500,000” there were substituted “£625,000”, <?L 2-9?>and</p>
+      </content>
+     </level>
+     <level GUID="_1d112948-8204-4571-b134-ce002b997ee5" class="para1" eId="sec_1__subsec_5__para_b">
+      <num><?L 2-10?>(b)</num>
+      <content>
+       <p>
+        <mod>for the Table A in section 55(1B) mentioned in paragraph 4 there were <?L 2-11?>substituted—<quotedStructure GUID="_744b7689-c1ac-40f3-856c-fa9e99fddb44" eId="sec_1__subsec_5__para_b__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+          <content>
+           <tblock GUID="_0b0a4bfc-b592-4f4e-8de9-efd816a3ecc9" class="table" eId="sec_1__subsec_5__para_b__qstr__tbl__oc_1">
+            <heading GUID="_e1cc03cb-f8dc-4c29-a440-cebfeb0cfdab" class="left" eId="sec_1__subsec_5__para_b__qstr__tbl__oc_1__hdg"><?L 2-12?>TABLE A: RESIDENTIAL</heading>
+            <foreign>
+             <table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="bottomAndMiddleVertical tablecentre width70" cols="2">
+              <thead class="italic centre">
+               <tr akn:GUID="_dea72627-5458-430f-8a5a-582d9c0bdd43" akn:eId="sec_1__subsec_5__para_b__qstr__tbl__oc_1__hdg__row__oc_1">
+                <td akn:GUID="_91048bc7-ac46-41a7-a135-e98b769f0c1d" akn:eId="sec_1__subsec_5__para_b__qstr__tbl__oc_1__hdg__row__oc_1__col_1">
+                 <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><?L 2-13?>Part of relevant consideration</p>
+                </td>
+                <td akn:GUID="_17aa61eb-25b2-47cc-ad2d-a1e85a39b79b" akn:eId="sec_1__subsec_5__para_b__qstr__tbl__oc_1__hdg__row__oc_1__col_2">
+                 <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><?L 2-13?>Percentage</p>
+                </td>
+               </tr>
+              </thead>
+              <tbody class="left">
+               <tr akn:GUID="_6bbb5ddd-f388-4b93-94b4-d58518bf323b" akn:eId="sec_1__subsec_5__para_b__qstr__tbl__oc_1__row__oc_1">
+                <td akn:GUID="_916b2b31-6c97-4392-9e39-e5b83961e0f0" akn:eId="sec_1__subsec_5__para_b__qstr__tbl__oc_1__row__oc_1__col_1">
+                 <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><?L 2-14?>So much as does not exceed <?L 2-15?>£425,000</p>
+                </td>
+                <td akn:GUID="_8e9df6ac-50cd-4c43-902f-3905ae4413ed" akn:eId="sec_1__subsec_5__para_b__qstr__tbl__oc_1__row__oc_1__col_2">
+                 <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><?L 2-14?>0%</p>
+                </td>
+               </tr>
+               <tr akn:GUID="_de099352-c8f8-463f-b041-83d7ed97bc08" akn:eId="sec_1__subsec_5__para_b__qstr__tbl__oc_1__row__oc_2">
+                <td akn:GUID="_183d2f3a-1a50-4dbe-a619-9fa8b6a24e99" akn:eId="sec_1__subsec_5__para_b__qstr__tbl__oc_1__row__oc_2__col_1">
+                 <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><?L 2-16?>Any remainder (so far as not <?L 2-17?>exceeding £625,000)</p>
+                </td>
+                <td akn:GUID="_8105beb2-9374-4557-841d-feb9d4123561" akn:eId="sec_1__subsec_5__para_b__qstr__tbl__oc_1__row__oc_2__col_2">
+                 <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><?L 2-16?>5%</p>
+                </td>
+               </tr>
+              </tbody>
+             </table>
+            </foreign>
+           </tblock>
+          </content>
+         </quotedStructure><inline name="AppendText">.</inline></mod>
+       </p>
+      </content>
+     </level>
+    </subsection>
+    <subsection GUID="_b45c9ef3-d75b-46ca-b58a-66b904a9e7a1" class="prov2" eId="sec_1__subsec_6">
+     <num><?L 2-18?>(6)</num>
+     <intro GUID="_d9b02a05-fc2d-4736-a041-aeaf37596a5a" eId="sec_1__subsec_6__intro">
+      <p>In a case where—</p>
+     </intro>
+     <level GUID="_2ec2de51-93b1-42c1-a031-091b0d1cd4e2" class="para1" eId="sec_1__subsec_6__para_a">
+      <num><?L 2-19?>(a)</num>
+      <content>
+       <p>as a result of section 44(4) of the Finance Act 2003 the effective date <?L 2-20?>of a land transaction falls in the temporary relief period, and</p>
+      </content>
+     </level>
+     <level GUID="_2f72e803-4497-4ef1-956e-1173cd5e94ef" class="para1" eId="sec_1__subsec_6__para_b">
+      <num><?L 2-21?>(b)</num>
+      <content>
+       <p>the contract concerned is completed by a conveyance after that period <?L 2-22?>ends,</p>
+      </content>
+     </level>
+     <wrapUp GUID="_16da2b27-0b29-4f88-a704-13d8d963fc54" eId="sec_1__subsec_6__wrapup">
+      <p><?L 2-23?>section 44(8) of that Act is not to apply in relation to that conveyance if the <?L 2-24?>sole reason that (but for this subsection) it would have applied is that the <?L 2-25?>modifications made by subsections <ref class="valid" href="#sec_1__subsec_2" ukl:targetGuid="_3c132d96-756d-406f-923e-669c95a881e8" ukl:targetJref="">(2)</ref> to <ref class="valid" href="#sec_1__subsec_5" ukl:targetGuid="_e6392bad-199d-43e2-849e-8ef8287c8f60" ukl:targetJref="">(5)</ref> have no effect in relation to that <?L 2-26?>conveyance.</p>
+     </wrapUp>
+    </subsection>
+    <subsection GUID="_54848b74-9937-4db5-938c-e18bb1269f87" class="prov2" eId="sec_1__subsec_7">
+     <num><?L 2-27?><?L 2-28?><?L 2-29?><?L 2-30?><?L 2-31?><?L 2-32?><?L 2-33?>(7)</num>
+     <content>
+      <p>Section 44(10) of the Finance Act 2003 applies for the purposes of subsection <ref class="valid" href="#sec_1__subsec_6__oc_1" ukl:targetGuid="_f4d61834-14c0-4751-a7c3-0e0d2cc8c4ff" ukl:targetJref=""><?L 2-34?>(6)</ref>.</p>
+     </content>
+    </subsection>
+   </section>
+   <section GUID="_2311b745-4dc7-49a4-b031-bee67b8a6cf9" class="prov1" eId="sec_2">    
+    <num><?L 3-1?>2</num>
+    <heading GUID="_6546a6df-114c-42b7-a8de-fe8f9d1556cf" eId="sec_2__hdg">Short title</heading>
+    <content>
+     <p><?L 3-2?>This Act may be cited as the Stamp Duty Land Tax (Temporary Relief) Act <?L 3-3?>2023.</p>
+    </content>
+   </section>
+  </body>
+  <conclusions GUID="_802bd6c4-e065-4b42-b22a-d9352eb41d69" eId="backCover">   
+   <block GUID="_8b65415f-b6b5-43de-a263-c2335af236ab" eId="backCover__st" name="title"><docTitle GUID="_1b5b19fa-2b1d-4bc5-96b2-b6349e493fc6" eId="backCover__st__dtitle"><ref class="placeholder" href="#varBillTitle"/></docTitle></block>
+   <block GUID="_2e2b777d-c959-4243-a452-3fd1a9c1967c" eId="backCover__stage" name="stageVersion">[<docStage><ref class="placeholder" href="#varStageVersion"/></docStage>]</block>
+   <longTitle GUID="_d1764635-4089-4460-888e-aeb15e2802bb" eId="backCover__longtitle">
+    <p><ref class="placeholder" href="#preface__longtitle"/></p>
+   </longTitle>
+   <block GUID="_e12bfb99-9a93-48cc-8c86-0e9417676e7c" eId="backCover__mbr" name="introducingMember">
+    <inline name="prompt"> Ordered to be brought in by </inline>
+   </block>
+   <block GUID="_4c248301-52b1-4bb6-8927-8f064edee393" eId="backCover__mbrs" name="supportingMembers">
+    <docProponent GUID="_278afcac-b974-444a-9f68-10b495ffe358" eId="backCover__mbrs__docProponent__person-36"><ref class="placeholder" href="#person-36">the Chairman of Ways and Means</ref>, </docProponent><docProponent GUID="_6f498102-0583-47a0-bf12-2d217fd13216" eId="backCover__mbrs__docProponent__person-4097"><ref class="placeholder" href="#person-4097">the Prime Minister</ref>, </docProponent><docProponent GUID="_19d7280c-3d79-445b-9246-b0c1586d0813" eId="backCover__mbrs__docProponent__person-4134"><ref class="placeholder" href="#person-4134">the Chancellor of the Exchequer</ref>, </docProponent><docProponent GUID="_e03f3877-6c99-4d3b-af4b-d13975c6af08" eId="backCover__mbrs__docProponent__person-4362"><ref class="placeholder" href="#person-4362"/>, </docProponent><docProponent GUID="_43b5864f-64f2-496e-afb3-1c0b29f2bd1a" eId="backCover__mbrs__docProponent__person-3912"><ref class="placeholder" href="#person-3912"/>, </docProponent><docProponent GUID="_00f0fea9-b5be-4d14-a6d6-e23ffda3e50b" eId="backCover__mbrs__docProponent__person-4874"><ref class="placeholder" href="#person-4874"/> and </docProponent><docProponent GUID="_92868400-6c3e-4a36-98f1-11038acde240" eId="backCover__mbrs__docProponent__person-4821"><ref class="placeholder" href="#person-4821"/></docProponent></block>
+   <blockContainer class="publicationDate">
+    <p>Ordered, by The <span class="uk-text-capitalize"><ref class="placeholder" href="#varHouse"/></span>, to be Printed,<docDate GUID="_001262bc-39f8-4325-98c4-4ff2ec765c79" date="2017-07-13" eId="backCover__ddate">
+      <ref class="placeholder" href="#varPublicationDate" ukl:dateFormat="d'th' MMMM yyyy">10th January 202310th January 2023</ref></docDate>.</p>
+   </blockContainer>
+   <tblock class="copyrightStatement">
+    <p>© Parliamentary copyright House of Commons <ref class="placeholder" href="#varBillYear"/></p>
+    <p class="italic">This publication may be reproduced under the terms of the Open Parliament Licence, which is published at <a href="https://www.parliament.uk/site-information/copyright">www.parliament.uk/site-information/copyright</a></p>
+   </tblock>
+   <tblock class="publishingStatement">
+    <p>Published by the authority of the House of Commons</p>
+   </tblock>
+  </conclusions>
+ </bill>
+</akomaNtoso>

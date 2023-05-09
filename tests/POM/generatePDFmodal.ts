@@ -5,6 +5,7 @@ export type GeneratePdfOptions = {
     sidelining?: boolean;
     lineNumbering?: boolean;
     insertFooters?: boolean;
+    generateAsHouseBill?: boolean;
     insertFooterNote?: string;
     showJrefsInMargin?: boolean;
     showJrefsWithinCrossReferences?: boolean;
@@ -20,6 +21,7 @@ export type GeneratePdfOptions = {
     readonly generatePdfLineNumbering:Locator;
     readonly generatePdfSideLining:Locator;
     readonly generatePdfShowChangesApplied: Locator;
+    readonly generateAsHouseBill: Locator;
     readonly generateButton:Locator;
   
     constructor(page: Page) {
@@ -27,6 +29,7 @@ export type GeneratePdfOptions = {
       this.generatePdfLineNumbering = page.locator('div.checkbox').filter({hasText:'Line numbering'});
       this.generatePdfSideLining = page.getByText('Side-lining');
       this.generatePdfShowChangesApplied = page.getByText('Show changes applied');
+      this.generateAsHouseBill = page.getByText('Generate as House Bill');
       this.generateButton = page.getByRole('button', { name: 'Generate' });
     }
 
@@ -46,6 +49,10 @@ export type GeneratePdfOptions = {
     
         if (opts?.TrackedChanges == "showChangesApplied") {
         await this.generatePdfShowChangesApplied.click();
+        }
+
+        if (opts?.generateAsHouseBill) {
+          await this.generateAsHouseBill.click();
         }
         
         //adding in a hard wait to see if we can ensure that settings are picked up

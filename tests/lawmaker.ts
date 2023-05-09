@@ -7,7 +7,7 @@ import { Login } from './POM/login';
 import path from 'node:path';
 var fs = require('fs');
 
-const userDir = "user-data";
+const userDir = "user-data/staging";
 
 // Page Object Model for the PCO user page.
 class PcoPage {

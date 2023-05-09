@@ -177,9 +177,13 @@ export class ProjectTab {
   async uploadDocument (folder: string, title: string, filePath: string, fileName: string) {
 
 	//adding in a hard wait to see if we can avoid getting stuck here sometimes
+	
 	await new Promise(resolve => setTimeout(resolve, 500));
 
-    await this.page.getByRole('button', { name: 'Upload Document' }).click();
+	//await this.page.getByText('Document Actions').click();
+	await this.page.getByText('Upload Document').click();
+
+    //await this.page.getByRole('button', { name: 'Upload Document' }).click();
     await this.page.locator('div[role="combobox"]:has-text("Please select...") i').click();
     await this.page.getByRole('option', { name: folder }).getByText(folder).click();
     await this.page.getByLabel('Version description').fill(title);
@@ -217,7 +221,11 @@ export class ProjectTab {
   }
 
   async newVersion (folder:string, versionDescription: string) {
-	await this.page.getByRole('button', { name: 'New' }).click();
+
+	await this.page.getByText('Document Actions').click();
+	await this.page.getByText('Create New Document').click();
+
+	//await this.page.getByRole('button', { name: 'New' }).click();
 	//await this.page.getByText('Please select...').fill(folder);
 	await this.page.getByRole('textbox', { name: 'Select a folder or type to create a new one' }).fill(folder);
 	await this.page.getByRole('option', { name: RegExp(`${folder}`) }).click();  

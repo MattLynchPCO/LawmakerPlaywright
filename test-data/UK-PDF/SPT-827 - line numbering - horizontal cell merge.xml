@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?><akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd">
+ <bill contains="originalVersion" name="ukpubb">
+  
+  <meta>
+   <identification source="#author">
+    <FRBRWork>
+     <FRBRthis value="#varWork"/>
+     <FRBRuri value="#varWorkUri"/>
+     <FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+     
+     <FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+     <FRBRdate date="9999-01-01" name="draft"/>
+     <FRBRauthor href="#varAuthor"/>
+     <FRBRcountry value="GB-UKM"/>
+     <FRBRsubtype value="#varDocSubType"/>
+     <FRBRnumber value="#varProjectId"/>
+     <FRBRname value="#varBillTitle"/>
+     <FRBRprescriptive value="true"/>
+     <FRBRauthoritative value="false"/>
+    </FRBRWork>
+    <FRBRExpression>
+     <FRBRthis value="#varExpression"/>
+     <FRBRuri value="#varExpressionUri"/>
+     <FRBRalias name="ttflVersionDescription" value="#varVDOiid"/>
+     <FRBRdate date="9999-01-01" name="draft"/>
+     <FRBRauthor href="#varAuthor"/>
+     <FRBRversionNumber value=""/>
+     <FRBRauthoritative value="false"/>
+     
+     <FRBRmasterExpression href="" showAs=""/>
+     
+     <FRBRlanguage language="eng"/>
+    </FRBRExpression>
+    <FRBRManifestation>
+     <FRBRthis value="#varManifestation"/>
+     <FRBRuri value="#varManifestationUri"/>
+     <FRBRdate date="9999-01-01" name="akn_xml"/>
+     <FRBRauthor href="#varAuthor"/>
+     <FRBRformat value="application/akn+xml"/>
+    </FRBRManifestation>
+   </identification>
+   
+   <references source="#author">
+    
+    <TLCConcept GUID="_b7fc7d66-cf41-4190-9777-d2ebd913ad12" eId="varDocSubType" href="#varOntologies" showAs="Government Bill"/>
+    <TLCConcept GUID="_1eccbe69-845d-42b8-957c-f3d3532e8521" eId="varBillTitle" href="#varOntologies" showAs="SPT-1152"/>
+    
+    <TLCConcept GUID="_73b44f30-d7c1-4e63-a98d-efd97ce92c52" eId="varHouse" href="#varOntologies" showAs="House of Commons"/>
+    
+    <TLCProcess GUID="_d5addf03-e092-4210-b111-6a6c8fcc8cfb" eId="varStageVersion" href="#varOntologies" showAs="Pre-Introduction"/>
+    <TLCProcess GUID="_1365235b-90bc-4ac6-bfe9-4b112eb9be35" eId="varProjectId" href="#varOntologies" showAs="UK000002"/>
+    <TLCProcess GUID="_dd5b238f-cc74-4e29-a27d-5e4aff2249d5" eId="varWork" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_b4a29b65-67f9-4548-bf77-8a4deb660505" eId="varWorkUri" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_f36c28bd-4eef-4d81-a52d-f718708b5df4" eId="varCHOiid" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_e461abd6-6d45-4729-b136-3ea700fb3f76" eId="varExpression" href="#varOntologies" showAs="85d16955-c7e5-4620-96a4-4ef890b8042b"/>
+    <TLCProcess GUID="_02598c60-db63-4bef-a423-b3101b7eb23d" eId="varExpressionUri" href="#varOntologies" showAs="dma:///45e6b900-8929-11d4-b772-0050da06bfb4/80742cea-0ebb-4cf6-9759-1e52358d9b5b/;guid=85d16955-c7e5-4620-96a4-4ef890b8042b;class=Version%20Description"/>
+    <TLCProcess GUID="_c5d145cd-0a9b-4324-b506-e3f90e0b87d7" eId="varVDOiid" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_82666ab5-ef02-4028-99d0-5e6dd9ec3b14" eId="varManifestation" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_87719d5a-064e-4dc1-be2e-f7cf02cb54fe" eId="varManifestationUri" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_21a4babb-9adb-4810-be16-4eb014ce1f05" eId="varActYear" href="#varOntologies" showAs=""/>
+    
+    <TLCConcept GUID="_46d34d24-6cf2-4d39-98a1-691e8056e0e4" eId="varActTitle" href="#varOntologies" showAs=""/>
+    
+    <TLCConcept GUID="_2ffe12ad-204c-4933-bb55-6bf90336e5f3" eId="varIntroDate" href="#varOntologies" showAs=""/>
+    
+    <TLCConcept GUID="_bc320bfb-487c-4b01-ad97-bac7a4607254" eId="varPublicationDate" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_674042c5-59f1-4634-af18-74b21408a148" eId="varBillNoComp" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_823d9e5e-b6c4-4ae8-bcc0-f8eb41090937" eId="varBillNo" href="#varOntologies" showAs=""/>
+    
+    <TLCConcept GUID="_64b915f1-060e-4d6b-8ed6-9870be314430" eId="varSessionNo" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_89f2a3d7-6934-42b6-93b5-27d91603e8a6" eId="varBillYear" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_7fd28502-4186-4671-9f86-c8511bea92ab" eId="varSession" href="#varOntologies" showAs=""/>
+    
+    <TLCConcept GUID="_acb5b142-6fb3-49f5-9374-b25e791ec7a4" eId="varBroughtFromDate" href="#varOntologies" showAs=""/>
+    
+    <TLCConcept GUID="_0b13f278-6ae8-4f3f-9806-74ac387292f9" eId="varPassedDate" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_7b39098c-5896-45d0-a4bc-93add20bd9aa" eId="varAssentDate" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_a5739cb9-04cc-469b-a694-dfc50c03a2a8" eId="varActNoComp" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_75d7f7c1-3bbc-4480-94f6-a59408e8ac23" eId="varActNo" href="#varOntologies" showAs=""/>
+    
+    
+    <TLCConcept GUID="_41d2d4aa-3ef9-47c0-95b6-f919fbc8f3db" eId="varDocType" href="#varOntologies" showAs="UK Bill"/>
+    <TLCConcept GUID="_733395e8-c535-46ea-b9b7-7c574551e0f7" eId="varSystem" href="#varOntologies" showAs="LDAPP"/>
+    <TLCConcept GUID="_0f040060-18df-4596-a1ce-8cfe9e81e41d" eId="varAuthor" href="#varOntologies" showAs="UK Parliament"/>
+    <TLCConcept GUID="_590de087-ba0a-4cb9-a864-86aeb96021a4" eId="varJurisdiction" href="#varOntologies" showAs="United Kingdom"/>
+    <TLCConcept GUID="_9a4f803e-4129-45ae-ad89-5e8917b23229" eId="varOntologies" href="https://www.legislation.gov.uk/ontologies/UK-AKN" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN"/>
+
+    
+    <TLCConcept GUID="_1a5f91d2-8afa-4edb-b717-3ebcdb4b304c" eId="varSovereign" href="#varOntologies" showAs="Charles III"/>
+   </references>
+  </meta>
+  
+  <preface GUID="_24cac3c5-4ced-4769-b905-95aa08f504ad" eId="preface">
+   
+   
+   <block name="stageVersion">[<docStage><ref class="placeholder" href="#varStageVersion"/></docStage>]</block>
+   <longTitle GUID="_191f15f0-858e-4ee9-b3fc-d598e7115b00" eId="preface__longtitle">
+    <p class="A">A</p>
+    <p class="Bill">bill</p>
+    <p class="To">to</p>
+    <p>Make provision</p>
+   </longTitle>
+  </preface>
+  <preamble GUID="_e61e86d2-c6ea-46e2-821a-7b5e490fe40e" eId="preamble">
+   
+   <formula name="enactingText">
+    <p><inline name="dropCap">B</inline><inline name="smallCaps">e it enacted</inline> by the King’s most Excellent Majesty, by and with the advice and consent of the Lords Spiritual and Temporal, and Commons, in this present Parliament assembled, and by the authority of the same, as follows:—</p>
+   </formula>
+  </preamble>
+  <body>
+   <section GUID="_c96ad53e-74c4-4905-afb0-d435fbd0bd9c" class="prov1" eId="sec_1">
+    <num>1</num>
+    <heading GUID="_3ae9d34f-d15f-4b53-a202-cc6e2d132322" eId="sec_1__hdg">Lorem ipsum dolor sit </heading>
+    <subsection GUID="_5b8a6006-d25a-4f19-87ca-cb156fb1f134" class="prov2" eId="sec_1__subsec_1">
+     <num>(1)</num>
+     <content>
+      <p>Lorem ipsum dolor sit </p>
+      <tblock GUID="_e57e16a7-27fc-402f-8570-a6c6c698f1a8" class="table" eId="sec_1__subsec_1__tbl__oc_1">
+       <num>Table 1</num>
+       <heading GUID="_47a76784-5a07-4cbb-895b-25ff105db04d" class="left" eId="sec_1__subsec_1__tbl__oc_1__hdg">Lorem ipsum dolor sit </heading>
+       <foreign>
+        <table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="topAndBottom tableleft width100" cols="3">
+         <thead class="left">
+          <tr akn:GUID="_64e127c2-509e-4661-96d0-c92daa475fd7" akn:eId="sec_1__subsec_1__tbl__oc_1__hdg__row__oc_1">
+           <td akn:GUID="_2986f882-8f57-44c3-9858-08f71ab2bfa3" akn:eId="sec_1__subsec_1__tbl__oc_1__hdg__row__oc_1__col_1">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">num </p>
+           </td>
+           <td akn:GUID="_8ae5f12d-a942-4e88-a28e-e6e2e3f5093d" akn:eId="sec_1__subsec_1__tbl__oc_1__hdg__row__oc_1__col_2">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Lorem ipsum dolor sit </p>
+           </td>
+           <td akn:GUID="_5e9f8c67-4c94-47e1-b661-ca86d4c2e1dc" akn:eId="sec_1__subsec_1__tbl__oc_1__hdg__row__oc_1__col_3">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Lorem ipsum dolor sit </p>
+           </td>
+          </tr>
+         </thead>
+         <tbody class="left">
+          <tr akn:GUID="_d666bd38-9a6f-4758-b92e-7851a229ecbf" akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_1">
+           <td akn:GUID="_58e99c1c-2216-4b25-bbd9-3698c713c3d4" akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_1__col_1">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1</p>
+           </td>
+           <td akn:GUID="_33fc362e-1772-4580-93fe-108c09fdc159" akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_1__col_2">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id est mattis, blandit felis vel, laciniaere molestie nisl. Sed sollicitudin et sem id auctor. Duis facilisis sem sit amet commodo euismod. Morbi accumsan leo sed quam varius posuere. </p>
+           </td>
+           <td akn:GUID="_0d2213cd-4a54-4764-bae0-5b1f9f4be078" akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_1__col_3">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">orem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id est mattis, blandit felis vel, lacinia ex. Curabitur urna est, vulputate molestie mi non, congue porta sapien. Praesent tempor semper varius. Quisque tincidunt ultrices convallis. Phasellus dolor magna, rutrum et risus id, posuere molestie nisl. Sed sollicitudin et sem id auctor. Dui</p>
+           </td>
+          </tr>
+          <tr akn:GUID="_ef4ad628-11ab-4252-b0e0-9e09c0152f33" akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_2">
+           <td akn:GUID="_37718e31-7728-4828-8a31-458706a7be2f" akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_2__col_1">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2</p>
+           </td>
+           <td akn:GUID="_954a840f-bb05-4b9a-ba0f-fcbee9acc437" akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_2__col_2" colspan="1" rowspan="2">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">ex. Curabitur urna est, vulputate molestie mi non, con mi non, congue porta sapien. Praesent tempor semper varius. Quisque tincidunt ultrices convallis. Pmagna, rutrum et risus id, posu  ex. Curabitur urna est, vulputate molestie mi non, con mi non, congue porta sapien. Praesent tempor semper varius. Quisque tincidunt ultrices convallis. Pmagna, rutrum et risus id, posu</p>
+           </td>
+           <td akn:GUID="_f8fab0f2-857a-4e61-a867-77a83c24e757" akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_2__col_3">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"> ex. Curabitur urna est, vulputate molestie mi non, con mi non, congue porta sapien. Praesent tempor semper varius. Quisque tincidunt ultrices convallis. Pmagna, rutrum et risus id, posu</p>
+           </td>
+          </tr>
+          <tr akn:GUID="_133659ca-2111-4f1d-aac1-804c030b3a24" akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_3">
+           <td akn:GUID="_18dcc81e-a696-43f9-aae1-6cf7c3179003" akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_3__col_1">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">3</p>
+           </td>
+           <td akn:GUID="_8279f172-51d5-4190-8417-59108b28ecc6" akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_3__col_3">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"> mi non, congue porta sapien. Praesent tempor semper varius. Quisque tincidunt ultrices convallis. P</p>
+           </td>
+          </tr>
+          <tr akn:GUID="_3b99eb6a-93f0-45e0-9b87-5358272866b8" akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_4">
+           <td akn:GUID="_f1c73d67-31e5-4d23-a667-082a651748d4" akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_4__col_1">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4</p>
+           </td>
+           <td akn:GUID="_814051d5-1500-4ad3-9c92-8b43a2dcfd62" akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_4__col_2">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"> ex. Curabitur urna est, vulputate molestie mi non, con mi non, congue porta sapien. Praesent tempor semper varius. Quisque tincidunt ultrices convallis. Pmagna, rutrum et risus id, posu</p>
+           </td>
+           <td akn:GUID="_bb3f2554-17db-451d-949a-7cae9d4f8d8f" akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_4__col_3">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"> ex. Curabitur urna est, vulputate molestie mi non, con mi non, congue porta sapien. Praesent tempor semper varius. Quisque tincidunt ultrices convallis. Pmagna, rutrum et risus id, posu</p>
+           </td>
+          </tr>
+          <tr akn:GUID="_e44924d8-0814-4d3a-8cee-5fbce04bdf9a" akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_5">
+           <td akn:GUID="_b4ff815d-1f04-4d51-a929-85dcaf1dc967" akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_5__col_1">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+           </td>
+           <td akn:GUID="_1d5d8854-61a1-4559-aa8a-e6c06592a455" akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_5__col_2">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"> mi non, congue porta sapien. Praesent tempor semper varius. Quisque tincidunt ultrices convallis. P</p>
+           </td>
+           <td akn:GUID="_3a183457-44a0-4a55-bdd9-a545c1503e8e" akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_5__col_3">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"> ex. Curabitur urna est, vulputate molestie mi non, con mi non, congue porta sapien. Praesent tempor semper varius. Quisque tincidunt ultrices convallis. Pmagna, rutrum et risus id, posu</p>
+           </td>
+          </tr>
+          <tr akn:GUID="_70f1b0fd-8fb5-4442-85d4-9cb9589595b4" akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_6">
+           <td akn:GUID="_e409649f-0d8c-4aff-83ed-9f88b9427922" akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_6__col_1">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6</p>
+           </td>
+           <td akn:GUID="_e5d73cb0-db0b-4335-a49f-eee677ee5889" akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_6__col_2" colspan="2" rowspan="1">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">ex. Curabitur urna est, vulputate molestie mi non, con mi non, congue porta sapien. Praesent tempor semper varius. Quisque tincidunt ultrices convallis. Pmagna, rutrum et risus id, posu  ex. Curabitur urna est, vulputate molestie mi non, con mi non, congue porta sapien. Praesent tempor semper varius. Quisque tincidunt ultrices convallis. Pmagna, rutrum et risus id, posu</p>
+           </td>
+          </tr>
+          <tr akn:GUID="_5b619dbc-ea2a-48f9-8249-22fc8232ae34" akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_7">
+           <td akn:GUID="_84e01299-e1ea-4067-9768-00a70e4fc5ba" akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_7__col_1">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">7</p>
+           </td>
+           <td akn:GUID="_30595d5a-5bc3-4968-85ec-28c8e34fdb6d" akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_7__col_2">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"> ex. Curabitur urna est, vulputate molestie mi non, con mi non, congue porta sapien. Praesent tempor semper varius. Quisque tincidunt ultrices convallis. Pmagna, rutrum et risus id, posu</p>
+           </td>
+           <td akn:GUID="_1df86554-25b1-41b9-b65d-2e388d12d7e6" akn:eId="sec_1__subsec_1__tbl__oc_1__row__oc_7__col_3">
+            <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">t, vulputate molestie mi non, con mi non, congue porta sapien. Praesent tempor semper varius. Qu</p>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </foreign>
+      </tblock>
+     </content>
+    </subsection>
+   </section></body>
+ </bill>
+</akomaNtoso>

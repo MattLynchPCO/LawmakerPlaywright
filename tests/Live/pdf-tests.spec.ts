@@ -138,8 +138,13 @@ test.describe("UK Bill PDF tests", () => {
       await projectTab.uploadDocument("Pre-Introduction", fileName, testDataDir, fileName+'.xml');
 
       //generate PDF of test doc
-      const pdf = await projectTab.generatePDF({folder:"Pre-Introduction", title:fileName}, {lineNumbering:true});
-      await pdf.close();
+      if (fileName.match(".*[h|H]ouse [b|B]ill.*")) {
+        const pdf = await projectTab.generatePDF({folder:"Pre-Introduction", title:fileName}, {lineNumbering:true, generateAsHouseBill:true});
+        await pdf.close();
+      } else {
+        const pdf = await projectTab.generatePDF({folder:"Pre-Introduction", title:fileName}, {lineNumbering:true});
+        await pdf.close();
+      }
 
       //download zip file containing PDF
       await projectTab.downloadZip({folder:"Pre-Introduction", title: fileName, snapshot: {name: 'PDF', index: 1}}, testInfo.outputDir, 'temp.zip');

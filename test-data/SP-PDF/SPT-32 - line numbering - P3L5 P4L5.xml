@@ -1,0 +1,800 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><?DMS-Component componentId="ce794548-825f-4772-9c72-9fe4f688c15d" seriesId="981af151-1cf8-4345-bf01-dda04e521151" versionNumber="0"?>
+ <bill contains="originalVersion" name="sppubb">
+  
+  <meta>
+   <identification source="#ldapp">
+    <FRBRWork>
+     <FRBRthis value="#varWork"></FRBRthis>
+     <FRBRuri value="#varWorkUri"></FRBRuri>
+     <FRBRalias name="ttflConfigHistory" value="#varCHOiid"></FRBRalias>
+     <FRBRdate date="9999-01-01" name="sppubb"></FRBRdate>
+     <FRBRauthor href="#varAuthor"></FRBRauthor>
+     <FRBRcountry value="GB-SCT"></FRBRcountry>
+     <FRBRsubtype value="#varDocSubType"></FRBRsubtype>
+     <FRBRnumber value="#varProjectId"></FRBRnumber>
+     <FRBRname value="#varBillTitle"></FRBRname>
+     <FRBRprescriptive value="true"></FRBRprescriptive>
+     <FRBRauthoritative value="false"></FRBRauthoritative>
+    </FRBRWork>
+    <FRBRExpression>
+     <FRBRthis value="#varExpression"></FRBRthis>
+     <FRBRuri value="#varExpressionUri"></FRBRuri>
+     <FRBRalias name="ttflVersionDescription" value="#varVDOiid"></FRBRalias>
+     <FRBRdate date="9999-01-01" name="draft"></FRBRdate>
+     <FRBRauthor href="#varAuthor"></FRBRauthor>
+     <FRBRauthoritative value="false"></FRBRauthoritative>
+     
+     <FRBRmasterExpression showAs="" href=""></FRBRmasterExpression>
+     
+     <FRBRlanguage language="eng"></FRBRlanguage>
+    </FRBRExpression>
+    <FRBRManifestation>
+     <FRBRthis value="#varManifestation"></FRBRthis>
+     <FRBRuri value="#varManifestationUri"></FRBRuri>
+     <FRBRdate date="9999-01-01" name="akn_xml"></FRBRdate>
+     <FRBRauthor href="#varAuthor"></FRBRauthor>
+     <FRBRformat value="application/akn+xml"></FRBRformat>
+    </FRBRManifestation>
+   </identification>
+   
+   <references source="#author">
+    
+    <TLCConcept eId="varDocSubType" showAs="Government Bill" GUID="_e5baaaeb-3569-4322-bc3d-794d270a2b8d" href="#varOntologies"></TLCConcept>
+    <TLCConcept eId="varBillTitle" showAs="SPT-32" GUID="_265b0695-b619-400a-9456-363018847e27" href="#varOntologies"></TLCConcept>
+    
+    <TLCProcess eId="varStageVersion" showAs="Pre-Introduction" GUID="_431644a0-67c4-4971-85b9-949b6d627658" href="#varOntologies"></TLCProcess>
+    <TLCProcess eId="varProjectId" showAs="" GUID="_2c88b8b7-2aa1-49e5-b7d7-6209352e9ced" href="#varOntologies"></TLCProcess>
+    <TLCProcess eId="varWork" showAs="" GUID="_c4ebf85e-c426-480e-b5f6-149955bc290e" href="#varOntologies"></TLCProcess>
+    <TLCProcess eId="varWorkURI" showAs="" GUID="_f855a3e0-4a68-4e95-8e11-562f58dea0d9" href="#varOntologies"></TLCProcess>
+    <TLCProcess eId="varCHOiid" showAs="" GUID="_035e2af0-0016-4e71-bbed-1f5032c1aaa0" href="#varOntologies"></TLCProcess>
+    <TLCProcess eId="varExpression" showAs="eb1097f2-874a-439a-b300-9e24bc9baa9d" GUID="_530709cc-97e6-48f8-b7ba-2274eb21eb4f" href="#varOntologies"></TLCProcess>
+    <TLCProcess eId="varExpressionUri" showAs="dma:///45e6b900-8929-11d4-b772-0050da06bfb4/80742cea-0ebb-4cf6-9759-1e52358d9b5b/;guid=eb1097f2-874a-439a-b300-9e24bc9baa9d;class=Version%20Description" GUID="_6dce3f0e-1dd8-4222-8ef9-c935fddb7f6c" href="#varOntologies"></TLCProcess>
+    <TLCProcess eId="varVDOiid" showAs="" GUID="_0321ec54-e15f-46cb-ae43-611f2f8f0c22" href="#varOntologies"></TLCProcess>
+    <TLCProcess eId="varManifestation" showAs="" GUID="_5313ce60-8f17-4c24-88aa-4d6311dda7a5" href="#varOntologies"></TLCProcess>
+    <TLCProcess eId="varManifestationExpressionUri" showAs="" GUID="_ee5620f3-95f6-4956-a382-e3091b56f276" href="#varOntologies"></TLCProcess>
+    <TLCConcept eId="varActYear" showAs="" GUID="_a6059a1c-f3a5-419c-8305-109aeca47a32" href="#varOntologies"></TLCConcept>
+    
+    <TLCConcept eId="varActTitle" showAs="" GUID="_7d689d90-b269-4b72-bb30-0fb970264f82" href="#varOntologies"></TLCConcept>
+    
+    <TLCConcept eId="varIntroDate" showAs="" GUID="_5101efa3-ff71-4063-adc1-1ab99ef5ba49" href="#varOntologies"></TLCConcept>
+    <TLCConcept eId="varBillNoComp" showAs="" GUID="_4b80259b-71ed-4758-a28d-bf88e6bf0c80" href="#varOntologies"></TLCConcept>
+    <TLCConcept eId="varBillNo" showAs="SP Bill X" GUID="_b85cbd10-05f6-4f60-a558-e6993b3dc799" href="#varOntologies"></TLCConcept>
+    <TLCConcept eId="varSessionNo" showAs="" GUID="_68eddbbb-3f22-47c9-9184-5863f28b6e40" href="#varOntologies"></TLCConcept>
+    <TLCConcept eId="varBillYear" showAs="" GUID="_3446214f-c8dd-4a8f-a95f-f61b72f062ac" href="#varOntologies"></TLCConcept>
+    <TLCConcept eId="varSession" showAs="" GUID="_9963421e-7afd-4ddd-b578-c1e0e7647e16" href="#varOntologies"></TLCConcept>
+    
+    <TLCConcept eId="varPassedDate" showAs="" GUID="_9d36d359-1cbb-48ac-a56f-f5143d822d8f" href="#varOntologies"></TLCConcept>
+    <TLCConcept eId="varAssentDate" showAs="" GUID="_dbe3b5c2-3021-472f-bcaa-45b112b4a741" href="#varOntologies"></TLCConcept>
+    <TLCConcept eId="varActNo" showAs="" GUID="_8fb377b0-e339-43cc-b482-e3b5bd9d4c94" href="#varOntologies"></TLCConcept>
+    <TLCConcept eId="varISBN" showAs="" GUID="_abbbede5-e23d-4c87-bb17-6cff3772ef13" href="#varOntologies"></TLCConcept>
+    <TLCPerson eId="varIntroducingMember" showAs="" GUID="_74f8d233-380e-4e3a-b28d-e760900046ab" href="#varOntologies"></TLCPerson>
+    <TLCPerson eId="varSupportingMembers" showAs="" GUID="_2bfc1bf3-c468-478c-af03-19212d7ab082" href="#varOntologies"></TLCPerson>
+    
+    <TLCConcept eId="varDocType" showAs="SP Bill" GUID="_c9656c16-cab5-4de7-a4e2-8c27bfd31fdd" href="#varOntologies"></TLCConcept>
+    <TLCProcess eId="varSystem" showAs="LDAPP" GUID="_90807285-e83a-4ea4-9d86-0b47f5f2ecbb" href="#varOntologies"></TLCProcess>
+    <TLCOrganization eId="varAuthor" showAs="Scottish Parliament" GUID="_b7a42a73-c5ed-47ee-b10c-0b184f0de1ca" href="#varOntologies"></TLCOrganization>
+    <TLCLocation eId="varJurisdiction" showAs="Scotland" GUID="_22520db8-dc59-4906-9311-52e8d2426def" href="#varOntologies"></TLCLocation>
+    <TLCConcept eId="varOntologies" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN" GUID="_b7a1ea2a-4dd4-44a5-999e-04a55fd60082" href="https://www.legislation.gov.uk/ontologies/UK-AKN"></TLCConcept>
+   </references>
+   <proprietary xmlns:dct="http://purl.org/dc/terms/" xmlns:ukl="http://www.legislation.gov.uk/namespaces/legislation" xmlns:ukm="http://www.legislation.gov.uk/namespaces/metadata" source="#source" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title><ref href="#varBillTitle" class="placeholder"></ref></dc:title>
+    <dc:identifier><ref href="#varISBN" class="placeholder"></ref></dc:identifier>
+    <dc:language>en</dc:language>
+    <dc:creator><ref href="#varAuthor" class="placeholder"></ref></dc:creator>
+    <dc:date><ref href="#varIntroDate" class="placeholder"></ref></dc:date>
+   </proprietary>
+  </meta>
+  <preface eId="preface" GUID="_d94fa9c0-2c34-4f93-89a9-a5f4a73f0b8f">
+   <tblock eId="preface__explNotesStmnt" GUID="_56d32da9-7923-4881-a273-67c6deabfac6" class="explanatoryNotesStatement">
+    <heading eId="preface__explNotesStmnt__hdg" GUID="_7f8bd652-b0e2-40e2-a707-9adec420ebfa">THE
+     FOLLOWING ACCOMPANYING DOCUMENTS ARE ALSO PUBLISHED:</heading>
+    <p>Explanatory Notes (<ref href="#varBillNo" class="placeholder"></ref>-EN), a Financial Memorandum
+      (<ref href="#varBillNo" class="placeholder"></ref>-FM, a Policy Memorandum (<ref href="#varBillNo" class="placeholder"></ref>-PM) and statements on legislative competence (<ref href="#varBillNo" class="placeholder"></ref>-LC).</p>
+   </tblock>
+   <block eId="preface__st" GUID="_4844d880-d6f1-4e60-a741-0c84ee471e55" name="title"><docTitle eId="preface__st__dtitle" GUID="_ae41b27f-fbf4-4912-9f05-7f4bbda1c8e0"><ref href="#varBillTitle" class="placeholder"></ref></docTitle></block>
+   <block name="stageVersion">[<docStage eId="preface__docStage" GUID="_b4a0c03e-49a7-48ae-a414-049e179e570f"><ref href="#varStageVersion" class="placeholder"></ref></docStage>]</block>
+   <longTitle eId="preface__longtitle" GUID="_04efeb04-89bd-4917-b357-00db44091293">
+    <p>An Act of the Scottish Parliament to enfranchise certain persons in respect of Scottish
+     parliamentary and local government elections; to extend to certain persons the right to vote
+     at, stand for election at, and hold office as elected members following, Scottish parliamentary
+     and local government elections; and for connected purposes.</p>
+   </longTitle>
+  </preface>
+  <body>
+   <part eId="pt_1" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" GUID="_22792681-105f-4ce5-98b0-c39852989ed4" class="group2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><?DMS-Component componentId="69eaebb7-75ab-4c7e-a72b-841cf722d13f" seriesId="e62cb944-b79a-42a0-827c-29a1b9806f2b" versionNumber="1"?>
+    <num>Part 1</num>
+    <heading eId="pt_1__hdg" GUID="_8784ca4f-e581-4558-b1a6-017f28de32a4">Foreign
+     nationals</heading>
+    <hcontainer eId="pt_1__xhdg_1" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" GUID="_b5d8fdd2-f588-48ce-ac32-0fde5a9da049" name="crossheading" class="group4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><?DMS-Component componentId="b7b0d929-8509-4a5b-ac8d-a181b36392ec" seriesId="31ffd547-f70d-4e33-8004-f6f5ae7f469b" versionNumber="1"?>
+     
+     <heading eId="pt_1__xhdg_1__hdg" GUID="_1c928188-e63d-407d-9bcc-3b0163b6f73f">Enfranchisement
+      for Scottish elections</heading>
+     <section eId="sec_1" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" GUID="_aa8aecac-a052-46a3-8578-40b850af7b82" class="prov1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><?DMS-Component componentId="605abe05-f8f6-4452-a0d2-75775b97baca" seriesId="e73f4c1c-da5a-4453-9601-341ace69ce69" versionNumber="1"?>
+      
+      <num>1</num>
+      <heading eId="sec_1__hdg" GUID="_80af0d72-81b2-4452-99f1-d556dad957f7">Voting by qualifying
+       foreign nationals</heading>
+      <subsection eId="sec_1__subsec_1" GUID="_a85f743d-3a5b-4dc2-8c15-1f2ee5bee58b" class="prov2">
+       <num>(1)</num>
+       <content>
+        <p>The Representation of the People Act 1983 is amended as follows.</p>
+       </content>
+      </subsection>
+      <subsection eId="sec_1__subsec_2" GUID="_e9ab843c-58ec-4c0f-aa1d-f5328cc32c74" class="prov2">
+       <num>(2)</num>
+       <content>
+        <p>In section 2(1) (local government electors), in paragraph (c) for "or a relevant citizen
+         of the Union" substitute ", a relevant citizen of the Union or (in Scotland) a qualifying
+         foreign national".</p>
+       </content>
+      </subsection>
+      <subsection eId="sec_1__subsec_3" GUID="_5504e7a9-7e5f-4887-9b54-f279699b0edb" class="prov2">
+       <num>(3)</num>
+       <content>
+        <p>In section 4(3) (entitlement to be registered as a local government elector), in
+         paragraph (c) for "or a relevant citizen of the Union" substitute ", a relevant citizen of
+         the Union or (in relation to a local government election in Scotland) a qualifying foreign
+         national2.</p>
+       </content>
+      </subsection>
+      <subsection eId="sec_1__subsec_4" GUID="_8cfd7e7b-6396-48f1-82be-d7077bed62cf" class="prov2">
+       <num>(4)</num>
+       <content>
+        <p>In section 7B(3) (notional residence: declarations of local connection), in paragraph (e)
+         after "Union" insert "or (if the declaration is made for the purposes only of the
+         registration of local government electors in Scotland) a qualifying foreign national".</p>
+       </content>
+      </subsection>
+      <subsection eId="sec_1__subsec_5" GUID="_c3ee3846-385a-418d-943b-73d3e566e5c8" class="prov2">
+       <num>(5)</num>
+       <content>
+        <p>In section 16(1) (contents of service declaration), in paragraph (e) after "Union" insert
+         "or (if the declaration is made for the purposes only of the registration of local
+         government electors in Scotland) a qualifying foreign national".</p>
+       </content>
+      </subsection>
+      <subsection eId="sec_1__subsec_6" GUID="_87e6e95d-eba4-407a-bbc0-a6e425ef16c0" class="prov2">
+       <num>(6)</num>
+       <content>
+        <p>In section 17(1) (effect of service declaration), in paragraph (c) after "Union" insert
+         "or (in relation to a declaration made for the purposes of the registration of local
+         government electors in Scotland) a qualifying foreign national".</p>
+       </content>
+      </subsection>
+      <subsection eId="sec_1__subsec_7" GUID="_f5cd88d7-f06c-490d-a78d-1ecf37c290bb" class="prov2">
+       <num>(7)</num>
+       <content>
+        <p>
+         <mod>In section 49(5)(b) (effect of registers), after sub-paragraph (iv)
+           insert—<quotedStructure eId="sec_1__subsec_7__qstr" ukl:docName="asp" endQuote="”" ukl:indent="indent0" GUID="_1943696b-9854-4b67-aee4-eacf564211e8" startQuote="“">
+           <subparagraph eId="sec_1__subsec_7__qstr__subpara_v" GUID="_90bdea13-3243-4cf9-81ee-9a5e6a51ae9e" class="para2">
+            <num ukl:autonumber="no">(v)</num>
+            <content>
+             <p>in the case of a person registered as a local government elector in Scotland or
+              entered in the list of proxies by virtue of being a qualifying foreign national, a
+              qualifying foreign national,</p>
+            </content>
+           </subparagraph>
+          </quotedStructure><inline name="AppendText">.</inline></mod>
+        </p>
+       </content>
+      </subsection>
+      <subsection eId="sec_1__subsec_8" GUID="_220d10f8-3e0e-419d-b11d-d5911253782c" class="prov2">
+       <num>(8)</num>
+       <content>
+        <p>
+         <mod>In section 202 (general provisions as to interpretation), after the definition of
+          "qualifying address" in subsection (1) insert—<quotedStructure eId="sec_1__subsec_8__qstr" ukl:docName="asp" endQuote="”" ukl:indent="indent0" GUID="_cad62c12-9e75-4715-a0f3-97962d608b33" startQuote="“">
+           <hcontainer eId="sec_1__subsec_8__qstr__def_qualifyingforeignnational”meansapersonofanynationalitywho—_" GUID="_dd0715e5-a83b-4bec-9621-babac71814c4" name="definition" class="definition">
+            <intro eId="sec_1__subsec_8__qstr__def_qualifyingforeignnational”meansapersonofanynationalitywho—___intro" GUID="_8652305a-8e59-4570-b507-4cf3fb4c9ad9">
+             <p><def eId="sec_1__subsec_8__qstr__def_qualifyingforeignnational”meansapersonofanynationalitywho—" GUID="_052564b6-4683-4340-9b21-e624d31aa230">“qualifying foreign national” means a
+               person of any nationality who—</def></p>
+            </intro>
+            <paragraph eId="sec_1__subsec_8__qstr__para_a" GUID="_46687e09-9aa9-40c0-8a3a-be04981c507a" class="para1">
+             <num>(a)</num>
+             <content>
+              <p>is not a Commonwealth citizen, a citizen of the Republic of Ireland or a relevant
+               citizen of the Union, and</p>
+             </content>
+            </paragraph>
+            <paragraph eId="sec_1__subsec_8__qstr__para_b" GUID="_9338b3c1-3341-4b17-a893-745fbbc442bf" class="para1">
+             <num>(b)</num>
+             <intro eId="sec_1__subsec_8__qstr__para_b__intro" GUID="_7c206068-d0f5-487c-92ec-e28f515b4b97">
+              <p>either—</p>
+             </intro>
+             <subparagraph eId="sec_1__subsec_8__qstr__para_b__subpara_i" GUID="_0bcb5b68-40dd-4a96-a6f1-acd2c1cc0ab7" class="para2">
+              <num>(i)</num>
+              <content>
+               <p>is not a person who requires leave under the Immigration Act 1971 to enter or
+                remain in the United Kingdom, or</p>
+              </content>
+             </subparagraph>
+             <subparagraph eId="sec_1__subsec_8__qstr__para_b__subpara_ii" GUID="_aaae63bb-edf9-41e8-93f7-8e23f36fa180" class="para2">
+              <num>(ii)</num>
+              <content>
+               <p>is such a person but for the time being has (or is, by virtue of any enactment, to
+                be treated as having) any description of such leave,</p>
+              </content>
+             </subparagraph>
+            </paragraph>
+           </hcontainer>
+          </quotedStructure><inline name="AppendText">.</inline></mod>
+        </p>
+       </content>
+      </subsection>
+     </section>
+    </hcontainer>
+    <hcontainer eId="pt_1__xhdg_2" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" GUID="_4c9b1807-46ac-41c5-b50d-921b0e73173f" name="crossheading" class="group4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><?DMS-Component componentId="eb19c9d8-d16c-44c8-b6fd-24dfffb331de" seriesId="110a7471-521e-4b05-b6ce-f2a92956b80d" versionNumber="1"?>
+     
+     <heading eId="pt_1__xhdg_2__hdg" GUID="_dd1d083e-d140-462f-8434-5a934033f3e1">Candidacy
+      etc.</heading>
+     <section eId="sec_2" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" GUID="_eefc5a93-9f93-458f-97b5-2532b718fe36" class="prov1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><?DMS-Component componentId="5528fedf-541b-43ce-a11b-a6810cde0988" seriesId="9d91239d-d3db-4e41-9328-bd8d0d41b11f" versionNumber="1"?>
+      
+      <num>2</num>
+      <heading eId="sec_2__hdg" GUID="_2d9babd2-c0f3-4785-92f3-125c9854efac">Scottish parliamentary
+       elections: nominations, election and holding office</heading>
+      <content>
+       <p>
+        <mod>In section 16 of the Scotland Act 1998 (exceptions and relief from disqualification),
+         after subsection (2) insert—<quotedStructure eId="sec_2__qstr" ukl:docName="asp" endQuote="”" ukl:indent="indent0" GUID="_f641bf43-20e2-4df0-9d8c-5efc0f7a8e1d" startQuote="“">
+          <subsection eId="sec_2__qstr__subsec_2A" GUID="_66a838d5-7aab-4128-96c4-555dbc606ca2" class="prov2">
+           <num ukl:autonumber="no">(2A)</num>
+           <intro eId="sec_2__qstr__subsec_2A__intro" GUID="_ffba2694-768a-4c24-8cdc-c5a24472acc2">
+            <p>A person other than a citizen of the European Union is not disqualified from being a
+             member of the Parliament merely because of section 3 of the Act of Settlement, provided
+             the person—</p>
+           </intro>
+           <paragraph eId="sec_2__qstr__subsec_2A__para_a" GUID="_d7db078d-25ed-4ee6-b352-28e886d7c0a2" class="para1">
+            <num>(a)</num>
+            <content>
+             <p>is resident in the United Kingdom, and</p>
+            </content>
+           </paragraph>
+           <paragraph eId="sec_2__qstr__subsec_2A__para_b" GUID="_343285ed-d5c4-4c0b-8a30-efab2750b69a" class="para1">
+            <num>(b)</num>
+            <intro eId="sec_2__qstr__subsec_2A__para_b__intro" GUID="_dc80beea-f1a6-4bdb-80b7-f61f8623d10b">
+             <p>either—</p>
+            </intro>
+            <subparagraph eId="sec_2__qstr__subsec_2A__para_b__subpara_i" GUID="_1cb998e2-1456-4c1c-8245-f52010b540c5" class="para2">
+             <num>(i)</num>
+             <content>
+              <p>is not a person who requires leave under the Immigration Act 1971 to enter or
+               remain in the United Kingdom (excluding a person who does not require such leave by
+               virtue only of section 8 of the Immigration Act 1971 (exceptions to requirement for
+               leave in special cases)), or</p>
+             </content>
+            </subparagraph>
+            <subparagraph eId="sec_2__qstr__subsec_2A__para_b__subpara_ii" GUID="_537895a4-3967-458a-b6f0-ab7eef5d641a" class="para2">
+             <num>(ii)</num>
+             <content>
+              <p>is such a person but for the time being has (or is, by virtue of any enactment, to
+               be treated as having) indefinite leave to remain within the meaning of that Act.</p>
+             </content>
+            </subparagraph>
+           </paragraph>
+          </subsection>
+         </quotedStructure><inline name="AppendText">.</inline></mod>
+       </p>
+      </content>
+     </section>
+     <section eId="sec_3" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" GUID="_aa5e3e35-afd4-44d1-b4d5-5b7332328495" class="prov1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><?DMS-Component componentId="24fdfa83-f49b-4eba-aeee-76857a0fede0" seriesId="31f2432a-5893-45a6-bcd9-227dd67f74be" versionNumber="1"?>
+      
+      <num>3</num>
+      <heading eId="sec_3__hdg" GUID="_e17893f4-1c48-4d72-9e05-767586a95230">Local government
+       elections: nomination, election and holding office</heading>
+      <subsection eId="sec_3__subsec_1" GUID="_b8942b26-88b5-4f47-bfac-16d120a5d0a8" class="prov2">
+       <num>(1)</num>
+       <content>
+        <p>Section 29 of the Local Government (Scotland) Act 1973 (qualifications for nomination,
+         election and holding office as a member of a local authority in Scotland) is amended as
+         follows.</p>
+       </content>
+      </subsection>
+      <subsection eId="sec_3__subsec_2" GUID="_fe968942-cc76-4349-a387-5987f7e204da" class="prov2">
+       <num>(2)</num>
+       <content>
+        <p>In subsection (1), after "Union" insert "or a qualifying foreign national".</p>
+       </content>
+      </subsection>
+      <subsection eId="sec_3__subsec_3" GUID="_65d2f7ff-f76c-444c-8bf2-398c0c8042b6" class="prov2">
+       <num>(3)</num>
+       <content>
+        <p>
+         <mod>In subsection (2), after the definition of "owner" insert—<quotedStructure eId="sec_3__subsec_3__qstr" ukl:docName="asp" endQuote="”" ukl:indent="indent0" GUID="_a8c71da4-16e9-42ca-8c45-3857220dd50c" startQuote="“">
+           <hcontainer eId="sec_3__subsec_3__qstr__def_qualifyingforeignnational”meansapersonofanynationalitywho—_" GUID="_aa5194d6-4153-414f-885b-1792c44a3bb3" name="definition" class="definition">
+            <intro eId="sec_3__subsec_3__qstr__def_qualifyingforeignnational”meansapersonofanynationalitywho—___intro" GUID="_12f60741-03a4-4333-bd13-156828a95f46">
+             <p><def eId="sec_3__subsec_3__qstr__def_qualifyingforeignnational”meansapersonofanynationalitywho—" GUID="_22c9331b-e521-4213-adc3-da3faf386460">“qualifying foreign national” means a
+               person of any nationality who—</def></p>
+            </intro>
+            <paragraph eId="sec_3__subsec_3__qstr__para_a" GUID="_80e7ce39-50c6-4524-9d27-b14d63117f49" class="para1">
+             <num>(a)</num>
+             <content>
+              <p>is not a Commonwealth citizen, a citizen of the Republic of Ireland or a relevant
+               citizen of the Union, and</p>
+             </content>
+            </paragraph>
+            <paragraph eId="sec_3__subsec_3__qstr__para_b" GUID="_294cd3b1-d8ea-4106-9363-02edc69d576e" class="para1">
+             <num>(b)</num>
+             <intro eId="sec_3__subsec_3__qstr__para_b__intro" GUID="_cf0e7962-c0f5-4f1f-bcab-e4118cf779a3">
+              <p>either—</p>
+             </intro>
+             <subparagraph eId="sec_3__subsec_3__qstr__para_b__subpara_i" GUID="_fecded0a-bb9c-456c-b15e-91954b794837" class="para2">
+              <num>(i)</num>
+              <content>
+               <p>is not a person who requires leave under the Immigration Act 1971 to enter or
+                remain in the United Kingdom (excluding a person who does not require such leave by
+                virtue only of section 8 of the Immigration Act 1971 (exceptions to requirement for
+                leave in special cases)), or</p>
+              </content>
+             </subparagraph>
+             <subparagraph eId="sec_3__subsec_3__qstr__para_b__subpara_ii" GUID="_d94287ec-56d8-47fd-8203-18205c3541c4" class="para2">
+              <num>(ii)</num>
+              <content>
+               <p>is such a person but for the time being has (or is, by virtue of any enactment, to
+                be treated as having) indefinite leave to remain within the meaning of that Act.</p>
+              </content>
+             </subparagraph>
+            </paragraph>
+           </hcontainer>
+          </quotedStructure><inline name="AppendText">.</inline></mod>
+        </p>
+       </content>
+      </subsection>
+     </section>
+    </hcontainer>
+   </part>
+   <part eId="pt_2" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" GUID="_bcefad19-3e2c-4337-8bc5-273e4bb361c6" class="group2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><?DMS-Component componentId="8fe38157-40a2-4e35-9400-f87c60a0153a" seriesId="a25310f5-5f06-45db-8da0-9d5369b8274a" versionNumber="1"?>
+    <num>Part 2</num>
+    <heading eId="pt_2__hdg" GUID="_4f9ad8a2-2d58-497b-b7de-1493d3bbccbb">Prisoners etc.</heading>
+    <hcontainer eId="pt_2__xhdg_4" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" GUID="_ceb6e7e3-4803-48a6-a9d5-4486293f9e6d" name="crossheading" class="group4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><?DMS-Component componentId="a8494683-43f3-41da-836f-67ac6c744cf1" seriesId="4e121c2b-3c42-4d35-affa-0da465dd99ac" versionNumber="1"?>
+     
+     <heading eId="pt_2__xhdg_4__hdg" GUID="_87b2550a-138a-44d0-9be4-2a2c817d3266">Enfranchisement
+      for Scottish elections</heading>
+     <section eId="sec_4" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" GUID="_f786e007-5e74-4aed-81fd-bd63a3605eea" class="prov1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><?DMS-Component componentId="8feeb29c-2cc5-4c86-a737-fa579a281cfc" seriesId="1b2e4704-90f6-474e-a68e-72304b74ce3f" versionNumber="1"?>
+      
+      <num>4</num>
+      <heading eId="sec_4__hdg" GUID="_ced9c348-d4c6-4efb-bbbc-31da3c44f048">Voting by convicted
+       persons sentenced to terms of 12 months or less</heading>
+      <subsection eId="sec_4__subsec_1" GUID="_d13fea80-892b-48cd-b818-3d03cb9e644e" class="prov2">
+       <num>(1)</num>
+       <content>
+        <p>Section 3 of the Representation of the People Act 1983 (disenfranchisement of offenders
+         in prison etc.) is amended as follows.</p>
+       </content>
+      </subsection>
+      <subsection eId="sec_4__subsec_2" GUID="_22bcf6d7-218c-4853-a5d4-53b918e7525e" class="prov2">
+       <num>(2)</num>
+       <content>
+        <p>In subsection (1), after "election" insert ", unless subsection (1A) applies to that
+         person".</p>
+       </content>
+      </subsection>
+      <subsection eId="sec_4__subsec_3" GUID="_f818acfa-7152-4129-bc27-43d0165e7045" class="prov2">
+       <num>(3)</num>
+       <content>
+        <p>
+         <mod>After subsection (1), insert—<quotedStructure eId="sec_4__subsec_3__qstr" ukl:docName="asp" endQuote="”" ukl:indent="indent0" GUID="_181c67b0-7c5b-4ba4-82df-34a38c9d6578" startQuote="“">
+           <subsection eId="sec_4__subsec_3__qstr__subsec_1A" GUID="_e4ff640b-ca75-48a4-b89e-7310de679c2d" class="prov2">
+            <num ukl:autonumber="no">(1A)</num>
+            <content>
+             <p>A convicted person is not legally incapable of voting at a local government election
+              in Scotland by virtue of subsection (1) during the time that the person is detained in
+              a penal institution in pursuance of a sentence imposed for a term not exceeding 12
+              months.</p>
+            </content>
+           </subsection>
+           <subsection eId="sec_4__subsec_3__qstr__subsec_1B" GUID="_92bcfa5f-3ff2-4517-a964-e939b85fc868" class="prov2">
+            <num>(1B)</num>
+            <intro eId="sec_4__subsec_3__qstr__subsec_1B__intro" GUID="_86fd4b33-65e6-4594-a07f-37c3365931e4">
+             <p>In calculating the term of a sentence of a convicted person for the purpose of
+              subsection (1A), terms that are consecutive or concurrent to any extent are to be
+              treated as a single term if the sentences were imposed on that person—</p>
+            </intro>
+            <paragraph eId="sec_4__subsec_3__qstr__subsec_1B__para_a" GUID="_c5966129-5fc5-4208-9bc2-81348127c700" class="para1">
+             <num>(a)</num>
+             <content>
+              <p>on the same occasion, or</p>
+             </content>
+            </paragraph>
+            <paragraph eId="sec_4__subsec_3__qstr__subsec_1B__para_b" GUID="_5a3f9d81-2391-4c11-ae76-20d716958cb5" class="para1">
+             <num>(b)</num>
+             <content>
+              <p>on different occasions but the convicted person was not released (other than on
+               temporary release) at any time during the period beginning with the first occasion
+               and ending with the last.</p>
+             </content>
+            </paragraph>
+           </subsection>
+          </quotedStructure><inline name="AppendText">.</inline></mod>
+        </p>
+       </content>
+      </subsection>
+     </section>
+    </hcontainer>
+    <hcontainer eId="pt_2__xhdg_5" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" GUID="_e6a17aaa-1602-4778-9901-086a8c6f7944" name="crossheading" class="group4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><?DMS-Component componentId="599753f7-11f8-478c-a3ec-1405cc32dc00" seriesId="eb7daac9-594e-409a-84ca-b8069afb8d35" versionNumber="1"?>
+     
+     <heading eId="pt_2__xhdg_5__hdg" GUID="_ac8f6623-ffad-473a-a331-b0d2a923e7c5">Registration</heading>
+     <section eId="sec_5" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" GUID="_29f8d563-9cf7-48ff-9b48-d3494decf888" class="prov1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><?DMS-Component componentId="482cc5ea-1c09-43ea-bcfb-0cac603ecf45" seriesId="d92924fe-f10f-420e-aa42-2def10069d9d" versionNumber="1"?>
+      
+      <num>5</num>
+      <heading eId="sec_5__hdg" GUID="_371f353c-f6af-4a1f-bc43-31d51d2ea8d2">Residence of convicted
+       persons in prison etc.: uninterrupted residence</heading>
+      <subsection eId="sec_5__subsec_1" GUID="_d592f55a-9368-4409-9d18-d896de43470f" class="prov2">
+       <num>(1)</num>
+       <content>
+        <p>
+         <mod>After section 7A of the Representation of the People Act 1983 insert—<quotedStructure eId="sec_5__subsec_1__qstr" ukl:docName="asp" endQuote="”" ukl:indent="indent0" GUID="_62d3d07b-ca65-410e-bb33-c6da1c8a6c90" startQuote="“">
+           <section eId="sec_5__subsec_1__qstr__sec_7AA" GUID="_444e1cdc-7b35-4a3d-8938-2cff734751b5" class="prov1">
+            <num ukl:autonumber="no">7AA</num>
+            <heading eId="sec_5__subsec_1__qstr__sec_7AA__hdg" GUID="_203fdd7c-8822-4a1b-92a1-f8d032de02ad">Residence: convicted person to whom
+             section 3(1A) applies</heading>
+            <subsection eId="sec_5__subsec_1__qstr__sec_7AA__subsec_1" GUID="_66287d7d-85a2-4389-ab5e-a2efbb17615a" class="prov2">
+             <num>(1)</num>
+             <content>
+              <p>This section applies to a convicted person to whom section 3(1A) applies.</p>
+             </content>
+            </subsection>
+            <subsection eId="sec_5__subsec_1__qstr__sec_7AA__subsec_2" GUID="_7a7e08c2-f970-40c1-864a-db6dea287df7" class="prov2">
+             <num>(2)</num>
+             <intro eId="sec_5__subsec_1__qstr__sec_7AA__subsec_2__intro" GUID="_c4ef0ed3-6780-438d-a71c-09cd43c8ee86">
+              <p>In determining whether the convicted person is resident in a dwelling on the
+               relevant date for the purpose of section 4(3)(a), the convicted person's residence is
+               not to be taken to have been interrupted by reason of the convicted person's
+               detention in a penal institution if—</p>
+             </intro>
+             <paragraph eId="sec_5__subsec_1__qstr__sec_7AA__subsec_2__para_a" GUID="_1a7419b8-a67a-4f7c-9f87-2757a6a9fa22" class="para1">
+              <num>(a)</num>
+              <intro eId="sec_5__subsec_1__qstr__sec_7AA__subsec_2__para_a__intro" GUID="_76211b3c-226c-40c7-9e90-bd978af0a5e0">
+               <p>the convicted person—</p>
+              </intro>
+              <subparagraph eId="sec_5__subsec_1__qstr__sec_7AA__subsec_2__para_a__subpara_i" GUID="_96af1405-90ee-4a0c-a01a-3ff2dd718a58" class="para2">
+               <num>(i)</num>
+               <content>
+                <p>intends to resume actual residence when released from the penal institution
+                 (other than on temporary release), and</p>
+               </content>
+              </subparagraph>
+              <subparagraph eId="sec_5__subsec_1__qstr__sec_7AA__subsec_2__para_a__subpara_ii" GUID="_e7fd7fb4-00d9-492f-9a69-b25171ec8171" class="para2">
+               <num>(ii)</num>
+               <content>
+                <p>will not be prevented from doing so by an order of any court, or</p>
+               </content>
+              </subparagraph>
+             </paragraph>
+             <paragraph eId="sec_5__subsec_1__qstr__sec_7AA__subsec_2__para_b" GUID="_6cd9064d-dc54-44ff-b71f-d9c6a922f903" class="para1">
+              <num>(b)</num>
+              <content>
+               <p>the dwelling serves as a permanent place of residence (whether for the convicted
+                person alone or with other persons) and the convicted person would be in actual
+                residence there but for the convicted person's detention.</p>
+              </content>
+             </paragraph>
+            </subsection>
+           </section>
+          </quotedStructure><inline name="AppendText">.</inline></mod>
+        </p>
+       </content>
+      </subsection>
+     </section>
+     <section eId="sec_6" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" GUID="_ce9135d0-cc6f-46ce-8d24-a1cbb47d05bf" class="prov1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><?DMS-Component componentId="9750f0d4-19b0-4663-bb66-98120887f0f0" seriesId="7e7da050-eb4e-43d3-a970-7a0c7da0785f" versionNumber="1"?>
+      
+      <num>6</num>
+      <heading eId="sec_6__hdg" GUID="_4f356b6c-6bcf-429f-8557-c424c52ea430">Residence of convicted
+       persons in prison etc.: notional residence</heading>
+      <subsection eId="sec_6__subsec_1" GUID="_6a5b90ee-62e2-41d7-b4d3-628cfe67b49a" class="prov2">
+       <num>(1)</num>
+       <content>
+        <p>In section 5(6) of the Representation of the People Act 1983 (residence of persons
+         detained in legal custody), for "and 7A" substitute ", 7A and 7B (in so far as it relates
+         to a declaration made for the purposes only of the registration of local government
+         electors in Scotland)".</p>
+       </content>
+      </subsection>
+      <subsection eId="sec_6__subsec_2" GUID="_f2d49e4b-56d4-444c-a051-a452cc9412a1" class="prov2">
+       <num>(2)</num>
+       <intro eId="sec_6__subsec_2__intro" GUID="_37adf90c-b422-4ba0-9d60-a735e323a91f">
+        <p>In section 7B of the Representation of the People Act 1983 (notional residence:
+         declarations of local connection)—</p>
+       </intro>
+       <paragraph eId="sec_6__subsec_2__para_a" GUID="_2ddc1615-070f-44d3-92cc-5d45b6132e5b" class="para1">
+        <num>(a)</num>
+        <content>
+         <p>
+          <mod>after subsection (2C), insert—<quotedStructure eId="sec_6__subsec_2__para_a__qstr" ukl:docName="asp" endQuote="”" ukl:indent="indent0" GUID="_00f2b25a-2815-4587-9580-5a01a917089e" startQuote="“">
+            <subsection eId="sec_6__subsec_2__para_a__qstr__subsec_2D" GUID="_204bc6a2-da3a-4b88-9701-14461d5bdfc8" class="prov2">
+             <num ukl:autonumber="no">(2D)</num>
+             <intro eId="sec_6__subsec_2__para_a__qstr__subsec_2D__intro" GUID="_2abcbf4f-a05c-4a16-a4d8-8c5cfe31c498">
+              <p>In relation to the registration of local government electors in Scotland, this
+               section also applies to a person who, on the date on which the person makes a
+               declaration under subsection (1)—</p>
+             </intro>
+             <paragraph eId="sec_6__subsec_2__para_a__qstr__subsec_2D__para_a" GUID="_91e67f3a-b625-4f44-802a-9c90bfb6b3dc" class="para1">
+              <num>(a)</num>
+              <content>
+               <p>is a convicted person to whom section 3(1A) applies, and</p>
+              </content>
+             </paragraph>
+             <paragraph eId="sec_6__subsec_2__para_a__qstr__subsec_2D__para_b" GUID="_432cd19d-dbfa-4710-96c4-a18db9bd3cb0" class="para1">
+              <num>(b)</num>
+              <content>
+               <p>would not be entitled to be registered by virtue of residence at any place other
+                than the penal institution in which the convicted person is detained.</p>
+              </content>
+             </paragraph>
+            </subsection>
+           </quotedStructure><inline name="AppendText">,</inline></mod>
+         </p>
+        </content>
+       </paragraph>
+       <paragraph eId="sec_6__subsec_2__para_b" GUID="_76e65389-178f-4a7b-b926-2a4543db54ca" class="para1">
+        <num>(b)</num>
+        <content>
+         <p>
+          <mod>in subsection (4), after paragraph (c) insert—<quotedStructure eId="sec_6__subsec_2__para_b__qstr" ukl:docName="asp" endQuote="”" ukl:indent="indent0" GUID="_f063df11-935d-43d3-ba09-d5e254d9e1f6" startQuote="“">
+            <paragraph eId="sec_6__subsec_2__para_b__qstr__para_d" GUID="_3bd12856-e5ec-4a11-90ad-e1c8a387616f" class="para1">
+             <num ukl:autonumber="no">(d)</num>
+             <intro eId="sec_6__subsec_2__para_b__qstr__para_d__intro" GUID="_278ff4ae-2b3c-493f-bead-bd9f46a6d3f7">
+              <p>in the case of a convicted person falling within subsection (2D)—</p>
+             </intro>
+             <subparagraph eId="sec_6__subsec_2__para_b__qstr__para_d__subpara_i" GUID="_1b56b9db-3338-4a45-8af8-5aeca6fc032c" class="para2">
+              <num>(i)</num>
+              <content>
+               <p>the address in Scotland where the convicted person would be residing but for the
+                person's detention,</p>
+              </content>
+             </subparagraph>
+             <subparagraph eId="sec_6__subsec_2__para_b__qstr__para_d__subpara_ii" GUID="_c7838305-dc98-4c0f-b15c-f39a84299bfc" class="para2">
+              <num>(ii)</num>
+              <content>
+               <p>if the convicted person cannot give an address under sub-paragraph (i), an address
+                in Scotland at which the convicted person has previously been resident (but not the
+                address of a penal institution), or</p>
+              </content>
+             </subparagraph>
+             <subparagraph eId="sec_6__subsec_2__para_b__qstr__para_d__subpara_iii" GUID="_65d62dfb-2477-4754-a11c-d9fef899d126" class="para2">
+              <num>(iii)</num>
+              <content>
+               <p>if the convicted person cannot give an address under sub-paragraph (i) or (ii) (or
+                can only give an address at which the person would be prevented from residing
+                because of an order of any court), the address of the penal institution at which the
+                convicted person is detained.</p>
+              </content>
+             </subparagraph>
+            </paragraph>
+           </quotedStructure><inline name="AppendText">, and</inline></mod>
+         </p>
+        </content>
+       </paragraph>
+       <paragraph eId="sec_6__subsec_2__para_c" GUID="_cb6fa1c0-7a84-4b60-9453-35222eb4e612" class="para1">
+        <num>(c)</num>
+        <content>
+         <p>
+          <mod>in subsection (7B), after paragraph (a) insert—<quotedStructure eId="sec_6__subsec_2__para_c__qstr" ukl:docName="asp" endQuote="”" ukl:indent="indent0" GUID="_170c28e7-93ce-428b-9ed5-d952f0dfd3ed" startQuote="“">
+            <paragraph eId="sec_6__subsec_2__para_c__qstr__para_ab" GUID="_1b9f683d-e2ce-4b8b-b640-a0d92d213d40" class="para1">
+             <num ukl:autonumber="no">(ab)</num>
+             <content>
+              <p>a declaration of local connection made by virtue of subsection (2D),</p>
+             </content>
+            </paragraph>
+           </quotedStructure><inline name="AppendText">.</inline></mod>
+         </p>
+        </content>
+       </paragraph>
+      </subsection>
+     </section>
+    </hcontainer>
+    <hcontainer eId="pt_2__xhdg_7" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" GUID="_80af5656-7785-4c32-9745-c7941d77262e" name="crossheading" class="group4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><?DMS-Component componentId="52412294-94ac-4847-bec8-b02495157149" seriesId="c461b2de-a395-44a0-bcd0-5ffa263aaa6e" versionNumber="1"?>
+     
+     <heading eId="pt_2__xhdg_7__hdg" GUID="_d4ba31cc-8d67-4207-abfa-a560bd9cfaf6">Method of
+      voting</heading>
+     <section eId="sec_7" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" GUID="_ad9e9bd0-e99c-4469-81f1-b1065b2b6044" class="prov1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><?DMS-Component componentId="b1cca9b1-432d-4442-a82a-c329a7ee6e98" seriesId="59b27396-4451-4777-801b-2122cbc2ba12" versionNumber="1"?>
+      
+      <num>7</num>
+      <heading eId="sec_7__hdg" GUID="_4a091dc4-5205-48df-9df6-c4cd8e104df8">Method of voting by
+       convicted persons at local government elections</heading>
+      <subsection eId="sec_7__subsec_1" GUID="_3fa898d3-2fbc-42d4-8f65-3e1dbc4581d3" class="prov2">
+       <num>(1)</num>
+       <content>
+        <p>Schedule 4 of the Representation of the People Act 2000 (absent voting) is amended as
+         follows.</p>
+       </content>
+      </subsection>
+      <subsection eId="sec_7__subsec_2" GUID="_4aa8bfa2-7d6b-46e0-8e9f-493a7bf99f85" class="prov2">
+       <num>(2)</num>
+       <content>
+        <p>
+         <mod>In paragraph 2 (manner of voting), after sub-paragraph (6) insert—<quotedStructure eId="sec_7__subsec_2__qstr" ukl:docName="asp" endQuote="”" ukl:indent="indent0" GUID="_88843612-65c0-4a77-b2dd-c9486cd83eda" startQuote="“">
+           <subparagraph eId="sec_7__subsec_2__qstr__subpara_6ZA" GUID="_b001c49b-8ff1-4b9a-b121-1db028a311f8" class="schProv2">
+            <num ukl:autonumber="no">(6ZA)</num>
+            <content>
+             <p>In relation to a local government election in Scotland, nothing in the preceding
+              provisions of this paragraph applies to a person to whom section 3(1A) of the 1983 Act
+              (exception to disenfranchisement for offenders sentenced to term not exceeding 12
+              months) applies; and such a person may only vote by post or by proxy (where the person
+              is entitled as an elector to vote by post or, as the case may be, by proxy at the
+              election).</p>
+            </content>
+           </subparagraph>
+          </quotedStructure><inline name="AppendText">.</inline></mod>
+        </p>
+       </content>
+      </subsection>
+      <subsection eId="sec_7__subsec_3" GUID="_0ce1b3f5-5d05-4585-9345-0478fff5529d" class="prov2">
+       <num>(3)</num>
+       <intro eId="sec_7__subsec_3__intro" GUID="_35664430-f5c2-438b-862a-8ac3b19dd8f8">
+        <p>In paragraph 3(3) (absent vote at elections for definite or indefinite period)—</p>
+       </intro>
+       <paragraph eId="sec_7__subsec_3__para_a" GUID="_f2b0b954-527b-4ea9-b97c-c6db15608313" class="para1">
+        <num>(a)</num>
+        <content>
+         <p>the word "or" at the end of paragraph (c) is repealed, and</p>
+        </content>
+       </paragraph>
+       <paragraph eId="sec_7__subsec_3__para_b" GUID="_da5fc014-341b-490c-99d1-d2170bfe2378" class="para1">
+        <num>(b)</num>
+        <content>
+         <p>
+          <mod>at the end of paragraph (d) insert ", or<quotedStructure eId="sec_7__subsec_3__para_b__qstr" ukl:docName="asp" endQuote="”" ukl:indent="indent0" GUID="_9ef59e2a-6fb4-43f0-bdf3-743770901102" startQuote="">
+            <subparagraph eId="sec_7__subsec_3__para_b__qstr__subpara_e" GUID="_cf5375a6-e976-433e-a259-0410580b8858" class="schProv2">
+             <num ukl:autonumber="no">(e)</num>
+             <content>
+              <p>in the case of local government elections in Scotland, if the person is a person to
+               whom section 3(1A) of the 1983 Act (exception to disenfranchisement for offenders
+               sentenced to term not exceeding 12 months) applies,</p>
+             </content>
+            </subparagraph>
+           </quotedStructure><inline name="AppendText">.</inline></mod>
+         </p>
+        </content>
+       </paragraph>
+      </subsection>
+      <subsection eId="sec_7__subsec_4" GUID="_5c23bd3f-624f-408d-8aa5-a9ab6c02fad5" class="prov2">
+       <num>(4)</num>
+       <content>
+        <p>
+         <mod>In paragraph 6 (proxies at elections), after sub-paragraph (5A)
+           insert—<quotedStructure eId="sec_7__subsec_4__qstr" ukl:docName="asp" endQuote="”" ukl:indent="indent0" GUID="_56f38eb7-72ae-4ac4-8a6a-3dd07cd70144" startQuote="“">
+           <subparagraph eId="sec_7__subsec_4__qstr__subpara_5B" GUID="_07baa918-7717-457e-a23d-5744f8aa6a78" class="schProv2">
+            <num ukl:autonumber="no">(5B)</num>
+            <content>
+             <p>A person is not capable of voting as proxy at a local government election in
+              Scotland if on the date of the election the person is a person to whom section 3(1A)
+              of the 1983 Act (exception to disenfranchisement for offenders sentenced to term not
+              exceeding 12 months) applies.</p>
+            </content>
+           </subparagraph>
+          </quotedStructure><inline name="AppendText">.</inline></mod>
+        </p>
+       </content>
+      </subsection>
+     </section>
+    </hcontainer>
+   </part>
+   <part eId="pt_3" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" GUID="_5b9d9849-498e-4899-8c82-3f6725b950a2" class="group2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><?DMS-Component componentId="3659d2b0-21e5-4d7d-97dd-3c6671d6d37e" seriesId="20e22c7e-f8ae-4a85-a510-98c69199fdbd" versionNumber="1"?>
+    <num>Part 3</num>
+    <heading eId="pt_3__hdg" GUID="_28340764-9e57-4140-9772-e6ea9399f58e">Final provisions</heading>
+    <section eId="sec_8" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" GUID="_c2a75972-36fc-43ab-9708-01f47b9c05e9" class="prov1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><?DMS-Component componentId="543d84bf-c862-4f60-b370-b03121c8915a" seriesId="b44e921c-c0b4-402b-9d9e-6719862cfc69" versionNumber="1"?>
+     <num>8</num>
+     <heading eId="sec_8__hdg" GUID="_dc17f786-95a5-420f-93a2-986e757ac42e">Ancillary
+      provision</heading>
+     <subsection eId="sec_8__subsec_1" GUID="_3e22fb2e-f85e-480e-87ba-5044fd5038e3" class="prov2">
+      <num>(1)</num>
+      <content>
+       <p>The Scottish Ministers may by regulations make any incidental, supplementary,
+        consequential, transitional, transitory or saving provision they consider appropriate for
+        the purposes of, in connection with or for giving full effect to this Act or any provision
+        made under it.</p>
+      </content>
+     </subsection>
+     <subsection eId="sec_8__subsec_2" GUID="_4727f20d-ec15-4ae6-8888-d49585c81abb" class="prov2">
+      <num>(2)</num>
+      <intro eId="sec_8__subsec_2__intro" GUID="_16baae73-f069-4695-9fe2-de18f9cef146">
+       <p>Regulations under this section may—</p>
+      </intro>
+      <paragraph eId="sec_8__subsec_2__para_a" GUID="_abeeee3d-b63c-486b-8b06-4f6cbf7bcdb2" class="para1">
+       <num>(a)</num>
+       <content>
+        <p>make different provision for different purposes,</p>
+       </content>
+      </paragraph>
+      <paragraph eId="sec_8__subsec_2__para_b" GUID="_5774e11b-ffa1-461f-bb7a-b4d8ce907cc0" class="para1">
+       <num>(b)</num>
+       <content>
+        <p>modify any enactment (including this Act).</p>
+       </content>
+      </paragraph>
+     </subsection>
+     <subsection eId="sec_8__subsec_3" GUID="_b62b37eb-3f4e-4f59-b473-ed50a44928fe" class="prov2">
+      <num>(3)</num>
+      <intro eId="sec_8__subsec_3__intro" GUID="_bacef988-83e5-4a6d-aa22-aed377af2ad0">
+       <p>Regulations under this section—</p>
+      </intro>
+      <paragraph eId="sec_8__subsec_3__para_a" GUID="_3a4bd26b-466a-4948-ae11-3b5902788848" class="para1">
+       <num>(a)</num>
+       <content>
+        <p>are subject to the affirmative procedure if they add to, replace or omit any part of the
+         text of an Act (including this Act), </p>
+       </content>
+      </paragraph>
+      <paragraph eId="sec_8__subsec_3__para_b" GUID="_8277e31b-ddff-45ee-be1d-70c452f8ab40" class="para1">
+       <num>(b)</num>
+       <content>
+        <p>otherwise are subject to the negative procedure.</p>
+       </content>
+      </paragraph>
+     </subsection>
+    </section>
+    <section eId="sec_9" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" GUID="_b81fcc44-3fe1-4e15-9c7e-559a2331874d" class="prov1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><?DMS-Component componentId="2fc2208b-f22c-412a-bbbe-a1efc9eaa00e" seriesId="998cc11f-65e4-4fa7-a2f2-6526de81a2a2" versionNumber="1"?>
+     <num>9</num>
+     <heading eId="sec_9__hdg" GUID="_431ce0a1-135e-4ca8-8f7f-911c109283a1">Commencement</heading>
+     <subsection eId="sec_9__subsec_1" GUID="_88474a1c-1f55-44c3-b51c-dcba14720d3c" class="prov2">
+      <num>(1)</num>
+      <content>
+       <p>This section and sections 8 and 10 come into force on the day after Royal Assent.</p>
+      </content>
+     </subsection>
+     <subsection eId="sec_9__subsec_2" GUID="_50acfdea-5d8f-4be5-8bbb-8d364d40e637" class="prov2">
+      <num>(2)</num>
+      <content>
+       <p>The other provisions of this Act comes into force on such day as the Scottish Ministers
+        may by regulations appoint.</p>
+      </content>
+     </subsection>
+     <subsection eId="sec_9__subsec_3" GUID="_d616e62d-c24a-4ec3-aa0c-be6ec12fe355" class="prov2">
+      <num>(3)</num>
+      <intro eId="sec_9__subsec_3__intro" GUID="_f9a21e66-6c92-4cf4-aa8f-32c955749598">
+       <p>Regulations under subsection (2) may—</p>
+      </intro>
+      <paragraph eId="sec_9__subsec_3__para_a" GUID="_2ba815f7-c322-4b11-828f-541a9b555156" class="para1">
+       <num>(a)</num>
+       <content>
+        <p>include transitional, transitory or saving provision,</p>
+       </content>
+      </paragraph>
+      <paragraph eId="sec_9__subsec_3__para_b" GUID="_c3933dc2-b95e-4415-bf21-adb014285d05" class="para1">
+       <num>(b)</num>
+       <content>
+        <p>make different provision for different purposes.</p>
+       </content>
+      </paragraph>
+     </subsection>
+    </section>
+    <section eId="sec_10" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" GUID="_1122a214-1fae-4a01-a5fd-bd2f58b6b48f" class="prov1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><?DMS-Component componentId="5f21e683-c375-4960-8a19-f4df074b3901" seriesId="6c7a83f9-0882-4640-a4b2-ba989d543b0e" versionNumber="1"?>
+     <num>10</num>
+     <heading eId="sec_10__hdg" GUID="_56ac3a0d-769d-4a5c-a809-236282530286">Short title</heading>
+     <content>
+      <p>The short title of this Act is the Scottish Elections (Franchise and Representation) Act
+       2019.</p>
+     </content>
+    </section>
+   </part>
+  </body>
+  <conclusions eId="backCover" GUID="_5b668d11-1e0f-44e0-a0b7-8cae5c6e638c">
+   <block eId="backCover__st" GUID="_bda61c0b-e2fa-46f6-bc01-db7a9b618244" name="title"><docTitle eId="backCover__st__dtitle" GUID="_fa12fbcd-6d6a-49fd-a7c1-4f723e954417"><ref href="#varBillTitle" class="placeholder"></ref></docTitle></block>
+   <block name="stageVersion">[<docStage eId="backCover__docStage" GUID="_6e14c9ca-1340-4332-beae-c67d7c6f6541"><ref href="#varStageVersion" class="placeholder"></ref></docStage>]</block>
+   <longTitle eId="backCover__longtitle" GUID="_41519aad-b2b6-4fff-a5c8-3c163d71ee39"></longTitle>
+   <block eId="backCover__mbr" GUID="_9c69de14-de84-4e68-958e-d27ccc714f91" name="introducingMember">
+    <inline name="prompt">Introduced by:</inline>
+    <docIntroducer eId="backCover__mbr__docIntroducer" GUID="_e01c6199-13cd-4327-95d0-3ddf3f3c1415"><ref href="#varIntroducingMember" class="placeholder"></ref></docIntroducer>
+   </block>
+   <block eId="backCover__introDate" GUID="_aab2e6f6-28d8-4172-a745-0f8aad4b38d7" name="introductionDate">
+    <inline name="prompt">On:</inline>
+    <docDate date="9999-01-01" eId="backCover__introDate__docDate" GUID="_44a1f109-31b1-4a4d-9caf-cbc8e84d280a"><ref href="#varIntroDate" class="placeholder"></ref></docDate>
+   </block>
+   <block name="subtype">
+    <inline name="prompt">Bill type:</inline>
+    <docType eId="backCover__docType" GUID="_a5111afe-acbe-4fae-85f7-4ae9a1b39b14"><ref href="#varDocSubType" class="placeholder"></ref></docType>
+   </block>
+   <tblock eId="backCover__cpyStmnt" GUID="_d3797721-57e5-403d-b026-ca6eb6bd9577" class="copyrightStatement">
+    <p>© Parliamentary copyright. Scottish Parliamentary Corporate Body</p>
+    <p>Information on the Scottish Parliament's copyright policy can be found on the website - </p>
+    <p><a href="https://www.parliament.scot/">www.parliament.scot</a></p>
+   </tblock>
+   <tblock eId="backCover__pubStmnt" GUID="_06df8a4a-43cf-4573-bb4d-7e9ea25bd246" class="publishingStatement">
+    <p>Produced and published in Scotland by the Scottish Parliamentary Corporate Body.</p>
+    <p>All documents are available on the Scottish Parliament website at:</p>
+    <p><a href="https://www.parliament.scot/documents">www.parliament.scot/documents</a></p>
+   </tblock>
+  </conclusions>
+ </bill>
+</akomaNtoso>

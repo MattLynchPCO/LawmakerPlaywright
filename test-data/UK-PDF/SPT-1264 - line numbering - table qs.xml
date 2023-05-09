@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8"?><akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd">
+ <bill contains="originalVersion" name="ukpubb">
+  
+  <meta>
+   <identification source="#author">
+    <FRBRWork>
+     <FRBRthis value="#varWork"/>
+     <FRBRuri value="#varWorkUri"/>
+     <FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+     
+     <FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+     <FRBRdate date="9999-01-01" name="draft"/>
+     <FRBRauthor href="#varAuthor"/>
+     <FRBRcountry value="GB-UKM"/>
+     <FRBRsubtype value="#varDocSubType"/>
+     <FRBRnumber value="#varProjectId"/>
+     <FRBRname value="#varBillTitle"/>
+     <FRBRprescriptive value="true"/>
+     <FRBRauthoritative value="false"/>
+    </FRBRWork>
+    <FRBRExpression>
+     <FRBRthis value="#varExpression"/>
+     <FRBRuri value="#varExpressionUri"/>
+     <FRBRalias name="ttflVersionDescription" value="#varVDOiid"/>
+     <FRBRdate date="9999-01-01" name="draft"/>
+     <FRBRauthor href="#varAuthor"/>
+     <FRBRversionNumber value=""/>
+     <FRBRauthoritative value="false"/>
+     
+     <FRBRmasterExpression href="" showAs=""/>
+     
+     <FRBRlanguage language="eng"/>
+    </FRBRExpression>
+    <FRBRManifestation>
+     <FRBRthis value="#varManifestation"/>
+     <FRBRuri value="#varManifestationUri"/>
+     <FRBRdate date="9999-01-01" name="akn_xml"/>
+     <FRBRauthor href="#varAuthor"/>
+     <FRBRformat value="application/akn+xml"/>
+    </FRBRManifestation>
+   </identification>
+   
+   <references source="#author">
+    
+    <TLCConcept GUID="_8531c96d-3e9e-434c-9ea9-05401f2e3fb0" eId="varDocSubType" href="#varOntologies" showAs="Government Bill"/>
+    <TLCConcept GUID="_152e4b6d-4ded-46c7-bcf8-e1727c5853e6" eId="varBillTitle" href="#varOntologies" showAs="ML Test 230323 Bill"/>
+    
+    <TLCConcept GUID="_3b88f614-e887-4418-a4f8-8f263a7aea09" eId="varHouse" href="#varOntologies" showAs="House of Commons"/>
+    
+    <TLCProcess GUID="_d3d5f66a-b8e0-4654-9220-38d535aa5bb9" eId="varStageVersion" href="#varOntologies" showAs="Pre-Introduction"/>
+    <TLCProcess GUID="_443197b2-48bd-4db3-8472-ca0bc1dcdfa8" eId="varProjectId" href="#varOntologies" showAs="UK002335"/>
+    <TLCProcess GUID="_85dd0dca-2b71-4942-8d0c-800324307dcc" eId="varWork" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_e35996dc-90b9-4f03-8ab5-c251bc4530db" eId="varWorkUri" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_17500996-be76-46f6-9da8-1ed97d57d7a7" eId="varCHOiid" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_2d5c2195-5980-4981-8141-715c48090a58" eId="varExpression" href="#varOntologies" showAs="3ea4bde9-c10d-4ce5-9cd4-f66d9167b08d"/>
+    <TLCProcess GUID="_142bb512-ef51-4b5d-b4e9-b6448c52ec72" eId="varExpressionUri" href="#varOntologies" showAs="dma:///45e6b900-8929-11d4-b772-0050da06bfb4/80742cea-0ebb-4cf6-9759-1e52358d9b5b/;guid=3ea4bde9-c10d-4ce5-9cd4-f66d9167b08d;class=Version%20Description"/>
+    <TLCProcess GUID="_66167f81-6217-4446-91d7-83eb51a7a827" eId="varVDOiid" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_3cafbeb3-d606-40de-a631-d11fb10eab28" eId="varManifestation" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_46d06405-ef48-4d44-becf-89ca0ff48a64" eId="varManifestationUri" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_abe436a8-7648-4e05-bbda-ea633d79440e" eId="varActYear" href="#varOntologies" showAs=""/>
+    
+    <TLCConcept GUID="_b1dd2d96-f2db-4213-8322-337521246782" eId="varActTitle" href="#varOntologies" showAs=""/>
+    
+    <TLCConcept GUID="_9e9cadf5-d495-4767-91ed-3565bfc7547d" eId="varIntroDate" href="#varOntologies" showAs=""/>
+    
+    <TLCConcept GUID="_b80ad2c9-e634-46c5-b0f0-8a41513c33f1" eId="varPublicationDate" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_7b7ed7ef-d96d-4066-b4bc-81585fa66e4d" eId="varBillNoComp" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_cd22fe51-fa7c-4a2a-8487-2e1a9eae5bb2" eId="varBillNo" href="#varOntologies" showAs=""/>
+    
+    <TLCConcept GUID="_879ac301-f4a1-47dd-8ea3-1de857b42a79" eId="varSessionNo" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_dc562b1a-f5dd-4c92-a236-0f41048385ac" eId="varBillYear" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_6d378687-9f47-43b4-851f-380e600541d2" eId="varSession" href="#varOntologies" showAs=""/>
+    
+    <TLCConcept GUID="_5abec351-66bf-4edc-ae48-d5c214495716" eId="varBroughtFromDate" href="#varOntologies" showAs=""/>
+    
+    <TLCConcept GUID="_9b909412-7bab-4264-ab21-86582b1201f3" eId="varPassedDate" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_e6d1bbac-1377-4da3-b363-13c9afa4d7d3" eId="varAssentDate" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_6d5c14a3-a1b2-4f11-b7c4-995c66d8c652" eId="varActNoComp" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_06994aaf-9b65-4b53-ae46-b29b189003b2" eId="varActNo" href="#varOntologies" showAs=""/>
+    
+    
+    <TLCConcept GUID="_3a8d2dae-bc72-44cf-adaa-a0a5e9b93167" eId="varDocType" href="#varOntologies" showAs="UK Bill"/>
+    <TLCConcept GUID="_a9d8dbcf-de9f-4986-8076-a0a37a003d22" eId="varSystem" href="#varOntologies" showAs="LDAPP"/>
+    <TLCConcept GUID="_dd911549-95ed-41c8-90f9-61b905b94fce" eId="varAuthor" href="#varOntologies" showAs="UK Parliament"/>
+    <TLCConcept GUID="_bb3d99f7-f639-4dd0-bb53-a58e4d9235a1" eId="varJurisdiction" href="#varOntologies" showAs="United Kingdom"/>
+    <TLCConcept GUID="_759aa55f-e3ee-4815-b2bc-f09ff1696f82" eId="varOntologies" href="https://www.legislation.gov.uk/ontologies/UK-AKN" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN"/>
+
+    
+    <TLCConcept GUID="_31e5d599-6463-4eb9-b43b-5fb6024b1d9d" eId="varSovereign" href="#varOntologies" showAs="Charles III"/>
+   </references>
+  </meta>
+  
+  <preface GUID="_15b1a026-54cc-4656-acd7-d9e13a09c749" eId="preface">
+   
+   
+   <block name="stageVersion">[<docStage><ref class="placeholder" href="#varStageVersion"/></docStage>]</block>
+   <longTitle GUID="_79393dab-531c-4e21-b80d-f8ac4ef81eff" eId="preface__longtitle">
+    <p class="A">A</p>
+    <p class="Bill">bill</p>
+    <p class="To">to</p>
+    <p>Make provision</p>
+   </longTitle>
+  </preface>
+  <preamble GUID="_6c87b409-9885-4091-8bab-97b0a2f0e737" eId="preamble">
+   
+   <formula name="enactingText">
+    <p><inline name="dropCap">B</inline><inline name="smallCaps">e it enacted</inline> by the King’s most Excellent Majesty, by and with the advice and consent of the Lords Spiritual and Temporal, and Commons, in this present Parliament assembled, and by the authority of the same, as follows:—</p>
+   </formula>
+  </preamble>
+  <body>
+   <hcontainer GUID="_93d76066-3fb2-4a94-8e34-3147b844cdc3" class="schs" eId="scheds" name="schedules">
+    <hcontainer GUID="_0970a7c7-a888-4c0e-9c7a-23130790b9c5" class="sch" eId="sched_13" name="schedule">
+     
+     <num>Schedule 13<authorialNote GUID="_20efde7e-52ad-499b-b6c9-9da720b4ae69" class="referenceNote" eId="sched_13__aNote">
+       <p><ref class="valid" href="#sec_114" ukl:targetGuid="_eb03ede0-c0f1-4504-a3e3-9b06ed055f20">Section 114</ref></p>
+      </authorialNote></num>
+     <heading GUID="_68d66a13-9acb-4d08-a4d5-53dd5f67c74e" eId="sched_13__hdg">Alcohol duty: minor and consequential amendments</heading>
+     <part GUID="_cb1d4763-c812-4836-9e50-717e79d1f92b" class="schGroup2" eId="sched_13__pt_1">
+      <num>Part 1</num>
+      <heading GUID="_b511a8bc-75ec-496e-b029-30beaabfe5d9" eId="sched_13__pt_1__hdg">General</heading>
+      <hcontainer GUID="_0052f3f4-ebf5-4969-9573-4c4bb08fcf12" class="schGroup7" eId="sched_13__pt_1__xhdg_1" name="crossheading">
+       <heading GUID="_4b3a00a3-dc73-4a66-828b-5440695512b0" eId="sched_13__pt_1__xhdg_1__hdg">CEMA 1979</heading>
+       <paragraph GUID="_3b78eee5-18e1-480c-ab9d-7502981c8330" class="schProv1" eId="sched_13__para_1">
+        <num>1</num>
+        <content>
+         <p>CEMA 1979 is amended in accordance with <rref from="#sched_7__para_2" ukl:fromGuid="_a0b43557-fa2d-402c-bcef-1308c2007c85" ukl:upToGuid="_bc82c2b3-3e98-448b-9065-d7651484aeb8" upTo="#sched_7__para_9"><ref class="valid" href="#sched_13__para_2" ukl:targetGuid="_a0b43557-fa2d-402c-bcef-1308c2007c85">paragraphs 2</ref> to 5</rref>.</p>
+        </content>
+       </paragraph>
+       <paragraph GUID="_a0b43557-fa2d-402c-bcef-1308c2007c85" class="schProv1" eId="sched_13__para_2">
+        <num>2</num>
+        <subparagraph GUID="_11a8a846-2d31-4a8d-9256-0bd16f58e542" class="schProv2" eId="sched_13__para_2__subpara_1">
+         <num>(1)</num>
+         <content>
+          <p>Section 1 (interpretation) is amended as follows.</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_029ae56b-07df-4091-91d3-8bdba4453bfe" class="schProv2" eId="sched_13__para_2__subpara_2">
+         <num>(2)</num>
+         <content>
+          <p>
+           <mod>In subsection (1), in the definition of “the Customs and Excise Acts 1979”, after “the Tobacco Products Duty Act 1979” insert—<quotedStructure GUID="_db73c6d0-ecbc-4196-907b-3cca930ebb81" eId="sched_13__para_2__subpara_2__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+             <wrapUp GUID="_5565da95-ced8-4af4-ae0d-064ecbe0ac76" eId="sched_13__para_2__subpara_2__qstr__wrapup">
+              <p>and references (however expressed) to the Customs and Excise Acts 1979, or to the group of Acts included in the Customs and Excise Acts 1979, include references to <ref class="valid" href="#pt_2" ukl:targetGuid="_a8761b98-0d8e-4bbb-b3d2-75fbeda8a714">Part 2</ref> of the Finance (No. 2) Act 2023 (alcohol duty);</p>
+             </wrapUp>
+            </quotedStructure><inline name="AppendText"/></mod>
+          </p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_ba0fae4d-dbfd-494e-a1e6-7c170d348fd2" class="schProv2" eId="sched_13__para_2__subpara_3">
+         <num>(3)</num>
+         <content>
+          <p>In subsection (3), omit “Alcoholic Liquor Duties Act 1979” and the list of expressions relating to that Act.</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_a95c87e3-2ddc-47fa-a2a5-f049c054bb8b" class="schProv2" eId="sched_13__para_2__subpara_4">
+         <num>(4)</num>
+         <content>
+          <p>
+           <mod>After subsection (3) insert—<quotedStructure GUID="_f904a5fd-5e45-4a90-80fc-1b25431a2d30" eId="sched_13__para_2__subpara_4__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+             <subsection GUID="_b8927e95-5f98-4106-8e7e-1b203d30d56c" class="prov2" eId="sched_13__para_2__subpara_4__qstr__subsec_3ZA">
+              <num ukl:autonumber="no">(3ZA)</num>
+              <intro GUID="_e11b1348-5517-4288-aa4f-d626176374b4" eId="sched_13__para_2__subpara_4__qstr__subsec_3ZA__intro">
+               <p>Any expression used in this Act or in any instrument made under this Act to which a meaning is given by <ref class="valid" href="#pt_2" ukl:targetGuid="_a8761b98-0d8e-4bbb-b3d2-75fbeda8a714">Part 2</ref> of the Finance (No. 2) Act 2023 (alcohol duty) has, except where the context otherwise requires, the same meaning in this Act or any such instrument as in that Part; and for ease of reference the following is a list of the expressions concerned—</p>
+              </intro>
+              <hcontainer GUID="_8a1d750b-f0e0-4a11-bf3d-bad36a5b2f52" class="definition" eId="sched_13__para_2__subpara_4__qstr__subsec_3ZA__def_alcoholicproduct_" name="definition">
+               <content>
+                <p><def GUID="_c024e79c-6af5-4da0-81c5-33a5bf4bb525" eId="sched_13__para_2__subpara_4__qstr__subsec_3ZA__def_alcoholicproduct" ukl:endQuote="”" ukl:startQuote="“">alcoholic product</def></p>
+               </content>
+              </hcontainer>
+              <hcontainer GUID="_ca233b25-a8f2-42e9-89fb-57fe7b9b39b2" class="definition" eId="sched_13__para_2__subpara_4__qstr__subsec_3ZA__def_beer_" name="definition">
+               <content>
+                <p><def GUID="_59f36eaf-c2c9-4753-9bea-62125df95b94" eId="sched_13__para_2__subpara_4__qstr__subsec_3ZA__def_beer" ukl:endQuote="”" ukl:startQuote="“">beer</def></p>
+               </content>
+              </hcontainer>
+              <hcontainer GUID="_fdb12cf3-1655-4e6b-9f73-615876d729c5" class="definition" eId="sched_13__para_2__subpara_4__qstr__subsec_3ZA__def_cider_" name="definition">
+               <content>
+                <p><def GUID="_319edc79-0af3-4ae7-990e-64498c287604" eId="sched_13__para_2__subpara_4__qstr__subsec_3ZA__def_cider" ukl:endQuote="”" ukl:startQuote="“">cider</def></p>
+               </content>
+              </hcontainer>
+              <hcontainer GUID="_5376b4e7-6634-4cfb-be75-5c9aabeda9e6" class="definition" eId="sched_13__para_2__subpara_4__qstr__subsec_3ZA__def_otherfermentedproduct_" name="definition">
+               <content>
+                <p><def GUID="_1eaeaabd-da86-4e41-8a10-05401bcc764c" eId="sched_13__para_2__subpara_4__qstr__subsec_3ZA__def_otherfermentedproduct" ukl:endQuote="”" ukl:startQuote="“">other fermented product</def></p>
+               </content>
+              </hcontainer>
+              <hcontainer GUID="_cf2e9a16-f954-4820-afda-4754a6899d31" class="definition" eId="sched_13__para_2__subpara_4__qstr__subsec_3ZA__def_spirits_" name="definition">
+               <content>
+                <p><def GUID="_f0de5f6a-0b37-4efe-89f1-3f7adbf6522f" eId="sched_13__para_2__subpara_4__qstr__subsec_3ZA__def_spirits" ukl:endQuote="”" ukl:startQuote="“">spirits</def></p>
+               </content>
+              </hcontainer>
+              <hcontainer GUID="_bdbbc7f1-a534-48a0-8989-34180cc8625b" class="definition" eId="sched_13__para_2__subpara_4__qstr__subsec_3ZA__def_wholesaler_" name="definition">
+               <content>
+                <p><def GUID="_c1f2de11-fa64-413d-a43a-db270a99ca40" eId="sched_13__para_2__subpara_4__qstr__subsec_3ZA__def_wholesaler" ukl:endQuote="”" ukl:startQuote="“">wholesaler</def></p>
+               </content>
+              </hcontainer>
+              <hcontainer GUID="_477cf0d9-3b92-48df-866f-2b95fd99928e" class="definition" eId="sched_13__para_2__subpara_4__qstr__subsec_3ZA__def_wine_" name="definition">
+               <content>
+                <p><def GUID="_4e906bc3-a211-41da-89ad-81516d140d53" eId="sched_13__para_2__subpara_4__qstr__subsec_3ZA__def_wine" ukl:endQuote="”" ukl:startQuote="“">wine</def>.</p>
+               </content>
+              </hcontainer>
+             </subsection>
+            </quotedStructure><inline name="AppendText"/></mod>
+          </p>
+         </content>
+        </subparagraph>
+       </paragraph>
+       <paragraph GUID="_5e66a642-f4fc-49eb-b37f-daa0a9742a8e" class="schProv1" eId="sched_13__para_3">
+        <num>3</num>
+        <content>
+         <p>In <ref class="ignore" href="#sec_112" ukl:targetGuid="">section 112</ref> (power of entry upon premises, etc of revenue traders), in subsection (5), for “dutiable alcoholic liquors” substitute “alcoholic products”.</p>
+        </content>
+       </paragraph>
+       <paragraph GUID="_f0471e90-e9b1-4c51-8c25-d72dd0fb9eec" class="schProv1" eId="sched_13__para_4">
+        <num>4</num>
+        <subparagraph GUID="_f40daf01-5f1e-4bb0-b2fe-db57e555e592" class="schProv2" eId="sched_13__para_4__subpara_1">
+         <num>(1)</num>
+         <content>
+          <p>Section 114 (power to prohibit use of certain substances in exciseable goods) is amended as follows.</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_0c70094f-ff54-4cfb-adfb-e1203ae91423" class="schProv2" eId="sched_13__para_4__subpara_2">
+         <num>(2)</num>
+         <content>
+          <p>In subsections (1) and (2), for “or liquor”, in each place it occurs, substitute “, product or liquid”.</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_f6c947e2-3b61-4be1-b801-07fc313d9b1c" class="schProv2" eId="sched_13__para_4__subpara_3">
+         <num>(3)</num>
+         <intro GUID="_37b6202e-a658-40d7-8f0d-bd5d9e83d456" eId="sched_13__para_4__subpara_3__intro">
+          <p>In subsection (3)—</p>
+         </intro>
+         <level GUID="_16278caa-5d5b-464a-a8ff-497a92223bc9" class="para1" eId="sched_13__para_4__subpara_3__para_a">
+          <num>(a)</num>
+          <content>
+           <p>for “or liquor” substitute “, product or liquid”;</p>
+          </content>
+         </level>
+         <level GUID="_c84f88ed-0889-4689-8113-e2376e686590" class="para1" eId="sched_13__para_4__subpara_3__para_b">
+          <num>(b)</num>
+          <content>
+           <p>for “substance or liquid” substitute “substance, product or liquid”.</p>
+          </content>
+         </level>
+        </subparagraph>
+       </paragraph>
+       <paragraph GUID="_3455c23c-cf83-43cf-8653-b5d4d51ce82f" class="schProv1" eId="sched_13__para_5">
+        <num>5</num>
+        <content>
+         <p>In <ref class="ignore" href="#sec_163A" ukl:targetGuid="">section 163A</ref> (power to search articles), in subsection (2), in the words before <ref class="ignore" href="#sched_7__para_5__para_a" ukl:targetGuid="">paragraph (a)</ref>, for “dutiable alcoholic liquor” substitute “alcoholic products”.</p>
+        </content>
+       </paragraph>
+      </hcontainer>
+      <hcontainer GUID="_2eeea784-3a8e-41a9-b8a9-2ab53caf7564" class="schGroup7" eId="sched_13__pt_1__xhdg_6" name="crossheading">
+       <heading GUID="_89d6647f-09ae-4c32-9434-931167ba1b78" eId="sched_13__pt_1__xhdg_6__hdg">Customs and Excise Duties (General Reliefs) Act 1979</heading>
+       <paragraph GUID="_d31437b4-5279-4b6d-9db1-b898a3af0a30" class="schProv1" eId="sched_13__para_6">
+        <num>6</num>
+        <content>
+         <p>In section 18 of the Customs and Excise Duties (General Reliefs) Act 1979 (interpretation) in subsection (2), for “Alcoholic Liquor Duties Act 1979” substitute “<ref class="valid" href="#pt_2" ukl:targetGuid="_a8761b98-0d8e-4bbb-b3d2-75fbeda8a714">Part 2</ref> of the Finance (No. 2) Act 2023”.</p>
+        </content>
+       </paragraph>
+      </hcontainer>
+      <hcontainer GUID="_f7f809b5-306d-4fb0-8495-3fe121e1c6b1" class="schGroup7" eId="sched_13__pt_1__xhdg_7" name="crossheading">
+       <heading GUID="_ef86f7bf-863d-4472-8f88-c4d901c99b88" eId="sched_13__pt_1__xhdg_7__hdg">Excise Duties (Surcharges or Rebates) Act 1979</heading>
+       <paragraph GUID="_43f5bb9c-aa99-440f-a7da-904bec1b7c49" class="schProv1" eId="sched_13__para_7">
+        <num>7</num>
+        <content>
+         <p>
+          <mod>In section 1 of the Excise Duties (Surcharges or Rebates) Act 1979 (surcharges or rebates of amounts due for excise duties), in subsection (1), for paragraph (a) substitute—<quotedStructure GUID="_09ad9b22-169d-4b23-bbb1-a4e43c4aed14" eId="sched_13__para_7__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+            <level GUID="_ed6c6b41-046c-44e7-8444-5469250b742a" class="para1" eId="sched_13__para_7__qstr__para_a">
+             <num ukl:autonumber="no">(a)</num>
+             <content>
+              <p>that chargeable in respect of alcoholic products;</p>
+             </content>
+            </level>
+           </quotedStructure><inline name="AppendText">.</inline></mod>
+         </p>
+        </content>
+       </paragraph>
+      </hcontainer>
+      <hcontainer GUID="_45d8a8cf-6187-4c2e-930c-ee5abfeeb1f5" class="schGroup7" eId="sched_13__pt_1__xhdg_8" name="crossheading">
+       <heading GUID="_ac36f2b7-2133-4ba0-985e-1ab76391d3e9" eId="sched_13__pt_1__xhdg_8__hdg">FA 1994</heading>
+       <paragraph GUID="_522c7866-f753-4ad0-a11a-04a197e72b62" class="schProv1" eId="sched_13__para_8">
+        <num>8</num>
+        <content>
+         <p>FA 1994 is amended in accordance with <ref class="valid" href="#sched_13__para_9" ukl:targetGuid="_5c394a62-4dc0-4867-9337-88179dedd187">paragraphs 9</ref><rref from="#sched_7__para_14" ukl:fromGuid="_cce4caf3-b15b-42bf-870e-b3fd7b92a174" ukl:upToGuid="_fdb2a2c1-9bb5-42c9-809f-743515430c24" upTo="#sched_7__para_18"> to <ref class="valid" href="#sched_13__para_14" ukl:targetGuid="_fdb2a2c1-9bb5-42c9-809f-743515430c24">14</ref></rref>.</p>
+        </content>
+       </paragraph>
+       <paragraph GUID="_5c394a62-4dc0-4867-9337-88179dedd187" class="schProv1" eId="sched_13__para_9">
+        <num>9</num>
+        <content>
+         <p>In section 12 (assessments to excise duty), in subsection (2)(ca), for “Schedule 2A to the Alcoholic Liquor Duties Act 1979” substitute “<ref class="valid" href="#sched_12" ukl:targetGuid="_0e66d5e0-55c2-4a9c-a906-b252cfb860cf">Schedule 12</ref> to the Finance (No. 2) Act 2023”.</p>
+        </content>
+       </paragraph>
+       <paragraph GUID="_cce4caf3-b15b-42bf-870e-b3fd7b92a174" class="schProv1" eId="sched_13__para_10">
+        <num>10</num>
+        <content>
+         <p>
+          <mod>In section 12A (other assessments relating to excise duty matters), in subsection (3), for paragraph (bb) substitute—<quotedStructure GUID="_23c0ed9e-75fe-46f7-9298-4e41f6993662" eId="sched_13__para_10__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+            <level GUID="_92633aab-9e0a-40a7-94e2-518accd97e76" class="para1" eId="sched_13__para_10__qstr__para_bb">
+             <num ukl:autonumber="no">(bb)</num>
+             <content>
+              <p><ref class="valid" href="#sec_60" ukl:targetGuid="_69c2484a-4205-4d32-835d-81060f629161">section 60</ref>, <ref class="valid" href="#sec_78" ukl:targetGuid="_db336d5f-5e46-4f14-9caf-5f266f7fa7cc">78</ref> or <ref class="valid" href="#sec_79" ukl:targetGuid="_ceee2f87-1ec3-4b0a-8da3-53019d05ed6d">79</ref> of the Finance (No. 2) Act 2023,</p>
+             </content>
+            </level>
+           </quotedStructure><inline name="AppendText">.</inline></mod>
+         </p>
+        </content>
+       </paragraph>
+       <paragraph GUID="_0886267c-cc98-41bb-9d80-d9cbf10a5af9" class="schProv1" eId="sched_13__para_11">
+        <num>11</num>
+        <subparagraph GUID="_05b1e40b-5a6c-48a4-ada2-da1f0a07f1a2" class="schProv2" eId="sched_13__para_11__subpara_1">
+         <num>(1)</num>
+         <content>
+          <p><ref class="ignore" href="#sec_12B" ukl:targetGuid="">Section 12B</ref> (<ref class="ignore" href="#sec_12A" ukl:targetGuid="">section 12A</ref>: supplementary provisions) is amended as follows.</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_b743cf7b-45eb-488d-b9c6-6f5928f3ca22" class="schProv2" eId="sched_13__para_11__subpara_2">
+         <num>(2)</num>
+         <content>
+          <p>
+           <mod>In subsection (2), for paragraphs (ea) and (eb) substitute—<quotedStructure GUID="_0368d4d6-135e-4bba-b65b-23734d230f05" eId="sched_13__para_11__subpara_2__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+             <level GUID="_20213b41-e0de-4818-bdef-566ac233dae2" class="para1" eId="sched_13__para_11__subpara_2__qstr__para_ea">
+              <num ukl:autonumber="no">(ea)</num>
+              <content>
+               <p>in the case of an assessment under <ref class="valid" href="#sec_78" ukl:targetGuid="_db336d5f-5e46-4f14-9caf-5f266f7fa7cc">section 78</ref> of the Finance (No. 2) Act 2023, the time of delivery from the relevant premises (as defined in that section);</p>
+              </content>
+             </level>
+             <level GUID="_e63d3371-1463-4c07-8213-595a0d4406d6" class="para1" eId="sched_13__para_11__subpara_2__qstr__para_eb">
+              <num>(eb)</num>
+              <content>
+               <p>in the case of an assessment under <ref class="valid" href="#sec_79" ukl:targetGuid="_ceee2f87-1ec3-4b0a-8da3-53019d05ed6d">section 79</ref> of that Act, the time of importation;</p>
+              </content>
+             </level>
+            </quotedStructure><inline name="AppendText">.</inline></mod>
+          </p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_c6933aed-3457-4623-bc09-39c264ce8780" class="schProv2" eId="sched_13__para_11__subpara_3">
+         <num>(3)</num>
+         <content>
+          <p>In subsection (2)(ec), for “section 36G of that Act” substitute “<ref class="valid" href="#sec_60" ukl:targetGuid="_69c2484a-4205-4d32-835d-81060f629161">section 60</ref> of that Act”.</p>
+         </content>
+        </subparagraph>
+       </paragraph>
+       <paragraph GUID="_487f4a45-fa5a-4a3c-8da7-4820f22afa54" class="schProv1" eId="sched_13__para_12">
+        <num>12</num>
+        <content>
+         <p>In <ref class="ignore" href="#sec_16" ukl:targetGuid="_69c2484a-4205-4d32-835d-81060f629161" ukl:targetJref="">section 16</ref> (appeals to a tribunal), in subsection (3A), for “section 8, 10 or 11 of the Alcoholic Liquor Duties Act 1979” substitute “<ref class="valid" href="#sec_78" ukl:targetGuid="_db336d5f-5e46-4f14-9caf-5f266f7fa7cc">section 78</ref> or <ref class="valid" href="#sec_79" ukl:targetGuid="_ceee2f87-1ec3-4b0a-8da3-53019d05ed6d">79</ref> of the Finance (No. 2) Act 2023 (alcohol duty: certain reliefs or exemptions for spirits)”.</p>
+        </content>
+       </paragraph>
+       <paragraph GUID="_7b6b1a2e-9402-4643-8bdc-a7482c137fa3" class="schProv1" eId="sched_13__para_13">
+        <num>13</num>
+        <content>
+         <p>In <ref class="ignore" href="#sec_16A" ukl:targetGuid="">section 16A</ref> (temporary approvals etc. pending review or appeal), in subsection (2)(c) for “<ref class="ignore" href="#sec_88C" ukl:targetGuid="">section 88C</ref> ALDA <ref class="ignore" href="#sec_1979" ukl:targetGuid="">1979</ref>” substitute “<ref class="valid" href="#sec_100" ukl:targetGuid="_1debfd52-0aff-4426-a61c-62161a840b18">section 100</ref> of the Finance (No. 2) Act 2023”.</p>
+        </content>
+       </paragraph>
+       <paragraph GUID="_fdb2a2c1-9bb5-42c9-809f-743515430c24" class="schProv1" eId="sched_13__para_14">
+        <num>14</num>
+        <intro GUID="_95f234c4-9568-4025-89a8-fb699d63e4b9" eId="sched_13__para_14__intro">
+         <p>In <ref class="ignore" href="#sched_5" ukl:targetGuid="_0e66d5e0-55c2-4a9c-a906-b252cfb860cf" ukl:targetJref="">Schedule 5</ref> (decisions subject to review and appeal)—</p>
+        </intro>
+        <level GUID="_58a02b7f-e6d1-4372-8808-4fb99332e63d" class="para1" eId="sched_13__para_14__para_a">
+         <num>(a)</num>
+         <content>
+          <p>in the shoulder reference, for “Section 14” substitute “Section 13A”;</p>
+         </content>
+        </level>
+        <level GUID="_07030ba1-579a-4a7b-b588-c025de07dda6" class="para1" eId="sched_13__para_14__para_b">
+         <num>(b)</num>
+         <content>
+          <p>omit <ref class="ignore" href="#sched_7__para_9ZA" ukl:targetGuid="">paragraph 9ZA</ref> (and the heading preceding it).</p>
+         </content>
+        </level>
+       </paragraph>
+      </hcontainer>
+      <hcontainer GUID="_58138529-2ba2-4fa3-a255-b21564a2af66" class="schGroup7" eId="sched_13__pt_1__xhdg_15" name="crossheading">
+       <heading GUID="_105a4c35-1890-4bc4-a271-4856024b2104" eId="sched_13__pt_1__xhdg_15__hdg">VATA 1994</heading>
+       <paragraph GUID="_820aef3f-c2ac-4190-84a3-90307be119c2" class="schProv1" eId="sched_13__para_15">
+        <num>15</num>
+        <subparagraph GUID="_edceefbc-1829-4ce5-b4bf-e12c903a26c1" class="schProv2" eId="sched_13__para_15__subpara_1">
+         <num>(1)</num>
+         <content>
+          <p>In Part 2 of Schedule 8 to VATA 1994 (zero-rating: groups), Group 1 (food) is amended as follows.</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_5088824e-4020-4005-ae94-b5d23980ccef" class="schProv2" eId="sched_13__para_15__subpara_2">
+         <num>(2)</num>
+         <content>
+          <p>In excepted item 3, for the words from “any duty” to “made-wine” substitute “alcohol duty under <ref class="valid" href="#pt_2" ukl:targetGuid="_a8761b98-0d8e-4bbb-b3d2-75fbeda8a714">Part 2</ref> of the Finance (No. 2) Act 2023”.</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_cec9b343-b2b8-41ad-b7d1-da9975d34d0a" class="schProv2" eId="sched_13__para_15__subpara_3">
+         <num>(3)</num>
+         <content>
+          <p>In excepted item 7, in paragraph (c), for “made-wine” substitute “other fermented products (as defined in <ref class="valid" href="#pt_2" ukl:targetGuid="_a8761b98-0d8e-4bbb-b3d2-75fbeda8a714">Part 2</ref> of the Finance (No. 2) Act 2023)”.</p>
+         </content>
+        </subparagraph>
+       </paragraph>
+      </hcontainer>
+      <hcontainer GUID="_965d5809-50ab-4dd0-b728-ee6c0ea7f626" class="schGroup7" eId="sched_13__pt_1__xhdg_16" name="crossheading">
+       <heading GUID="_62231ebb-1b07-47c1-8f9d-8e4500336c9d" eId="sched_13__pt_1__xhdg_16__hdg">FA 2001</heading>
+       <paragraph GUID="_099f475c-7195-4fe2-8441-0b95532f413c" class="schProv1" eId="sched_13__para_16">
+        <num>16</num>
+        <intro GUID="_5e11c7f7-73cc-479a-a233-24956bd5bcd1" eId="sched_13__para_16__intro">
+         <p>In paragraph 1(2) of Schedule 3 to FA 2001 (excise duty: payments by the Commissioners in case of error or delay)—</p>
+        </intro>
+        <level GUID="_ba06b15c-0faa-466d-ac5a-0d8afe7d5416" class="para1" eId="sched_13__para_16__para_a">
+         <num>(a)</num>
+         <content>
+          <p>in <ref class="ignore" href="#sched_7__para_15__para_a" ukl:targetGuid="_ba06b15c-0faa-466d-ac5a-0d8afe7d5416" ukl:targetJref="">paragraph (a)</ref>, for “section 8(1) or 10(1) of the Alcoholic Liquor Duties Act 1979” substitute “<ref class="valid" href="#sec_78" ukl:targetGuid="_db336d5f-5e46-4f14-9caf-5f266f7fa7cc">section 78</ref> of the Finance (No. 2) Act 2023 (alcohol duty: authorised use for certain purposes)”;</p>
+         </content>
+        </level>
+        <level GUID="_bcad6868-807c-48aa-b355-07ab7c4d69ce" class="para1" eId="sched_13__para_16__para_b">
+         <num>(b)</num>
+         <content>
+          <p>omit <ref class="ignore" href="#sched_7__para_15__para_b" ukl:targetGuid="_bcad6868-807c-48aa-b355-07ab7c4d69ce" ukl:targetJref="">paragraph (b)</ref>.</p>
+         </content>
+        </level>
+       </paragraph>
+      </hcontainer>
+      <hcontainer GUID="_065da55c-2eb5-4068-aaa3-c7b79b5d7582" class="schGroup7" eId="sched_13__pt_1__xhdg_17" name="crossheading">
+       <heading GUID="_c920e7ea-0f69-49d7-b018-f4cd79d10644" eId="sched_13__pt_1__xhdg_17__hdg">FA 2007</heading>
+       <paragraph GUID="_f7dab95b-0883-430b-a98d-fa2b7707f373" class="schProv1" eId="sched_13__para_17">
+        <num>17</num>
+        <content>
+         <p>
+          <mod>In Schedule 24 to FA 2007 (penalties for errors), in the Table in paragraph 1, for the entry relating to alcoholic liquor duties and statements or declarations in connection with a claim for repayment of duty under section 4(4) of FA 1995 substitute—<quotedStructure GUID="_549ac123-828a-4c91-b95f-17a0e8294e1d" eId="sched_13__para_17__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+            <content>
+             <tblock GUID="_a00f5686-a6f7-4dc0-80ae-26026b13fce8" class="table" eId="sched_13__para_17__qstr__tbl__oc_1">
+              <foreign>
+               <table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="middleVertical tableleft width100" cols="2">
+                <tbody class="left">
+                 <tr akn:GUID="_48a643f3-f536-401f-9fba-0968cd0a38cd" akn:eId="sched_13__para_17__qstr__tbl__oc_1__row__oc_1">
+                  <td akn:GUID="_188d75b9-c18d-478e-998a-52305d046af9" akn:eId="sched_13__para_17__qstr__tbl__oc_1__row__oc_1__col_1"><p>Alcohol duty</p></td>
+                  <td akn:GUID="_fe9786ea-409c-4d49-8674-2728fa77a993" akn:eId="sched_13__para_17__qstr__tbl__oc_1__row__oc_1__col_2">
+                   <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Statement or declaration in connection with a claim for repayment of duty under <ref class="valid" href="#sec_75" ukl:targetGuid="_ef393b3f-5891-4900-896d-65b446a0e184">section 75</ref> of F(No. 2)A 2023.</p>
+                  </td>
+                 </tr>
+                </tbody>
+               </table>
+              </foreign>
+             </tblock>
+            </content>
+           </quotedStructure><inline name="AppendText"/></mod>
+         </p>
+        </content>
+       </paragraph>
+      </hcontainer>
+      <hcontainer GUID="_0acc1846-e311-4bef-8eff-947f4cbcb283" class="schGroup7" eId="sched_13__pt_1__xhdg_18" name="crossheading">
+       <heading GUID="_c9860b59-2f8d-43fe-afa3-f0664efc3e0d" eId="sched_13__pt_1__xhdg_18__hdg">FA 2008</heading>
+       <paragraph GUID="_280ecf1f-ee4e-4f64-ac4d-c6dc843940d9" class="schProv1" eId="sched_13__para_18">
+        <num>18</num>
+        <subparagraph GUID="_f74ff188-2b78-4886-ab6f-d182e102b84f" class="schProv2" eId="sched_13__para_18__subpara_1">
+         <num>(1)</num>
+         <content>
+          <p>Schedule 41 to FA 2008 (penalties: failure to notify etc.) is amended as follows.</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_27c711ec-e396-43e0-9f21-b2f4d59b5162" class="schProv2" eId="sched_13__para_18__subpara_2">
+         <num>(2)</num>
+         <content>
+          <p>
+           <mod>In the Table in paragraph 1, for the entry relating to alcohol liquor duties and the obligation to be authorised and registered to obtain and use duty stamps under regulations under ALDA 1979 substitute—<quotedStructure GUID="_51b331ef-ba27-4ad1-a4e8-319f5957a6cc" eId="sched_13__para_18__subpara_2__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+             <content>
+              <tblock GUID="_11ee58c0-4710-49c2-8bc9-7433abeee486" class="table" eId="sched_13__para_18__subpara_2__qstr__tbl__oc_1">
+               <foreign>
+                <table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="middleVertical tableleft width100" cols="2">
+                 <tbody class="left">
+                  <tr akn:GUID="_3fd25d37-dbc1-4de1-8a42-245e60d0bca3" akn:eId="sched_13__para_18__subpara_2__qstr__tbl__oc_1__row__oc_1">
+                   <td akn:GUID="_cc0f84ed-c17f-43b7-aa08-06908690cdfe" akn:eId="sched_13__para_18__subpara_2__qstr__tbl__oc_1__row__oc_1__col_1">
+                    <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Alcohol duty</p>
+                   </td>
+                   <td akn:GUID="_d4ce00e9-c0cf-4685-ae81-2d3d77b97487" akn:eId="sched_13__para_18__subpara_2__qstr__tbl__oc_1__row__oc_1__col_2">
+                    <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Obligations under <ref class="valid" href="#sec_91" ukl:targetGuid="_eed44b53-786d-4bee-95ab-5e34798b82aa">section 91</ref> of F(No. 2)A 2023 (licence to manufacture and deal wholesale in denatured alcohol).</p>
+                   </td>
+                  </tr>
+                  <tr akn:GUID="_ff25323e-cabe-4126-bc0c-e9aadba26bdd" akn:eId="sched_13__para_18__subpara_2__qstr__tbl__oc_1__row__oc_2">
+                   <td akn:GUID="_ce027869-1595-4bc5-a0f4-2dc017a60f8b" akn:eId="sched_13__para_18__subpara_2__qstr__tbl__oc_1__row__oc_2__col_1">
+                    <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Alcohol duty</p>
+                   </td>
+                   <td akn:GUID="_f82ad367-3db2-4aae-bae6-a0086c4be583" akn:eId="sched_13__para_18__subpara_2__qstr__tbl__oc_1__row__oc_2__col_2">
+                    <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Obligation to be authorised and registered to obtain and use duty stamps under regulations under <ref class="valid" href="#sched_12__para_4" ukl:targetGuid="_7a8c63df-42ee-4e41-ae31-1c9d819d8d95">paragraph 4</ref> of <ref class="valid" href="#sched_12" ukl:targetGuid="_0e66d5e0-55c2-4a9c-a906-b252cfb860cf">Schedule 12</ref> to F(No. 2)A 2023 (duty stamps).</p>
+                   </td>
+                  </tr>
+                 </tbody>
+                </table>
+               </foreign>
+              </tblock>
+             </content>
+            </quotedStructure><inline name="AppendText"/></mod>
+          </p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_5a619dae-c411-444a-bfae-f7469fbefe18" class="schProv2" eId="sched_13__para_18__subpara_3">
+         <num>(3)</num>
+         <content>
+          <p>
+           <mod>In the Table in paragraph 3, for the three entries relating to ALDA 1979 substitute—<quotedStructure GUID="_1a7e3cd5-b8ef-45c0-88b6-6390d04a84bb" eId="sched_13__para_18__subpara_3__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+             <content>
+              <tblock GUID="_dd3ed412-43b1-4e50-a204-bc1c2e1f3d3d" class="table" eId="sched_13__para_18__subpara_3__qstr__tbl__oc_1">
+               <foreign>
+                <table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="middleVertical tableleft width100" cols="2">
+                 <tbody class="left">
+                  <tr akn:GUID="_a00f8f93-b6aa-4e0a-b2ad-c1523e6f75d6" akn:eId="sched_13__para_18__subpara_3__qstr__tbl__oc_1__row__oc_1">
+                   <td akn:GUID="_4b5be643-ac7f-4eaf-a220-695bf393c01e" akn:eId="sched_13__para_18__subpara_3__qstr__tbl__oc_1__row__oc_1__col_1">
+                    <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Part 2 of F(No. 2)A 2023 (alcohol duty), <ref class="valid" href="#sec_53" ukl:targetGuid="_3603527a-4692-4363-916a-b0df5e05f2b8">section 53</ref>(2)</p>
+                   </td>
+                   <td akn:GUID="_39a2a932-c143-4d9b-a605-fc9a8c24ae1d" akn:eId="sched_13__para_18__subpara_3__qstr__tbl__oc_1__row__oc_1__col_2">
+                    <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Unauthorised repackaging of qualifying draught products.</p>
+                   </td>
+                  </tr>
+                  <tr akn:GUID="_c8624eab-6115-41df-b13f-8cde370025df" akn:eId="sched_13__para_18__subpara_3__qstr__tbl__oc_1__row__oc_2">
+                   <td akn:GUID="_3720b16a-925a-48ff-a797-dccfd966cb9a" akn:eId="sched_13__para_18__subpara_3__qstr__tbl__oc_1__row__oc_2__col_1">
+                    <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Part 2 of F(No. 2)A 2023 (alcohol duty), <ref class="valid" href="#sec_78" ukl:targetGuid="_db336d5f-5e46-4f14-9caf-5f266f7fa7cc">section 78</ref><ref class="valid" href="#sec_78__subsec_8" ukl:targetGuid="_d48740da-82dd-47a0-9332-19e0b9668c77">(8)</ref></p>
+                   </td>
+                   <td akn:GUID="_d323153b-35b6-43e9-b0a8-feb7ed6f6258" akn:eId="sched_13__para_18__subpara_3__qstr__tbl__oc_1__row__oc_2__col_2">
+                    <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Spirits: authorised use for certain purposes.</p>
+                   </td>
+                  </tr>
+                  <tr akn:GUID="_346be8e2-c872-4c83-808d-54ce9d5ae633" akn:eId="sched_13__para_18__subpara_3__qstr__tbl__oc_1__row__oc_3">
+                   <td akn:GUID="_46ca2873-88c7-4dad-ae99-e9c3eb20e6f1" akn:eId="sched_13__para_18__subpara_3__qstr__tbl__oc_1__row__oc_3__col_1">
+                    <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Part 2 of F(No. 2)A 2023 (alcohol duty), <ref class="valid" href="#sec_79" ukl:targetGuid="_ceee2f87-1ec3-4b0a-8da3-53019d05ed6d">section 79</ref><ref class="valid" href="#sec_79__subsec_2" ukl:targetGuid="_cc11d8d7-742a-43f7-89a8-3398f692e13a">(2)</ref></p>
+                   </td>
+                   <td akn:GUID="_d0e7aeec-7b20-4cc6-bb89-cac5e4711fc5" akn:eId="sched_13__para_18__subpara_3__qstr__tbl__oc_1__row__oc_3__col_2">
+                    <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Spirits: imported goods not for human consumption.</p>
+                   </td>
+                  </tr>
+                 </tbody>
+                </table>
+               </foreign>
+              </tblock>
+             </content>
+            </quotedStructure><inline name="AppendText"/></mod>
+          </p>
+         </content>
+        </subparagraph>
+       </paragraph>
+      </hcontainer>
+      <hcontainer GUID="_8892bf80-26b1-4a9b-ba89-a66436218981" class="schGroup7" eId="sched_13__pt_1__xhdg_19" name="crossheading">
+       <heading GUID="_a31d2f72-5f35-450d-8d79-45bc40106192" eId="sched_13__pt_1__xhdg_19__hdg">TCTA 2018</heading>
+       <paragraph GUID="_a227943b-b70c-45d9-bb65-1147f508cb61" class="schProv1" eId="sched_13__para_19">
+        <num>19</num>
+        <subparagraph GUID="_5821e6dd-a4f3-45be-9c3b-dfc612990aa8" class="schProv2" eId="sched_13__para_19__subpara_1">
+         <num>(1)</num>
+         <content>
+          <p>TCTA 2018 is amended as follows.</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_16132d7c-bd1c-4813-8515-0e0b6ffe0ee0" class="schProv2" eId="sched_13__para_19__subpara_2">
+         <num>(2)</num>
+         <content>
+          <p>
+           <mod>In section 49 (sections 44 to 48: interpretation), in the definition of “excise duty”, for paragraph (a) substitute—<quotedStructure GUID="_3bfa7c5a-e4f3-4deb-9dc9-b6cd6a9e9044" eId="sched_13__para_19__subpara_2__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+             <level GUID="_6c3ba9a0-bd5b-4159-8816-5505f8dbcaa4" class="para1" eId="sched_13__para_19__subpara_2__qstr__para_a">
+              <num ukl:autonumber="no">(a)</num>
+              <content>
+               <p><ref class="valid" href="#pt_2" ukl:targetGuid="_a8761b98-0d8e-4bbb-b3d2-75fbeda8a714">Part 2</ref> of the Finance (No. 2) Act 2023 (alcohol duty),</p>
+              </content>
+             </level>
+            </quotedStructure><inline name="AppendText">.</inline></mod>
+          </p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_5b39c146-8949-49d1-bd04-097324a2b5e6" class="schProv2" eId="sched_13__para_19__subpara_3">
+         <num>(3)</num>
+         <content>
+          <p>
+           <mod>In section 53 (meaning of “excise duty”), for paragraph (a) substitute—<quotedStructure GUID="_6e3f5309-777d-4f84-a079-85e8c595aa76" eId="sched_13__para_19__subpara_3__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+             <level GUID="_fdf2bcce-ae95-450b-9469-0e7cc6b405b0" class="para1" eId="sched_13__para_19__subpara_3__qstr__para_a">
+              <num ukl:autonumber="no">(a)</num>
+              <content>
+               <p><ref class="valid" href="#pt_2" ukl:targetGuid="_a8761b98-0d8e-4bbb-b3d2-75fbeda8a714">Part 2</ref> of the Finance (No. 2) Act 2023 (alcohol duty),</p>
+              </content>
+             </level>
+            </quotedStructure><inline name="AppendText">.</inline></mod>
+          </p>
+         </content>
+        </subparagraph>
+       </paragraph>
+      </hcontainer>
+      <hcontainer GUID="_0cf8253f-177c-4777-a45d-a77699e062a9" class="schGroup7" eId="sched_13__pt_1__xhdg_20" name="crossheading">
+       <heading GUID="_dee8d4d9-e7b9-4455-868f-ec5298b7dec3" eId="sched_13__pt_1__xhdg_20__hdg">Taxation (Post-transition Period) Act 2020</heading>
+       <paragraph GUID="_021ebd0e-e7cd-49c8-9661-9110b2b7f8f2" class="schProv1" eId="sched_13__para_20">
+        <num>20</num>
+        <content>
+         <p>
+          <mod>In section 4(2) of the Taxation (Post-transition Period) Act 2020 (“relevant excise duty provision”), for paragraphs (a) to (f) substitute—<quotedStructure GUID="_016dab80-5152-42b3-b465-b81aa16b5f45" eId="sched_13__para_20__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+            <level GUID="_2db4b061-2b1e-406a-8266-c7005bc72d27" class="para1" eId="sched_13__para_20__qstr__para_a">
+             <num ukl:autonumber="no">(a)</num>
+             <content>
+              <p>section 42 of F(No.2) A 2023 (alcohol);</p>
+             </content>
+            </level>
+           </quotedStructure><inline name="AppendText">.</inline></mod>
+         </p>
+        </content>
+       </paragraph>
+      </hcontainer>
+     </part>
+     <part GUID="_89884ddd-e44d-4bf4-9e01-3103b6e5d0e1" class="schGroup2" eId="sched_13__pt_2">
+      <num>Part 2</num>
+      <heading GUID="_6e36dc20-4900-40d1-a30b-21b9e138f9ea" eId="sched_13__pt_2__hdg">Approvals etc.</heading>
+      <hcontainer GUID="_a2bee8e6-d817-4dac-b4d1-af035faaa736" class="schGroup7" eId="sched_13__pt_2__xhdg_21" name="crossheading">
+       <heading GUID="_b1ee03d7-f018-48fe-895b-609c653df379" eId="sched_13__pt_2__xhdg_21__hdg">CEMA 1979</heading>
+       <paragraph GUID="_274adae1-1e26-49f9-acab-12e894e19dec" class="schProv1" eId="sched_13__para_21">
+        <num>21</num>
+        <content>
+         <p>CEMA 1979 is amended in accordance with <rref from="#sched_7__para_21" ukl:fromGuid="_de94a5d4-54fb-4ea6-b034-6f45ad2bf4b9" ukl:upToGuid="_ccf406cc-84e2-4da9-ad8e-941e57bee803" upTo="#sched_7__para_30"><ref class="valid" href="#sched_13__para_22" ukl:targetGuid="_de94a5d4-54fb-4ea6-b034-6f45ad2bf4b9">paragraphs 22</ref> to 27</rref>.</p>
+        </content>
+       </paragraph>
+       <paragraph GUID="_de94a5d4-54fb-4ea6-b034-6f45ad2bf4b9" class="schProv1" eId="sched_13__para_22">
+        <num>22</num>
+        <subparagraph GUID="_517b1002-781d-4baf-92bc-8fd80555d7c0" class="schProv2" eId="sched_13__para_22__subpara_1">
+         <num>(1)</num>
+         <content>
+          <p>Section 1(1) (interpretation:defined terms) is amended as follows.</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_7a0e51ea-258c-42ef-b607-e1ea26882d2e" class="schProv2" eId="sched_13__para_22__subpara_2">
+         <num>(2)</num>
+         <content>
+          <p>In the definition of “the Customs and Excise Acts 1979”, omit “the Alcoholic Liquor Duties Act 1979,”.</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_50179ab3-4f4a-4fbc-ae5b-d7d6d981cc14" class="schProv2" eId="sched_13__para_22__subpara_3">
+         <num>(3)</num>
+         <content>
+          <p>In the definition of “excise warehouse”, omit “, and, except in that section, also includes a distiller's warehouse”.</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_8406edfb-1dc8-4330-82da-d767dd62d09e" class="schProv2" eId="sched_13__para_22__subpara_4">
+         <num>(4)</num>
+         <intro GUID="_d0b02c40-f9a9-42c2-a584-dfa2bd4d58db" eId="sched_13__para_22__subpara_4__intro">
+          <p>In the definition of “warehouse”—</p>
+         </intro>
+         <level GUID="_54b0d4b9-e842-4812-abee-050b50ddedb3" class="para1" eId="sched_13__para_22__subpara_4__para_a">
+          <num>(a)</num>
+          <content>
+           <p>for “expressions” substitute “expression”;</p>
+          </content>
+         </level>
+         <level GUID="_376abcf7-5c63-414e-b13c-2f931d7ef4d8" class="para1" eId="sched_13__para_22__subpara_4__para_b">
+          <num>(b)</num>
+          <content>
+           <p>omit “and “distiller's warehouse””;</p>
+          </content>
+         </level>
+         <level GUID="_e10db956-d97b-40ed-ac76-bd6e0b3f082c" class="para1" eId="sched_13__para_22__subpara_4__para_c">
+          <num>(c)</num>
+          <content>
+           <p>omit “and, except in that section, also includes a distiller's warehouse”.</p>
+          </content>
+         </level>
+        </subparagraph>
+       </paragraph>
+       <paragraph GUID="_f7148bb7-2272-48de-93bf-93bd4461dfb6" class="schProv1" eId="sched_13__para_23">
+        <num>23</num>
+        <subparagraph GUID="_ffe3a7c8-5e01-438d-a5a5-a24cf484b485" class="schProv2" eId="sched_13__para_23__subpara_1">
+         <num>(1)</num>
+         <content>
+          <p><ref class="ignore" href="#sec_112" ukl:targetGuid="">Section 112</ref> (power of entry upon premises, etc of revenue traders) is amended as follows.</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_7af02be5-3fe9-492c-9741-e27ec8adffbb" class="schProv2" eId="sched_13__para_23__subpara_2">
+         <num>(2)</num>
+         <content>
+          <p>In subsection (3), for the words from “distiller” to “occupier” substitute “a person who produces alcoholic products or an occupier”.</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_8a925f36-b1cb-4469-b602-d9c05a4a6ebc" class="schProv2" eId="sched_13__para_23__subpara_3">
+         <num>(3)</num>
+         <content>
+          <p>In subsection (6), for “a distiller” substitute “a person who produces alcoholic products”.</p>
+         </content>
+        </subparagraph>
+       </paragraph>
+       <paragraph GUID="_f1c04863-2e31-4102-86ab-4bb4cc788448" class="schProv1" eId="sched_13__para_24">
+        <num>24</num>
+        <content>
+         <p>In section 113 (power to search for concealed pipes etc), in subsection (6), for the words for the words from “distillers” to “cider” substitute “persons who produce alcoholic products”.</p>
+        </content>
+       </paragraph>
+       <paragraph GUID="_093cbac4-24e4-464f-baa2-00bc5f2ac438" class="schProv1" eId="sched_13__para_25">
+        <num>25</num>
+        <content>
+         <p>
+          <mod>In section 136 (offences in connection with claims for drawback etc), in subsection (5), for paragraph (b) substitute—<quotedStructure GUID="_898af3f9-dab6-4273-9b5a-8b5c8d5b571b" eId="sched_13__para_25__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+            <level GUID="_65b8a3be-2189-496f-8b2d-c28c2c74b21e" class="para1" eId="sched_13__para_25__qstr__para_b">
+             <num ukl:autonumber="no">(b)</num>
+             <content>
+              <p><ref class="valid" href="#sec_74" ukl:targetGuid="_68820662-7da0-4b95-8dff-ddc508783558">section 74</ref> of the Finance (No. 2) Act 2023 (remission or repayment of duty on spoilt alcoholic products).</p>
+             </content>
+            </level>
+           </quotedStructure><inline name="AppendText"/></mod>
+         </p>
+        </content>
+       </paragraph>
+       <paragraph GUID="_aba00582-cc46-49fa-82a9-7ae948c23146" class="schProv1" eId="sched_13__para_26">
+        <num>26</num>
+        <subparagraph GUID="_bd514e04-61bb-4042-a440-3544a8751af3" class="schProv2" eId="sched_13__para_26__subpara_1">
+         <num>(1)</num>
+         <content>
+          <p>Section 160 (power to take samples) is amended as follows.</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_b5f10d07-96d2-493b-8fbd-0b333a282ef2" class="schProv2" eId="sched_13__para_26__subpara_2">
+         <num>(2)</num>
+         <content>
+          <p>In subsection (2), for the words from “any of the following” to “cider” substitute “a revenue trader to whom this subsection applies”.</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_a3972b8b-7276-4424-8364-d9640bcea49d" class="schProv2" eId="sched_13__para_26__subpara_3">
+         <num>(3)</num>
+         <content>
+          <p>
+           <mod>After subsection (2) insert—<quotedStructure GUID="_f2836e23-f2b8-4172-93bc-79008c0c6c1c" eId="sched_13__para_26__subpara_3__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+             <subsection GUID="_658ce46a-4c4d-4373-8c18-130f03f1abd4" class="prov2" eId="sched_13__para_26__subpara_3__qstr__subsec_2A">
+              <num ukl:autonumber="no">(2A)</num>
+              <content>
+               <p>The revenue traders to whom subsection (2) applies are persons who produce alcoholic products.</p>
+              </content>
+             </subsection>
+            </quotedStructure><inline name="AppendText"/></mod>
+          </p>
+         </content>
+        </subparagraph>
+       </paragraph>
+       <paragraph GUID="_3b31ef53-0346-4626-b499-adedcefa1f54" class="schProv1" eId="sched_13__para_27">
+        <num>27</num>
+        <content>
+         <p>In <ref class="ignore" href="#sec_178" ukl:targetGuid="">section 178</ref> (citation) in subsection (2), omit “the Alcoholic Liquor Duties Act 1979,”.</p>
+        </content>
+       </paragraph>
+      </hcontainer>
+      <hcontainer GUID="_3a4cb68d-9484-4d08-803d-9acbbfe7964a" class="schGroup7" eId="sched_13__pt_2__xhdg_28" name="crossheading">
+       <heading GUID="_d06d613c-7874-41a8-a450-f5f6326c47c8" eId="sched_13__pt_2__xhdg_28__hdg">FA 1994</heading>
+       <paragraph GUID="_941e9592-d2e0-4924-bdd3-7138097b893c" class="schProv1" eId="sched_13__para_28">
+        <num>28</num>
+        <content>
+         <p>
+          <mod>In <ref class="ignore" href="#sec_16A" ukl:targetGuid="">section 16A</ref> of FA 1994 (temporary approvals etc. pending review or appeal), at the end of subsection (2) insert—<quotedStructure GUID="_863714d2-7a9c-4a48-a663-40d5d6bc78c8" eId="sched_13__para_28__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+            <level GUID="_58ff06b2-25d5-4a85-8aee-f7b6f195332e" class="para1" eId="sched_13__para_28__qstr__para_g">
+             <num ukl:autonumber="no">(g)</num>
+             <content>
+              <p>approved under <ref class="valid" href="#sec_82" ukl:targetGuid="_42f37661-f33e-4da6-98fb-f32c9bb4abd4">section 82</ref> of the Finance (No. 2) Act 2023 (approval to produce alcoholic products).</p>
+             </content>
+            </level>
+           </quotedStructure><inline name="AppendText"/></mod>
+         </p>
+        </content>
+       </paragraph>
+      </hcontainer>
+      <hcontainer GUID="_f180657f-c57d-4478-96e7-9102e738a617" class="schGroup7" eId="sched_13__pt_2__xhdg_29" name="crossheading">
+       <heading GUID="_78f2acd4-c69a-4ab0-906e-980084e98425" eId="sched_13__pt_2__xhdg_29__hdg">FA 2007</heading>
+       <paragraph GUID="_0a0a9e7f-41d2-4495-b31e-0c602affa35a" class="schProv1" eId="sched_13__para_29">
+        <num>29</num>
+        <subparagraph GUID="_49a30e76-4f32-435b-9e8e-577dad3634a7" class="schProv2" eId="sched_13__para_29__subpara_1">
+         <num>(1)</num>
+         <content>
+          <p>The Table in paragraph 1 of Schedule 24 to FA 2007 (penalties for errors) is amended as follows.</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_40bacf1c-b357-4c93-a8c9-b5ba8242cb36" class="schProv2" eId="sched_13__para_29__subpara_2">
+         <num>(2)</num>
+         <content>
+          <p>Omit the entry relating to alcoholic liquor duties and returns under regulations under section 13, 49, 56 or 62 of ALDA 1979.</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_3ed3a990-b99b-49e7-af90-b9ea2ec30111" class="schProv2" eId="sched_13__para_29__subpara_3">
+         <num>(3)</num>
+         <content>
+          <p>
+           <mod>After the entry relating to alcohol duty (inserted by paragraph 17 of this Schedule) insert—<quotedStructure GUID="_511649f7-5753-426a-b816-b1bb7d3e81ab" eId="sched_13__para_29__subpara_3__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+             <content>
+              <tblock GUID="_0792eba9-9604-4021-a537-cd58209e1eb5" class="table" eId="sched_13__para_29__subpara_3__qstr__tbl__oc_1">
+               <foreign>
+                <table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="middleVertical tableleft width100" cols="2">
+                 <tbody class="left">
+                  <tr akn:GUID="_a9e024a1-2c4c-4c31-bf5c-81ca04d1d2c6" akn:eId="sched_13__para_29__subpara_3__qstr__tbl__oc_1__row__oc_1">
+                   <td akn:GUID="_09ebc573-8e98-41d9-ad01-6f157bdbbfff" akn:eId="sched_13__para_29__subpara_3__qstr__tbl__oc_1__row__oc_1__col_1">
+                    <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Alcohol duty</p>
+                   </td>
+                   <td akn:GUID="_c3a6d69e-fa41-410a-9a20-92de58a152a4" akn:eId="sched_13__para_29__subpara_3__qstr__tbl__oc_1__row__oc_1__col_2">
+                    <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Return under regulations under <ref class="valid" href="#sec_88" ukl:targetGuid="_bad329ee-1e3f-4801-bf41-712b570f38de">section 88</ref> of F(No. 2)A 2023.</p>
+                   </td>
+                  </tr>
+                 </tbody>
+                </table>
+               </foreign>
+              </tblock>
+             </content>
+            </quotedStructure><inline name="AppendText"/></mod>
+          </p>
+         </content>
+        </subparagraph>
+       </paragraph>
+      </hcontainer>
+      <hcontainer GUID="_55ff3ded-fc2e-40e4-9f92-64e8b4aa83a0" class="schGroup7" eId="sched_13__pt_2__xhdg_30" name="crossheading">
+       <heading GUID="_b674b1f9-2e32-4c12-800e-d6b668a8e40d" eId="sched_13__pt_2__xhdg_30__hdg">FA 2008</heading>
+       <paragraph GUID="_cb6730b1-234d-4314-89ad-c5a85292f1fd" class="schProv1" eId="sched_13__para_30">
+        <num>30</num>
+        <subparagraph GUID="_bb3cad68-8c6a-4c75-8346-de0210381b34" class="schProv2" eId="sched_13__para_30__subpara_1">
+         <num>(1)</num>
+         <content>
+          <p>The Table in paragraph 1 of Schedule 41 to FA 2008 (penalties: failure to notify etc.) is amended as follows.</p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_04a5b6a0-0475-42bd-acdc-5b1f33fa512c" class="schProv2" eId="sched_13__para_30__subpara_2">
+         <num>(2)</num>
+         <content>
+          <p>
+           <mod>After the entry relating to air passenger duty insert—<quotedStructure GUID="_3c5846f4-5951-4172-94fa-f53a6274ef93" eId="sched_13__para_30__subpara_2__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+             <content>
+              <tblock GUID="_d3002e8c-3839-4830-a2da-7c4313f0527a" class="table" eId="sched_13__para_30__subpara_2__qstr__tbl__oc_1">
+               <foreign>
+                <table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="middleVertical tableleft width100" cols="2">
+                 <tbody class="left">
+                  <tr akn:GUID="_4a58f9e0-54e6-43e5-8e15-ce26cfb5f714" akn:eId="sched_13__para_30__subpara_2__qstr__tbl__oc_1__row__oc_1">
+                   <td akn:GUID="_b18af3ec-2c8c-4c09-93d0-bff876df64f9" akn:eId="sched_13__para_30__subpara_2__qstr__tbl__oc_1__row__oc_1__col_1">
+                    <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Alcohol duty</p>
+                   </td>
+                   <td akn:GUID="_7edc2215-59ff-4dea-859b-9bcb6ce6ca52" akn:eId="sched_13__para_30__subpara_2__qstr__tbl__oc_1__row__oc_1__col_2">
+                    <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Obligations under <ref class="valid" href="#sec_88" ukl:targetGuid="_bad329ee-1e3f-4801-bf41-712b570f38de">section 88</ref> of F(No. 2)A 2023 (approval requirement: producers).</p>
+                   </td>
+                  </tr>
+                 </tbody>
+                </table>
+               </foreign>
+              </tblock>
+             </content>
+            </quotedStructure><inline name="AppendText"/></mod>
+          </p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_13021eb1-5eee-4b74-857a-399a4b1c49b9" class="schProv2" eId="sched_13__para_30__subpara_3">
+         <num>(3)</num>
+         <intro GUID="_6361f06c-b347-44a3-b623-0ed92a471b5a" eId="sched_13__para_30__subpara_3__intro">
+          <p>Omit—</p>
+         </intro>
+         <level GUID="_e8e0775f-000f-4a51-8c60-788774dbcf58" class="para1" eId="sched_13__para_30__subpara_3__para_a">
+          <num>(a)</num>
+          <content>
+           <p>the entry relating to alcohol liquor duties and obligations under sections 12(1), 47(1), 54(2), 55(2) and 62(2) of ALDA 1979 (obligations to hold licence to manufacture spirits, register to brew beer, hold licence to produce wine or made-wine and register to make cider), and</p>
+          </content>
+         </level>
+         <level GUID="_77b735a7-fbff-4cc3-9a0f-ffe5995868e3" class="para1" eId="sched_13__para_30__subpara_3__para_b">
+          <num>(b)</num>
+          <content>
+           <p>the entry relating to alcohol liquor duties and the obligation to have plant and processes approved for the manufacture of spirits under regulations under section 15(6) of ALDA 1979 (distillers' warehouses).</p>
+          </content>
+         </level>
+        </subparagraph>
+       </paragraph>
+      </hcontainer>
+      <hcontainer GUID="_4bb3b3a4-2271-492e-ae5c-440a32b3bda9" class="schGroup7" eId="sched_13__pt_2__xhdg_31" name="crossheading">
+       <heading GUID="_ecefb9c5-ca76-44f3-9a62-d1d9158669eb" eId="sched_13__pt_2__xhdg_31__hdg">FA 2009</heading>
+       <paragraph GUID="_12f4c257-8fee-4e87-85b2-c091617e5233" class="schProv1" eId="sched_13__para_31">
+        <num>31</num>
+        <content>
+         <p>FA 2009 is amended in accordance with <ref class="ignore" href="#sched_7__para_19" ukl:targetGuid="_8cf80dab-50d1-4a3e-bf0b-12171c93a3dd" ukl:targetJref="">paragraphs 32 </ref>and <ref class="ignore" href="#sched_7__para_20" ukl:targetGuid="_59ce7184-74fe-4b5a-91ce-7ad7b1603319" ukl:targetJref="">33</ref>.</p>
+        </content>
+       </paragraph>
+       <paragraph GUID="_b370575e-d544-426e-a94d-c0baf67d608f" class="schProv1" eId="sched_13__para_32">
+        <num>32</num>
+        <subparagraph GUID="_e5d6aa7a-3379-41e5-b496-481230b51c1f" class="schProv2" eId="sched_13__para_32__subpara_1">
+         <num>(1)</num>
+         <content>
+          <p>
+           <mod>In Schedule 55 (penalty for failure to make returns etc), in the Table in paragraph 1, for item 18 substitute—<quotedStructure GUID="_19e72b25-c664-4cd3-92be-4bea1bb6ebc6" eId="sched_13__para_32__subpara_1__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+             <content>
+              <tblock GUID="_f6c1ee14-7615-4096-8cc4-4a69a16a47cc" class="table" eId="sched_13__para_32__subpara_1__qstr__tbl__oc_1">
+               <foreign>
+                <table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="middleVertical tableleft width100" cols="3">
+                 <tbody class="left">
+                  <tr akn:GUID="_58f747ff-ccb3-4381-91ac-3b7cf47ab34a" akn:eId="sched_13__para_32__subpara_1__qstr__tbl__oc_1__row__oc_1">
+                   <td akn:GUID="_512c7fd3-c0eb-4e04-a707-57044c25f4ed" akn:eId="sched_13__para_32__subpara_1__qstr__tbl__oc_1__row__oc_1__col_1">
+                    <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">18</p>
+                   </td>
+                   <td akn:GUID="_c2be57a2-a93d-40b3-8fef-b30830ea2b7a" akn:eId="sched_13__para_32__subpara_1__qstr__tbl__oc_1__row__oc_1__col_2">
+                    <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Alcohol duty</p>
+                   </td>
+                   <td akn:GUID="_e2c81e43-e4cf-438a-8eb0-94773c9333db" akn:eId="sched_13__para_32__subpara_1__qstr__tbl__oc_1__row__oc_1__col_3">
+                    <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Return under regulations under <ref class="valid" href="#sec_88" ukl:targetGuid="_bad329ee-1e3f-4801-bf41-712b570f38de">section 88</ref> of F(No.2)A 2023</p>
+                   </td>
+                  </tr>
+                 </tbody>
+                </table>
+               </foreign>
+              </tblock>
+             </content>
+            </quotedStructure><inline name="AppendText">.</inline></mod>
+          </p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_118f3c69-9cc9-4eca-b464-adcc96b1deb4" class="schProv2" eId="sched_13__para_32__subpara_2">
+         <num>(2)</num>
+         <content>
+          <p>In <ref class="ignore" href="#sec_106__subsec_2" ukl:targetGuid="">subsections (2)</ref> and <ref class="ignore" href="#sec_106__subsec_4" ukl:targetGuid="">(4)</ref> of <ref class="ignore" href="#sec_106" ukl:targetGuid="">section 106</ref> (penalties for failure to make returns: commencement) references to Schedule 55 to that Act have effect as references to that Schedule as amended by this paragraph.</p>
+         </content>
+        </subparagraph>
+       </paragraph>
+       <paragraph GUID="_ccf406cc-84e2-4da9-ad8e-941e57bee803" class="schProv1" eId="sched_13__para_33">
+        <num>33</num>
+        <subparagraph GUID="_7e81963b-a072-4312-81f6-b738f6c18bed" class="schProv2" eId="sched_13__para_33__subpara_1">
+         <num>(1)</num>
+         <content>
+          <p>
+           <mod>In Schedule 56 (penalty for failure to make payments on time), in the Table in paragraph 1, for item 11E substitute—<quotedStructure GUID="_8d41d27b-b384-44cf-a884-d64adfc8af9b" eId="sched_13__para_33__subpara_1__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+             <content>
+              <tblock GUID="_da9212f6-a8ae-4ab1-b216-4f81f5df2edb" class="table" eId="sched_13__para_33__subpara_1__qstr__tbl__oc_1">
+               <foreign>
+                <table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="middleVertical tableleft width100" cols="4">
+                 <tbody class="left">
+                  <tr akn:GUID="_7e7dfbd9-f8b5-4bc7-ac93-9e253d37018e" akn:eId="sched_13__para_33__subpara_1__qstr__tbl__oc_1__row__oc_1">
+                   <td akn:GUID="_2c03bb22-7423-4310-aedd-4e917344af18" akn:eId="sched_13__para_33__subpara_1__qstr__tbl__oc_1__row__oc_1__col_1">
+                    <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">11E</p>
+                   </td>
+                   <td akn:GUID="_361b78fb-830c-4a03-b0af-3d4e61364984" akn:eId="sched_13__para_33__subpara_1__qstr__tbl__oc_1__row__oc_1__col_2">
+                    <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Alcohol duty</p>
+                   </td>
+                   <td akn:GUID="_f509cfee-d6f2-480e-9220-41ffbcef77e1" akn:eId="sched_13__para_33__subpara_1__qstr__tbl__oc_1__row__oc_1__col_3">
+                    <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Amount payable under regulations under <ref class="valid" href="#sec_88" ukl:targetGuid="_bad329ee-1e3f-4801-bf41-712b570f38de">section 88</ref> of F(No. 2)A 2023 (except an amount falling within item 17A, 23 or 24)</p>
+                   </td>
+                   <td akn:GUID="_34d47a16-5842-492a-9160-bb4de163b0a8" akn:eId="sched_13__para_33__subpara_1__qstr__tbl__oc_1__row__oc_1__col_4">
+                    <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">The date determined by or under regulations under <ref class="valid" href="#sec_88" ukl:targetGuid="_bad329ee-1e3f-4801-bf41-712b570f38de">section 88</ref> of F(No. 2)A 2023 as the date by which the amount must be paid</p>
+                   </td>
+                  </tr>
+                 </tbody>
+                </table>
+               </foreign>
+              </tblock>
+             </content>
+            </quotedStructure><inline name="AppendText">.</inline></mod>
+          </p>
+         </content>
+        </subparagraph>
+        <subparagraph GUID="_cba7ef06-8df5-4e55-ab6f-0b05c96d23ed" class="schProv2" eId="sched_13__para_33__subpara_2">
+         <num>(2)</num>
+         <content>
+          <p>In <ref class="ignore" href="#sec_107__subsec_2" ukl:targetGuid="">subsections (2)</ref> and <ref class="ignore" href="#sec_107__subsec_4" ukl:targetGuid="">(4)</ref> of <ref class="ignore" href="#sec_107" ukl:targetGuid="">section 107</ref> (penalties for failure to pay tax) references to Schedule 56 to that Act have effect as references to that Schedule as amended by this paragraph.</p>
+         </content>
+        </subparagraph>
+       </paragraph>
+      </hcontainer>
+     </part>
+    </hcontainer>
+   </hcontainer></body>
+ </bill>
+</akomaNtoso>

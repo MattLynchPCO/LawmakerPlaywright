@@ -3,7 +3,7 @@ import { chromium, FullConfig } from '@playwright/test';
 import fs from 'fs';
 import path from "node:path";
 
-const userDir = "user-data";
+const userDir = "user-data/staging";
 
 async function globalSetup(config: FullConfig) {
   

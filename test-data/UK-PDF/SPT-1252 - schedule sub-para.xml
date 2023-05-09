@@ -1,0 +1,2022 @@
+<?xml version="1.0" encoding="UTF-8"?><akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd">
+ <bill contains="originalVersion" name="ukpubb">
+  
+  <meta>
+   <identification source="#author">
+    <FRBRWork>
+     <FRBRthis value="#varWork"/>
+     <FRBRuri value="#varWorkUri"/>
+     <FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+     
+     <FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+     <FRBRdate date="9999-01-01" name="draft"/>
+     <FRBRauthor href="#varAuthor"/>
+     <FRBRcountry value="GB-UKM"/>
+     <FRBRsubtype value="#varDocSubType"/>
+     <FRBRnumber value="#varProjectId"/>
+     <FRBRname value="#varBillTitle"/>
+     <FRBRprescriptive value="true"/>
+     <FRBRauthoritative value="false"/>
+    </FRBRWork>
+    <FRBRExpression>
+     <FRBRthis value="#varExpression"/>
+     <FRBRuri value="#varExpressionUri"/>
+     <FRBRalias name="ttflVersionDescription" value="#varVDOiid"/>
+     <FRBRdate date="9999-01-01" name="draft"/>
+     <FRBRauthor href="#varAuthor"/>
+     <FRBRversionNumber value=""/>
+     <FRBRauthoritative value="false"/>
+     
+     <FRBRmasterExpression href="" showAs=""/>
+     
+     <FRBRlanguage language="eng"/>
+    </FRBRExpression>
+    <FRBRManifestation>
+     <FRBRthis value="#varManifestation"/>
+     <FRBRuri value="#varManifestationUri"/>
+     <FRBRdate date="9999-01-01" name="akn_xml"/>
+     <FRBRauthor href="#varAuthor"/>
+     <FRBRformat value="application/akn+xml"/>
+    </FRBRManifestation>
+   </identification>
+   
+   <references source="#author">
+    
+    <TLCConcept GUID="_c032b1d2-85fe-4985-bc4d-6a7b8eb01152" eId="varDocSubType" href="#varOntologies" showAs="Government Bill"/>
+    <TLCConcept GUID="_fcf49ac9-6bec-49d9-b5a6-97bf3c422694" eId="varBillTitle" href="#varOntologies" showAs="SPT-1252"/>
+    
+    <TLCConcept GUID="_06cf13e4-976f-4e61-9256-859a89a10407" eId="varHouse" href="#varOntologies" showAs="House of Commons"/>
+    
+    <TLCProcess GUID="_0f8cf6cb-3ca2-44b1-b5b3-ab4105af6f40" eId="varStageVersion" href="#varOntologies" showAs="Pre-Introduction"/>
+    <TLCProcess GUID="_9d83a2eb-9b69-4ef4-9a22-ed3dea1fe8e4" eId="varProjectId" href="#varOntologies" showAs="UK000003"/>
+    <TLCProcess GUID="_46721b99-c2cd-4ddd-8c94-bfdacd8f89c5" eId="varWork" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_7c6f6080-1a45-4288-b35e-35472189b053" eId="varWorkUri" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_de2a5eb4-149d-4ee6-8168-c78d94627709" eId="varCHOiid" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_2a1deacb-728f-4e41-921b-aed34c5fc623" eId="varExpression" href="#varOntologies" showAs="f6838b32-1a9a-47de-a8ef-f95ce272c9e5"/>
+    <TLCProcess GUID="_2f31aa31-0ebc-4c56-9797-081133d03ad7" eId="varExpressionUri" href="#varOntologies" showAs="dma:///45e6b900-8929-11d4-b772-0050da06bfb4/80742cea-0ebb-4cf6-9759-1e52358d9b5b/;guid=f6838b32-1a9a-47de-a8ef-f95ce272c9e5;class=Version%20Description"/>
+    <TLCProcess GUID="_49843a3e-6523-4442-9c2d-4923e4cf5a52" eId="varVDOiid" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_d1b9943b-046f-4271-ba00-23cfeecd6825" eId="varManifestation" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_5a15a2df-b837-431a-aafc-cce0d81c51b9" eId="varManifestationUri" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_4633b545-ecd6-41ec-b0ae-fa24aca69a07" eId="varActYear" href="#varOntologies" showAs=""/>
+    
+    <TLCConcept GUID="_1ca68be1-456e-4c44-8b96-b3d857c873b8" eId="varActTitle" href="#varOntologies" showAs=""/>
+    
+    <TLCConcept GUID="_eff83063-c186-4ce0-9ec9-7d46e84eef03" eId="varIntroDate" href="#varOntologies" showAs=""/>
+    
+    <TLCConcept GUID="_5fca703d-8dd2-40e3-8789-fa673f082453" eId="varPublicationDate" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_23c48307-f648-4603-8ee5-052bf4d7db90" eId="varBillNoComp" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_d6ee2295-c026-4b39-86de-4e2c82698b98" eId="varBillNo" href="#varOntologies" showAs=""/>
+    
+    <TLCConcept GUID="_9bc3ce47-5ae1-4c3c-9ad5-d9d9db6ebbe6" eId="varSessionNo" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_f67f9ec1-7c51-4e10-9e68-9c9892f634eb" eId="varBillYear" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_c841fda5-71af-462a-835c-d2bef368b1d2" eId="varSession" href="#varOntologies" showAs=""/>
+    
+    <TLCConcept GUID="_ddc47143-e14b-41b7-829b-e4a252798db3" eId="varBroughtFromDate" href="#varOntologies" showAs=""/>
+    
+    <TLCConcept GUID="_31907277-2585-48ff-80d0-6b2aecef10c8" eId="varPassedDate" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_3cdd9501-fa6f-4afe-94ea-22328d85b9aa" eId="varAssentDate" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_d49e4286-127a-47a6-a907-19e583697a32" eId="varActNoComp" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_06751e62-e251-4b49-83f8-668ee4b27a16" eId="varActNo" href="#varOntologies" showAs=""/>
+    
+    
+    <TLCConcept GUID="_b1877056-4502-4631-a256-919517c9561d" eId="varDocType" href="#varOntologies" showAs="UK Bill"/>
+    <TLCConcept GUID="_e7923ed7-f083-4582-9de2-fba31111bce8" eId="varSystem" href="#varOntologies" showAs="LDAPP"/>
+    <TLCConcept GUID="_4f1eb552-8475-438c-8545-83c4b9750ad7" eId="varAuthor" href="#varOntologies" showAs="UK Parliament"/>
+    <TLCConcept GUID="_9981de23-6742-4496-96f2-68954cc6018f" eId="varJurisdiction" href="#varOntologies" showAs="United Kingdom"/>
+    <TLCConcept GUID="_a06968f5-0c1a-4459-afd3-f5701f3ccc5e" eId="varOntologies" href="https://www.legislation.gov.uk/ontologies/UK-AKN" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN"/>
+
+    
+    <TLCConcept GUID="_fe5ec62a-a129-41d9-859d-5d2e4dd46e9a" eId="varSovereign" href="#varOntologies" showAs="Charles III"/>
+   </references>
+  </meta>
+  
+  <preface GUID="_f1ad881e-e390-4009-9a42-60a014c90af1" eId="preface">
+   
+   
+   <block name="stageVersion">[<docStage><ref class="placeholder" href="#varStageVersion"/></docStage>]</block>
+   <longTitle GUID="_173399e4-fc3c-4d14-9b26-79e6f6b9f7bb" eId="preface__longtitle">
+    <p class="A">A</p>
+    <p class="Bill">bill</p>
+    <p class="To">to</p>
+    <p>Make provision</p>
+   </longTitle>
+  </preface>
+  <preamble GUID="_98a5ccc1-df46-4770-afe4-b89e69b4edc6" eId="preamble">
+   
+   <formula name="enactingText">
+    <p><inline name="dropCap">B</inline><inline name="smallCaps">e it enacted</inline> by the King’s most Excellent Majesty, by and with the advice and consent of the Lords Spiritual and Temporal, and Commons, in this present Parliament assembled, and by the authority of the same, as follows:—</p>
+   </formula>
+  </preamble>
+  <body>
+   <hcontainer GUID="_014870e8-e4c2-4d55-a4d5-ec7fe0d16c9f" class="schs" eId="scheds" name="schedules">
+    <heading GUID="_598faa75-db35-4d3c-aab5-b72044fa4b55" eId="scheds__hdg">Schedules</heading>
+    <hcontainer GUID="_9c748f3c-479a-444d-b54c-9b7ba5e249ff" class="sch" eId="sched_1" name="schedule">
+     <num>Schedule 1<authorialNote GUID="_89ba8860-2f3d-4f74-b9e0-336feb69cb2e" class="referenceNote" eId="sched_1__aNote">
+       <p>s</p>
+      </authorialNote></num>
+     <heading GUID="_9477a43e-9528-44f4-8331-f9d41584c9a6" eId="sched_1__hdg">Original AC</heading>
+     <hcontainer GUID="_052854c9-bedc-441d-bd1b-59caa78cac52" class="schGroup7" eId="sched_1__xhdg_1" name="crossheading">
+      <heading GUID="_6d73af98-4828-464d-bd12-f3b316f6ac07" eId="sched_1__xhdg_1__hdg">sdfgsdf</heading>
+      <paragraph GUID="_6a606005-1111-4d32-9e45-79fc2d3062d9" class="schProv1" eId="sched_1__para_1">
+       <num>1</num>
+       <content>
+        <p>
+         <mod>sdsdfgsdfsd<quotedStructure GUID="_dfec6290-fad4-43cb-b843-097748c3171e" eId="sched_1__para_1__qstr" endQuote="”" startQuote="“" ukl:context="schedule" ukl:docName="ukpga" ukl:indent="indent0">
+           <subparagraph GUID="_add20299-27a0-465f-8546-d9f6ed70fb31" class="schProv2" eId="sched_1__para_1__qstr__subpara_1A">
+            <num ukl:autonumber="no">(1A)</num>
+            <content>
+             <p>orem iolor sit amDuis hendrerit tortor id sapien gravida placerat. Phasellus ornare feugiat tauris. M</p>
+            </content>
+           </subparagraph>
+           <subparagraph GUID="_34f105f9-213c-4e5a-ab9b-8386b606e965" class="schProv2" eId="sched_1__para_1__qstr__subpara_1B">
+            <num>(1B)</num>
+            <content>
+             <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Duis hendrerit tortor id sapien gravida placerat. Phasellus ornare feugiat trdum mauris. M</p>
+            </content>
+           </subparagraph>
+          </quotedStructure><inline name="AppendText"/></mod>
+        </p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_b777b0b0-6b1a-431a-8e81-1b57100b9a12" class="schProv1" eId="sched_1__para_2">
+       <num>2</num>
+       <content>
+        <p>
+         <mod>sdsdfgsdfsd<quotedStructure GUID="_ee9ab8e8-f1ee-436a-b782-2b9d8b5d6eaa" eId="sched_1__para_2__qstr" endQuote="”" startQuote="“" ukl:context="schedule" ukl:docName="ukpga" ukl:indent="indent0">
+           <subparagraph GUID="_cf2956e0-23ba-4059-8b07-9b425abb1eb2" class="schProv2" eId="sched_1__para_2__qstr__subpara_1W">
+            <num ukl:autonumber="no">(1W)</num>
+            <content>
+             <p>orem iolor sit amDuis hendrerit tortor id sapien gravida placerat. Phasellus ornare feugiat tauris. M</p>
+            </content>
+           </subparagraph>
+           <subparagraph GUID="_8de255a4-7fa3-479f-82d6-4c5aa8f3fdd5" class="schProv2" eId="sched_1__para_2__qstr__subpara_1B">
+            <num>(1B)</num>
+            <content>
+             <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Duis hendrerit tortor id sapien gravida placerat. Phasellus ornare feugiat trdum mauris. M</p>
+            </content>
+           </subparagraph>
+          </quotedStructure><inline name="AppendText"/></mod>
+        </p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_1cc973fc-62a9-4645-9f98-6cd21dd53490" class="schProv1" eId="sched_1__para_3">
+       <num>3</num>
+       <content>
+        <p>
+         <mod>sdsdfgsdfsd<quotedStructure GUID="_ef51b758-380e-43a9-b1a6-deb4baa5c488" eId="sched_1__para_3__qstr" endQuote="”" startQuote="“" ukl:context="schedule" ukl:docName="ukpga" ukl:indent="indent0">
+           <subparagraph GUID="_d1451504-6d23-494d-bcb6-9335467a5fcd" class="schProv2" eId="sched_1__para_3__qstr__subpara_WI">
+            <num ukl:autonumber="no">(WI)</num>
+            <content>
+             <p>orem iolor sit amDuis hendrerit tortor id sapien gravida placerat. Phasellus ornare feugiat tauris. M</p>
+            </content>
+           </subparagraph>
+           <subparagraph GUID="_b5a7bb10-db33-40d7-b5e8-3ec324f67e3f" class="schProv2" eId="sched_1__para_3__qstr__subpara_1B">
+            <num>(1B)</num>
+            <content>
+             <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Duis hendrerit tortor id sapien gravida placerat. Phasellus ornare feugiat trdum mauris. M</p>
+            </content>
+           </subparagraph>
+          </quotedStructure><inline name="AppendText"/></mod>
+        </p>
+       </content>
+      </paragraph>
+      <paragraph GUID="_4f854e49-a4d0-4fd3-a4f3-73013f677388" class="schProv1" eId="sched_1__para_4">
+       <num>4</num>
+       <content>
+        <p>
+         <mod>sdsdfgsdfsd<quotedStructure GUID="_23b254aa-7547-430e-81d5-81e345cb6b37" eId="sched_1__para_4__qstr" endQuote="”" startQuote="“" ukl:context="schedule" ukl:docName="ukpga" ukl:indent="indent0">
+           <subparagraph GUID="_13f99cee-4f37-44c6-9431-aaa45549afd4" class="schProv2" eId="sched_1__para_4__qstr__subpara_1B">
+            <num ukl:autonumber="no">(1B)</num>
+            <content>
+             <p>orem iolor sit amDuis hendrerit tortor id sapien gravida placerat. Phasellus ornare feugiat tauris. M</p>
+            </content>
+           </subparagraph>
+           <subparagraph GUID="_e081c608-0e43-42b8-b7a4-03971fb43831" class="schProv2" eId="sched_1__para_4__qstr__subpara_1B__oc_1">
+            <num>(1B)</num>
+            <content>
+             <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Duis hendrerit tortor id sapien gravida placerat. Phasellus ornare feugiat trdum mauris. M</p>
+            </content>
+           </subparagraph>
+          </quotedStructure><inline name="AppendText"/></mod>
+        </p>
+       </content>
+      </paragraph>
+     </hcontainer>
+    </hcontainer>
+    <hcontainer GUID="_9584c126-2927-49d3-a6c5-c1bffc6dacce" class="sch" eId="sched_2" name="schedule">
+     <num>Schedule 2<authorialNote GUID="_a9d0cbc0-07ca-4511-ba27-23e4f6b08009" class="referenceNote" eId="sched_2__aNote">
+       <p><ref class="valid" href="#sec_59" ukl:targetGuid="_4c563a1c-d1c5-43ac-91e7-cd4f5b624899">Section 59</ref></p>
+      </authorialNote></num>
+     <heading GUID="_d8d45674-2c0f-4794-a949-ab28a005cdbf" eId="sched_2__hdg">Secondary AC</heading>
+     <part GUID="_38fda7a1-5759-4e90-867c-e17d911084f9" class="schGroup2" eId="sched_2__pt_1">
+      <num>Part 1</num>
+      <heading GUID="_02c7beee-ea47-4c36-83c0-ee8a1208c3e3" eId="sched_2__pt_1__hdg">Alcoholic products, other than qualifying draught products, of an alcoholic strength of less than 8.5%</heading>
+      <content>
+       <tblock GUID="_82b73364-8ecb-4198-8136-7ff1976d3b79" class="table" eId="sched_2__pt_1__tbl__oc_1">
+        <foreign>
+         <table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="allBorders tableleft width100" cols="5" ukl:templateColumns="12 22 22 22 22">
+          <thead class="centre">
+           <tr akn:GUID="_ec57c3d3-6a57-4fe5-994c-c01a2c4532d1" akn:eId="sched_2__pt_1__tbl__oc_1__hdg__row__oc_1">
+            <td akn:GUID="_98ab10c1-8edd-45cf-bd8b-d342039147e6" akn:eId="sched_2__pt_1__tbl__oc_1__hdg__row__oc_1__col_1" colspan="5" rowspan="1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><b>Alcoholic products, other than spirits, of an alcoholic strength of less than 3.5%</b></p>
+            </td>
+           </tr>
+           <tr akn:GUID="_801eb03f-4fa7-4807-894f-9725dd6a8c64" akn:eId="sched_2__pt_1__tbl__oc_1__hdg__row__oc_2">
+            <td akn:GUID="_e0db4535-9e35-4e47-9668-42cf7c8066b7" akn:eId="sched_2__pt_1__tbl__oc_1__hdg__row__oc_2__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Discount band</p>
+            </td>
+            <td akn:GUID="_1b074811-47fa-4b6a-86c6-50be2e3eef35" akn:eId="sched_2__pt_1__tbl__oc_1__hdg__row__oc_2__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Start threshold (hectolitres)</p>
+            </td>
+            <td akn:GUID="_c99b579a-93dd-43fa-b027-f1f193ed19e1" akn:eId="sched_2__pt_1__tbl__oc_1__hdg__row__oc_2__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">End threshold (hectolitres)</p>
+            </td>
+            <td akn:GUID="_c5c92ed7-5afb-4025-9532-836854d03281" akn:eId="sched_2__pt_1__tbl__oc_1__hdg__row__oc_2__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Marginal discount (£)</p>
+            </td>
+            <td akn:GUID="_4cce911e-b219-40fb-8626-79f2b8513aa3" akn:eId="sched_2__pt_1__tbl__oc_1__hdg__row__oc_2__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Cumulative discount (£)</p>
+            </td>
+           </tr>
+          </thead>
+          <tbody class="centre">
+           <tr akn:GUID="_a2df323b-f14a-45ea-8b29-77a5f1131b91" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_1">
+            <td akn:GUID="_6306e19c-94de-4b58-8364-0ac35e5b814c" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1</p>
+            </td>
+            <td akn:GUID="_fb7a1a81-c861-4e6f-b1fd-c1b2ac467b34" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">0</p>
+            </td>
+            <td akn:GUID="_0194c17c-5ab0-439e-9716-f944b3c8544c" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_e1aefecd-98c0-4e3a-9ea4-b93bc615c8c5" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">9.27</p>
+            </td>
+            <td akn:GUID="_958de99f-5372-4296-a3a8-10c422365484" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_8de8080a-a59f-4eed-8fd1-6fae3ea58b88" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_2">
+            <td akn:GUID="_2e634a0f-8457-4be4-a468-0e53bec39273" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_2__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2</p>
+            </td>
+            <td akn:GUID="_885b2d85-7b24-429f-8339-36bf25c0bb70" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_2__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_2f6b879e-2397-4a35-8701-d87aca37091a" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_2__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">50</p>
+            </td>
+            <td akn:GUID="_d442e65c-c2a9-4eba-9d67-b807cb034f20" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_2__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2.32</p>
+            </td>
+            <td akn:GUID="_71d07258-d462-4658-b109-31500b7aa15b" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_2__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">46.35</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_df57394d-a006-4576-864b-0ce06c0ee9b9" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_3">
+            <td akn:GUID="_54909266-40d5-402e-b59e-fb09f10f2cf1" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_3__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">3</p>
+            </td>
+            <td akn:GUID="_0bc86a4f-fd18-49f7-b7f0-723bbdee7fbe" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_3__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">50</p>
+            </td>
+            <td akn:GUID="_282fbdc0-e294-4f24-8241-26ca19a0cd4b" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_3__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">100</p>
+            </td>
+            <td akn:GUID="_5a25014d-bfdc-4711-86ba-b69baa65073b" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_3__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1.39</p>
+            </td>
+            <td akn:GUID="_2eb86972-d520-4816-8114-eef0efd3d892" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_3__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">150.75</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_bb8c3c0d-c9ce-4802-998c-87f396f60091" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_4">
+            <td akn:GUID="_8f1e5e98-bf1b-4d3e-becb-884789b0bd88" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_4__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4</p>
+            </td>
+            <td akn:GUID="_4cdd3213-edcb-4a0e-90c7-65a10b7f11ea" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_4__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">100</p>
+            </td>
+            <td akn:GUID="_03548acc-90c7-419f-9b46-4b9e3a0e59c9" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_4__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">200</p>
+            </td>
+            <td akn:GUID="_87f98e43-6311-4965-b33b-d1f33af07330" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_4__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">0.46</p>
+            </td>
+            <td akn:GUID="_e6d1e983-b893-457e-b84b-6b2d5d14c951" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_4__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">220.25</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_5255e737-10d9-49c5-b36c-bbc53df17d52" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_5">
+            <td akn:GUID="_caf9de1a-7aeb-4f6c-b4a7-972fa5ae4acf" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_5__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_25a29815-997f-4e5b-9e2e-fd0407e680f0" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_5__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">200</p>
+            </td>
+            <td akn:GUID="_5c860cd4-9bc6-41fd-abc8-54dbf0c6e6f0" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_5__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">600</p>
+            </td>
+            <td akn:GUID="_e7b31b42-e952-414c-b81c-276d2b9e234d" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_5__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+            <td akn:GUID="_585d7d64-0fca-45fc-b4ee-178530a53798" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_5__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">266.25</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_239d1b51-0508-482e-ba70-191c8ca8ee87" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_6">
+            <td akn:GUID="_9decca17-54c9-44f2-b496-3e1dfa7dfd94" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_6__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6</p>
+            </td>
+            <td akn:GUID="_b043aa8b-52da-415c-af3a-f6b52e0a3671" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_6__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">600</p>
+            </td>
+            <td akn:GUID="_0672ef94-0e82-40cb-b7d5-84bd709782cb" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_6__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1000</p>
+            </td>
+            <td akn:GUID="_98915fcc-f2dc-427a-8563-f88502932407" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_6__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+            <td akn:GUID="_0f43d78c-6afd-42be-8725-1696beb58c41" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_6__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">266.25</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_6bfc5340-2a02-4d34-bdd6-df626787a9ed" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_7">
+            <td akn:GUID="_142fe9c6-5153-4119-bd80-2beaff89d7e6" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_7__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">7</p>
+            </td>
+            <td akn:GUID="_c03fcc63-470d-431d-9c23-4ce3c88aec9c" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_7__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1000</p>
+            </td>
+            <td akn:GUID="_914d0d29-e077-4e77-b29b-e6168d12e1f2" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_7__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4500</p>
+            </td>
+            <td akn:GUID="_8929c373-8491-4d4c-89d3-2a199cef94d0" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_7__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-0.08</p>
+            </td>
+            <td akn:GUID="_27cd1173-8f5b-4069-8521-49be6ce8902f" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_7__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">266.25</p>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+         <table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="allBorders tableleft width100" cols="5" ukl:templateColumns="12 22 22 22 22">
+          <thead class="centre">
+           <tr akn:GUID="_ec57c3d3-6a57-4fe5-994c-c01a2c4532d1" akn:eId="sched_2__pt_1__tbl__oc_1__hdg__row__oc_1__oc_1">
+            <td akn:GUID="_98ab10c1-8edd-45cf-bd8b-d342039147e6" akn:eId="sched_2__pt_1__tbl__oc_1__hdg__row__oc_1__oc_1__col_1" colspan="5" rowspan="1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><b>Spirits of an alcoholic strength of less than 3.5%</b></p>
+            </td>
+           </tr>
+           <tr akn:GUID="_801eb03f-4fa7-4807-894f-9725dd6a8c64" akn:eId="sched_2__pt_1__tbl__oc_1__hdg__row__oc_2__oc_1">
+            <td akn:GUID="_e0db4535-9e35-4e47-9668-42cf7c8066b7" akn:eId="sched_2__pt_1__tbl__oc_1__hdg__row__oc_2__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Discount band</p>
+            </td>
+            <td akn:GUID="_1b074811-47fa-4b6a-86c6-50be2e3eef35" akn:eId="sched_2__pt_1__tbl__oc_1__hdg__row__oc_2__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Start threshold (hectolitres)</p>
+            </td>
+            <td akn:GUID="_c99b579a-93dd-43fa-b027-f1f193ed19e1" akn:eId="sched_2__pt_1__tbl__oc_1__hdg__row__oc_2__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">End threshold (hectolitres)</p>
+            </td>
+            <td akn:GUID="_c5c92ed7-5afb-4025-9532-836854d03281" akn:eId="sched_2__pt_1__tbl__oc_1__hdg__row__oc_2__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Marginal discount (£)</p>
+            </td>
+            <td akn:GUID="_4cce911e-b219-40fb-8626-79f2b8513aa3" akn:eId="sched_2__pt_1__tbl__oc_1__hdg__row__oc_2__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Cumulative discount (£)</p>
+            </td>
+           </tr>
+          </thead>
+          <tbody class="centre">
+           <tr akn:GUID="_a2df323b-f14a-45ea-8b29-77a5f1131b91" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_1__oc_1">
+            <td akn:GUID="_6306e19c-94de-4b58-8364-0ac35e5b814c" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_1__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1</p>
+            </td>
+            <td akn:GUID="_fb7a1a81-c861-4e6f-b1fd-c1b2ac467b34" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_1__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">0</p>
+            </td>
+            <td akn:GUID="_0194c17c-5ab0-439e-9716-f944b3c8544c" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_1__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_e1aefecd-98c0-4e3a-9ea4-b93bc615c8c5" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_1__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6.03</p>
+            </td>
+            <td akn:GUID="_958de99f-5372-4296-a3a8-10c422365484" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_1__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_8de8080a-a59f-4eed-8fd1-6fae3ea58b88" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_2__oc_1">
+            <td akn:GUID="_2e634a0f-8457-4be4-a468-0e53bec39273" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_2__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2</p>
+            </td>
+            <td akn:GUID="_885b2d85-7b24-429f-8339-36bf25c0bb70" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_2__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_2f6b879e-2397-4a35-8701-d87aca37091a" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_2__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">50</p>
+            </td>
+            <td akn:GUID="_d442e65c-c2a9-4eba-9d67-b807cb034f20" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_2__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2.32</p>
+            </td>
+            <td akn:GUID="_71d07258-d462-4658-b109-31500b7aa15b" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_2__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">30.15</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_df57394d-a006-4576-864b-0ce06c0ee9b9" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_3__oc_1">
+            <td akn:GUID="_54909266-40d5-402e-b59e-fb09f10f2cf1" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_3__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">3</p>
+            </td>
+            <td akn:GUID="_0bc86a4f-fd18-49f7-b7f0-723bbdee7fbe" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_3__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">50</p>
+            </td>
+            <td akn:GUID="_282fbdc0-e294-4f24-8241-26ca19a0cd4b" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_3__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">100</p>
+            </td>
+            <td akn:GUID="_5a25014d-bfdc-4711-86ba-b69baa65073b" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_3__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1.39</p>
+            </td>
+            <td akn:GUID="_2eb86972-d520-4816-8114-eef0efd3d892" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_3__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">134.55</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_bb8c3c0d-c9ce-4802-998c-87f396f60091" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_4__oc_1">
+            <td akn:GUID="_8f1e5e98-bf1b-4d3e-becb-884789b0bd88" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_4__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4</p>
+            </td>
+            <td akn:GUID="_4cdd3213-edcb-4a0e-90c7-65a10b7f11ea" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_4__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">100</p>
+            </td>
+            <td akn:GUID="_03548acc-90c7-419f-9b46-4b9e3a0e59c9" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_4__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">200</p>
+            </td>
+            <td akn:GUID="_87f98e43-6311-4965-b33b-d1f33af07330" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_4__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">0.46</p>
+            </td>
+            <td akn:GUID="_e6d1e983-b893-457e-b84b-6b2d5d14c951" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_4__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">204.05</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_5255e737-10d9-49c5-b36c-bbc53df17d52" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_5__oc_1">
+            <td akn:GUID="_caf9de1a-7aeb-4f6c-b4a7-972fa5ae4acf" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_5__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_25a29815-997f-4e5b-9e2e-fd0407e680f0" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_5__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">200</p>
+            </td>
+            <td akn:GUID="_5c860cd4-9bc6-41fd-abc8-54dbf0c6e6f0" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_5__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">600</p>
+            </td>
+            <td akn:GUID="_e7b31b42-e952-414c-b81c-276d2b9e234d" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_5__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+            <td akn:GUID="_585d7d64-0fca-45fc-b4ee-178530a53798" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_5__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">250.05</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_239d1b51-0508-482e-ba70-191c8ca8ee87" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_6__oc_1">
+            <td akn:GUID="_9decca17-54c9-44f2-b496-3e1dfa7dfd94" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_6__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6</p>
+            </td>
+            <td akn:GUID="_b043aa8b-52da-415c-af3a-f6b52e0a3671" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_6__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">600</p>
+            </td>
+            <td akn:GUID="_0672ef94-0e82-40cb-b7d5-84bd709782cb" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_6__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1000</p>
+            </td>
+            <td akn:GUID="_98915fcc-f2dc-427a-8563-f88502932407" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_6__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+            <td akn:GUID="_0f43d78c-6afd-42be-8725-1696beb58c41" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_6__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">250.05</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_6bfc5340-2a02-4d34-bdd6-df626787a9ed" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_7__oc_1">
+            <td akn:GUID="_142fe9c6-5153-4119-bd80-2beaff89d7e6" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_7__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">7</p>
+            </td>
+            <td akn:GUID="_c03fcc63-470d-431d-9c23-4ce3c88aec9c" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_7__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1000</p>
+            </td>
+            <td akn:GUID="_914d0d29-e077-4e77-b29b-e6168d12e1f2" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_7__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4500</p>
+            </td>
+            <td akn:GUID="_8929c373-8491-4d4c-89d3-2a199cef94d0" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_7__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-0.07</p>
+            </td>
+            <td akn:GUID="_27cd1173-8f5b-4069-8521-49be6ce8902f" akn:eId="sched_2__pt_1__tbl__oc_1__row__oc_7__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">250.05</p>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </foreign>
+       </tblock>
+       <tblock GUID="_75eb4f90-000d-437d-af83-2f8261e08deb" class="table" eId="sched_2__pt_1__tbl__oc_2">
+        <foreign>
+         <table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="allBorders tableleft width100" cols="5" ukl:templateColumns="12 22 22 22 22">
+          <thead class="centre">
+           <tr akn:GUID="_f2bf7abe-3cca-4bda-9850-46347eb73535" akn:eId="sched_2__pt_1__tbl__oc_2__hdg__row__oc_1">
+            <td akn:GUID="_8f9a3390-0fa6-478d-92ac-e76c5a4c824f" akn:eId="sched_2__pt_1__tbl__oc_2__hdg__row__oc_1__col_1" colspan="5" rowspan="1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><b>Still cider of an alcoholic strength of at least 3.5%; </b><b>sparkling cider of an alcoholic strength of at least 3.5% but not exceeding 5.5%</b></p>
+            </td>
+           </tr>
+           <tr akn:GUID="_4510390b-7aa1-40f9-83e9-2e1700adba56" akn:eId="sched_2__pt_1__tbl__oc_2__hdg__row__oc_2">
+            <td akn:GUID="_f65cfef1-8453-4317-87f6-e19f9f9574f0" akn:eId="sched_2__pt_1__tbl__oc_2__hdg__row__oc_2__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Discount band</p>
+            </td>
+            <td akn:GUID="_cd1502f4-ab34-4468-b3da-62e5076e95e0" akn:eId="sched_2__pt_1__tbl__oc_2__hdg__row__oc_2__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Start threshold (hectolitres)</p>
+            </td>
+            <td akn:GUID="_60d9c2a4-0da6-4eb4-b602-f3c6994a54a7" akn:eId="sched_2__pt_1__tbl__oc_2__hdg__row__oc_2__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">End threshold (hectolitres)</p>
+            </td>
+            <td akn:GUID="_548a19b5-a98c-4cde-824e-7cf7c48564d3" akn:eId="sched_2__pt_1__tbl__oc_2__hdg__row__oc_2__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Marginal discount (£)</p>
+            </td>
+            <td akn:GUID="_849450a6-3c0d-436f-bad7-5b065db5e28a" akn:eId="sched_2__pt_1__tbl__oc_2__hdg__row__oc_2__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Cumulative discount (£)</p>
+            </td>
+           </tr>
+          </thead>
+          <tbody class="centre">
+           <tr akn:GUID="_56219cf7-0197-4b7a-9d32-0e681e4f03aa" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_1">
+            <td akn:GUID="_daf6ed39-0701-4cf1-ad71-1bc296b952ff" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1</p>
+            </td>
+            <td akn:GUID="_e3e5e56e-2063-4649-a0be-5f046b0e88b9" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">0</p>
+            </td>
+            <td akn:GUID="_7b33de3e-4dc1-4f7b-8f89-2ce6b6675cf5" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_d5f79faf-e938-485b-85d5-8d397cafb84c" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">9.67</p>
+            </td>
+            <td akn:GUID="_97201588-4049-45da-b51a-896094bfc857" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_9ecfb242-f0f1-4ad7-a5f9-64f6b0a7705e" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_2">
+            <td akn:GUID="_a85df092-c678-4c7a-b5d1-073f312e8c1b" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_2__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2</p>
+            </td>
+            <td akn:GUID="_5e511942-8ff2-40dd-bdd8-aede812e2f8c" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_2__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_aa679ce9-0f67-4f68-8300-f8fe41865cc2" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_2__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">50</p>
+            </td>
+            <td akn:GUID="_272dbfea-8836-4d35-96ad-71b0489a9fba" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_2__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2.42</p>
+            </td>
+            <td akn:GUID="_41d6a3ef-aac0-4658-af51-c03c3ca8c0c2" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_2__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">48.35</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_c193eba2-2bd4-4546-849c-657fa6c78944" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_3">
+            <td akn:GUID="_5b6dcd95-e7fb-4815-95ce-efc3532f790a" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_3__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">3</p>
+            </td>
+            <td akn:GUID="_92684282-9050-4fd3-96d4-596370161e75" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_3__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">50</p>
+            </td>
+            <td akn:GUID="_36acbc2c-0862-4f3b-b852-1153aa3f3b14" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_3__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">100</p>
+            </td>
+            <td akn:GUID="_2477085d-7cdf-48d6-9108-5c3039aba9eb" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_3__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1.45</p>
+            </td>
+            <td akn:GUID="_782a3fb6-439f-4d5b-9466-9ca8ed648921" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_3__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">157.25</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_71cd9a61-619a-48bd-873c-26c1b30f4e73" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_4">
+            <td akn:GUID="_a3157979-65ad-4151-82d4-50696ab91dc0" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_4__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4</p>
+            </td>
+            <td akn:GUID="_1538f7d7-7fa4-4ee5-8fa7-bd92ccf621ec" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_4__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">100</p>
+            </td>
+            <td akn:GUID="_cd82392f-ef36-4805-b9cc-01a7b0139f97" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_4__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">200</p>
+            </td>
+            <td akn:GUID="_19099fd6-ec32-4608-bc46-feeace4bb316" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_4__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">0.48</p>
+            </td>
+            <td akn:GUID="_65331054-f576-47ae-8ffc-9c8ece486f51" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_4__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">229.75</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_086e2e3c-6a47-442e-9b40-e7bdb5b16b81" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_5">
+            <td akn:GUID="_33ef99bd-78a0-442f-8e11-505a85b4b1af" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_5__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_bc121825-5c71-4f1d-957b-3083db5c2e2b" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_5__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">200</p>
+            </td>
+            <td akn:GUID="_b6d654b5-4fbc-42ee-8baf-2b4d80e673af" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_5__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">600</p>
+            </td>
+            <td akn:GUID="_c2c69206-4e7b-46ea-bfc2-8de286514c1a" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_5__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+            <td akn:GUID="_cac18ef5-3c0a-4972-a852-60242cbc18a5" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_5__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">277.75</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_79e34862-c4a2-4fc7-975e-37b59fe43b69" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_6">
+            <td akn:GUID="_882058f1-9c4a-4cbb-b239-63acd9c0cce4" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_6__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6</p>
+            </td>
+            <td akn:GUID="_a27745ab-e741-42c9-9329-5416077debaf" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_6__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">600</p>
+            </td>
+            <td akn:GUID="_f678e798-a24c-4a97-9452-f23e1833edf5" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_6__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1000</p>
+            </td>
+            <td akn:GUID="_93619081-85c4-43ab-b487-0d8b0a06ee32" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_6__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+            <td akn:GUID="_dd069dfd-03b9-45c1-8794-556876d3a59b" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_6__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">277.75</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_cbbc704c-5493-4abf-b1bb-a65d3e0a350f" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_7">
+            <td akn:GUID="_0d7f5f3e-8728-4df1-9ed4-09607d31da7c" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_7__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">7</p>
+            </td>
+            <td akn:GUID="_85405a6c-ef43-4df8-a799-af5a6bf49bdf" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_7__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1000</p>
+            </td>
+            <td akn:GUID="_b66d6c89-b12a-40eb-954a-7c101b2fde2a" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_7__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4500</p>
+            </td>
+            <td akn:GUID="_53c7f8c5-8976-4f45-8d06-2bb9726016d0" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_7__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-0.08</p>
+            </td>
+            <td akn:GUID="_df2fd6d2-23b9-4b4f-84c9-950f9782b972" akn:eId="sched_2__pt_1__tbl__oc_2__row__oc_7__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">277.75</p>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </foreign>
+       </tblock>
+       <tblock GUID="_fefe3a32-7966-4f48-8eb7-bae0b12a9099" class="table" eId="sched_2__pt_1__tbl__oc_3">
+        <foreign>
+         <table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="allBorders tableleft width100" cols="5" ukl:templateColumns="12 22 22 22 22">
+          <thead class="centre">
+           <tr akn:GUID="_b4c849af-440e-498b-a42b-9ee38cf74cc8" akn:eId="sched_2__pt_1__tbl__oc_3__hdg__row__oc_1">
+            <td akn:GUID="_b509b174-6238-49e4-b239-390f5dbc3468" akn:eId="sched_2__pt_1__tbl__oc_3__hdg__row__oc_1__col_1" colspan="5" rowspan="1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><b>Beer of an alcoholic strength of at least 3.5% </b></p>
+            </td>
+           </tr>
+           <tr akn:GUID="_9e64ccfc-c951-4805-b311-28e6503d04a0" akn:eId="sched_2__pt_1__tbl__oc_3__hdg__row__oc_2">
+            <td akn:GUID="_9ac10a44-4b37-48d7-87b8-fed676d4144d" akn:eId="sched_2__pt_1__tbl__oc_3__hdg__row__oc_2__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Discount band</p>
+            </td>
+            <td akn:GUID="_12aacf9b-685d-423f-8e74-6fc754ba398e" akn:eId="sched_2__pt_1__tbl__oc_3__hdg__row__oc_2__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Start threshold (hectolitres)</p>
+            </td>
+            <td akn:GUID="_615b8a28-d871-49e3-8d0b-5d795ab141e8" akn:eId="sched_2__pt_1__tbl__oc_3__hdg__row__oc_2__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">End threshold (hectolitres)</p>
+            </td>
+            <td akn:GUID="_959cbec3-75de-4fe6-bcea-771411d9736b" akn:eId="sched_2__pt_1__tbl__oc_3__hdg__row__oc_2__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Marginal discount (£)</p>
+            </td>
+            <td akn:GUID="_b92635a8-4722-4aa6-b393-8ddca24f571a" akn:eId="sched_2__pt_1__tbl__oc_3__hdg__row__oc_2__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Cumulative discount (£)</p>
+            </td>
+           </tr>
+          </thead>
+          <tbody class="centre">
+           <tr akn:GUID="_2de90719-db57-44fa-943d-c22d944e676e" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_1">
+            <td akn:GUID="_89a49aab-c641-4118-9f75-bd96360120b0" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1</p>
+            </td>
+            <td akn:GUID="_88e9b7a0-3de2-4abe-8c63-45916d7b4493" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">0</p>
+            </td>
+            <td akn:GUID="_fa8853f0-f024-449d-87cb-7a15b33f1311" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_0652d0de-81a5-4fc4-8483-5f8d81728236" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">18.91</p>
+            </td>
+            <td akn:GUID="_147e6050-22ba-474c-baf6-e21a6cdc4f12" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_e169e178-dc9e-4258-9167-3c69bb223b40" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_2">
+            <td akn:GUID="_2ea0a6fe-1cb8-4598-a974-6caae040d30b" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_2__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2</p>
+            </td>
+            <td akn:GUID="_bd675f90-a441-49b4-8eac-3c8642378bf7" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_2__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_a1131588-0bfc-4245-9260-c50465c1ab6f" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_2__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">112.5</p>
+            </td>
+            <td akn:GUID="_d0e1c421-f07c-4e53-82a3-fb4f51ead34b" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_2__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">10.51</p>
+            </td>
+            <td akn:GUID="_53ffabe4-2fbc-41c0-a50a-e1bfa110cded" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_2__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">94.55</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_470a1936-ff0f-450a-b371-1aa6fedb8b23" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_3">
+            <td akn:GUID="_15de003c-e288-455d-9040-f8b3db0ff6e0" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_3__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">3</p>
+            </td>
+            <td akn:GUID="_7d106ca9-bad5-424f-8eed-6831e2442bd5" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_3__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">112.5</p>
+            </td>
+            <td akn:GUID="_ad7465ec-9939-4df2-bfb2-3634d0afb3d8" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_3__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">225</p>
+            </td>
+            <td akn:GUID="_de1a5807-8c17-4218-a3a0-eb8e34a9800d" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_3__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">9.45</p>
+            </td>
+            <td akn:GUID="_e7e8f6f9-197a-4eed-b793-9cf8ae02c062" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_3__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1224.38</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_14a85cb7-3b2d-4089-98c1-94050261ac69" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_4">
+            <td akn:GUID="_8cc6120f-42bc-4309-a7d5-be3d990698e9" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_4__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4</p>
+            </td>
+            <td akn:GUID="_ddb09ae5-4ade-42a9-b188-55009271d641" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_4__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">225</p>
+            </td>
+            <td akn:GUID="_92f5c68c-bd34-43c5-a048-ac59cf062f6c" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_4__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">450</p>
+            </td>
+            <td akn:GUID="_6d206800-7ceb-4847-a1de-b59a6d6b4b00" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_4__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5.25</p>
+            </td>
+            <td akn:GUID="_9dcf9b30-677e-444f-b28b-9d2e126df6ea" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_4__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2287.50</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_ae23770d-4cd4-4fb2-843b-53e408a6da23" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_5">
+            <td akn:GUID="_8c1b0925-0a73-4b2f-90ab-65a19978eb7a" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_5__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_3e534935-7a15-409c-97b9-75a1e9499068" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_5__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">450</p>
+            </td>
+            <td akn:GUID="_c52c6462-0499-420c-8e4b-8152b5d24d38" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_5__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">900</p>
+            </td>
+            <td akn:GUID="_59d2b953-e3ed-45e7-b4d4-54dc80fd6f11" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_5__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">3.15</p>
+            </td>
+            <td akn:GUID="_8cb61f8c-3ec7-4e2c-965b-ead46e160764" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_5__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">3468.75</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_33ed56ab-659d-4d55-83ef-098f085fdf6e" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_6">
+            <td akn:GUID="_c966aa13-8075-4ff5-9f79-f525a5937bb2" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_6__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6</p>
+            </td>
+            <td akn:GUID="_215150b6-ebc5-4d15-9b35-3b5eb474f09b" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_6__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">900</p>
+            </td>
+            <td akn:GUID="_8dce00ef-4237-450a-be3b-68233ada99e7" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_6__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1350</p>
+            </td>
+            <td akn:GUID="_397439e9-e3db-4375-b724-c38d7f738dde" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_6__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+            <td akn:GUID="_577f2aa6-d22e-4d55-910d-ea8923cfaa0d" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_6__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4886.25</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_8d8d4bbf-75cb-46f2-86f6-be7b358a2b22" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_7">
+            <td akn:GUID="_0655b536-7bee-43b8-a6f6-45f503b0459a" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_7__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">7</p>
+            </td>
+            <td akn:GUID="_6bbe7ff2-9ade-4dba-8aec-77e31a4c39b2" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_7__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1350</p>
+            </td>
+            <td akn:GUID="_b6dbbf5c-36fe-4d35-a735-21223474b49f" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_7__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4500</p>
+            </td>
+            <td akn:GUID="_f168d020-8509-469d-8c9b-ae3a082eebe4" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_7__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-1.55</p>
+            </td>
+            <td akn:GUID="_a9d24fea-2914-4069-8eb8-3593545ffbcf" akn:eId="sched_2__pt_1__tbl__oc_3__row__oc_7__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4886.25</p>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </foreign>
+       </tblock>
+       <tblock GUID="_588a09df-1107-48c4-b19b-5e5830a77fe4" class="table" eId="sched_2__pt_1__tbl__oc_4">
+        <foreign>
+         <table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="allBorders tableleft width100" cols="5" ukl:templateColumns="12 22 22 22 22">
+          <thead class="centre">
+           <tr akn:GUID="_997d0615-5e1e-4d2c-a26f-5930e368d212" akn:eId="sched_2__pt_1__tbl__oc_4__hdg__row__oc_1">
+            <td akn:GUID="_1c872154-5211-414b-922a-c4bdad8a7731" akn:eId="sched_2__pt_1__tbl__oc_4__hdg__row__oc_1__col_1" colspan="5" rowspan="1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><b>Wine and other fermented products of an alcoholic strength of at least 3.5%; sparkling cider of an alcoholic strength exceeding 5.5%</b></p>
+            </td>
+           </tr>
+           <tr akn:GUID="_4beeeca5-9fab-4dd3-acac-18bfdba3638b" akn:eId="sched_2__pt_1__tbl__oc_4__hdg__row__oc_2">
+            <td akn:GUID="_fff21a11-c153-44b3-bfc0-39000374f1eb" akn:eId="sched_2__pt_1__tbl__oc_4__hdg__row__oc_2__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Discount band</p>
+            </td>
+            <td akn:GUID="_ff773097-a4fc-4a42-9327-2c34d7a2e952" akn:eId="sched_2__pt_1__tbl__oc_4__hdg__row__oc_2__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Start threshold (hectolitres)</p>
+            </td>
+            <td akn:GUID="_7e419382-3a1c-43f9-ad6d-cdc966ea5b5c" akn:eId="sched_2__pt_1__tbl__oc_4__hdg__row__oc_2__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">End threshold (hectolitres)</p>
+            </td>
+            <td akn:GUID="_765c8670-d17c-420e-9d24-9db61c9b71e1" akn:eId="sched_2__pt_1__tbl__oc_4__hdg__row__oc_2__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Marginal discount (£)</p>
+            </td>
+            <td akn:GUID="_221458e7-05c5-49d0-b687-8338ac0fab33" akn:eId="sched_2__pt_1__tbl__oc_4__hdg__row__oc_2__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Cumulative discount (£)</p>
+            </td>
+           </tr>
+          </thead>
+          <tbody class="centre">
+           <tr akn:GUID="_0d144efd-da89-4833-877c-d7f8c0d27c13" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_1">
+            <td akn:GUID="_ca810892-da48-46a6-a7a8-c909674a7020" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1</p>
+            </td>
+            <td akn:GUID="_b7ac5d3b-ae4d-4968-bb5a-8511961f9d58" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">0</p>
+            </td>
+            <td akn:GUID="_bc0a33e4-ebfb-4daa-851b-b7f7f328459b" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_d82567eb-6822-4c29-ae67-219d8d0d5b34" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">24.77</p>
+            </td>
+            <td akn:GUID="_2126ad60-972f-4a01-b08f-26c5f487a0a4" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_335782ae-ba9a-4172-9613-791bc4ac7f45" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_2">
+            <td akn:GUID="_cbfb8f5a-f27f-41ce-8a03-2c0d812489ac" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_2__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2</p>
+            </td>
+            <td akn:GUID="_bfbfb638-e27c-46c3-99a9-6b0ed2f49436" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_2__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_505aa90e-14b8-402c-b30d-671af8b633f1" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_2__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">50</p>
+            </td>
+            <td akn:GUID="_6ea1fbc9-28f8-4f60-98ec-46d2d9b34869" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_2__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2.48</p>
+            </td>
+            <td akn:GUID="_04a43e97-8e7b-47e2-881d-c01c57f4449f" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_2__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">123.85</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_6232b52a-e392-4123-8faa-2351a38c501b" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_3">
+            <td akn:GUID="_b2fecda9-2506-4978-bb0c-c8ea8261631d" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_3__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">3</p>
+            </td>
+            <td akn:GUID="_5b840830-175e-4de7-b5ec-b2e31822bae4" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_3__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">50</p>
+            </td>
+            <td akn:GUID="_6604313b-6318-4784-b30f-ce76351b1e26" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_3__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">100</p>
+            </td>
+            <td akn:GUID="_23178087-b298-4966-9a7a-cd95ba95534a" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_3__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2.48</p>
+            </td>
+            <td akn:GUID="_5a5d0469-cc07-4477-b779-3e345e580bf1" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_3__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">235.45</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_4896dc59-d648-45f2-b5a9-2392adb735db" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_4">
+            <td akn:GUID="_11fb5177-220d-4869-9800-e0be798c860b" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_4__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4</p>
+            </td>
+            <td akn:GUID="_55603607-d347-43fe-8acf-35d3181c0331" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_4__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">100</p>
+            </td>
+            <td akn:GUID="_a0e9d99a-8cc4-497f-bec6-c5bb66076a6b" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_4__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">200</p>
+            </td>
+            <td akn:GUID="_ed9da002-e580-4b54-95d6-1fc7fdde64cb" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_4__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1.24</p>
+            </td>
+            <td akn:GUID="_fc2c3e8b-fcce-4cb9-968c-c21b7ab1bcf1" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_4__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">359.45</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_0f673d30-5c45-4a13-8b53-ea956e5d6ef8" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_5">
+            <td akn:GUID="_29ac325f-5a98-440d-a162-780a48d2f057" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_5__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_c3c2cd9f-601e-41e5-98ea-77e4ab2cf0d1" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_5__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">200</p>
+            </td>
+            <td akn:GUID="_4d06c5f6-38d0-4362-b0ea-7b3af758915c" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_5__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">600</p>
+            </td>
+            <td akn:GUID="_1a2c7af9-83cb-4614-9ea0-4d7141f38f98" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_5__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+            <td akn:GUID="_3ecead78-c540-4f1a-9f3b-73a98022fd6c" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_5__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">483.45</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_d1782c9d-4f6d-466a-bc0d-b02e718924f9" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_6">
+            <td akn:GUID="_968850c6-3408-4df1-9df7-a80b14f0a05e" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_6__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6</p>
+            </td>
+            <td akn:GUID="_8cd14a7f-ce81-4ec1-a535-4757e978f80c" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_6__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">600</p>
+            </td>
+            <td akn:GUID="_a0b76b10-a723-4569-8222-b09e12beaa0d" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_6__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1000</p>
+            </td>
+            <td akn:GUID="_82aa201d-571f-4d39-a0fa-11e29cdf9acd" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_6__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+            <td akn:GUID="_07986d97-8b97-4d87-9382-aa1bdea5f96b" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_6__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">483.45</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_166ca3b4-7cf1-45c9-b990-b02a23d4bc92" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_7">
+            <td akn:GUID="_d63707f5-8ee7-4f83-b358-2c22e1b02e76" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_7__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">7</p>
+            </td>
+            <td akn:GUID="_57fb9dd6-1b44-4f28-abe2-9ac8edb0ab9f" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_7__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1000</p>
+            </td>
+            <td akn:GUID="_9e5be2fd-6b69-43e9-b98a-1582e7aaecae" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_7__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4500</p>
+            </td>
+            <td akn:GUID="_6045663a-4524-4e8f-9aca-a3999e8fa533" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_7__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-0.14</p>
+            </td>
+            <td akn:GUID="_de25152d-24fd-4e60-80e5-6ae78f8c59d5" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_7__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">483.45</p>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+         <table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="allBorders tableleft width100" cols="5" ukl:templateColumns="12 22 22 22 22">
+          <thead class="centre">
+           <tr akn:GUID="_997d0615-5e1e-4d2c-a26f-5930e368d212" akn:eId="sched_2__pt_1__tbl__oc_4__hdg__row__oc_1__oc_1">
+            <td akn:GUID="_1c872154-5211-414b-922a-c4bdad8a7731" akn:eId="sched_2__pt_1__tbl__oc_4__hdg__row__oc_1__oc_1__col_1" colspan="5" rowspan="1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><b>Spirits of an alcoholic strength of at least 3.5%</b></p>
+            </td>
+           </tr>
+           <tr akn:GUID="_4beeeca5-9fab-4dd3-acac-18bfdba3638b" akn:eId="sched_2__pt_1__tbl__oc_4__hdg__row__oc_2__oc_1">
+            <td akn:GUID="_fff21a11-c153-44b3-bfc0-39000374f1eb" akn:eId="sched_2__pt_1__tbl__oc_4__hdg__row__oc_2__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Discount band</p>
+            </td>
+            <td akn:GUID="_ff773097-a4fc-4a42-9327-2c34d7a2e952" akn:eId="sched_2__pt_1__tbl__oc_4__hdg__row__oc_2__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Start threshold (hectolitres)</p>
+            </td>
+            <td akn:GUID="_7e419382-3a1c-43f9-ad6d-cdc966ea5b5c" akn:eId="sched_2__pt_1__tbl__oc_4__hdg__row__oc_2__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">End threshold (hectolitres)</p>
+            </td>
+            <td akn:GUID="_765c8670-d17c-420e-9d24-9db61c9b71e1" akn:eId="sched_2__pt_1__tbl__oc_4__hdg__row__oc_2__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Marginal discount (£)</p>
+            </td>
+            <td akn:GUID="_221458e7-05c5-49d0-b687-8338ac0fab33" akn:eId="sched_2__pt_1__tbl__oc_4__hdg__row__oc_2__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Cumulative discount (£)</p>
+            </td>
+           </tr>
+          </thead>
+          <tbody class="centre">
+           <tr akn:GUID="_0d144efd-da89-4833-877c-d7f8c0d27c13" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_1__oc_1">
+            <td akn:GUID="_ca810892-da48-46a6-a7a8-c909674a7020" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_1__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1</p>
+            </td>
+            <td akn:GUID="_b7ac5d3b-ae4d-4968-bb5a-8511961f9d58" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_1__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">0</p>
+            </td>
+            <td akn:GUID="_bc0a33e4-ebfb-4daa-851b-b7f7f328459b" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_1__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_d82567eb-6822-4c29-ae67-219d8d0d5b34" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_1__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">19.82</p>
+            </td>
+            <td akn:GUID="_2126ad60-972f-4a01-b08f-26c5f487a0a4" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_1__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_335782ae-ba9a-4172-9613-791bc4ac7f45" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_2__oc_1">
+            <td akn:GUID="_cbfb8f5a-f27f-41ce-8a03-2c0d812489ac" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_2__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2</p>
+            </td>
+            <td akn:GUID="_bfbfb638-e27c-46c3-99a9-6b0ed2f49436" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_2__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_505aa90e-14b8-402c-b30d-671af8b633f1" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_2__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">50</p>
+            </td>
+            <td akn:GUID="_6ea1fbc9-28f8-4f60-98ec-46d2d9b34869" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_2__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2.48</p>
+            </td>
+            <td akn:GUID="_04a43e97-8e7b-47e2-881d-c01c57f4449f" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_2__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">99.10</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_6232b52a-e392-4123-8faa-2351a38c501b" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_3__oc_1">
+            <td akn:GUID="_b2fecda9-2506-4978-bb0c-c8ea8261631d" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_3__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">3</p>
+            </td>
+            <td akn:GUID="_5b840830-175e-4de7-b5ec-b2e31822bae4" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_3__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">50</p>
+            </td>
+            <td akn:GUID="_6604313b-6318-4784-b30f-ce76351b1e26" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_3__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">100</p>
+            </td>
+            <td akn:GUID="_23178087-b298-4966-9a7a-cd95ba95534a" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_3__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2.48</p>
+            </td>
+            <td akn:GUID="_5a5d0469-cc07-4477-b779-3e345e580bf1" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_3__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">210.70</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_4896dc59-d648-45f2-b5a9-2392adb735db" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_4__oc_1">
+            <td akn:GUID="_11fb5177-220d-4869-9800-e0be798c860b" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_4__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4</p>
+            </td>
+            <td akn:GUID="_55603607-d347-43fe-8acf-35d3181c0331" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_4__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">100</p>
+            </td>
+            <td akn:GUID="_a0e9d99a-8cc4-497f-bec6-c5bb66076a6b" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_4__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">200</p>
+            </td>
+            <td akn:GUID="_ed9da002-e580-4b54-95d6-1fc7fdde64cb" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_4__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1.24</p>
+            </td>
+            <td akn:GUID="_fc2c3e8b-fcce-4cb9-968c-c21b7ab1bcf1" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_4__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">334.70</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_0f673d30-5c45-4a13-8b53-ea956e5d6ef8" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_5__oc_1">
+            <td akn:GUID="_29ac325f-5a98-440d-a162-780a48d2f057" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_5__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_c3c2cd9f-601e-41e5-98ea-77e4ab2cf0d1" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_5__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">200</p>
+            </td>
+            <td akn:GUID="_4d06c5f6-38d0-4362-b0ea-7b3af758915c" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_5__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">600</p>
+            </td>
+            <td akn:GUID="_1a2c7af9-83cb-4614-9ea0-4d7141f38f98" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_5__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+            <td akn:GUID="_3ecead78-c540-4f1a-9f3b-73a98022fd6c" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_5__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">458.70</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_d1782c9d-4f6d-466a-bc0d-b02e718924f9" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_6__oc_1">
+            <td akn:GUID="_968850c6-3408-4df1-9df7-a80b14f0a05e" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_6__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6</p>
+            </td>
+            <td akn:GUID="_8cd14a7f-ce81-4ec1-a535-4757e978f80c" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_6__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">600</p>
+            </td>
+            <td akn:GUID="_a0b76b10-a723-4569-8222-b09e12beaa0d" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_6__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1000</p>
+            </td>
+            <td akn:GUID="_82aa201d-571f-4d39-a0fa-11e29cdf9acd" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_6__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+            <td akn:GUID="_07986d97-8b97-4d87-9382-aa1bdea5f96b" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_6__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">458.70</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_166ca3b4-7cf1-45c9-b990-b02a23d4bc92" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_7__oc_1">
+            <td akn:GUID="_d63707f5-8ee7-4f83-b358-2c22e1b02e76" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_7__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">7</p>
+            </td>
+            <td akn:GUID="_57fb9dd6-1b44-4f28-abe2-9ac8edb0ab9f" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_7__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1000</p>
+            </td>
+            <td akn:GUID="_9e5be2fd-6b69-43e9-b98a-1582e7aaecae" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_7__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4500</p>
+            </td>
+            <td akn:GUID="_6045663a-4524-4e8f-9aca-a3999e8fa533" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_7__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-0.13</p>
+            </td>
+            <td akn:GUID="_de25152d-24fd-4e60-80e5-6ae78f8c59d5" akn:eId="sched_2__pt_1__tbl__oc_4__row__oc_7__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">458.70</p>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </foreign>
+       </tblock>
+      </content>
+     </part>
+     <part GUID="_79deb7af-322c-44d8-b6fb-5c6c499e4982" class="schGroup2" eId="sched_2__pt_2">
+      <num>Part 2</num>
+      <heading GUID="_e126cd14-c4c8-4a78-91b3-8e650acb78a7" eId="sched_2__pt_2__hdg">Qualifying draught products of an alcoholic strength of less than 8.5%</heading>
+      <content>
+       <tblock GUID="_4ceb8b41-e7e2-45b0-9205-4abb07d9e576" class="table" eId="sched_2__pt_2__tbl__oc_1">
+        <foreign>
+         <table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="allBorders tableleft width100" cols="5" ukl:templateColumns="12 22 22 22 22">
+          <thead class="centre">
+           <tr akn:GUID="_4238be35-ee4f-4774-b3b0-ecad43fe7587" akn:eId="sched_2__pt_2__tbl__oc_1__hdg__row__oc_1">
+            <td akn:GUID="_bef6766d-7a27-4924-98b3-39d74555dc1c" akn:eId="sched_2__pt_2__tbl__oc_1__hdg__row__oc_1__col_1" colspan="5" rowspan="1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><b><b>Alcoholic products, other than spirits, of an alcoholic strength of less than 3.5%</b></b></p>
+            </td>
+           </tr>
+           <tr akn:GUID="_f6b2f0b5-00ef-4d88-9b8a-96b15d06081a" akn:eId="sched_2__pt_2__tbl__oc_1__hdg__row__oc_2">
+            <td akn:GUID="_2b9e5a87-e262-4232-a3c3-97fbd8655673" akn:eId="sched_2__pt_2__tbl__oc_1__hdg__row__oc_2__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Discount band</p>
+            </td>
+            <td akn:GUID="_264df11d-6b57-4296-b5ed-e24947c24ecf" akn:eId="sched_2__pt_2__tbl__oc_1__hdg__row__oc_2__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Start threshold (hectolitres)</p>
+            </td>
+            <td akn:GUID="_2dfa939c-344d-43d9-b0c5-e35405e6ed87" akn:eId="sched_2__pt_2__tbl__oc_1__hdg__row__oc_2__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">End threshold (hectolitres)</p>
+            </td>
+            <td akn:GUID="_41f0b409-060d-4572-a54f-e1005fb89909" akn:eId="sched_2__pt_2__tbl__oc_1__hdg__row__oc_2__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Marginal discount (£)</p>
+            </td>
+            <td akn:GUID="_963ce5a3-a9d7-4056-a07a-6bcc0b730090" akn:eId="sched_2__pt_2__tbl__oc_1__hdg__row__oc_2__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Cumulative discount (£)</p>
+            </td>
+           </tr>
+          </thead>
+          <tbody class="centre">
+           <tr akn:GUID="_76c6311a-b41b-4599-969c-67f5fb03ce6f" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_1">
+            <td akn:GUID="_22b0fbc3-bfd6-46d6-b916-48d5b8515b25" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1</p>
+            </td>
+            <td akn:GUID="_70254754-95a1-4a47-81cc-1e23ce63830d" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">0</p>
+            </td>
+            <td akn:GUID="_76b64c0d-02f7-4080-856b-a64648454cdd" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_f5c4c4cf-da8f-4cc6-81a7-c5deebc739a2" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">8.42</p>
+            </td>
+            <td akn:GUID="_f727a5a0-0d84-4c77-a81b-43cb854b191a" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_b56933f5-328f-4cbc-99e9-d1dbb381f368" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_2">
+            <td akn:GUID="_b26e5c3e-3035-4432-b2a8-66ee007c0171" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_2__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2</p>
+            </td>
+            <td akn:GUID="_c5538b52-7b27-4d6d-a260-b2430a9b5b5f" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_2__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_ba8700ba-ce4e-43af-92e3-cf6c95be83a9" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_2__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">50</p>
+            </td>
+            <td akn:GUID="_78181f1b-21b0-40e4-8876-305a38973261" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_2__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2.11</p>
+            </td>
+            <td akn:GUID="_38a0f95f-ed8a-43b0-a61d-38f25e1656bd" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_2__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">42.10</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_71976be4-7c5d-4f3c-a97a-f2fcab9a84b0" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_3">
+            <td akn:GUID="_ada52abc-8d2f-4af4-8cd6-59a4bdc6fa3f" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_3__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">3</p>
+            </td>
+            <td akn:GUID="_1b8a5525-364d-4b90-896d-78587dfad417" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_3__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">50</p>
+            </td>
+            <td akn:GUID="_9598ec6d-5043-4131-9e14-0d0fa9905efe" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_3__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">100</p>
+            </td>
+            <td akn:GUID="_8270370c-781b-4533-9b0b-0084e6373d8d" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_3__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1.26</p>
+            </td>
+            <td akn:GUID="_643c4d5c-67ed-4d44-b5e9-305e810c6cff" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_3__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">137.05</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_74737bbb-03cc-46df-bcf1-ab7f85006543" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_4">
+            <td akn:GUID="_7eff07b4-bd0c-4fbd-b8a0-9edf12360976" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_4__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4</p>
+            </td>
+            <td akn:GUID="_a34dc0dc-e6db-47ff-b085-76f9636f2a62" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_4__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">100</p>
+            </td>
+            <td akn:GUID="_e07fab90-e0e2-44dc-a0fd-f9df4442a376" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_4__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">200</p>
+            </td>
+            <td akn:GUID="_d94e77e9-2d37-497e-8380-bcc0cb92c6f8" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_4__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">0.42</p>
+            </td>
+            <td akn:GUID="_7b2a6807-f581-41a4-b87e-1568a2dcba75" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_4__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">200.05</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_f218e08a-ac25-493b-8f7c-4b88e35a9eab" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_5">
+            <td akn:GUID="_cb3f78c5-1f13-4ce6-9c1d-86fadda60bdb" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_5__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_29aa7fac-2723-4189-a858-5771da692f26" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_5__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">200</p>
+            </td>
+            <td akn:GUID="_377386de-5510-4c67-a423-d6a857452a56" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_5__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">600</p>
+            </td>
+            <td akn:GUID="_4b4ae3df-32a5-4343-a836-03c6eebf3905" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_5__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+            <td akn:GUID="_fce0602b-004d-488a-b2e3-92ddcd4f74e8" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_5__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">242.05</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_ff6a0c86-21ee-4000-899f-9598903831b6" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_6">
+            <td akn:GUID="_9a888cfc-1886-4a75-acd2-952441672321" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_6__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6</p>
+            </td>
+            <td akn:GUID="_477d2966-db9d-49cb-9fcb-385bff4f2aa7" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_6__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">600</p>
+            </td>
+            <td akn:GUID="_9b0c7257-7f6f-4953-82cd-2f24d8d768bd" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_6__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1000</p>
+            </td>
+            <td akn:GUID="_d0b51057-e53b-4da7-90b6-2f87eddf5237" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_6__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+            <td akn:GUID="_bb92aa83-bcc9-4e82-b4e3-e78fbd174176" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_6__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">242.05</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_5187a643-064e-463d-8b45-8d8721b83db9" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_7">
+            <td akn:GUID="_fe9b6a39-e39d-447a-abb3-cf420517ecc9" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_7__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">7</p>
+            </td>
+            <td akn:GUID="_2aa99442-ed33-4d6b-a22d-68b4d4c65411" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_7__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1000</p>
+            </td>
+            <td akn:GUID="_ff2c805f-fb29-4274-bd98-4b3195ea7ade" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_7__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4500</p>
+            </td>
+            <td akn:GUID="_d9291930-8add-4bd1-b441-d478237cd8e9" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_7__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-0.07</p>
+            </td>
+            <td akn:GUID="_c02e1b51-0be9-48d4-a543-a5386eba10f5" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_7__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">242.05</p>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+         <table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="allBorders tableleft width100" cols="5" ukl:templateColumns="12 22 22 22 22">
+          <thead class="centre">
+           <tr akn:GUID="_4238be35-ee4f-4774-b3b0-ecad43fe7587" akn:eId="sched_2__pt_2__tbl__oc_1__hdg__row__oc_1__oc_1">
+            <td akn:GUID="_bef6766d-7a27-4924-98b3-39d74555dc1c" akn:eId="sched_2__pt_2__tbl__oc_1__hdg__row__oc_1__oc_1__col_1" colspan="5" rowspan="1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><b><b>Spirits of an alcoholic strength of less than 3.5%</b></b></p>
+            </td>
+           </tr>
+           <tr akn:GUID="_f6b2f0b5-00ef-4d88-9b8a-96b15d06081a" akn:eId="sched_2__pt_2__tbl__oc_1__hdg__row__oc_2__oc_1">
+            <td akn:GUID="_2b9e5a87-e262-4232-a3c3-97fbd8655673" akn:eId="sched_2__pt_2__tbl__oc_1__hdg__row__oc_2__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Discount band</p>
+            </td>
+            <td akn:GUID="_264df11d-6b57-4296-b5ed-e24947c24ecf" akn:eId="sched_2__pt_2__tbl__oc_1__hdg__row__oc_2__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Start threshold (hectolitres)</p>
+            </td>
+            <td akn:GUID="_2dfa939c-344d-43d9-b0c5-e35405e6ed87" akn:eId="sched_2__pt_2__tbl__oc_1__hdg__row__oc_2__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">End threshold (hectolitres)</p>
+            </td>
+            <td akn:GUID="_41f0b409-060d-4572-a54f-e1005fb89909" akn:eId="sched_2__pt_2__tbl__oc_1__hdg__row__oc_2__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Marginal discount (£)</p>
+            </td>
+            <td akn:GUID="_963ce5a3-a9d7-4056-a07a-6bcc0b730090" akn:eId="sched_2__pt_2__tbl__oc_1__hdg__row__oc_2__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Cumulative discount (£)</p>
+            </td>
+           </tr>
+          </thead>
+          <tbody class="centre">
+           <tr akn:GUID="_76c6311a-b41b-4599-969c-67f5fb03ce6f" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_1__oc_1">
+            <td akn:GUID="_22b0fbc3-bfd6-46d6-b916-48d5b8515b25" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_1__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1</p>
+            </td>
+            <td akn:GUID="_70254754-95a1-4a47-81cc-1e23ce63830d" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_1__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">0</p>
+            </td>
+            <td akn:GUID="_76b64c0d-02f7-4080-856b-a64648454cdd" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_1__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_f5c4c4cf-da8f-4cc6-81a7-c5deebc739a2" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_1__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5.47</p>
+            </td>
+            <td akn:GUID="_f727a5a0-0d84-4c77-a81b-43cb854b191a" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_1__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_b56933f5-328f-4cbc-99e9-d1dbb381f368" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_2__oc_1">
+            <td akn:GUID="_b26e5c3e-3035-4432-b2a8-66ee007c0171" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_2__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2</p>
+            </td>
+            <td akn:GUID="_c5538b52-7b27-4d6d-a260-b2430a9b5b5f" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_2__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_ba8700ba-ce4e-43af-92e3-cf6c95be83a9" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_2__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">50</p>
+            </td>
+            <td akn:GUID="_78181f1b-21b0-40e4-8876-305a38973261" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_2__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2.11</p>
+            </td>
+            <td akn:GUID="_38a0f95f-ed8a-43b0-a61d-38f25e1656bd" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_2__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">27.35</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_71976be4-7c5d-4f3c-a97a-f2fcab9a84b0" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_3__oc_1">
+            <td akn:GUID="_ada52abc-8d2f-4af4-8cd6-59a4bdc6fa3f" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_3__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">3</p>
+            </td>
+            <td akn:GUID="_1b8a5525-364d-4b90-896d-78587dfad417" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_3__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">50</p>
+            </td>
+            <td akn:GUID="_9598ec6d-5043-4131-9e14-0d0fa9905efe" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_3__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">100</p>
+            </td>
+            <td akn:GUID="_8270370c-781b-4533-9b0b-0084e6373d8d" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_3__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1.26</p>
+            </td>
+            <td akn:GUID="_643c4d5c-67ed-4d44-b5e9-305e810c6cff" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_3__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">122.30</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_74737bbb-03cc-46df-bcf1-ab7f85006543" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_4__oc_1">
+            <td akn:GUID="_7eff07b4-bd0c-4fbd-b8a0-9edf12360976" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_4__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4</p>
+            </td>
+            <td akn:GUID="_a34dc0dc-e6db-47ff-b085-76f9636f2a62" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_4__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">100</p>
+            </td>
+            <td akn:GUID="_e07fab90-e0e2-44dc-a0fd-f9df4442a376" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_4__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">200</p>
+            </td>
+            <td akn:GUID="_d94e77e9-2d37-497e-8380-bcc0cb92c6f8" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_4__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">0.42</p>
+            </td>
+            <td akn:GUID="_7b2a6807-f581-41a4-b87e-1568a2dcba75" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_4__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">185.30</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_f218e08a-ac25-493b-8f7c-4b88e35a9eab" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_5__oc_1">
+            <td akn:GUID="_cb3f78c5-1f13-4ce6-9c1d-86fadda60bdb" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_5__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_29aa7fac-2723-4189-a858-5771da692f26" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_5__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">200</p>
+            </td>
+            <td akn:GUID="_377386de-5510-4c67-a423-d6a857452a56" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_5__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">600</p>
+            </td>
+            <td akn:GUID="_4b4ae3df-32a5-4343-a836-03c6eebf3905" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_5__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+            <td akn:GUID="_fce0602b-004d-488a-b2e3-92ddcd4f74e8" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_5__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">227.30</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_ff6a0c86-21ee-4000-899f-9598903831b6" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_6__oc_1">
+            <td akn:GUID="_9a888cfc-1886-4a75-acd2-952441672321" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_6__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6</p>
+            </td>
+            <td akn:GUID="_477d2966-db9d-49cb-9fcb-385bff4f2aa7" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_6__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">600</p>
+            </td>
+            <td akn:GUID="_9b0c7257-7f6f-4953-82cd-2f24d8d768bd" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_6__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1000</p>
+            </td>
+            <td akn:GUID="_d0b51057-e53b-4da7-90b6-2f87eddf5237" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_6__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+            <td akn:GUID="_bb92aa83-bcc9-4e82-b4e3-e78fbd174176" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_6__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">227.30</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_5187a643-064e-463d-8b45-8d8721b83db9" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_7__oc_1">
+            <td akn:GUID="_fe9b6a39-e39d-447a-abb3-cf420517ecc9" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_7__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">7</p>
+            </td>
+            <td akn:GUID="_2aa99442-ed33-4d6b-a22d-68b4d4c65411" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_7__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1000</p>
+            </td>
+            <td akn:GUID="_ff2c805f-fb29-4274-bd98-4b3195ea7ade" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_7__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4500</p>
+            </td>
+            <td akn:GUID="_d9291930-8add-4bd1-b441-d478237cd8e9" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_7__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-0.06</p>
+            </td>
+            <td akn:GUID="_c02e1b51-0be9-48d4-a543-a5386eba10f5" akn:eId="sched_2__pt_2__tbl__oc_1__row__oc_7__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">227.30</p>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </foreign>
+       </tblock>
+       <tblock GUID="_aca577e3-9bf8-4379-80b3-58dd2b6d9c89" class="table" eId="sched_2__pt_2__tbl__oc_2">
+        <foreign>
+         <table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="allBorders tableleft width100" cols="5" ukl:templateColumns="12 22 22 22 22">
+          <thead class="centre">
+           <tr akn:GUID="_4e7ec45e-3f51-4f05-8c5d-8d50dca01b8f" akn:eId="sched_2__pt_2__tbl__oc_2__hdg__row__oc_1">
+            <td akn:GUID="_f9385d2d-27d4-4dbd-9d72-112d0aa2e07d" akn:eId="sched_2__pt_2__tbl__oc_2__hdg__row__oc_1__col_1" colspan="5" rowspan="1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><b><b>Still cider of an alcoholic strength of at least 3.5%; </b><b>sparkling cider of an alcoholic strength of at least 3.5% but not exceeding 5.5%</b></b></p>
+            </td>
+           </tr>
+           <tr akn:GUID="_252650c8-ec6a-4fd2-8028-11d70f526910" akn:eId="sched_2__pt_2__tbl__oc_2__hdg__row__oc_2">
+            <td akn:GUID="_b8622914-64e9-4ef2-8e45-b311aa83950f" akn:eId="sched_2__pt_2__tbl__oc_2__hdg__row__oc_2__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Discount band</p>
+            </td>
+            <td akn:GUID="_655a8be9-1dbd-4e87-a96a-97d9effd4be1" akn:eId="sched_2__pt_2__tbl__oc_2__hdg__row__oc_2__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Start threshold (hectolitres)</p>
+            </td>
+            <td akn:GUID="_554889e8-c8d5-42d7-9cd7-9dec977b8402" akn:eId="sched_2__pt_2__tbl__oc_2__hdg__row__oc_2__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">End threshold (hectolitres)</p>
+            </td>
+            <td akn:GUID="_a1713dff-b666-401d-98ff-0d034453b38e" akn:eId="sched_2__pt_2__tbl__oc_2__hdg__row__oc_2__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Marginal discount (£)</p>
+            </td>
+            <td akn:GUID="_982b056f-3cc4-416a-a451-df0163de45c3" akn:eId="sched_2__pt_2__tbl__oc_2__hdg__row__oc_2__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Cumulative discount (£)</p>
+            </td>
+           </tr>
+          </thead>
+          <tbody class="centre">
+           <tr akn:GUID="_9f68d969-fb3a-4abd-8675-51b8cc13a5d4" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_1">
+            <td akn:GUID="_c1731e17-5b4c-4b3f-a989-c77fa68581cd" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1</p>
+            </td>
+            <td akn:GUID="_1c18966e-7021-434e-933d-e2f06375e605" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">0</p>
+            </td>
+            <td akn:GUID="_38dd2f5c-11d8-43c6-8f22-9249f22ccbe1" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_dc50df4f-b1cf-454c-9f26-7b94bd53e6ab" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">8.78</p>
+            </td>
+            <td akn:GUID="_e6cecb03-a7de-47a7-9e4d-1f6e670fe094" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_d296cea3-f5de-441b-af08-566e1e181b21" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_2">
+            <td akn:GUID="_0e1989df-6c4a-49af-8961-39963f2ae75d" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_2__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2</p>
+            </td>
+            <td akn:GUID="_5709af4f-8726-47cf-8519-54d997f9c106" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_2__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_744604bc-2971-45c8-ba6d-24bce53acaad" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_2__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">50</p>
+            </td>
+            <td akn:GUID="_a1bc4b3f-1c3f-44e3-be6b-7c5660977c8d" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_2__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2.19</p>
+            </td>
+            <td akn:GUID="_0471a7ca-51cc-4ec6-9c5c-d6c9c2e41c09" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_2__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">43.90</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_4e88a42b-e3be-4341-8e54-68754dd14da3" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_3">
+            <td akn:GUID="_416dd608-e9f1-459f-9ad1-ae6523fcfa99" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_3__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">3</p>
+            </td>
+            <td akn:GUID="_fe604c4a-66bc-4737-abb6-ff5418b12bb2" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_3__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">50</p>
+            </td>
+            <td akn:GUID="_92bf60d8-0016-4da6-9967-687ea2841609" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_3__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">100</p>
+            </td>
+            <td akn:GUID="_1eea9597-44f5-4ba7-9f61-aa0fd8924b28" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_3__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1.32</p>
+            </td>
+            <td akn:GUID="_53bc930e-7228-4664-b6ae-15dca536eb7b" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_3__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">142.45</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_5f9a2d5f-034d-49a1-8080-c642e521d7dd" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_4">
+            <td akn:GUID="_055633c7-a1d7-48bb-a133-8eb14a715461" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_4__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4</p>
+            </td>
+            <td akn:GUID="_470b5f74-3b1c-430e-8e98-cf7e4da4dc40" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_4__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">100</p>
+            </td>
+            <td akn:GUID="_3981beb1-7a2e-46be-8bc4-4997c81757ab" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_4__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">200</p>
+            </td>
+            <td akn:GUID="_da06f6b8-2487-4b2e-bcb7-01ccb04ca294" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_4__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">0.44</p>
+            </td>
+            <td akn:GUID="_a19b0be6-391f-41e5-814b-05f1ea6792b0" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_4__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">208.45</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_818c4fa8-1197-4fae-a387-3a7332c6bd6e" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_5">
+            <td akn:GUID="_0658cd10-95ee-4757-b271-6f15deb9be0f" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_5__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_fdaa78fd-c3d9-4836-8210-1ac5abcb9ca8" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_5__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">200</p>
+            </td>
+            <td akn:GUID="_48a0c031-9e02-425c-b673-e564e55f63ca" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_5__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">600</p>
+            </td>
+            <td akn:GUID="_cb7f9906-04ab-4817-b27f-44c4a878fee3" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_5__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+            <td akn:GUID="_91523361-a055-4e99-a49e-a1875da2f6ba" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_5__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">252.45</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_04876444-7d4e-47bb-bd2c-89280981c542" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_6">
+            <td akn:GUID="_5965a312-2630-4614-bc13-d6e03bdb0102" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_6__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6</p>
+            </td>
+            <td akn:GUID="_ca2d8e89-5b32-4b0f-a88e-d8530969d5ca" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_6__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">600</p>
+            </td>
+            <td akn:GUID="_bde89dab-b854-4c29-a5a2-cf38f5dff3b6" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_6__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1000</p>
+            </td>
+            <td akn:GUID="_fbe77f71-ac23-4089-9300-91ee34ed65ac" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_6__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+            <td akn:GUID="_add49cad-8117-4208-83a6-987b4fa36a47" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_6__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">252.45</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_90078bc0-f674-4cc9-b75d-4e89fda79b1a" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_7">
+            <td akn:GUID="_1eec80a3-25d1-4f61-9d6c-08aab1a7a519" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_7__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">7</p>
+            </td>
+            <td akn:GUID="_b61d84ff-d190-4d51-b3eb-935789f10c68" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_7__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1000</p>
+            </td>
+            <td akn:GUID="_9409d254-2226-4fa8-bc07-e7bfcfe277b2" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_7__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4500</p>
+            </td>
+            <td akn:GUID="_826f0265-bcf5-4ba1-9688-15b6bbfa068b" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_7__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-0.07</p>
+            </td>
+            <td akn:GUID="_4e3422fd-228d-46de-8c7f-caf7709cb1cf" akn:eId="sched_2__pt_2__tbl__oc_2__row__oc_7__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">252.45</p>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </foreign>
+       </tblock>
+       <tblock GUID="_9b9fb220-b10a-489b-94c3-2a8000b893c8" class="table" eId="sched_2__pt_2__tbl__oc_3">
+        <foreign>
+         <table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="allBorders tableleft width100" cols="5" ukl:templateColumns="12 22 22 22 22">
+          <thead class="centre">
+           <tr akn:GUID="_228119d6-b464-497c-b52b-be22c35b3426" akn:eId="sched_2__pt_2__tbl__oc_3__hdg__row__oc_1">
+            <td akn:GUID="_75415db2-def4-4e78-93fa-adabe5bb8afb" akn:eId="sched_2__pt_2__tbl__oc_3__hdg__row__oc_1__col_1" colspan="5" rowspan="1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><b>Beer of an alcoholic strength of at least 3.5%</b></p>
+            </td>
+           </tr>
+           <tr akn:GUID="_a1a880b7-878e-4737-8a45-59a823f07982" akn:eId="sched_2__pt_2__tbl__oc_3__hdg__row__oc_2">
+            <td akn:GUID="_e06f68a1-e2fc-4c07-992d-ea638ab62246" akn:eId="sched_2__pt_2__tbl__oc_3__hdg__row__oc_2__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Discount band</p>
+            </td>
+            <td akn:GUID="_be3ac1d2-2d2e-405e-9dfa-1ff4ddedb7ed" akn:eId="sched_2__pt_2__tbl__oc_3__hdg__row__oc_2__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Start threshold (hectolitres)</p>
+            </td>
+            <td akn:GUID="_2ce2ed60-0e9b-4063-b8e3-b37cd63d7239" akn:eId="sched_2__pt_2__tbl__oc_3__hdg__row__oc_2__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">End threshold (hectolitres)</p>
+            </td>
+            <td akn:GUID="_6e0ee4a0-81f0-4c2c-8390-371dcf450b65" akn:eId="sched_2__pt_2__tbl__oc_3__hdg__row__oc_2__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Marginal discount (£)</p>
+            </td>
+            <td akn:GUID="_c4957e66-363e-4134-8c28-c39688298a4d" akn:eId="sched_2__pt_2__tbl__oc_3__hdg__row__oc_2__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Cumulative discount (£)</p>
+            </td>
+           </tr>
+          </thead>
+          <tbody class="centre">
+           <tr akn:GUID="_2091988d-3ccd-4189-a7c1-110e1794ff16" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_1">
+            <td akn:GUID="_47bfeea7-bed1-4d55-9e8c-2d9bfda5943e" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1</p>
+            </td>
+            <td akn:GUID="_19b39b20-2301-4fd6-bc2c-5e66051dbbf0" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">0</p>
+            </td>
+            <td akn:GUID="_2e516302-2232-4f27-90fa-ffdbcda1ed6a" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_2bdf023d-6f59-4589-97f6-fc32bbfeb0ff" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">17.17</p>
+            </td>
+            <td akn:GUID="_b128f1fe-e3c2-41a6-bed0-59d87b6e4da7" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_67377a57-2a38-4a3c-99cd-78d5e7252ade" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_2">
+            <td akn:GUID="_44405d47-f34f-4279-8e18-def0303eccbd" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_2__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2</p>
+            </td>
+            <td akn:GUID="_f216db4a-5cb1-41c2-98c2-5cebeae8cccb" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_2__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_b2fec090-f83a-42aa-b35d-389f2b28c4ed" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_2__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">112.5</p>
+            </td>
+            <td akn:GUID="_5e4ecef1-61bd-4819-bf26-284ed1cdf356" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_2__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">9.54</p>
+            </td>
+            <td akn:GUID="_118382a3-5929-4153-aa00-ec363b0a178c" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_2__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">85.85</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_2dcabfa8-b26e-4e84-a8cd-e021b146ebd7" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_3">
+            <td akn:GUID="_6e3b2e45-dcaa-4d7c-abcc-6e1f96af59f8" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_3__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">3</p>
+            </td>
+            <td akn:GUID="_3d57e46e-d015-44bf-adfe-a92e3de690e0" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_3__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">112.5</p>
+            </td>
+            <td akn:GUID="_b53b9508-ee97-4ef8-b261-c0415b596db0" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_3__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">225</p>
+            </td>
+            <td akn:GUID="_0e2a55c2-a317-4840-b52c-19958c22af28" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_3__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">8.59</p>
+            </td>
+            <td akn:GUID="_90e1b652-2258-4ba1-8c62-f4014791b510" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_3__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1111.40</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_c0d3a36a-212f-4fc4-a179-753b7fa92c82" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_4">
+            <td akn:GUID="_a01b9eab-0ee1-4d74-8ecb-9c7de4cb474f" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_4__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4</p>
+            </td>
+            <td akn:GUID="_a0d20345-563a-4ba0-8feb-b02408d29eef" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_4__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">225</p>
+            </td>
+            <td akn:GUID="_40a471af-23bf-4fae-9185-adb2c6da1126" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_4__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">450</p>
+            </td>
+            <td akn:GUID="_4ec7e5ba-d1dd-430f-b586-5b6af7dd00d7" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_4__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4.77</p>
+            </td>
+            <td akn:GUID="_f3b785e0-d42c-4cd5-93e3-93fb0d882dff" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_4__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2077.78</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_be9b1600-1508-457c-b5fa-a608a152ed01" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_5">
+            <td akn:GUID="_75641088-987a-4425-abc0-e3a7d4dc04dc" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_5__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_7b58dcc1-7715-4a6e-b65a-71b4be8124c4" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_5__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">450</p>
+            </td>
+            <td akn:GUID="_0221fe55-722e-4463-9b31-0e7cdf01f422" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_5__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">900</p>
+            </td>
+            <td akn:GUID="_4cbf4993-4a0f-41b1-b1b6-731dd84a1dde" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_5__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2.86</p>
+            </td>
+            <td akn:GUID="_1097685f-d181-4244-b190-654bcc30c0e7" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_5__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">3151.03</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_9b66d0da-e123-4c72-ac3e-75a6ee225805" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_6">
+            <td akn:GUID="_d025a074-5077-4540-9f6b-d4ef1e5feefd" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_6__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6</p>
+            </td>
+            <td akn:GUID="_13ed0211-3cee-42f2-8cc7-c7cd9d8eadf3" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_6__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">900</p>
+            </td>
+            <td akn:GUID="_4e18b82b-c77f-441b-8c74-6433ac537c13" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_6__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1350</p>
+            </td>
+            <td akn:GUID="_8e64083f-1967-40b8-a0c2-06ca1f7b4a66" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_6__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+            <td akn:GUID="_d11ad431-35d0-46d1-a80c-c5c8a18c85f1" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_6__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4438.03</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_c7b34e8d-caf4-46b5-9ea4-fc4d8e46f8d8" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_7">
+            <td akn:GUID="_79305114-5380-46a7-b058-c446852435f8" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_7__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">7</p>
+            </td>
+            <td akn:GUID="_1b94ac70-8ab2-404d-9ae0-f6adcf6f54d2" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_7__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1350</p>
+            </td>
+            <td akn:GUID="_979b1a9d-331b-4c28-9825-a6b5e34b8da3" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_7__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4500</p>
+            </td>
+            <td akn:GUID="_92664bc9-9bb4-4af6-8c64-5a722105977e" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_7__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-1.41</p>
+            </td>
+            <td akn:GUID="_e1f86087-95fe-4d31-8440-6959de69a131" akn:eId="sched_2__pt_2__tbl__oc_3__row__oc_7__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4438.03</p>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </foreign>
+       </tblock>
+       <tblock GUID="_dbbb18a1-aa97-437e-a465-7a7acd3ae941" class="table" eId="sched_2__pt_2__tbl__oc_4">
+        <foreign>
+         <table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="allBorders tableleft width100" cols="5" ukl:templateColumns="12 22 22 22 22">
+          <thead class="centre">
+           <tr akn:GUID="_d7fca298-b3fd-449d-8e53-ab15d2e6f004" akn:eId="sched_2__pt_2__tbl__oc_4__hdg__row__oc_1">
+            <td akn:GUID="_5387b60b-c3b6-4858-84bd-17c3e09dc2d8" akn:eId="sched_2__pt_2__tbl__oc_4__hdg__row__oc_1__col_1" colspan="5" rowspan="1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><b><b>Wine and other fermented products of an alcoholic strength of at least 3.5%; sparkling cider of an alcoholic strength exceeding 5.5%</b></b></p>
+            </td>
+           </tr>
+           <tr akn:GUID="_effd521e-7bdf-457b-96a6-476de0aa672a" akn:eId="sched_2__pt_2__tbl__oc_4__hdg__row__oc_2">
+            <td akn:GUID="_59a9ff7f-bfe7-4c07-899f-87aae9cd5819" akn:eId="sched_2__pt_2__tbl__oc_4__hdg__row__oc_2__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Discount band</p>
+            </td>
+            <td akn:GUID="_cfd04680-5ca5-4330-90df-3e12b302898d" akn:eId="sched_2__pt_2__tbl__oc_4__hdg__row__oc_2__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Start threshold (hectolitres)</p>
+            </td>
+            <td akn:GUID="_2b53de2e-5d64-4a72-b209-c0e61e1cff9e" akn:eId="sched_2__pt_2__tbl__oc_4__hdg__row__oc_2__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">End threshold (hectolitres)</p>
+            </td>
+            <td akn:GUID="_8e0054f1-9208-4fa7-bd8c-76c5f2ca4a8a" akn:eId="sched_2__pt_2__tbl__oc_4__hdg__row__oc_2__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Marginal discount (£)</p>
+            </td>
+            <td akn:GUID="_ba55608d-a16c-4b20-bd6b-b3f3aedc9ce6" akn:eId="sched_2__pt_2__tbl__oc_4__hdg__row__oc_2__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Cumulative discount (£)</p>
+            </td>
+           </tr>
+          </thead>
+          <tbody class="centre">
+           <tr akn:GUID="_3ddea41d-9d3a-454b-a8a8-3f055469c4fb" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_1">
+            <td akn:GUID="_79c8dc59-7f98-44bb-8a99-a196a09cdd90" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1</p>
+            </td>
+            <td akn:GUID="_a357fea4-c996-41f6-8a17-258b0b1337af" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">0</p>
+            </td>
+            <td akn:GUID="_a8b5f4b7-9ac8-4367-bc81-6f530aa5779c" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_347becab-64f0-41f3-8abf-b211feb14578" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">19.08</p>
+            </td>
+            <td akn:GUID="_00fa3e2a-4f7f-4b69-ac8d-fce9178d3aa9" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_fdc647f7-3349-4bbc-a7e6-0678c1c2faff" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_2">
+            <td akn:GUID="_1f04fdfd-3ef6-49d3-8ad0-d3bb708b56a4" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_2__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2</p>
+            </td>
+            <td akn:GUID="_6553da8a-1fe5-45d1-818e-34ad5a504faf" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_2__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_a6c0a0e0-d8e9-4a37-8b18-add17e721e78" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_2__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">50</p>
+            </td>
+            <td akn:GUID="_eb794ec2-f940-417d-b6d0-9fc5a6d40eeb" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_2__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1.91</p>
+            </td>
+            <td akn:GUID="_db1ef5e8-249a-46c1-9f45-c3e35599dcda" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_2__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">95.40</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_3f0894cf-2639-4cd9-83ee-f71fa75462d1" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_3">
+            <td akn:GUID="_06a69824-6a15-4115-b350-eeb4cb15f08a" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_3__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">3</p>
+            </td>
+            <td akn:GUID="_df54a9e1-b636-4af2-b2bb-a325d37e66f0" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_3__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">50</p>
+            </td>
+            <td akn:GUID="_556f4932-4538-407d-8b29-d9694dc53e45" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_3__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">100</p>
+            </td>
+            <td akn:GUID="_baee0168-d361-4a53-9768-ca07b0387746" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_3__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1.91</p>
+            </td>
+            <td akn:GUID="_93ed5902-894b-4e88-81ac-87a2bc348fbc" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_3__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">181.35</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_b28851b1-3eb4-4874-a6f1-5b893ee142c6" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_4">
+            <td akn:GUID="_1b6bef53-73a1-4313-a594-95e6c77a08a6" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_4__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4</p>
+            </td>
+            <td akn:GUID="_89aa986a-3aaa-41db-b05f-4787d1b7c9e9" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_4__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">100</p>
+            </td>
+            <td akn:GUID="_3d6fde3b-7882-4a1f-b4cb-8fb8061f0717" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_4__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">200</p>
+            </td>
+            <td akn:GUID="_8a6e0baa-c266-4cb8-884d-7dc9ed375c80" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_4__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">0.95</p>
+            </td>
+            <td akn:GUID="_ef93e2b8-f736-4a58-bf93-27acd43c200a" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_4__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">276.85</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_db9b8cc2-4f99-4f9e-8946-09c42ed272b3" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_5">
+            <td akn:GUID="_070564e3-2521-4744-b00b-4590b049a209" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_5__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_30b4b81f-23cd-4093-82d5-51df3ccb3cdd" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_5__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">200</p>
+            </td>
+            <td akn:GUID="_5642b834-8bb1-4e41-9a26-55369b9e698a" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_5__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">600</p>
+            </td>
+            <td akn:GUID="_64cfd21e-04db-4e52-a8b0-2f89dd449f10" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_5__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+            <td akn:GUID="_edaa783f-c71e-4654-9f7d-5011aa39e9fe" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_5__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">371.85</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_ba239512-0343-402a-929b-eb7cfee9da43" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_6">
+            <td akn:GUID="_de8b5a90-980d-4e53-8705-1494b6dcd478" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_6__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6</p>
+            </td>
+            <td akn:GUID="_50497c07-c4c8-4879-b4ad-1abe4ba7b046" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_6__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">600</p>
+            </td>
+            <td akn:GUID="_392d6bc1-ad17-4c8c-a108-f2cddfd348f8" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_6__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1000</p>
+            </td>
+            <td akn:GUID="_e3736a7c-37c0-41fd-bb4f-e86ee810b96d" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_6__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+            <td akn:GUID="_8bdb1819-7ab1-4727-a2a2-bdabd4b43f88" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_6__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">371.85</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_1ac7bf4a-5933-4c16-8ef7-828eccbb5eb9" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_7">
+            <td akn:GUID="_0be38cd5-fe00-42f9-9e46-b4c702614cb1" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_7__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">7</p>
+            </td>
+            <td akn:GUID="_c773da6a-f882-41f5-9762-84d7317051ab" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_7__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1000</p>
+            </td>
+            <td akn:GUID="_93ac4099-53ca-4bc7-839f-d3caa8fa5be4" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_7__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4500</p>
+            </td>
+            <td akn:GUID="_88bf0a93-4ddc-4214-b04b-681ca2b52a66" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_7__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-0.11</p>
+            </td>
+            <td akn:GUID="_184c2ccc-33c7-4d32-8b01-861c2898fe00" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_7__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">371.85</p>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+         <table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="allBorders tableleft width100" cols="5" ukl:templateColumns="12 22 22 22 22">
+          <thead class="centre">
+           <tr akn:GUID="_d7fca298-b3fd-449d-8e53-ab15d2e6f004" akn:eId="sched_2__pt_2__tbl__oc_4__hdg__row__oc_1__oc_1">
+            <td akn:GUID="_5387b60b-c3b6-4858-84bd-17c3e09dc2d8" akn:eId="sched_2__pt_2__tbl__oc_4__hdg__row__oc_1__oc_1__col_1" colspan="5" rowspan="1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><b><b>Spirits of an alcoholic strength of at least 3.5%</b></b></p>
+            </td>
+           </tr>
+           <tr akn:GUID="_effd521e-7bdf-457b-96a6-476de0aa672a" akn:eId="sched_2__pt_2__tbl__oc_4__hdg__row__oc_2__oc_1">
+            <td akn:GUID="_59a9ff7f-bfe7-4c07-899f-87aae9cd5819" akn:eId="sched_2__pt_2__tbl__oc_4__hdg__row__oc_2__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Discount band</p>
+            </td>
+            <td akn:GUID="_cfd04680-5ca5-4330-90df-3e12b302898d" akn:eId="sched_2__pt_2__tbl__oc_4__hdg__row__oc_2__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Start threshold (hectolitres)</p>
+            </td>
+            <td akn:GUID="_2b53de2e-5d64-4a72-b209-c0e61e1cff9e" akn:eId="sched_2__pt_2__tbl__oc_4__hdg__row__oc_2__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">End threshold (hectolitres)</p>
+            </td>
+            <td akn:GUID="_8e0054f1-9208-4fa7-bd8c-76c5f2ca4a8a" akn:eId="sched_2__pt_2__tbl__oc_4__hdg__row__oc_2__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Marginal discount (£)</p>
+            </td>
+            <td akn:GUID="_ba55608d-a16c-4b20-bd6b-b3f3aedc9ce6" akn:eId="sched_2__pt_2__tbl__oc_4__hdg__row__oc_2__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">Cumulative discount (£)</p>
+            </td>
+           </tr>
+          </thead>
+          <tbody class="centre">
+           <tr akn:GUID="_3ddea41d-9d3a-454b-a8a8-3f055469c4fb" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_1__oc_1">
+            <td akn:GUID="_79c8dc59-7f98-44bb-8a99-a196a09cdd90" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_1__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1</p>
+            </td>
+            <td akn:GUID="_a357fea4-c996-41f6-8a17-258b0b1337af" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_1__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">0</p>
+            </td>
+            <td akn:GUID="_a8b5f4b7-9ac8-4367-bc81-6f530aa5779c" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_1__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_347becab-64f0-41f3-8abf-b211feb14578" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_1__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">15.26</p>
+            </td>
+            <td akn:GUID="_00fa3e2a-4f7f-4b69-ac8d-fce9178d3aa9" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_1__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_fdc647f7-3349-4bbc-a7e6-0678c1c2faff" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_2__oc_1">
+            <td akn:GUID="_1f04fdfd-3ef6-49d3-8ad0-d3bb708b56a4" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_2__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2</p>
+            </td>
+            <td akn:GUID="_6553da8a-1fe5-45d1-818e-34ad5a504faf" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_2__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_a6c0a0e0-d8e9-4a37-8b18-add17e721e78" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_2__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">50</p>
+            </td>
+            <td akn:GUID="_eb794ec2-f940-417d-b6d0-9fc5a6d40eeb" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_2__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1.91</p>
+            </td>
+            <td akn:GUID="_db1ef5e8-249a-46c1-9f45-c3e35599dcda" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_2__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">76.30</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_3f0894cf-2639-4cd9-83ee-f71fa75462d1" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_3__oc_1">
+            <td akn:GUID="_06a69824-6a15-4115-b350-eeb4cb15f08a" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_3__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">3</p>
+            </td>
+            <td akn:GUID="_df54a9e1-b636-4af2-b2bb-a325d37e66f0" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_3__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">50</p>
+            </td>
+            <td akn:GUID="_556f4932-4538-407d-8b29-d9694dc53e45" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_3__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">100</p>
+            </td>
+            <td akn:GUID="_baee0168-d361-4a53-9768-ca07b0387746" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_3__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1.91</p>
+            </td>
+            <td akn:GUID="_93ed5902-894b-4e88-81ac-87a2bc348fbc" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_3__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">162.25</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_b28851b1-3eb4-4874-a6f1-5b893ee142c6" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_4__oc_1">
+            <td akn:GUID="_1b6bef53-73a1-4313-a594-95e6c77a08a6" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_4__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4</p>
+            </td>
+            <td akn:GUID="_89aa986a-3aaa-41db-b05f-4787d1b7c9e9" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_4__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">100</p>
+            </td>
+            <td akn:GUID="_3d6fde3b-7882-4a1f-b4cb-8fb8061f0717" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_4__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">200</p>
+            </td>
+            <td akn:GUID="_8a6e0baa-c266-4cb8-884d-7dc9ed375c80" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_4__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">0.95</p>
+            </td>
+            <td akn:GUID="_ef93e2b8-f736-4a58-bf93-27acd43c200a" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_4__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">257.75</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_db9b8cc2-4f99-4f9e-8946-09c42ed272b3" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_5__oc_1">
+            <td akn:GUID="_070564e3-2521-4744-b00b-4590b049a209" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_5__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5</p>
+            </td>
+            <td akn:GUID="_30b4b81f-23cd-4093-82d5-51df3ccb3cdd" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_5__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">200</p>
+            </td>
+            <td akn:GUID="_5642b834-8bb1-4e41-9a26-55369b9e698a" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_5__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">600</p>
+            </td>
+            <td akn:GUID="_64cfd21e-04db-4e52-a8b0-2f89dd449f10" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_5__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+            <td akn:GUID="_edaa783f-c71e-4654-9f7d-5011aa39e9fe" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_5__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">352.75</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_ba239512-0343-402a-929b-eb7cfee9da43" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_6__oc_1">
+            <td akn:GUID="_de8b5a90-980d-4e53-8705-1494b6dcd478" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_6__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">6</p>
+            </td>
+            <td akn:GUID="_50497c07-c4c8-4879-b4ad-1abe4ba7b046" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_6__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">600</p>
+            </td>
+            <td akn:GUID="_392d6bc1-ad17-4c8c-a108-f2cddfd348f8" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_6__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1000</p>
+            </td>
+            <td akn:GUID="_e3736a7c-37c0-41fd-bb4f-e86ee810b96d" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_6__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-</p>
+            </td>
+            <td akn:GUID="_8bdb1819-7ab1-4727-a2a2-bdabd4b43f88" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_6__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">352.75</p>
+            </td>
+           </tr>
+           <tr akn:GUID="_1ac7bf4a-5933-4c16-8ef7-828eccbb5eb9" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_7__oc_1">
+            <td akn:GUID="_0be38cd5-fe00-42f9-9e46-b4c702614cb1" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_7__oc_1__col_1">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">7</p>
+            </td>
+            <td akn:GUID="_c773da6a-f882-41f5-9762-84d7317051ab" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_7__oc_1__col_2">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1000</p>
+            </td>
+            <td akn:GUID="_93ac4099-53ca-4bc7-839f-d3caa8fa5be4" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_7__oc_1__col_3">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4500</p>
+            </td>
+            <td akn:GUID="_88bf0a93-4ddc-4214-b04b-681ca2b52a66" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_7__oc_1__col_4">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">-0.10</p>
+            </td>
+            <td akn:GUID="_184c2ccc-33c7-4d32-8b01-861c2898fe00" akn:eId="sched_2__pt_2__tbl__oc_4__row__oc_7__oc_1__col_5">
+             <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">352.75</p>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </foreign>
+       </tblock>
+      </content>
+     </part>
+    </hcontainer>
+   </hcontainer></body>
+ </bill>
+</akomaNtoso>
