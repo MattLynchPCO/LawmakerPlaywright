@@ -47,9 +47,13 @@ So far, apart from playing around generally with Playwright, I've concentrated o
 ### Live/pdf-tests.spec.ts
 Uses the XML files in `/test-data/SP-PDF` and `/test-data/UK-PDF` to generate PDFs and compare them against the same-named pdf files in the same folder.
 
-Depends on decompress npm package to extract docs from zip file and pdf-visual-compare package to do PDF comparison.
+The pdf-visual-compare package (https://www.npmjs.com/package/pdf-visual-compare) is used for the comparison. It generates an image for each page that doesn't match between any two PDFs.
 
-The test creates test projects as necessary and then deletes them at the end.
+Depends on decompress npm package to extract docs from zip file.
+
+The test creates test projects as necessary and then deletes them at the end. If there is an XML doc in the test data folder but no matching PDF then the test will create a new PDF in the test data folder rather than actually running a comparison.
+
+For the UK Bill test, if the filename of the document being compared includes the words "House Bill" then the House Bill option is selected in the generate PDF modal. Otherwise all PDFs are created with line numbering and tracked changes showing.
 
 ### Live/renumber-tests.spec.ts
 Uses the XML files in `/test-data/renumber performance tests` to run the renumber operation. I've used `test.step` to capture the actual renumber action as opposed to the setup and teardown so that it is possible to easily identify the performance of the renumber action in the report. The test creates test projects as necessary and then deletes them at the end.
@@ -67,3 +71,4 @@ Some of the issues I've run into so far and some observations:
 * It would probably be much easier to write tests if you are able to tweak the corresponding dev code as necessary, e.g. to fix lack of labels or to make sure actions do something definite when they complete that can easily be picked up by the tests. Doing the tests completely in isolation can be frustrating at times.
 * From my experience in Katalon and now Playwright, I definitely think the best approach is build a library of helper functions/classes and then build tests from that. Adapting the Page Object Model suggested by Playwright seems a good approach and is similar to what I had started to do with Katalon (You can see the Katalon classes here - https://legi-project.teratext.leidos.com.au/bitbucket/projects/LDAP/repos/test-automation/browse/Keywords/lawmaker). Taking this approach means that in many cases updating the helper classes to reflect changes in the UI will be sufficient to ensure existing tests continue to pass.
 * Good Lawmaker tests will probably involve mixing front-end testing with some api testing to make sure PDR is functioning appropriately. Might also want to use some direct Rest API calls in tests to short-circuit some of the setup required for tests.
+* With the PDF tests, there is still effort required to keep on top of whether you are testing the right version of the PDF and then managing the process of updating the base PDF version when a new Lawmaker version has been deployed. There might be something to be done in terms of labelling the test docs with a version number so you can always identify what you're testing against.
