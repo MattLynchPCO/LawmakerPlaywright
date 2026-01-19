@@ -8,8 +8,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.32.0",
-    "pdf-visual-compare": "^1.4.0"
+    "@playwright/test": "^1.57.0",
+    "pdf-visual-compare": "^3.3.0"
   },
   "dependencies": {
     "decompress": "^4.2.1",
